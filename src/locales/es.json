@@ -1,1 +1,1395 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de Rise of the Ronin - Builds, armas y decisiones",
+      "description": "Explora builds de Rise of the Ronin, las mejores armas, estilos de combate, misiones de vínculo, opciones de romance, finales, coleccionables, jefes, mapas y consejos de rendimiento en PC.",
+      "keywords": "Rise of the Ronin, PS5, PC, builds, armas, estilos de combate, vínculos, decisiones, finales",
+      "ogTitle": "Wiki de Rise of the Ronin - Builds, armas y decisiones",
+      "ogDescription": "Explora builds de Rise of the Ronin, las mejores armas, estilos de combate, misiones de vínculo, opciones de romance, finales, coleccionables, jefes, mapas y consejos de rendimiento en PC.",
+      "twitterTitle": "Wiki de Rise of the Ronin - Builds, armas y decisiones",
+      "twitterDescription": "Explora builds de Rise of the Ronin, las mejores armas, estilos de combate, misiones de vínculo, romance, decisiones, finales y rendimiento en PC."
+    }
+  },
+  "nav": {
+    "guide": "Guía",
+    "weapons": "Armas",
+    "story": "Historia",
+    "map": "Mapa",
+    "technical": "Técnico",
+    "platforms": "Plataformas",
+    "reviews": "Reseñas",
+    "updates": "Actualizaciones"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Juega en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "RPG de samuráis de mundo abierto en el Bakumatsu",
+    "title": "Wiki de Rise of the Ronin",
+    "description": "Explora el Japón de la era Bakumatsu como un ronin personalizado, domina nueve armas cuerpo a cuerpo y diversos estilos de combate, forja vínculos, toma decisiones que cambian la historia y completa misiones en solitario o en cooperativo online.",
+    "getFreeCodesCTA": "Explorar guías",
+    "playOnSteamCTA": "Juega en Steam",
+    "stats": {
+      "stat1": {
+        "value": "22 de marzo de 2024",
+        "label": "Lanzamiento original"
+      },
+      "stat2": {
+        "value": "PS5 y PC",
+        "label": "Plataformas"
+      },
+      "stat3": {
+        "value": "9",
+        "label": "Armas cuerpo a cuerpo"
+      },
+      "stat4": {
+        "value": "Hasta 3",
+        "label": "Cooperativo en línea"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Rise of the Ronin",
+    "description": "Domina nueve armas cuerpo a cuerpo, el sistema de estilos de combate Ten-Chi-Jin y los contraataques Counterspark en un Japón del Bakumatsu de mundo abierto, ya sea en solitario o en modo cooperativo en línea para tres jugadores."
+  },
+  "tools": {
+    "title": "Rise of the Ronin",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para dominar las armas, el combate, las configuraciones (builds), las misiones y el rendimiento en PC en Rise of the Ronin.",
+    "cards": [
+      {
+        "icon": "Brújula",
+        "title": "Guía para principiantes",
+        "description": "Dificultad, controles, tiempo de ejecución del Counterspark y la ruta más segura al inicio en Yokohama"
+      },
+      {
+        "icon": "Espadas",
+        "title": "Lista de niveles de armas",
+        "description": "Cada arma cuerpo a cuerpo clasificada por daño, velocidad, alcance, presión de Ki y utilidad contra jefes"
+      },
+      {
+        "icon": "Rayo",
+        "title": "Estilos de combate y Counterspark",
+        "description": "Enfrentamientos de Ten, Chi, Jin y Shinobi, además de Ki, Destello de hoja y Habilidades marciales"
+      },
+      {
+        "icon": "Martillo",
+        "title": "Mejores configuraciones y habilidades",
+        "description": "Configuraciones de Fuerza, Destreza, Encanto e Intelecto con prioridades de equipo y habilidades"
+      },
+      {
+        "icon": "CPU",
+        "title": "Requisitos y rendimiento en PC",
+        "description": "Especificaciones mínimas y recomendadas, 8K, 120 FPS, DLSS, FSR y actualizaciones de Steam"
+      },
+      {
+        "icon": "Mapa",
+        "title": "Guía paso a paso y jefes",
+        "description": "La ruta de la historia a través de Yokohama, Edo y Kioto con los principales encuentros con jefes"
+      },
+      {
+        "icon": "Corazón",
+        "title": "Vínculos, romances y decisiones",
+        "description": "Vínculos con personajes, Juramentos velados, decisiones de facción y repeticiones en el Testamento del alma"
+      },
+      {
+        "icon": "Usuarios",
+        "title": "Multijugador y cooperativo",
+        "description": "Configuración del cooperativo en línea para tres jugadores, contraseñas y funciones asíncronas de ronin"
+      }
+    ]
+  },
+  "modules": {
+    "beginnerGuide": {
+      "title": "Guía para principiantes de Rise of the Ronin",
+      "intro": "Rise of the Ronin comienza con un prólogo lineal antes de abrirse a una gran región llena de misiones, fugitivos, bases de bandidos y vínculos con personajes. Enfócate primero en aprender la gestión del Ki y el tiempo del Counterspark, luego fortalece a tu personaje mediante la exploración en lugar de apresurarte solo con la historia principal.",
+      "steps": [
+        {
+          "title": "Elige la dificultad adecuada",
+          "description": "Selecciona el ajuste que se adapte a la presión de combate que desees.",
+          "actions": [
+            "Elige Amanecer para obtener objetos de recuperación más potentes y un menor consumo de Ki en los ataques.",
+            "Elige Crepúsculo para el equilibrio predeterminado entre exploración y dificultad de combate.",
+            "Elige Ocaso para enemigos más agresivos y ataques mucho más peligrosos.",
+            "Cambia la dificultad más adelante desde el mapa del mundo o antes de misiones importantes de la historia."
+          ],
+          "result": "Amanecer es la opción inicial más segura para los nuevos jugadores de RPG de acción, mientras que Crepúsculo es ideal para jugadores familiarizados con el combate basado en desvíos."
+        },
+        {
+          "title": "Usa el prólogo como entrenamiento de combate",
+          "description": "La sección inicial presenta el movimiento, el sigilo, las armas cuerpo a cuerpo, las herramientas a distancia y los primeros encuentros importantes.",
+          "actions": [
+            "Sigue las indicaciones del tutorial en lugar de intentar combinaciones avanzadas de inmediato.",
+            "Prueba varias armas disponibles y elige una cuyo ritmo de ataque te resulte predecible.",
+            "Revisa los recordatorios de controles y tutoriales en el menú cuando una mecánica no esté clara.",
+            "Practica el bloqueo y la esquiva antes de confiar plenamente en las Contrachispas."
+          ],
+          "result": "Terminar el prólogo con una rutina defensiva fiable facilita considerablemente los primeros encuentros en Yokohama."
+        },
+        {
+          "title": "Aprende el tiempo de la Contrachispa",
+          "description": "La Contrachispa es tanto un ataque como un desvío, y se activa con Triángulo en los controles predeterminados de PS5.",
+          "actions": [
+            "Observa el arma del enemigo en lugar de reaccionar al primer movimiento corporal.",
+            "Presiona Contrachispa poco antes de que el ataque conecte.",
+            "Bloquea o esquiva cuando la combinación de un enemigo aún te resulte desconocida.",
+            "Usa la Contrachispa contra ataques rojos brillantes solo tras aprender su tiempo de retardo o de múltiples impactos."
+          ],
+          "result": "Las Contrachispas exitosas aterran a los enemigos, reducen su impulso de combate y crean aperturas para causar un gran daño de Ki."
+        },
+        {
+          "title": "Protege y recupera tu Ki",
+          "description": "Atacar, esquivar, cubrirse y las habilidades marciales consumen Ki, dejándote vulnerable cuando el indicador está vacío.",
+          "actions": [
+            "Evita gastar toda la barra de Ki en una sola cadena de ataques ininterrumpida.",
+            "Pausa brevemente tras una combinación segura en lugar de continuar hasta el agotamiento.",
+            "Usa el Destello de sangre tras asestar ataques para limpiar el arma y recuperar Ki.",
+            "Reserva las habilidades marciales que consumen mucho Ki para enemigos aterrados o ventanas claras de castigo."
+          ],
+          "result": "Mantener una reserva de Ki te permite bloquear, esquivar o usar la Contrachispa cuando un enemigo contraataca de repente."
+        },
+        {
+          "title": "Lleva armas complementarias",
+          "description": "Prepara un arma cuerpo a cuerpo fiable y un arma secundaria a distancia en lugar de centrarte en un solo tipo de ataque.",
+          "actions": [
+            "Usa una katana, una lanza o un arma equilibrada similar mientras aprendes los patrones de los enemigos.",
+            "Lleva un arco para ataques a distancia silenciosos y bajas sigilosas aisladas.",
+            "Usa armas de fuego cuando necesites potencia inmediata o un disparo preciso que pueda aturdir a un enemigo.",
+            "Equipa los estilos de combate recién desbloqueados y prueba sus animaciones de Contrachispa antes de duelos importantes."
+          ],
+          "result": "Un equipo variado te permite debilitar a los grupos a distancia antes de entrar en combate cercano."
+        },
+        {
+          "title": "Sigue una ruta segura por Yokohama",
+          "description": "Tras el inicio lineal, fortalece las zonas cercanas antes de adentrarte en las misiones principales de la historia.",
+          "actions": [
+            "Despeja ubicaciones pequeñas controladas por bandidos cerca de tu ruta actual.",
+            "Derrota a los fugitivos cercanos cuando su nivel sea similar al tuyo.",
+            "Completa recados locales y misiones secundarias cortas para obtener recompensas adicionales.",
+            "Visita lugares emblemáticos y completa objetivos de exploración cercanos mientras viajas entre misiones."
+          ],
+          "result": "Esta ruta aumenta tu nivel, proporciona equipo de repuesto y mejora los servicios locales sin necesidad de farmear en exceso."
+        },
+        {
+          "title": "Aumenta los vínculos de región y de personaje",
+          "description": "Los vínculos son un sistema de progresión central, no solo contenido de conversación opcional.",
+          "actions": [
+            "Restaura el orden público despejando bases hostiles y eliminando a fugitivos peligrosos.",
+            "Completa peticiones de residentes, mercaderes, monjes y personajes viajeros.",
+            "Aumenta los vínculos de personaje mediante misiones, conversaciones y regalos adecuados.",
+            "Prioriza los vínculos relacionados con los estilos de arma que uses habitualmente."
+          ],
+          "result": "Los vínculos de región otorgan beneficios como descuentos de mercaderes, mientras que los vínculos de personaje pueden desbloquear armas, objetos, habilidades y estilos de combate."
+        },
+        {
+          "title": "Gestiona el equipo de forma eficiente",
+          "description": "Las primeras misiones ofrecen reemplazos frecuentes de armas y armaduras, así que evita invertir demasiado en equipo temporal.",
+          "actions": [
+            "Equipa objetos que mejoren tu ataque o defensa actuales sin romper una bonificación de conjunto importante.",
+            "Compara los efectos especiales en lugar de seleccionar el equipo únicamente por su rareza.",
+            "Conserva las piezas que beneficien a los Countersparks, la recuperación de Ki, los asesinatos o tu arma preferida.",
+            "Vende o desmonta el equipo obsoleto y reserva las mejoras para el equipo que esperes usar durante varias misiones."
+          ],
+          "result": "Un inventario más pequeño y enfocado agiliza la comparación de equipo y conserva los materiales de mejora."
+        },
+        {
+          "title": "Usa el hogar",
+          "description": "Tu alojamiento se convierte en una zona de preparación importante tras llegar a Yokohama.",
+          "actions": [
+            "Habla con los compañeros que te visiten y hazles regalos para mejorar vuestros vínculos.",
+            "Ajusta tu apariencia y organiza el equipo antes de las misiones principales.",
+            "Restablece los puntos de habilidad cuando tu asignación actual ya no se adapte a tu estilo de juego.",
+            "Prepara múltiples combinaciones de armas y estilos para diferentes enfrentamientos contra enemigos."
+          ],
+          "result": "La posibilidad de restablecer las habilidades significa que una asignación inicial no limitará permanentemente a tu personaje a una sola configuración."
+        },
+        {
+          "title": "No reinicies la partida por las decisiones de la historia",
+          "description": "Las decisiones importantes cambian las misiones y las relaciones, pero más adelante se podrá acceder a resultados alternativos.",
+          "actions": [
+            "Continúa con la opción que mejor se adapte a tu facción o personaje preferido.",
+            "Llega a Edo para desbloquear el sistema del Testamento del alma.",
+            "Vuelve a jugar las misiones completadas a través del Testamento del alma.",
+            "Selecciona diferentes opciones para ver rutas de misión y consecuencias alternativas."
+          ],
+          "result": "Puedes explorar otros resultados sin abandonar tu partida guardada original ni repetir todo el juego."
+        }
+      ],
+      "quickTips": [
+        "La gestión del Ki es la clave del combate: nunca vacíes tu barra en una sola combinación.",
+        "El ritmo del Counterspark importa más que la agresividad pura; aprende primero los movimientos de preparación del enemigo.",
+        "Combina un arma cuerpo a cuerpo con una subarma a distancia para enfrentarte a los grupos de forma segura.",
+        "Fortalece las zonas cercanas de Yokohama antes de adentrarte en las misiones de la historia principal."
+      ]
+    },
+    "weaponsTierList": {
+      "title": "Lista de niveles de armas de Rise of the Ronin",
+      "intro": "Rise of the Ronin incluye nueve categorías principales de armas cuerpo a cuerpo con múltiples estilos de combate, además del combate sin armas como opción especializada. La siguiente clasificación prioriza el progreso general de la historia y la consistencia contra los jefes; cada arma equipada se vuelve mucho más fuerte cuando se combina con el estilo Ten, Chi o Jin correcto.",
+      "weapons": [
+        {
+          "tier": "S",
+          "name": "Katana",
+          "stats": {
+            "damage": "Medio-alto",
+            "speed": "Alto",
+            "range": "Medio",
+            "kiPressure": "Alto",
+            "easeOfUse": "Alto",
+            "bossValue": "Excelente"
+          },
+          "bestFor": "Progresión equilibrada, duelos y jugadores que están aprendiendo el ritmo del Counterspark",
+          "notes": "La katana combina ataques rápidos, técnicas marciales potentes y una gran selección de estilos de combate. No tiene ninguna debilidad importante y se adapta a casi cualquier encuentro de la historia o jefe."
+        },
+        {
+          "tier": "S",
+          "name": "Espadas duales",
+          "stats": {
+            "damage": "Medio",
+            "speed": "Muy alto",
+            "range": "Corto",
+            "kiPressure": "Muy alto",
+            "easeOfUse": "Alto",
+            "bossValue": "Excelente"
+          },
+          "bestFor": "Presión agresiva, cambio rápido de estilo y encuentros dinámicos",
+          "notes": "La rápida recuperación del ataque facilita interrumpir una combinación y defenderse. El corto alcance requiere posicionarse cerca, pero los ataques repetidos pueden presionar rápidamente el Ki del enemigo."
+        },
+        {
+          "tier": "S",
+          "name": "Sable de cola de buey",
+          "stats": {
+            "damage": "Medio-alto",
+            "speed": "Muy alto",
+            "range": "Largo",
+            "kiPressure": "Alto",
+            "easeOfUse": "Medio",
+            "bossValue": "Excelente"
+          },
+          "bestFor": "Movimiento rápido, ataques amplios y combate contra múltiples enemigos cercanos",
+          "notes": "La hoja flexible combina velocidad con un alcance inusualmente amplio. Sus animaciones fluidas requieren práctica, pero mantiene la presión mientras te reposicionas alrededor del oponente."
+        },
+        {
+          "tier": "A",
+          "name": "Arma de asta",
+          "stats": {
+            "damage": "Alto",
+            "speed": "Medio",
+            "range": "Muy largo",
+            "kiPressure": "Alto",
+            "easeOfUse": "Alto",
+            "bossValue": "Excelente"
+          },
+          "bestFor": "Distanciamiento seguro, control de masas y agresión controlada",
+          "notes": "Los ataques de barrido largo controlan un área amplia y reducen la necesidad de estar justo al lado del enemigo, lo que la hace fiable durante la exploración y los encuentros con múltiples enemigos."
+        },
+        {
+          "tier": "A",
+          "name": "Odachi",
+          "stats": {
+            "damage": "Muy alto",
+            "speed": "Medio-bajo",
+            "range": "Largo",
+            "kiPressure": "Muy alto",
+            "easeOfUse": "Medio",
+            "bossValue": "Excelente"
+          },
+          "bestFor": "Ataques de castigo potentes, ruptura de postura y daño directo a jefes",
+          "notes": "El odachi recompensa el cálculo preciso del tiempo con un poderoso daño a la salud y al Ki. Las animaciones más largas hacen que fallar los ataques sea peligroso, por lo que funciona mejor tras un contraataque o una apertura clara."
+        },
+        {
+          "tier": "A",
+          "name": "Lanza",
+          "stats": {
+            "damage": "Medio-alto",
+            "speed": "Medio",
+            "range": "Largo",
+            "kiPressure": "Medio-alto",
+            "easeOfUse": "Alto",
+            "bossValue": "Muy bueno"
+          },
+          "bestFor": "Distanciamiento defensivo, estocadas precisas y progresión inicial segura",
+          "notes": "La lanza ofrece un alcance constante y ataques directos sin la lenta recuperación de las armas más pesadas, lo que la convierte en una opción fiable para aprender el alcance de los enemigos."
+        },
+        {
+          "tier": "A",
+          "name": "Sable",
+          "stats": {
+            "damage": "Medio",
+            "speed": "Alto",
+            "range": "Medio",
+            "kiPressure": "Alto",
+            "easeOfUse": "Alto",
+            "bossValue": "Muy bueno"
+          },
+          "bestFor": "Duelos móviles, ataques de castigo rápidos y enemigos ligeros",
+          "notes": "El sable enfatiza la velocidad y el movimiento sobre la potencia de un solo golpe, funcionando bien para ataques cortos seguidos de un bloqueo, esquiva o Contraataque inmediato."
+        },
+        {
+          "tier": "A",
+          "name": "Bayoneta",
+          "stats": {
+            "damage": "Medio",
+            "speed": "Medio",
+            "range": "Largo",
+            "kiPressure": "Alto",
+            "easeOfUse": "Medio",
+            "bossValue": "Muy bueno"
+          },
+          "bestFor": "Combate híbrido cuerpo a cuerpo y con armas de fuego",
+          "notes": "La bayoneta combina estocadas de corto alcance con acciones de armas de fuego para amenazar a los enemigos a distintas distancias, aunque dominar todo su repertorio de movimientos es más exigente que con una hoja convencional."
+        },
+        {
+          "tier": "B",
+          "name": "Espadón",
+          "stats": {
+            "damage": "Muy alto",
+            "speed": "Bajo",
+            "range": "Largo",
+            "kiPressure": "Muy alto",
+            "easeOfUse": "Bajo",
+            "bossValue": "Bueno"
+          },
+          "bestFor": "Máximo daño de un solo golpe y para jugadores experimentados en armas pesadas",
+          "notes": "El espadón puede castigar con dureza a enemigos vulnerables o en pánico, pero sus ataques lentos dejan poco margen de error contra jefes rápidos."
+        },
+        {
+          "tier": "C",
+          "name": "Desarmado",
+          "stats": {
+            "damage": "---",
+            "speed": "Bajo",
+            "range": "Alto",
+            "kiPressure": "Muy corto",
+            "easeOfUse": "Medio",
+            "bossValue": "Bajo"
+          },
+          "bestFor": "Situacional",
+          "notes": "Partidas de desafío, estilo no letal y experimentación a corta distancia"
+        }
+      ]
+    },
+    "combatStylesCounterspark": {
+      "title": "El combate desarmado es ágil, pero carece del alcance, la variedad de equipo y la selección de estilos de las armas normales, por lo que es mejor tratarlo como una opción de especialista.",
+      "intro": "Guía de estilos de combate y contrachispas de Rise of the Ronin",
+      "styles": [
+        {
+          "name": "Los estilos de combate cambian el conjunto de movimientos de un arma, las habilidades marciales y el comportamiento de la contrachispa. Un estilo ventajoso causa un mayor aturdimiento y presión de Ki, por lo que los jugadores expertos cambian de estilo según el arma del enemigo en lugar de mantener una sola postura en cada combate.",
+          "meaning": "Ten",
+          "effectiveAgainst": "Cielo",
+          "weakAgainst": "Katanas y otras armas normales o de peso medio",
+          "recommendedUse": "Sables y otras armas ligeras"
+        },
+        {
+          "name": "Usa Ten para enemigos comunes con espada y en duelos tradicionales de katana.",
+          "meaning": "Chi",
+          "effectiveAgainst": "Tierra",
+          "weakAgainst": "Odachis, espadones y otras armas pesadas",
+          "recommendedUse": "Katanas y otras armas normales o de peso medio"
+        },
+        {
+          "name": "Usa Chi para interrumpir ataques pesados más lentos y aplicar una mayor presión de Ki tras un desvío exitoso.",
+          "meaning": "Jin",
+          "effectiveAgainst": "Humano",
+          "weakAgainst": "Sables y otras armas ligeras",
+          "recommendedUse": "Odachis y otras armas pesadas"
+        },
+        {
+          "name": "Usa Jin contra hojas rápidas de estilo occidental y oponentes basados en cadenas de ataques rápidos.",
+          "meaning": "Shinobi",
+          "effectiveAgainst": "Especialista",
+          "weakAgainst": "Sin categoría de arma estándar",
+          "recommendedUse": "En desventaja contra los emparejamientos de armas estándar"
+        }
+      ],
+      "mechanics": [
+        {
+          "name": "Usa Shinobi cuando puedas ejecutar de forma consistente contrachispas con una sincronización precisa.",
+          "input": "Contrachispa",
+          "function": "Triángulo en los controles predeterminados de PS5",
+          "bestTiming": "Ejecuta un ataque que puede desviar simultáneamente un golpe enemigo entrante.",
+          "advancedTip": "Pulsa poco antes del impacto, teniendo en cuenta los ataques retardados y el golpe final de las combinaciones más largas."
+        },
+        {
+          "name": "Las contrachispas pueden desviar ataques rojos brillantes, pero esquivar es más seguro hasta familiarizarse con su sincronización.",
+          "input": "Pánico",
+          "function": "Se activa mediante contrachispas efectivas y presión de combate",
+          "bestTiming": "Desestabiliza temporalmente al enemigo y crea una oportunidad para ataques más fuertes.",
+          "advancedTip": "Ataca inmediatamente después de una contrachispa exitosa mientras el enemigo no pueda recuperarse normalmente."
+        },
+        {
+          "name": "---",
+          "input": "Destello de sangre",
+          "function": "Úsalo tras acertar ataques con el arma principal.",
+          "bestTiming": "Limpia la sangre del arma y recupera Ki en función del medidor de sangre acumulada.",
+          "advancedTip": "Actívalo entre combinaciones o justo antes de volver a la defensa."
+        },
+        {
+          "name": "El uso frecuente del Destello de sangre favorece una ofensiva constante sin vaciar el medidor de Ki.",
+          "input": "Habilidades marciales",
+          "function": "Se activan a través del estilo de combate equipado.",
+          "bestTiming": "Consume Ki para realizar un movimiento poderoso con propiedades únicas de ese estilo.",
+          "advancedTip": "Úsalas tras una Contrachispa, durante el pánico o cuando el Ki máximo del enemigo ya se haya reducido."
+        },
+        {
+          "name": "Algunas habilidades marciales cambian al mantener pulsado o pulsar repetidamente el botón.",
+          "input": "Agotamiento de Ki y golpe crítico",
+          "function": "Agota el medidor de Ki del enemigo.",
+          "bestTiming": "Romper la postura del enemigo lo deja incapaz de actuar y abre una oportunidad de golpe crítico.",
+          "advancedTip": "Reduce primero el Ki máximo y luego usa habilidades marciales y estilos efectivos para vaciar el medidor restante."
+        },
+        {
+          "name": "Contra enemigos poderosos, el daño al Ki máximo suele ser más importante que atacar repetidamente a la salud.",
+          "input": "Bloqueo y esquiva",
+          "function": "Usa los controles estándar de guardia y evasión.",
+          "bestTiming": "Ofrece alternativas defensivas más seguras cuando una Contrachispa resulta demasiado arriesgada.",
+          "advancedTip": "Bloquea ataques normales predecibles y esquiva agarres, ataques retardados o combinaciones con tiempos inciertos."
+        },
+        {
+          "name": "Una defensa mixta es más fiable que intentar realizar una Contrachispa en cada ataque.",
+          "input": "Desbloqueo de nuevos estilos",
+          "function": "Progreso en la historia, oponentes difíciles y vínculos.",
+          "bestTiming": "Añade nuevos repertorios de movimientos y habilidades marciales a los tipos de armas compatibles.",
+          "advancedTip": "Aumenta los vínculos con personajes y facciones relacionados con las armas que más utilices."
+        },
+        {
+          "name": "Consulta las condiciones de progresión de cada estilo, ya que evolucionan mediante actividades distintas.",
+          "input": "Ampliación de la cobertura de estilos",
+          "function": "Equipa estilos compatibles a través del menú de Equipo.",
+          "bestTiming": "Mantiene las respuestas Ten, Chi y Jin para las diferentes categorías de armas enemigas.",
+          "advancedTip": "Prepara los tres emparejamientos estándar antes de una misión principal o una secuencia de jefe."
+        }
+      ]
+    },
+    "bestBuildsSkillsGear": {
+      "title": "Equipar el mismo tipo de arma en ambas ranuras de arma principal puede ampliar los estilos disponibles hasta un máximo de seis.",
+      "intro": "Mejores configuraciones, habilidades y equipo de Rise of the Ronin",
+      "builds": [
+        {
+          "name": "La Fuerza mejora el ataque directo y la defensa; la Destreza potencia los ataques secundarios y el desequilibrio; el Carisma mejora la resistencia al daño de Ki, la recuperación de Ki y la suerte; mientras que el Intelecto potencia los efectos de estado y la resistencia. Los puntos de habilidad se pueden restablecer en el Refugio, lo que te permite cambiar de rumbo cuando una nueva arma o estilo de combate esté disponible.",
+          "role": "Cuerpo a cuerpo agresivo de fuerza",
+          "primaryTree": "Daño directo elevado y gran castigo a corta distancia.",
+          "secondaryTree": "Fuerza",
+          "weapons": [
+            "Carisma",
+            "Katana",
+            "Odachi"
+          ],
+          "skillPriorities": [
+            "Espadón",
+            "Daño de técnicas marciales y daño de Ki",
+            "Eficacia de la guardia y supervivencia bajo presión a corta distancia",
+            "Efectos de daño o recuperación de Ki activados tras contrachispas exitosas"
+          ],
+          "gearPriorities": [
+            "Armas de gran ataque con efectos que coinciden con el tipo de arma equipada",
+            "Armadura que mejora la defensa, la gestión de Ki o el daño a corta distancia",
+            "Bonificaciones de conjunto que potencian las técnicas marciales, las contrachispas o los ataques cuerpo a cuerpo directos",
+            "Accesorios con efectos de combate constantes en lugar de bonificaciones de exploración limitadas"
+          ],
+          "combatLoop": "Realiza una contrachispa o cúbrete del ataque inicial, usa una combinación normal corta, realiza un destello de hoja y luego consume Ki en una técnica marcial mientras el enemigo está en pánico."
+        },
+        {
+          "name": "Parada de carisma y ruptura de Ki",
+          "role": "Recuperación de Ki estable, defensa sólida y presión constante con contrachispas",
+          "primaryTree": "Carisma",
+          "secondaryTree": "Fuerza",
+          "weapons": [
+            "Katana",
+            "Arma de asta",
+            "Sable de cola de buey"
+          ],
+          "skillPriorities": [
+            "Recuperación de Ki y resistencia al daño de Ki enemigo",
+            "Recuperación relacionada con contrachispas y presión de seguimiento",
+            "Daño de golpe crítico tras romper la postura del enemigo",
+            "Utilidad de elocuencia y vínculos tras asegurar las habilidades de combate principales"
+          ],
+          "gearPriorities": [
+            "Efectos activados por contrachispas exitosas",
+            "Consumo de Ki reducido al defenderse o atacar",
+            "Recuperación de Ki mejorada durante el destello de hoja o acciones defensivas",
+            "Bonificaciones de conjunto que favorecen los duelos largos en lugar de solo el daño del primer golpe"
+          ],
+          "combatLoop": "Identifica el arma del enemigo, cambia al estilo ventajoso, realiza una contrachispa al último golpe de la combinación y ataca durante su pánico hasta que puedas realizar un golpe crítico."
+        },
+        {
+          "name": "Asesino sigiloso de destreza",
+          "role": "Eliminaciones rápidas, movilidad y entrada controlada a enfrentamientos multitudinarios",
+          "primaryTree": "Destreza",
+          "secondaryTree": "Intelecto",
+          "weapons": [
+            "Espadas duales",
+            "Bayoneta",
+            "Katana"
+          ],
+          "skillPriorities": [
+            "Mejoras de asesinato y de derribos sigilosos rápidos",
+            "Daño de arma secundaria y desestabilización",
+            "Movilidad, detección y utilidad a distancia",
+            "Habilidades que mejoran los ataques de seguimiento tras un asesinato"
+          ],
+          "gearPriorities": [
+            "Daño de asesinato y efectos activados tras bajas sigilosas",
+            "Bonificaciones de movimiento, recuperación de Ki y armas rápidas",
+            "Efectos de arco o shuriken para eliminar enemigos en silencio",
+            "Accesorios que benefician el sigilo, la destreza o las armas secundarias"
+          ],
+          "combatLoop": "Marca a los enemigos aislados, elimina a los centinelas con asesinatos o ataques silenciosos a distancia, asusta a los oponentes cercanos y acaba con el grupo restante mediante una rápida presión de Ki."
+        },
+        {
+          "name": "---",
+          "role": "Técnico a distancia de Intelecto",
+          "primaryTree": "Control a distancia, aplicación de estados, medicina y preparación flexible",
+          "secondaryTree": "Intelecto",
+          "weapons": [
+            "Destreza",
+            "Lanza",
+            "Sable"
+          ],
+          "skillPriorities": [
+            "Bayoneta",
+            "Infligir estados y resistencia",
+            "Mejoras de medicinas, remedios y consumibles",
+            "Utilidad de armas de fuego, arcos y armas secundarias"
+          ],
+          "gearPriorities": [
+            "Adaptabilidad para misiones difíciles con amenazas elementales o de estados",
+            "Efectos que mejoran ataques a distancia, munición o aplicación de estados",
+            "Bonificaciones de armas que se activan tras impactos a distancia",
+            "Armaduras que mejoran la eficacia de las medicinas o la resistencia a estados"
+          ],
+          "combatLoop": "Accesorios que potencian el Intelecto, la Destreza o el uso de consumibles"
+        },
+        {
+          "name": "Empieza con arco o arma de fuego, presiona antes de que se acerquen los enemigos, cambia al estilo cuerpo a cuerpo adecuado y usa medicinas o herramientas de estado en momentos seguros.",
+          "role": "Ronin equilibrado",
+          "primaryTree": "Progresión de historia flexible con acceso a herramientas de combate, exploración y diálogo",
+          "secondaryTree": "Equilibrado",
+          "weapons": [
+            "Mixto",
+            "Katana",
+            "Lanza"
+          ],
+          "skillPriorities": [
+            "Espadas dobles",
+            "Mejoras de curación básica, Ki y defensa",
+            "Al menos una mejora de asesinato útil",
+            "Utilidad básica a distancia y de consumibles"
+          ],
+          "gearPriorities": [
+            "Opciones de Elocuencia que crean soluciones adicionales en misiones o diálogos",
+            "Equipo de gran valor con efectos de ataque, defensa y Ki útiles en general",
+            "Una bonificación de conjunto completa que funcione en la mayoría de los encuentros",
+            "Un arma rápida y un arma con mayor alcance"
+          ],
+          "combatLoop": "Accesorios que cubran las carencias de defensa, recuperación o utilidad"
+        },
+        {
+          "name": "Empieza a distancia si es posible, cambia al estilo ventajoso (Ten, Chi o Jin), usa una respuesta defensiva segura y gasta técnicas marciales solo tras crear una apertura clara.",
+          "role": "Reglas generales de equipo",
+          "primaryTree": "Gestión eficiente del equipo para cualquier configuración",
+          "secondaryTree": "Cualquiera",
+          "weapons": [
+            "Cualquiera"
+          ],
+          "skillPriorities": [
+            "Cualquier par de armas preferido",
+            "Desbloquea herramientas esenciales de supervivencia y Ki antes que las bonificaciones de porcentaje bajo",
+            "Invierte en habilidades que apoyen acciones usadas en cada combate",
+            "Restablece los puntos de habilidad en la Casa comunal al cambiar tu arma principal"
+          ],
+          "gearPriorities": [
+            "Activa bonificaciones de conjunto completas en lugar de llevar varios conjuntos incompletos",
+            "Haz coincidir los efectos de las armas con las acciones exactas utilizadas en la configuración",
+            "Usa accesorios para añadir recuperación, defensa, utilidad o efectos específicos para la configuración",
+            "Guarda piezas especializadas para equipamientos de sigilo, combate a distancia o jefes"
+          ],
+          "combatLoop": "Comprueba el arma del enemigo, equipa un estilo ventajoso, gestiona el Ki con el Destello de hoja y convierte una ruptura de postura en un Golpe crítico."
+        }
+      ]
+    },
+    "pcRequirementsPerformanceUpdates": {
+      "title": "Requisitos y rendimiento de Rise of the Ronin para PC",
+      "intro": "La versión de Steam requiere un PC con Windows de 64 bits, 16 GB de RAM, DirectX 12 y 155 GB de almacenamiento disponible en un SSD. Sus objetivos oficiales son 1080p a 30 FPS en hardware mínimo y 1080p a 60 FPS en hardware recomendado, ambos utilizando reescalado.",
+      "tables": [
+        {
+          "title": "Requisitos del sistema",
+          "columns": [
+            "Componente",
+            "Mínimo",
+            "Recomendado"
+          ],
+          "columnKeys": [
+            "componente",
+            "mínimo",
+            "recomendado"
+          ],
+          "rows": [
+            {
+              "component": "Sistema operativo",
+              "minimum": "Windows 10 o 11, 64 bits",
+              "recommended": "Windows 10 o 11, 64 bits"
+            },
+            {
+              "component": "Procesador",
+              "minimum": "Intel Core i5-10400 o AMD Ryzen 5 1600",
+              "recommended": "Intel Core i5-10600K o AMD Ryzen 5 5600X"
+            },
+            {
+              "component": "Memoria",
+              "minimum": "16 GB RAM",
+              "recommended": "16 GB RAM"
+            },
+            {
+              "component": "Gráficos",
+              "minimum": "NVIDIA GTX 1060 6 GB o AMD RX 5500 XT 8 GB",
+              "recommended": "NVIDIA RTX 2080 Super 8 GB o AMD RX 6700 XT 12 GB"
+            },
+            {
+              "component": "Almacenamiento",
+              "minimum": "155 GB de espacio disponible; se requiere SSD",
+              "recommended": "155 GB de espacio disponible; se recomienda SSD NVMe"
+            },
+            {
+              "component": "DirectX",
+              "minimum": "DirectX 12 o posterior",
+              "recommended": "DirectX 12 o posterior"
+            },
+            {
+              "component": "Sonido",
+              "minimum": "Estéreo de 16 bits, reproducción a 48 kHz",
+              "recommended": "Estéreo de 16 bits, reproducción a 48 kHz"
+            },
+            {
+              "component": "Configuración de memoria",
+              "minimum": "Se recomienda memoria multicanal",
+              "recommended": "Se recomienda memoria multicanal"
+            }
+          ]
+        },
+        {
+          "title": "Objetivos de rendimiento oficiales",
+          "columns": [
+            "Objetivo",
+            "Ajustes",
+            "Resultado esperado"
+          ],
+          "columnKeys": [
+            "objetivo",
+            "ajustes",
+            "resultado"
+          ],
+          "rows": [
+            {
+              "target": "Objetivo mínimo",
+              "settings": "Ajustes gráficos mínimos con escalado",
+              "result": "1080p a 30 FPS; la generación de fotogramas puede aumentar aún más los FPS"
+            },
+            {
+              "target": "Objetivo recomendado",
+              "settings": "Ajustes gráficos estándar con escalado",
+              "result": "1080p a 60 FPS; la generación de fotogramas puede aumentar aún más los FPS"
+            },
+            {
+              "target": "Verificación de Intel",
+              "settings": "Intel Core i5-12400, Arc B580 12 GB, ajustes estándar y escalado",
+              "result": "Verificado a 1080p y 60 FPS"
+            }
+          ]
+        },
+        {
+          "title": "Compatibilidad con funciones de PC",
+          "columns": [
+            "Función",
+            "Compatibilidad",
+            "Detalles"
+          ],
+          "columnKeys": [
+            "función",
+            "compatibilidad",
+            "detalles"
+          ],
+          "rows": [
+            {
+              "feature": "Resolución",
+              "support": "Hasta 8K",
+              "details": "La salida a 8K es compatible con hardware y configuraciones de pantalla adecuados"
+            },
+            {
+              "feature": "Frecuencia de fotogramas",
+              "support": "Hasta 120 FPS",
+              "details": "La versión de PC incluye una opción de 120 FPS"
+            },
+            {
+              "feature": "Trazado de rayos",
+              "support": "Compatible",
+              "details": "Las opciones gráficas con trazado de rayos están disponibles"
+            },
+            {
+              "feature": "Escalado",
+              "support": "AMD FSR, NVIDIA DLSS, Intel XeSS",
+              "details": "Es compatible con múltiples tecnologías de escalado de varios fabricantes para un mayor rendimiento"
+            },
+            {
+              "feature": "Generación de fotogramas",
+              "support": "Compatible",
+              "details": "La generación de fotogramas se puede utilizar para aumentar los FPS"
+            },
+            {
+              "feature": "NVIDIA Reflex",
+              "support": "Compatible",
+              "details": "Se incluye compatibilidad con Reflex para hardware NVIDIA compatible"
+            },
+            {
+              "feature": "Pantallas",
+              "support": "Ultra-wide y super ultra-wide",
+              "details": "La versión de Steam incluye compatibilidad con monitores de relación de aspecto panorámica"
+            },
+            {
+              "feature": "Audio",
+              "support": "Audio 3D",
+              "details": "La compatibilidad con audio espacial está disponible"
+            },
+            {
+              "feature": "Controles",
+              "support": "Teclado y ratón",
+              "details": "Las asignaciones de teclas son personalizables y los menús permiten hacer clic con el ratón"
+            },
+            {
+              "feature": "API de gráficos",
+              "support": "DirectX 12 Ultimate",
+              "details": "El conjunto de funciones para PC incluye compatibilidad con DirectX 12 Ultimate"
+            }
+          ]
+        },
+        {
+          "title": "Actualizaciones importantes de Steam",
+          "columns": [
+            "Versión",
+            "Fecha",
+            "Aspectos destacados"
+          ],
+          "columnKeys": [
+            "versión",
+            "fecha",
+            "aspectos destacados"
+          ],
+          "rows": [
+            {
+              "version": "1.09.0.5",
+              "date": "11 de noviembre de 2025",
+              "highlights": "Se corrigieron cierres inesperados causados por ciertas actualizaciones de Windows al aparecer personajes o equipo específicos en pantalla"
+            },
+            {
+              "version": "1.09.0.4",
+              "date": "30 de abril de 2025",
+              "highlights": "Se añadió la recuperación de datos de guardado para la misión de vínculo En busca de nuevos conocimientos y se mejoraron los tirones en áreas específicas"
+            },
+            {
+              "version": "1.09.0.3",
+              "date": "10 de abril de 2025",
+              "highlights": "Se añadió el ajuste dinámico de FPS, se redujo el uso de VRAM y se mejoró el rendimiento de la GPU para la oclusión ambiental y el escalado"
+            },
+            {
+              "version": "1.09.0.2",
+              "date": "25 de marzo de 2025",
+              "highlights": "Se añadieron los modos Priorizar gráficos y Priorizar FPS, se optimizaron los ajustes exigentes y se creó una ubicación de guardado de respaldo adicional"
+            },
+            {
+              "version": "1.09.0.1",
+              "date": "14 de marzo de 2025",
+              "highlights": "Se ajustaron los preajustes gráficos, se añadió un preajuste recomendado y se corrigieron los cierres al iniciar en CPU con 33 o más hilos"
+            }
+          ]
+        }
+      ]
+    },
+    "walkthroughMissionsBosses": {
+      "title": "Guía de Rise of the Ronin, misiones y jefes",
+      "intro": "La campaña transcurre a través de tres grandes regiones de mundo abierto, mientras que las elecciones de facción, los vínculos de personajes y las misiones opcionales cambian los aliados disponibles y los resultados de las misiones. Usa las actividades secundarias para fortalecer los vínculos de región antes de las operaciones principales de la historia, luego usa el Testamento del alma para repetir misiones completadas y explorar caminos alternativos.",
+      "stages": [
+        {
+          "stage": 1,
+          "chapter": "Prólogo",
+          "region": "El Filo Oculto y los Barcos Negros",
+          "storyFocus": "Completa el inicio lineal, aprende los sistemas de combate principales y comienza la búsqueda que envía al ronin hacia Yokohama.",
+          "keyMissions": [
+            "Tutoriales lineales de combate y sigilo",
+            "Conflicto inicial en los Barcos Negros",
+            "Partida hacia la primera región de mundo abierto"
+          ],
+          "preparation": [
+            "Practica el tiempo del Contraataque contra cadenas de ataques básicos",
+            "Aprende cuándo bloquear o esquivar en lugar de forzar un desvío",
+            "Prueba armas cuerpo a cuerpo y a distancia antes de gastar recursos de mejora"
+          ],
+          "majorEncounters": [
+            "Duelos iniciales que enseñan la presión de Ki y los golpes críticos",
+            "Oponentes de los Barcos Negros que usan armas tanto japonesas como occidentales"
+          ],
+          "unlocks": [
+            "Mundo abierto de Yokohama",
+            "Exploración más amplia y actividades secundarias"
+          ]
+        },
+        {
+          "stage": 2,
+          "chapter": "Yokohama",
+          "region": "Ciudad portuaria y alrededores",
+          "storyFocus": "Conoce a figuras pro-shogunato, anti-shogunato y occidentales mientras forjas los primeros vínculos importantes de personajes y regiones.",
+          "keyMissions": [
+            "Primeros contactos de facciones en Yokohama",
+            "La primera gran decisión de la historia tras la batalla contra Gonzo",
+            "Infiltración aérea en la base para recuperar la cámara de Igashichi Iizuka"
+          ],
+          "preparation": [
+            "Restablece el orden público en los distritos cercanos",
+            "Completa recados, cazas de fugitivos y misiones de vínculo",
+            "Aumenta los vínculos con los compañeros antes de seleccionar aliados de misión"
+          ],
+          "majorEncounters": [
+            "Gonzo",
+            "Bruto con garrote durante la operación de recuperación de la cámara"
+          ],
+          "unlocks": [
+            "Alojamiento en la ciudad y funciones del Hogar",
+            "Entrega de regalos e interacciones más profundas con los compañeros",
+            "Más estilos de combate a través de la historia y los vínculos"
+          ]
+        },
+        {
+          "stage": 3,
+          "chapter": "Edo",
+          "region": "Castillo de Edo, Asakusa, Nihonbashi y Yoshiwara",
+          "storyFocus": "Entra en el centro político del shogunato, acepta misiones de facción de mayor nivel y accede a la repetición de misiones.",
+          "keyMissions": [
+            "Operaciones centradas en el shogunato por todo Edo",
+            "Misiones de facción que involucran a líderes japoneses y occidentales",
+            "Repetición de misiones completadas a través del Testamento del alma"
+          ],
+          "preparation": [
+            "Mejora dos estilos de armas fiables para diferentes enfrentamientos con enemigos",
+            "Lleva aliados con los que tengas vínculos a misiones que permitan compañeros",
+            "Revisa las decisiones de facción antes de volver a jugar resultados alternativos"
+          ],
+          "majorEncounters": [
+            "Vasallos de élite y líderes de facciones",
+            "Misiones contra múltiples enemigos donde el cambio de aliado permite controlar la presión"
+          ],
+          "unlocks": [
+            "Testamento del alma en el Hogar",
+            "Decisiones y resultados de misiones alternativos"
+          ]
+        },
+        {
+          "stage": 4,
+          "chapter": "Kioto",
+          "region": "La capital durante la agitación de finales de la era Edo",
+          "storyFocus": "Resuelve los mayores conflictos de facciones, enfréntate a cadenas de duelos de final de juego y lleva la historia hacia sus desenlaces finales.",
+          "keyMissions": [
+            "La elección de Mibu-dera entre las sendas pro-shogunato y anti-shogunato.",
+            "Operaciones de final de la historia que involucran al Shinsengumi y a las facciones opuestas",
+            "Resultados de misiones y disponibilidad de aliados según la facción"
+          ],
+          "preparation": [
+            "Completa las misiones de vínculo importantes antes de avanzar en los eventos principales de facción",
+            "Lleva objetos de curación, recuperación de estado y opciones a distancia para las misiones más largas",
+            "Usa estilos de combate ventajosos contra el arma de cada jefe"
+          ],
+          "majorEncounters": [
+            "Élites del Shinsengumi",
+            "Élites del anti-Shogunato",
+            "Jefes de facción de final del juego y duelos consecutivos"
+          ],
+          "unlocks": [
+            "Resultados finales de la historia",
+            "Dificultad Medianoche tras completar la historia principal"
+          ]
+        },
+        {
+          "stage": 5,
+          "chapter": "Misiones opcionales y encuentros ocultos",
+          "region": "Todas las regiones",
+          "storyFocus": "Completa historias de personajes, misiones de aliado, combates contra fugitivos y batallas ocultas que quedan fuera de la ruta principal directa.",
+          "keyMissions": [
+            "Misiones de vínculo que profundizan las relaciones y desbloquean recompensas",
+            "Misiones de aliado centradas en los compañeros establecidos",
+            "Cinco misiones de aliado adicionales añadidas en la gran actualización de mayo de 2024",
+            "Encuentros con fugitivos y entrenamiento en el dojo"
+          ],
+          "preparation": [
+            "Aumenta los vínculos de personaje para desbloquear más contenido de relación",
+            "Vuelve a visitar las regiones tras los hitos de la historia para encontrar misiones nuevas disponibles",
+            "Usa el sigilo y los ataques a distancia para reducir los grupos antes de los jefes opcionales"
+          ],
+          "majorEncounters": [
+            "William de Nioh como jefe oculto",
+            "Fugitivos con nombre propio con armas y estilos de combate únicos",
+            "Compañeros de entrenamiento del dojo ampliados"
+          ],
+          "unlocks": [
+            "Estilos de combate, armas, objetos y recompensas de diálogo",
+            "Práctica adicional para el final del juego y prueba de configuraciones"
+          ]
+        },
+        {
+          "stage": 6,
+          "chapter": "Repeticiones en Medianoche y del Testamento",
+          "region": "Posjuego",
+          "storyFocus": "Vuelve a jugar la campaña en la dificultad más alta, restablece el orden público y optimiza el equipo para el final del juego.",
+          "keyMissions": [
+            "Repetición del mundo en Medianoche",
+            "Misiones del Testamento del alma con sincronización de nivel",
+            "Opciones de historia y resultados de misiones alternativos"
+          ],
+          "preparation": [
+            "Completa la historia principal para desbloquear Medianoche",
+            "Crea tu configuración en torno al daño de Ki, las bonificaciones de conjunto y contracentellas fiables",
+            "Usa las misiones repetidas para conseguir recompensas perdidas y rutas alternativas"
+          ],
+          "majorEncounters": [
+            "Revanchas más difíciles contra los jefes de la historia",
+            "Encuentros de orden público restablecidos cuando el deterioro está activado"
+          ],
+          "unlocks": [
+            "Dos bonificaciones de conjunto de Medianoche adicionales",
+            "Deterioro opcional del orden público durante la repetición del mundo en Medianoche",
+            "Selección de sincronización de nivel para las misiones del Testamento"
+          ]
+        }
+      ]
+    },
+    "bondsRomanceStoryChoices": {
+      "title": "Vínculos, romances y opciones de la historia de Rise of the Ronin",
+      "intro": "Los vínculos conectan la exploración, el progreso del combate y las decisiones de la historia. Las relaciones con los personajes pueden desbloquear estilos de combate, habilidades, armas, objetos y diálogos, mientras que los vínculos de región recompensan a los jugadores por restablecer el orden y ayudar a los residentes locales.",
+      "bonds": [
+        {
+          "type": "Vínculo de personaje",
+          "title": "Fortalece las relaciones con personajes clave",
+          "howToProgress": [
+            "Habla con los compañeros que te visiten en el hogar",
+            "Entrega regalos que aumenten el progreso de la relación",
+            "Completa misiones de vínculo y contenido de la historia centrado en los personajes",
+            "Elige opciones de diálogo y acciones de la historia que apoyen al personaje"
+          ],
+          "rewards": [
+            "Nuevos estilos de combate",
+            "Habilidades",
+            "Armas y objetos",
+            "Diálogos adicionales",
+            "Más opciones de compañeros en las misiones compatibles"
+          ],
+          "notes": "Entre los personajes principales se incluyen figuras de las facciones pro-shogunato, anti-shogunato y occidentales, por lo que el progreso de la relación también puede afectar a cómo se experimentan las misiones clave."
+        },
+        {
+          "type": "Vínculo de región",
+          "title": "Aumenta el vínculo con los distritos de Yokohama, Edo y Kioto",
+          "howToProgress": [
+            "Despeja zonas controladas por bandidos y restablece el orden público",
+            "Haz recados para los residentes locales",
+            "Derrota a fugitivos peligrosos",
+            "Completa actividades secundarias cercanas"
+          ],
+          "rewards": [
+            "Descuentos de mercaderes",
+            "Beneficios de exploración regional",
+            "Acceso más eficiente a las actividades locales"
+          ],
+          "notes": "El vínculo de región es independiente de las relaciones individuales con los personajes y se aumenta mediante actividades en el mundo abierto."
+        },
+        {
+          "type": "Misiones de vínculo y de aliado",
+          "title": "Completa las historias de los compañeros",
+          "howToProgress": [
+            "Avanza en la historia principal hasta que esté disponible una misión de personaje",
+            "Alcanza el nivel de relación requerido",
+            "Vuelve con el personaje o al hogar para continuar la cadena de misiones"
+          ],
+          "rewards": [
+            "Trasfondo del personaje",
+            "Progreso de la relación",
+            "Recompensas de combate y equipo",
+            "Nuevos aliados u opciones de misión ampliadas"
+          ],
+          "notes": "Una importante actualización de 2024 añadió cinco misiones de aliado y más compañeros de entrenamiento en el dojo."
+        },
+        {
+          "type": "Beneficios de diálogo",
+          "title": "Desbloquea mejores opciones de conversación",
+          "howToProgress": [
+            "Invierte en mejoras del árbol de habilidades que abran opciones de diálogo especiales",
+            "Aumenta los vínculos para revelar conversaciones personales adicionales",
+            "Usa opciones de diálogo antes o durante los eventos de misión"
+          ],
+          "rewards": [
+            "Formas alternativas de resolver encuentros",
+            "Información adicional del personaje",
+            "Ventajas de combate en escenas seleccionadas"
+          ],
+          "notes": "Una de las opciones de diálogo mostradas permite al ronin intimidar a los oponentes y reducir su Ki antes de que comience el combate."
+        },
+        {
+          "type": "Vínculo velado",
+          "title": "Entablar una relación especial",
+          "howToProgress": [
+            "Profundizar el vínculo con un personaje apto",
+            "Completa el contenido de relación del personaje",
+            "Elige la opción de relación cuando esté disponible"
+          ],
+          "rewards": [
+            "Estado de relación de Vínculo velado",
+            "Escenas de relación especial",
+            "Equipo y recompensas vinculados a personajes"
+          ],
+          "notes": "Los Vínculos velados solo están disponibles con ciertos personajes, y el juego permite al ronin entablar más de un Vínculo velado."
+        },
+        {
+          "type": "Elecciones importantes de la historia",
+          "title": "Elegir facciones y destinos de los personajes",
+          "howToProgress": [
+            "Toma la primera decisión importante tras derrotar a Gonzo",
+            "Elige entre los caminos pro-Shogunato y anti-Shogunato en Mibu-dera",
+            "Apoyar a diferentes facciones durante misiones clave de la historia"
+          ],
+          "rewards": [
+            "Diferentes beneficios de misión",
+            "Escenas y desenlaces alternativos",
+            "Cambios en los aliados disponibles",
+            "Diferentes recompensas de personajes y objetos"
+          ],
+          "notes": "El apoyo a una facción puede cambiar sustancialmente las misiones clave y las personas que luchan junto al ronin."
+        },
+        {
+          "type": "Testamento del alma",
+          "title": "Repetir elecciones y ver desenlaces alternativos",
+          "howToProgress": [
+            "Llega a Edo para desbloquear el Testamento del alma",
+            "Accede a él desde el Hogar",
+            "Selecciona una misión completada y elige un camino diferente"
+          ],
+          "rewards": [
+            "Desenlaces alternativos de la historia",
+            "Recompensas de misión perdidas",
+            "Diferentes interacciones con personajes",
+            "Opciones de repetición con sincronización de nivel"
+          ],
+          "notes": "El Testamento del alma permite a los jugadores explorar otras opciones sin reiniciar toda la campaña."
+        }
+      ]
+    },
+    "multiplayerCoOpGuide": {
+      "title": "Guía cooperativa y multijugador de Rise of the Ronin",
+      "intro": "Rise of the Ronin permite jugar misiones de historia cooperativas en línea para hasta tres jugadores en total. El cooperativo se basa en misiones en lugar de un mundo abierto compartido persistente, y no hay modo PvP.",
+      "faqs": [
+        {
+          "question": "¿Cuántos jugadores pueden jugar juntos a Rise of the Ronin?",
+          "answer": "El cooperativo en línea de Rise of the Ronin admite hasta tres jugadores en total. Un escuadrón puede incluir al anfitrión y hasta dos jugadores adicionales.",
+          "details": [
+            "Juego cooperativo en línea",
+            "Hasta tres jugadores en total",
+            "Sin combate PvP"
+          ]
+        },
+        {
+          "question": "¿Cómo recluto jugadores en Rise of the Ronin?",
+          "answer": "Selecciona Reclutar en la configuración cooperativa de una misión compatible. Establece una contraseña cuando quieras limitar la sesión a amigos que conozcan la misma contraseña.",
+          "details": [
+            "Reclutar crea la sesión",
+            "Se admite el reclutamiento con contraseña",
+            "El anfitrión selecciona la misión"
+          ]
+        },
+        {
+          "question": "¿Cómo me uno a una misión cooperativa de Rise of the Ronin?",
+          "answer": "Usa Unirse o Buscar para encontrar una misión cooperativa disponible. Introduce la contraseña correspondiente al unirte a una sesión privada de amigos.",
+          "details": [
+            "Unirse conecta a las sesiones disponibles",
+            "Buscar ayuda a encontrar un reclutamiento específico",
+            "La disponibilidad de las misiones depende del contenido de la historia compatible"
+          ]
+        },
+        {
+          "question": "¿Qué actividades son compatibles con el modo cooperativo directo en Rise of the Ronin?",
+          "answer": "El multijugador directo se centra en las misiones de la historia compatibles. El desplazamiento general por el mundo abierto, la limpieza del mapa y la exploración libre se gestionan en el mundo en solitario de cada jugador.",
+          "details": [
+            "Las misiones de la historia compatibles se pueden jugar en cooperativo",
+            "El modo cooperativo no es un modo continuo de mundo compartido",
+            "Las actividades secundarias del mundo abierto quedan fuera de la sesión de misión cooperativa directa"
+          ]
+        },
+        {
+          "question": "¿Cómo funciona el progreso de las misiones cooperativas en Rise of the Ronin?",
+          "answer": "Una sesión cooperativa abarca la instancia de la misión seleccionada. Cuando la misión termina, los jugadores abandonan esa sesión y regresan a su propio juego, y luego pueden volver a reclutar o unirse para otra misión compatible.",
+          "details": [
+            "Las sesiones se organizan misión por misión",
+            "El grupo no permanece unido para viajar por el mundo abierto",
+            "El Testamento del alma se puede usar para volver a jugar misiones completadas"
+          ]
+        },
+        {
+          "question": "¿Qué se requiere para jugar al cooperativo de Rise of the Ronin en cada plataforma?",
+          "answer": "El cooperativo en línea de PS5 requiere una suscripción activa a PlayStation Plus. La versión de Steam utiliza los servicios en línea de Steam y no requiere PlayStation Plus.",
+          "details": [
+            "Se requiere conexión a Internet",
+            "Se requiere una cuenta de la plataforma y acceso en línea",
+            "Sin emparejamiento JcJ"
+          ]
+        },
+        {
+          "question": "¿Qué son los ronin asíncronos en Rise of the Ronin?",
+          "answer": "Los ronin de otros jugadores pueden aparecer en tu mundo como personajes en línea asíncronos. Representan a otros jugadores sin que estos compartan activamente tu sesión actual.",
+          "details": [
+            "No son compañeros de cooperativo en tiempo real",
+            "Pueden aparecer durante la partida normal en el mundo",
+            "Independientes de Unirse, Reclutar y Buscar"
+          ]
+        },
+        {
+          "question": "¿Cómo funciona el perro peregrino en Rise of the Ronin?",
+          "answer": "Deposita dinero con el perro peregrino para enviarlo a las partidas de otros jugadores. Más tarde regresará con objetos para ti, creando un intercambio en línea indirecto sin formar un grupo multijugador.",
+          "details": [
+            "Función asíncrona",
+            "Utiliza el dinero depositado",
+            "Regresa con objetos"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Rise of the Ronin",
+    "questions": [
+      {
+        "question": "¿Qué es Rise of the Ronin?",
+        "answer": "Rise of the Ronin es un RPG de acción de mundo abierto de Team NINJA ambientado en el Japón de la era Bakumatsu, en el que juegas como un ronin personalizable que domina nueve armas cuerpo a cuerpo, múltiples estilos de combate y decisiones que cambian la historia en PS5 y PC."
+      },
+      {
+        "question": "¿Es Rise of the Ronin multijugador o para un solo jugador?",
+        "answer": "Rise of the Ronin es compatible tanto con el juego en solitario como con misiones de historia cooperativas en línea para hasta tres jugadores. No hay modo JcJ y el mundo abierto en sí no es un mundo persistente compartido."
+      },
+      {
+        "question": "¿En qué plataformas está disponible Rise of the Ronin?",
+        "answer": "Rise of the Ronin se lanzó en PS5 el 22 de marzo de 2024 y se estrenó en Steam para PC el 11 de marzo de 2025."
+      },
+      {
+        "question": "¿Cuántas armas hay en Rise of the Ronin?",
+        "answer": "Rise of the Ronin cuenta con nueve categorías principales de armas cuerpo a cuerpo, incluyendo la katana, el odachi, la lanza y las espadas dobles, además del combate desarmado, cada una con sus propios estilos de combate."
+      },
+      {
+        "question": "¿Cómo funciona el sistema de estilos de combate en Rise of the Ronin?",
+        "answer": "Rise of the Ronin utiliza los estilos de combate Ten, Chi y Jin que cambian el moveset de un arma y el Counterspark. Adaptar tu estilo al arma del enemigo aumenta el stagger y la presión de Ki, y los estilos Shinobi recompensan los Countersparks realizados en el momento perfecto."
+      },
+      {
+        "question": "¿Se pueden tener romances con personajes en Rise of the Ronin?",
+        "answer": "Sí. Rise of the Ronin incluye vínculos de personajes, regalos, Bond Missions y relaciones románticas Veiled Vow con compañeros seleccionados, y el juego permite más de un Veiled Vow."
+      },
+      {
+        "question": "¿Tiene Rise of the Ronin múltiples finales?",
+        "answer": "Sí. Rise of the Ronin presenta elecciones de facción y decisiones importantes en la historia que cambian misiones, aliados y resultados, y el sistema Testament of the Soul te permite repetir misiones para explorar caminos alternativos."
+      },
+      {
+        "question": "¿Cuáles son los requisitos de Rise of the Ronin para PC?",
+        "answer": "Rise of the Ronin en PC requiere Windows 10 u 11 de 64 bits, 16 GB de RAM, DirectX 12 y 155 GB de almacenamiento SSD, con soporte para resolución de hasta 8K, 120 FPS, DLSS, FSR, XeSS y frame generation."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para dominar Rise of the Ronin?",
+    "description": "¡Únete a la comunidad de Rise of the Ronin en Discord y Reddit para obtener builds, armas, estilos de combate y consejos de rendimiento para PC!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Rise of the Ronin",
+    "description": "Tu centro de recursos completo para builds, armas, estilos de combate, vínculos, misiones, elecciones, finales y guías de rendimiento para PC de Rise of the Ronin.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2024-2026 Rise of the Ronin Wiki. No afiliado a Team NINJA, Koei Tecmo ni Sony Interactive Entertainment.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guías de Rise of the Ronin",
+      "description": "Guías completas de juego, desde conceptos básicos para principiantes y mecánicas de combate hasta exploración, caza de fugitivos y hojas de ruta de trofeos por todo el Japón de la era Bakumatsu.",
+      "metaTitle": "Guías de Rise of the Ronin - Consejos para principiantes y recorridos",
+      "metaDescription": "Guías completas de Rise of the Ronin que cubren consejos para principiantes, combate con Counterspark, exploración, fugitivos, trofeos y progresión para dominar este RPG de samuráis de mundo abierto.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de combate, exploración y progresión de la historia. Aprende todo, desde los primeros pasos y la elección de dificultad hasta técnicas avanzadas y caza de trofeos.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Comprende el tiempo de la Contracondena, la gestión del Ki y las posturas de combate para evitar los errores comunes de los principiantes",
+        "step2Title": "Explora de manera eficiente",
+        "step2Description": "Rastrea fugitivos, atrapa gatos y completa objetivos de la historia sin perderte el contenido oculto",
+        "step3Title": "Consigue todos los trofeos",
+        "step3Description": "Sigue una hoja de ruta clara para desbloquear todos los trofeos y completar todos los objetivos de la región"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "weapons": {
+      "title": "Armas de Rise of the Ronin",
+      "description": "Guías de armas detalladas que cubren las nueve armas cuerpo a cuerpo, estilos de combate, estadísticas y clasificaciones para cada encuentro.",
+      "metaTitle": "Armas de Rise of the Ronin: lista de niveles, estadísticas y estilos de combate",
+      "metaDescription": "Base de datos completa de armas de Rise of the Ronin, que incluye la katana, el odachi, la lanza, las espadas dobles y más. Compara estadísticas, niveles y estilos de combate de cada arma.",
+      "categoryLabel": "ARMAS Y COMBATE",
+      "whatIs": "¿Qué son las armas?",
+      "whatIsDescription": "Guías completas de las nueve armas cuerpo a cuerpo principales y el combate desarmado. Conoce las estadísticas de las armas, clasificaciones, conjuntos de movimientos y el mejor estilo de combate para cada una.",
+      "why": "¿Por qué comparar armas?",
+      "whySteps": {
+        "step1Title": "Elige el arma adecuada",
+        "step1Description": "Elige la mejor arma para tu estilo de juego, desde la equilibrada katana hasta el pesado odachi",
+        "step2Title": "Combina estilos de combate",
+        "step2Description": "Combina los estilos Ten, Chi y Jin con el arma adecuada para maximizar el desequilibrio y la presión de Ki",
+        "step3Title": "Gana cada encuentro",
+        "step3Description": "Usa habilidades marciales específicas de cada arma y Contracondenas para dominar a los jefes y los duelos"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las armas"
+    },
+    "story": {
+      "title": "Historia de Rise of the Ronin",
+      "description": "Elecciones de la historia, decisiones de facciones, el destino de los personajes y las consecuencias de las decisiones clave a lo largo de la campaña de Bakumatsu.",
+      "metaTitle": "Historia de Rise of the Ronin: elecciones, facciones y consecuencias",
+      "metaDescription": "Explora las elecciones de la historia de Rise of the Ronin, las decisiones de facciones, el destino de personajes como tu Gemelo de la Hoja y cómo cada decisión cambia las misiones y los resultados.",
+      "categoryLabel": "HISTORIA Y ELECCIONES",
+      "whatIs": "¿Qué es la guía de la historia?",
+      "whatIsDescription": "Guías de elecciones de facciones, decisiones importantes de la historia y el destino de los personajes. Descubre cómo las decisiones sobre Katsu, Naosuke II y tu Gemelo de la Hoja cambian las misiones, los aliados y los resultados.",
+      "why": "¿Por qué estudiar la historia?",
+      "whySteps": {
+        "step1Title": "Toma decisiones clave",
+        "step1Description": "Elige si trabajar con Katsu, perdonar o matar a Naosuke II y cómo lidiar con tu Gemelo de la Hoja",
+        "step2Title": "Comprende a tu Gemelo de la Hoja",
+        "step2Description": "Descubre por qué tu Gemelo de la Hoja te traiciona y si regresa más adelante en la historia",
+        "step3Title": "Mira las consecuencias",
+        "step3Description": "Descubre cómo cada elección cambia las misiones, los aliados y el contenido disponible"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de la historia"
+    },
+    "map": {
+      "title": "Mapa de Rise of the Ronin",
+      "description": "Mapas de regiones, coleccionables, cofres del tesoro, ubicaciones de fugitivos y puntos de interés en Yokohama, Edo y Kioto.",
+      "metaTitle": "Mapa de Rise of the Ronin - Coleccionables, tesoros y ubicaciones",
+      "metaDescription": "Explora los mapas de las regiones de Rise of the Ronin con coleccionables, cofres del tesoro, ubicaciones de fugitivos, gatos, santuarios y puntos de interés en cada región.",
+      "categoryLabel": "MAPA Y COLECCIONABLES",
+      "whatIs": "¿Qué es el mapa?",
+      "whatIsDescription": "Guías de mapas de regiones, coleccionables y ubicaciones. Encuentra gatos, santuarios, cofres del tesoro, fotos, fugitivos y objetos raros como el gato esmoquin en cada región.",
+      "why": "¿Por qué explorar el mapa?",
+      "whySteps": {
+        "step1Title": "Encuentra coleccionables",
+        "step1Description": "Localiza gatos, santuarios, cofres del tesoro, fotos y objetos raros en cada región",
+        "step2Title": "Busca tesoros",
+        "step2Description": "Encuentra los cofres del tesoro de Motomachi, Hiranuma y Shibuya para conseguir valiosas recompensas",
+        "step3Title": "Sigue tu progreso",
+        "step3Description": "Completa todos los objetivos de región para obtener recompensas y beneficios de exploración"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías del mapa"
+    },
+    "technical": {
+      "title": "Apartado técnico de Rise of the Ronin",
+      "description": "Requisitos del sistema para PC, mejoras de rendimiento, desbloqueo de FPS, soluciones para cierres inesperados y ubicación de los archivos de guardado para una experiencia fluida.",
+      "metaTitle": "Rise of the Ronin - Técnico: Requisitos, FPS, cierres inesperados y archivos de guardado",
+      "metaDescription": "Corrige el rendimiento de Rise of the Ronin con los requisitos del sistema, el desbloqueo de FPS, soluciones para cierres inesperados, la ubicación del archivo de guardado y consejos de optimización para PC y PS5.",
+      "categoryLabel": "TÉCNICO Y RENDIMIENTO",
+      "whatIs": "¿Qué es la guía técnica?",
+      "whatIsDescription": "Guías técnicas que cubren los requisitos del sistema para PC, la optimización del rendimiento, el desbloqueo de FPS, soluciones para cierres inesperados y la ubicación de los archivos de guardado para Windows y PS5.",
+      "why": "¿Por qué optimizar el rendimiento?",
+      "whySteps": {
+        "step1Title": "Cumple los requisitos",
+        "step1Description": "Confirma que tu hardware cumpla con los requisitos de RAM, GPU y 155 GB de SSD antes de jugar",
+        "step2Title": "Aumenta tus FPS",
+        "step2Description": "Desbloquea tasas de fotogramas más altas y aplica los mejores ajustes gráficos para un combate fluido",
+        "step3Title": "Soluciona cierres inesperados y partidas guardadas",
+        "step3Description": "Resuelve cierres inesperados y tirones, y localiza tus archivos de guardado para hacer copias de seguridad"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías técnicas"
+    },
+    "platforms": {
+      "title": "Plataformas de Rise of the Ronin",
+      "description": "Disponibilidad en plataformas, fechas de lanzamiento, versiones de PS5 y PC, detalles del lanzamiento en Steam y disponibilidad en PS Plus.",
+      "metaTitle": "Plataformas de Rise of the Ronin - PS5, PC, Steam y fecha de lanzamiento",
+      "metaDescription": "Encuentra Rise of the Ronin en PS5 y PC, consulta la fecha de lanzamiento en Steam, los detalles de la versión de PC y la disponibilidad de PS Plus en las distintas plataformas.",
+      "categoryLabel": "PLATAFORMAS Y LANZAMIENTO",
+      "whatIs": "¿Qué son las plataformas?",
+      "whatIsDescription": "Guías sobre la disponibilidad en plataformas, fechas de lanzamiento y versiones. Obtén información sobre el lanzamiento original en PS5, la versión para PC y Steam, la compatibilidad del sistema y la disponibilidad en PS Plus.",
+      "why": "¿Por qué consultar las plataformas?",
+      "whySteps": {
+        "step1Title": "Elige tu plataforma",
+        "step1Description": "Compara las versiones de PS5 y PC para elegir dónde jugar Rise of the Ronin",
+        "step2Title": "Conoce la fecha de lanzamiento",
+        "step2Description": "Sigue el lanzamiento original de PS5 y el calendario de estreno del port para PC en Steam",
+        "step3Title": "Accede a través de PS Plus",
+        "step3Description": "Consulta la disponibilidad en el catálogo de PS Plus y las opciones de acceso por suscripción"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de plataformas"
+    },
+    "reviews": {
+      "title": "Análisis de Rise of the Ronin",
+      "description": "Análisis, puntuaciones de Metacritic, impresiones de la jugabilidad, análisis de relación calidad-precio y comparaciones con RPG de acción de samuráis similares.",
+      "metaTitle": "Análisis de Rise of the Ronin: Metacritic, jugabilidad y ¿vale la pena?",
+      "metaDescription": "Lee los análisis de Rise of the Ronin, las puntuaciones de Metacritic y de la crítica, las impresiones de la jugabilidad, el análisis de relación calidad-precio y cómo se compara con Ghost of Tsushima.",
+      "categoryLabel": "ANÁLISIS Y PUNTUACIONES",
+      "whatIs": "¿Qué son los análisis?",
+      "whatIsDescription": "Guías de análisis, puntuaciones de la crítica e impresiones de la jugabilidad. Infórmate sobre las valoraciones de Metacritic, la recepción de los jugadores, la relación calidad-precio y cómo se compara Rise of the Ronin con juegos similares.",
+      "why": "¿Por qué leer análisis?",
+      "whySteps": {
+        "step1Title": "Consulta las puntuaciones",
+        "step1Description": "Revisa las valoraciones de Metacritic y de la crítica para evaluar la recepción general y la calidad",
+        "step2Title": "Decide si vale la pena",
+        "step2Description": "Evalúa la profundidad de la jugabilidad, el contenido y el precio para decidir si vale la pena comprar Rise of the Ronin",
+        "step3Title": "Compara alternativas",
+        "step3Description": "Mira cómo se compara con Ghost of Tsushima y otros RPG de acción de samuráis"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los análisis"
+    },
+    "updates": {
+      "title": "Actualizaciones de Rise of the Ronin",
+      "description": "Últimas actualizaciones, contenido de DLC, notas del parche, modo Nueva partida más, mods y disponibilidad de la demo.",
+      "metaTitle": "Actualizaciones de Rise of the Ronin: DLC, notas del parche, Nueva partida + y mods",
+      "metaDescription": "Mantente al día con las actualizaciones de Rise of the Ronin, lanzamientos de DLC, notas del parche, Nueva partida más, mods para PC y la demo jugable en todas las plataformas.",
+      "categoryLabel": "ACTUALIZACIONES Y DLC",
+      "whatIs": "¿Qué son las actualizaciones?",
+      "whatIsDescription": "Guías de actualizaciones del juego, contenido descargable y soporte poslanzamiento. Infórmate sobre las expansiones de DLC, notas del parche, Nueva partida más, mods para PC y la demo.",
+      "why": "¿Por qué seguir las actualizaciones?",
+      "whySteps": {
+        "step1Title": "Sigue las notas del parche",
+        "step1Description": "Mantente informado sobre la corrección de errores, cambios de equilibrio y nuevo contenido en cada actualización",
+        "step2Title": "Explora el DLC y Nueva partida +",
+        "step2Description": "Descubre las expansiones de contenido descargable y las opciones de rejugabilidad de Nueva partida más",
+        "step3Title": "Prueba los mods y la demo",
+        "step3Description": "Instala mods para PC para personalizar el juego y prueba la demo antes de comprar"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las actualizaciones"
+    }
+  }
+}
