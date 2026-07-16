@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Rise of the Ronin Wiki - Builds, Weapons & Choices",
+  "short_name": "Rise of the Ronin",
+  "description": "Explore Rise of the Ronin builds, best weapons, combat styles, bond missions, romance choices, endings, collectibles, bosses, maps and PC performance tips.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#c73f23",
+  "background_color": "#0a0e14",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

@@ -10,29 +10,29 @@
     --card-foreground: 240 10% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
-    --primary: 186 62% 39%;
+    --primary: 10 70% 46%;
     --primary-foreground: 0 0% 98%;
     --secondary: 240 4.8% 95.9%;
     --secondary-foreground: 240 5.9% 10%;
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
-    --accent: 186 68% 52%;
+    --accent: 16 82% 58%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 186 62% 39%;
+    --ring: 10 70% 46%;
     --radius: 0.5rem;
-    --chart-1: 186 62% 39%;
-    --chart-2: 186 68% 52%;
-    --chart-3: 186 62% 28%;
-    --chart-4: 186 55% 60%;
-    --chart-5: 186 60% 45%;
+    --chart-1: 10 70% 46%;
+    --chart-2: 16 82% 58%;
+    --chart-3: 10 55% 34%;
+    --chart-4: 18 80% 64%;
+    --chart-5: 14 70% 52%;
 
-    /* 导航页主题色 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* 更浅的青色高亮 */
+    /* 导航页主题色 - 亮色主题 */
+    --nav-theme: 10 70% 46%;        /* ronin vermilion */
+    --nav-theme-light: 16 82% 58%;  /* warm red-orange */
     
     /* Callout 组件颜色 */
     --callout-info-bg: 217 91% 97%;  /* blue-50 */
@@ -56,28 +56,28 @@
     --card-foreground: 0 0% 98%;
     --popover: 220 25% 8%;
     --popover-foreground: 0 0% 98%;
-    --primary: 186 62% 39%;
+    --primary: 11 78% 56%;
     --primary-foreground: 0 0% 98%;
     --secondary: 220 20% 12%;
     --secondary-foreground: 0 0% 98%;
     --muted: 220 20% 15%;
     --muted-foreground: 220 10% 60%;
-    --accent: 186 68% 52%;
+    --accent: 18 88% 66%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
     --border: 220 20% 15%;
     --input: 220 20% 15%;
-    --ring: 186 62% 39%;
-    --chart-1: 186 62% 39%;
-    --chart-2: 186 68% 52%;
-    --chart-3: 186 62% 28%;
-    --chart-4: 186 55% 60%;
-    --chart-5: 186 60% 45%;
+    --ring: 11 78% 56%;
+    --chart-1: 11 78% 56%;
+    --chart-2: 18 88% 66%;
+    --chart-3: 11 60% 42%;
+    --chart-4: 20 85% 70%;
+    --chart-5: 15 75% 60%;
 
     /* 导航页主题色 - 暗色主题 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* hover/active 高亮 */
+    --nav-theme: 11 78% 56%;        /* brighter vermilion */
+    --nav-theme-light: 18 88% 66%;  /* highlighted orange-red */
 
     /* Callout 组件颜色 - 暗色主题 */
     --callout-info-bg: 217 91% 22%;  /* 更浅的深蓝色（模拟 blue-900/20） */
