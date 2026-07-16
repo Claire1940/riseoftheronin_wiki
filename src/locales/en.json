@@ -37,7 +37,7 @@
   },
   "hero": {
     "badge": "Bakumatsu Open-World Samurai RPG",
-    "title": "Rise of the Ronin Wiki",
+    "title": "Rise of the Ronin",
     "description": "Explore Bakumatsu-era Japan as a custom ronin, master nine melee weapons and varied combat styles, build bonds, make story-changing choices, and complete missions solo or in online co-op.",
     "getFreeCodesCTA": "Explore Guides",
     "playOnSteamCTA": "Play on Steam",
@@ -481,7 +481,11 @@
           "role": "High direct damage and strong close-range punishment",
           "primaryTree": "Strength",
           "secondaryTree": "Charm",
-          "weapons": ["Katana", "Odachi", "Greatsword"],
+          "weapons": [
+            "Katana",
+            "Odachi",
+            "Greatsword"
+          ],
           "skillPriorities": [
             "Primary-weapon attack and defensive improvements",
             "Martial Skill damage and Ki damage",
@@ -501,7 +505,11 @@
           "role": "Stable Ki recovery, strong defense and repeated Counterspark pressure",
           "primaryTree": "Charm",
           "secondaryTree": "Strength",
-          "weapons": ["Katana", "Polearm", "Oxtail Blade"],
+          "weapons": [
+            "Katana",
+            "Polearm",
+            "Oxtail Blade"
+          ],
           "skillPriorities": [
             "Ki recovery and resistance to enemy Ki damage",
             "Counterspark-related recovery and follow-up pressure",
@@ -521,7 +529,11 @@
           "role": "Fast eliminations, mobility and controlled entry into larger encounters",
           "primaryTree": "Dexterity",
           "secondaryTree": "Intellect",
-          "weapons": ["Paired Swords", "Bayonet", "Katana"],
+          "weapons": [
+            "Paired Swords",
+            "Bayonet",
+            "Katana"
+          ],
           "skillPriorities": [
             "Assassination and rapid stealth takedown improvements",
             "Secondary-weapon damage and stagger",
@@ -541,7 +553,11 @@
           "role": "Ranged control, status application, medicine and flexible preparation",
           "primaryTree": "Intellect",
           "secondaryTree": "Dexterity",
-          "weapons": ["Spear", "Saber", "Bayonet"],
+          "weapons": [
+            "Spear",
+            "Saber",
+            "Bayonet"
+          ],
           "skillPriorities": [
             "Status infliction and resistance",
             "Medicine, remedy and consumable improvements",
@@ -561,7 +577,11 @@
           "role": "Flexible story progression with access to combat, exploration and dialogue tools",
           "primaryTree": "Balanced",
           "secondaryTree": "Mixed",
-          "weapons": ["Katana", "Spear", "Paired Swords"],
+          "weapons": [
+            "Katana",
+            "Spear",
+            "Paired Swords"
+          ],
           "skillPriorities": [
             "Core healing, Ki and defensive improvements",
             "At least one useful assassination upgrade",
@@ -581,7 +601,9 @@
           "role": "Efficient equipment management for every build",
           "primaryTree": "Any",
           "secondaryTree": "Any",
-          "weapons": ["Any preferred weapon pair"],
+          "weapons": [
+            "Any preferred weapon pair"
+          ],
           "skillPriorities": [
             "Unlock essential survival and Ki tools before small percentage bonuses",
             "Invest in skills that support actions used in every fight",
@@ -604,56 +626,192 @@
       "tables": [
         {
           "title": "System Requirements",
-          "columns": ["Component", "Minimum", "Recommended"],
-          "columnKeys": ["component", "minimum", "recommended"],
+          "columns": [
+            "Component",
+            "Minimum",
+            "Recommended"
+          ],
+          "columnKeys": [
+            "component",
+            "minimum",
+            "recommended"
+          ],
           "rows": [
-            { "component": "Operating system", "minimum": "Windows 10 or 11, 64-bit", "recommended": "Windows 10 or 11, 64-bit" },
-            { "component": "Processor", "minimum": "Intel Core i5-10400 or AMD Ryzen 5 1600", "recommended": "Intel Core i5-10600K or AMD Ryzen 5 5600X" },
-            { "component": "Memory", "minimum": "16 GB RAM", "recommended": "16 GB RAM" },
-            { "component": "Graphics", "minimum": "NVIDIA GTX 1060 6 GB or AMD RX 5500 XT 8 GB", "recommended": "NVIDIA RTX 2080 Super 8 GB or AMD RX 6700 XT 12 GB" },
-            { "component": "Storage", "minimum": "155 GB available space; SSD required", "recommended": "155 GB available space; NVMe SSD recommended" },
-            { "component": "DirectX", "minimum": "DirectX 12 or later", "recommended": "DirectX 12 or later" },
-            { "component": "Sound", "minimum": "16-bit stereo, 48 kHz playback", "recommended": "16-bit stereo, 48 kHz playback" },
-            { "component": "Memory configuration", "minimum": "Multi-channel memory recommended", "recommended": "Multi-channel memory recommended" }
+            {
+              "component": "Operating system",
+              "minimum": "Windows 10 or 11, 64-bit",
+              "recommended": "Windows 10 or 11, 64-bit"
+            },
+            {
+              "component": "Processor",
+              "minimum": "Intel Core i5-10400 or AMD Ryzen 5 1600",
+              "recommended": "Intel Core i5-10600K or AMD Ryzen 5 5600X"
+            },
+            {
+              "component": "Memory",
+              "minimum": "16 GB RAM",
+              "recommended": "16 GB RAM"
+            },
+            {
+              "component": "Graphics",
+              "minimum": "NVIDIA GTX 1060 6 GB or AMD RX 5500 XT 8 GB",
+              "recommended": "NVIDIA RTX 2080 Super 8 GB or AMD RX 6700 XT 12 GB"
+            },
+            {
+              "component": "Storage",
+              "minimum": "155 GB available space; SSD required",
+              "recommended": "155 GB available space; NVMe SSD recommended"
+            },
+            {
+              "component": "DirectX",
+              "minimum": "DirectX 12 or later",
+              "recommended": "DirectX 12 or later"
+            },
+            {
+              "component": "Sound",
+              "minimum": "16-bit stereo, 48 kHz playback",
+              "recommended": "16-bit stereo, 48 kHz playback"
+            },
+            {
+              "component": "Memory configuration",
+              "minimum": "Multi-channel memory recommended",
+              "recommended": "Multi-channel memory recommended"
+            }
           ]
         },
         {
           "title": "Official Performance Targets",
-          "columns": ["Target", "Settings", "Expected result"],
-          "columnKeys": ["target", "settings", "result"],
+          "columns": [
+            "Target",
+            "Settings",
+            "Expected result"
+          ],
+          "columnKeys": [
+            "target",
+            "settings",
+            "result"
+          ],
           "rows": [
-            { "target": "Minimum target", "settings": "Lowest graphics settings with upscaling", "result": "1080p at 30 FPS; Frame Generation can raise FPS further" },
-            { "target": "Recommended target", "settings": "Standard graphics settings with upscaling", "result": "1080p at 60 FPS; Frame Generation can raise FPS further" },
-            { "target": "Intel verification", "settings": "Intel Core i5-12400, Arc B580 12 GB, standard settings and upscaling", "result": "Verified at 1080p and 60 FPS" }
+            {
+              "target": "Minimum target",
+              "settings": "Lowest graphics settings with upscaling",
+              "result": "1080p at 30 FPS; Frame Generation can raise FPS further"
+            },
+            {
+              "target": "Recommended target",
+              "settings": "Standard graphics settings with upscaling",
+              "result": "1080p at 60 FPS; Frame Generation can raise FPS further"
+            },
+            {
+              "target": "Intel verification",
+              "settings": "Intel Core i5-12400, Arc B580 12 GB, standard settings and upscaling",
+              "result": "Verified at 1080p and 60 FPS"
+            }
           ]
         },
         {
           "title": "PC Feature Support",
-          "columns": ["Feature", "Support", "Details"],
-          "columnKeys": ["feature", "support", "details"],
+          "columns": [
+            "Feature",
+            "Support",
+            "Details"
+          ],
+          "columnKeys": [
+            "feature",
+            "support",
+            "details"
+          ],
           "rows": [
-            { "feature": "Resolution", "support": "Up to 8K", "details": "8K output is supported on suitable hardware and display configurations" },
-            { "feature": "Frame rate", "support": "Up to 120 FPS", "details": "The PC version includes a 120 FPS option" },
-            { "feature": "Ray tracing", "support": "Supported", "details": "Ray-traced graphics options are available" },
-            { "feature": "Upscaling", "support": "AMD FSR, NVIDIA DLSS, Intel XeSS", "details": "Multiple vendor upscalers are supported for higher performance" },
-            { "feature": "Frame Generation", "support": "Supported", "details": "Frame Generation can be used to increase FPS" },
-            { "feature": "NVIDIA Reflex", "support": "Supported", "details": "Reflex support is included for compatible NVIDIA hardware" },
-            { "feature": "Displays", "support": "Ultra-wide and super ultra-wide", "details": "Wide-aspect monitor support is built into the Steam version" },
-            { "feature": "Audio", "support": "3D audio", "details": "Spatial audio support is available" },
-            { "feature": "Controls", "support": "Keyboard and mouse", "details": "Key bindings are customizable and menus support mouse clicking" },
-            { "feature": "Graphics API", "support": "DirectX 12 Ultimate", "details": "The PC feature set includes DirectX 12 Ultimate support" }
+            {
+              "feature": "Resolution",
+              "support": "Up to 8K",
+              "details": "8K output is supported on suitable hardware and display configurations"
+            },
+            {
+              "feature": "Frame rate",
+              "support": "Up to 120 FPS",
+              "details": "The PC version includes a 120 FPS option"
+            },
+            {
+              "feature": "Ray tracing",
+              "support": "Supported",
+              "details": "Ray-traced graphics options are available"
+            },
+            {
+              "feature": "Upscaling",
+              "support": "AMD FSR, NVIDIA DLSS, Intel XeSS",
+              "details": "Multiple vendor upscalers are supported for higher performance"
+            },
+            {
+              "feature": "Frame Generation",
+              "support": "Supported",
+              "details": "Frame Generation can be used to increase FPS"
+            },
+            {
+              "feature": "NVIDIA Reflex",
+              "support": "Supported",
+              "details": "Reflex support is included for compatible NVIDIA hardware"
+            },
+            {
+              "feature": "Displays",
+              "support": "Ultra-wide and super ultra-wide",
+              "details": "Wide-aspect monitor support is built into the Steam version"
+            },
+            {
+              "feature": "Audio",
+              "support": "3D audio",
+              "details": "Spatial audio support is available"
+            },
+            {
+              "feature": "Controls",
+              "support": "Keyboard and mouse",
+              "details": "Key bindings are customizable and menus support mouse clicking"
+            },
+            {
+              "feature": "Graphics API",
+              "support": "DirectX 12 Ultimate",
+              "details": "The PC feature set includes DirectX 12 Ultimate support"
+            }
           ]
         },
         {
           "title": "Important Steam Updates",
-          "columns": ["Version", "Date", "Highlights"],
-          "columnKeys": ["version", "date", "highlights"],
+          "columns": [
+            "Version",
+            "Date",
+            "Highlights"
+          ],
+          "columnKeys": [
+            "version",
+            "date",
+            "highlights"
+          ],
           "rows": [
-            { "version": "1.09.0.5", "date": "November 11, 2025", "highlights": "Fixed crashes caused by certain Windows updates when specific characters or equipment appeared on screen" },
-            { "version": "1.09.0.4", "date": "April 30, 2025", "highlights": "Added save-data recovery for the bond mission In Search of New Knowledge and improved stuttering in specific areas" },
-            { "version": "1.09.0.3", "date": "April 10, 2025", "highlights": "Added Dynamic Adjustment of FPS, reduced VRAM usage and improved GPU performance for ambient occlusion and upscaling" },
-            { "version": "1.09.0.2", "date": "March 25, 2025", "highlights": "Added Prioritize Graphics and Prioritize FPS modes, optimized demanding settings and created an additional backup-save location" },
-            { "version": "1.09.0.1", "date": "March 14, 2025", "highlights": "Adjusted graphics presets, added a Recommended preset and fixed launch crashes on CPUs with 33 or more threads" }
+            {
+              "version": "1.09.0.5",
+              "date": "November 11, 2025",
+              "highlights": "Fixed crashes caused by certain Windows updates when specific characters or equipment appeared on screen"
+            },
+            {
+              "version": "1.09.0.4",
+              "date": "April 30, 2025",
+              "highlights": "Added save-data recovery for the bond mission In Search of New Knowledge and improved stuttering in specific areas"
+            },
+            {
+              "version": "1.09.0.3",
+              "date": "April 10, 2025",
+              "highlights": "Added Dynamic Adjustment of FPS, reduced VRAM usage and improved GPU performance for ambient occlusion and upscaling"
+            },
+            {
+              "version": "1.09.0.2",
+              "date": "March 25, 2025",
+              "highlights": "Added Prioritize Graphics and Prioritize FPS modes, optimized demanding settings and created an additional backup-save location"
+            },
+            {
+              "version": "1.09.0.1",
+              "date": "March 14, 2025",
+              "highlights": "Adjusted graphics presets, added a Recommended preset and fixed launch crashes on CPUs with 33 or more threads"
+            }
           ]
         }
       ]
@@ -667,60 +825,149 @@
           "chapter": "Prologue",
           "region": "Veiled Edge and the Black Ships",
           "storyFocus": "Complete the linear opening, learn the core combat systems and begin the search that sends the ronin toward Yokohama.",
-          "keyMissions": ["Linear combat and stealth tutorials", "Early Black Ship conflict", "Departure toward the first open-world region"],
-          "preparation": ["Practice Counterspark timing against basic attack strings", "Learn when to block or dodge instead of forcing a parry", "Test melee and ranged weapons before committing upgrade resources"],
-          "majorEncounters": ["Early duels that teach Ki pressure and critical hits", "Black Ship opponents using both Japanese and Western weapons"],
-          "unlocks": ["Yokohama open world", "Broader exploration and side activities"]
+          "keyMissions": [
+            "Linear combat and stealth tutorials",
+            "Early Black Ship conflict",
+            "Departure toward the first open-world region"
+          ],
+          "preparation": [
+            "Practice Counterspark timing against basic attack strings",
+            "Learn when to block or dodge instead of forcing a parry",
+            "Test melee and ranged weapons before committing upgrade resources"
+          ],
+          "majorEncounters": [
+            "Early duels that teach Ki pressure and critical hits",
+            "Black Ship opponents using both Japanese and Western weapons"
+          ],
+          "unlocks": [
+            "Yokohama open world",
+            "Broader exploration and side activities"
+          ]
         },
         {
           "stage": 2,
           "chapter": "Yokohama",
           "region": "Port city and surrounding countryside",
           "storyFocus": "Meet pro-Shogunate, anti-Shogunate and Western figures while building the first major character and region bonds.",
-          "keyMissions": ["First faction contacts in Yokohama", "The first major story choice after the battle with Gonzo", "Aerial base infiltration to recover Igashichi Iizuka's camera"],
-          "preparation": ["Restore Public Order in nearby districts", "Complete errands, fugitive hunts and Bond Missions", "Raise bonds with companions before selecting mission allies"],
-          "majorEncounters": ["Gonzo", "Club-wielding brute during the camera recovery operation"],
-          "unlocks": ["City lodging and Longhouse functions", "Gift giving and deeper companion interactions", "More combat styles through story and bonds"]
+          "keyMissions": [
+            "First faction contacts in Yokohama",
+            "The first major story choice after the battle with Gonzo",
+            "Aerial base infiltration to recover Igashichi Iizuka's camera"
+          ],
+          "preparation": [
+            "Restore Public Order in nearby districts",
+            "Complete errands, fugitive hunts and Bond Missions",
+            "Raise bonds with companions before selecting mission allies"
+          ],
+          "majorEncounters": [
+            "Gonzo",
+            "Club-wielding brute during the camera recovery operation"
+          ],
+          "unlocks": [
+            "City lodging and Longhouse functions",
+            "Gift giving and deeper companion interactions",
+            "More combat styles through story and bonds"
+          ]
         },
         {
           "stage": 3,
           "chapter": "Edo",
           "region": "Edo Castle, Asakusa, Nihonbashi and Yoshiwara",
           "storyFocus": "Enter the political center of the shogunate, take on higher-level faction missions and gain access to mission replay.",
-          "keyMissions": ["Shogunate-centered operations across Edo", "Faction missions involving Japanese and Western leaders", "Replaying completed missions through Testament of the Soul"],
-          "preparation": ["Upgrade two reliable weapon styles for different enemy matchups", "Bring bonded allies into missions that allow companions", "Review faction choices before replaying alternate outcomes"],
-          "majorEncounters": ["Elite retainers and faction leaders", "Multi-enemy missions where ally switching can control pressure"],
-          "unlocks": ["Testament of the Soul at the Longhouse", "Alternate mission choices and outcomes"]
+          "keyMissions": [
+            "Shogunate-centered operations across Edo",
+            "Faction missions involving Japanese and Western leaders",
+            "Replaying completed missions through Testament of the Soul"
+          ],
+          "preparation": [
+            "Upgrade two reliable weapon styles for different enemy matchups",
+            "Bring bonded allies into missions that allow companions",
+            "Review faction choices before replaying alternate outcomes"
+          ],
+          "majorEncounters": [
+            "Elite retainers and faction leaders",
+            "Multi-enemy missions where ally switching can control pressure"
+          ],
+          "unlocks": [
+            "Testament of the Soul at the Longhouse",
+            "Alternate mission choices and outcomes"
+          ]
         },
         {
           "stage": 4,
           "chapter": "Kyoto",
           "region": "The capital during late-Edo turmoil",
           "storyFocus": "Resolve the largest faction conflicts, face late-game duel chains and push the story toward its final outcomes.",
-          "keyMissions": ["The Mibu-dera choice between pro-Shogunate and anti-Shogunate paths", "Late-story operations involving the Shinsengumi and opposing factions", "Faction-dependent mission outcomes and ally availability"],
-          "preparation": ["Finish important Bond Missions before advancing major faction events", "Carry healing, status recovery and ranged options for longer missions", "Use advantageous combat styles against each boss weapon"],
-          "majorEncounters": ["Shinsengumi elites", "Anti-Shogunate elites", "Late-game faction bosses and consecutive duels"],
-          "unlocks": ["Final story outcomes", "Midnight difficulty after clearing the main story"]
+          "keyMissions": [
+            "The Mibu-dera choice between pro-Shogunate and anti-Shogunate paths",
+            "Late-story operations involving the Shinsengumi and opposing factions",
+            "Faction-dependent mission outcomes and ally availability"
+          ],
+          "preparation": [
+            "Finish important Bond Missions before advancing major faction events",
+            "Carry healing, status recovery and ranged options for longer missions",
+            "Use advantageous combat styles against each boss weapon"
+          ],
+          "majorEncounters": [
+            "Shinsengumi elites",
+            "Anti-Shogunate elites",
+            "Late-game faction bosses and consecutive duels"
+          ],
+          "unlocks": [
+            "Final story outcomes",
+            "Midnight difficulty after clearing the main story"
+          ]
         },
         {
           "stage": 5,
           "chapter": "Optional Missions and Hidden Encounters",
           "region": "All regions",
           "storyFocus": "Complete character stories, Ally Missions, fugitive fights and hidden battles that sit outside the direct main route.",
-          "keyMissions": ["Bond Missions that deepen relationships and unlock rewards", "Ally Missions built around established companions", "Five additional Ally Missions added in the major May 2024 update", "Fugitive encounters and dojo training"],
-          "preparation": ["Raise character bonds to open more relationship content", "Revisit regions after story milestones to find newly available missions", "Use stealth and ranged attacks to thin groups before optional bosses"],
-          "majorEncounters": ["William from Nioh as a hidden boss", "Named fugitives with distinct weapons and combat styles", "Expanded dojo training partners"],
-          "unlocks": ["Combat styles, weapons, items and dialogue rewards", "Additional endgame practice and build testing"]
+          "keyMissions": [
+            "Bond Missions that deepen relationships and unlock rewards",
+            "Ally Missions built around established companions",
+            "Five additional Ally Missions added in the major May 2024 update",
+            "Fugitive encounters and dojo training"
+          ],
+          "preparation": [
+            "Raise character bonds to open more relationship content",
+            "Revisit regions after story milestones to find newly available missions",
+            "Use stealth and ranged attacks to thin groups before optional bosses"
+          ],
+          "majorEncounters": [
+            "William from Nioh as a hidden boss",
+            "Named fugitives with distinct weapons and combat styles",
+            "Expanded dojo training partners"
+          ],
+          "unlocks": [
+            "Combat styles, weapons, items and dialogue rewards",
+            "Additional endgame practice and build testing"
+          ]
         },
         {
           "stage": 6,
           "chapter": "Midnight and Testament Replays",
           "region": "Postgame",
           "storyFocus": "Replay the campaign at the highest difficulty, rebuild Public Order and optimize endgame equipment.",
-          "keyMissions": ["Midnight world replay", "Testament of the Soul missions with level sync", "Alternate story choices and mission outcomes"],
-          "preparation": ["Finish the main story to unlock Midnight", "Build around Ki damage, set bonuses and reliable Countersparks", "Use replayed missions to target missed rewards and alternate paths"],
-          "majorEncounters": ["Stronger rematches against story bosses", "Restored Public Order encounters when deterioration is enabled"],
-          "unlocks": ["Two additional Midnight set bonuses", "Optional Public Order deterioration during Midnight world replay", "Level sync selection for Testament missions"]
+          "keyMissions": [
+            "Midnight world replay",
+            "Testament of the Soul missions with level sync",
+            "Alternate story choices and mission outcomes"
+          ],
+          "preparation": [
+            "Finish the main story to unlock Midnight",
+            "Build around Ki damage, set bonuses and reliable Countersparks",
+            "Use replayed missions to target missed rewards and alternate paths"
+          ],
+          "majorEncounters": [
+            "Stronger rematches against story bosses",
+            "Restored Public Order encounters when deterioration is enabled"
+          ],
+          "unlocks": [
+            "Two additional Midnight set bonuses",
+            "Optional Public Order deterioration during Midnight world replay",
+            "Level sync selection for Testament missions"
+          ]
         }
       ]
     },
@@ -731,50 +978,113 @@
         {
           "type": "Character Bond",
           "title": "Strengthen Relationships with Key Characters",
-          "howToProgress": ["Talk with visiting companions at the Longhouse", "Give gifts that raise relationship progress", "Complete Bond Missions and character-focused story content", "Choose dialogue and story actions that support the character"],
-          "rewards": ["New combat styles", "Skills", "Weapons and items", "Additional dialogue", "More companion options in supported missions"],
+          "howToProgress": [
+            "Talk with visiting companions at the Longhouse",
+            "Give gifts that raise relationship progress",
+            "Complete Bond Missions and character-focused story content",
+            "Choose dialogue and story actions that support the character"
+          ],
+          "rewards": [
+            "New combat styles",
+            "Skills",
+            "Weapons and items",
+            "Additional dialogue",
+            "More companion options in supported missions"
+          ],
           "notes": "Central characters include figures from pro-Shogunate, anti-Shogunate and Western groups, so relationship progress can also affect how key missions are experienced."
         },
         {
           "type": "Region Bond",
           "title": "Raise Bond with Yokohama, Edo and Kyoto Districts",
-          "howToProgress": ["Clear bandit-controlled areas and restore Public Order", "Run errands for local residents", "Defeat dangerous fugitives", "Complete nearby side activities"],
-          "rewards": ["Merchant discounts", "Regional exploration benefits", "More efficient access to local activities"],
+          "howToProgress": [
+            "Clear bandit-controlled areas and restore Public Order",
+            "Run errands for local residents",
+            "Defeat dangerous fugitives",
+            "Complete nearby side activities"
+          ],
+          "rewards": [
+            "Merchant discounts",
+            "Regional exploration benefits",
+            "More efficient access to local activities"
+          ],
           "notes": "Region Bond is separate from individual character relationships and is raised through open-world activity."
         },
         {
           "type": "Bond and Ally Missions",
           "title": "Complete Companion Storylines",
-          "howToProgress": ["Advance the main story until a character mission becomes available", "Raise the required relationship level", "Return to the character or Longhouse to continue the mission chain"],
-          "rewards": ["Character backstory", "Relationship progress", "Combat and equipment rewards", "New allies or expanded mission options"],
+          "howToProgress": [
+            "Advance the main story until a character mission becomes available",
+            "Raise the required relationship level",
+            "Return to the character or Longhouse to continue the mission chain"
+          ],
+          "rewards": [
+            "Character backstory",
+            "Relationship progress",
+            "Combat and equipment rewards",
+            "New allies or expanded mission options"
+          ],
           "notes": "A major 2024 update added five Ally Missions and more dojo training partners."
         },
         {
           "type": "Dialogue Benefits",
           "title": "Unlock Better Conversation Options",
-          "howToProgress": ["Invest in skill-tree upgrades that open special dialogue choices", "Raise bonds to reveal additional personal conversations", "Use dialogue options before or during mission events"],
-          "rewards": ["Alternate ways to resolve encounters", "Extra character information", "Combat advantages in selected scenes"],
+          "howToProgress": [
+            "Invest in skill-tree upgrades that open special dialogue choices",
+            "Raise bonds to reveal additional personal conversations",
+            "Use dialogue options before or during mission events"
+          ],
+          "rewards": [
+            "Alternate ways to resolve encounters",
+            "Extra character information",
+            "Combat advantages in selected scenes"
+          ],
           "notes": "One demonstrated dialogue option allows the ronin to intimidate opponents and reduce their Ki before a fight begins."
         },
         {
           "type": "Veiled Vow",
           "title": "Form a Special Relationship",
-          "howToProgress": ["Deepen the bond with an eligible character", "Complete the character's relationship content", "Choose the relationship option when it becomes available"],
-          "rewards": ["Veiled Vow relationship status", "Special relationship scenes", "Character-linked equipment and rewards"],
+          "howToProgress": [
+            "Deepen the bond with an eligible character",
+            "Complete the character's relationship content",
+            "Choose the relationship option when it becomes available"
+          ],
+          "rewards": [
+            "Veiled Vow relationship status",
+            "Special relationship scenes",
+            "Character-linked equipment and rewards"
+          ],
           "notes": "Veiled Vows are available only with selected characters, and the game allows the ronin to form more than one Veiled Vow."
         },
         {
           "type": "Major Story Choices",
           "title": "Choose Factions and Character Outcomes",
-          "howToProgress": ["Make the first major decision after defeating Gonzo", "Choose between pro-Shogunate and anti-Shogunate paths at Mibu-dera", "Support different factions during key story missions"],
-          "rewards": ["Different mission benefits", "Alternate scenes and outcomes", "Changes to available allies", "Different character and item rewards"],
+          "howToProgress": [
+            "Make the first major decision after defeating Gonzo",
+            "Choose between pro-Shogunate and anti-Shogunate paths at Mibu-dera",
+            "Support different factions during key story missions"
+          ],
+          "rewards": [
+            "Different mission benefits",
+            "Alternate scenes and outcomes",
+            "Changes to available allies",
+            "Different character and item rewards"
+          ],
           "notes": "Faction support can substantially change key missions and the people who fight beside the ronin."
         },
         {
           "type": "Testament of the Soul",
           "title": "Replay Choices and See Alternate Outcomes",
-          "howToProgress": ["Reach Edo to unlock Testament of the Soul", "Access it from the Longhouse", "Select a completed mission and choose a different path"],
-          "rewards": ["Alternate story outcomes", "Missed mission rewards", "Different character interactions", "Level-synced replay options"],
+          "howToProgress": [
+            "Reach Edo to unlock Testament of the Soul",
+            "Access it from the Longhouse",
+            "Select a completed mission and choose a different path"
+          ],
+          "rewards": [
+            "Alternate story outcomes",
+            "Missed mission rewards",
+            "Different character interactions",
+            "Level-synced replay options"
+          ],
           "notes": "Testament of the Soul lets players explore other choices without restarting the full campaign."
         }
       ]
@@ -786,42 +1096,74 @@
         {
           "question": "How many players can play Rise of the Ronin together?",
           "answer": "Online co-op in Rise of the Ronin supports up to three players total. A squad can include the host and up to two additional players.",
-          "details": ["Online cooperative play", "Up to three players total", "No PvP combat"]
+          "details": [
+            "Online cooperative play",
+            "Up to three players total",
+            "No PvP combat"
+          ]
         },
         {
           "question": "How do I recruit players in Rise of the Ronin?",
           "answer": "Choose Recruit from a supported mission's cooperative setup. Set a password when you want the session limited to friends who know the same password.",
-          "details": ["Recruit creates the session", "Password recruitment is supported", "The host selects the mission"]
+          "details": [
+            "Recruit creates the session",
+            "Password recruitment is supported",
+            "The host selects the mission"
+          ]
         },
         {
           "question": "How do I join a Rise of the Ronin co-op mission?",
           "answer": "Use Join or Search to find an available cooperative mission. Enter the matching password when joining a private friend session.",
-          "details": ["Join connects to available sessions", "Search helps find a specific recruitment", "Mission availability depends on supported story content"]
+          "details": [
+            "Join connects to available sessions",
+            "Search helps find a specific recruitment",
+            "Mission availability depends on supported story content"
+          ]
         },
         {
           "question": "Which activities support direct co-op in Rise of the Ronin?",
           "answer": "Direct multiplayer is centered on supported story missions. General open-world roaming, map clearing and free exploration are handled in each player's solo world.",
-          "details": ["Supported story missions can be played together", "Co-op is not a continuous shared-world mode", "Open-world side activities are outside the direct co-op mission session"]
+          "details": [
+            "Supported story missions can be played together",
+            "Co-op is not a continuous shared-world mode",
+            "Open-world side activities are outside the direct co-op mission session"
+          ]
         },
         {
           "question": "How does Rise of the Ronin co-op mission progress work?",
           "answer": "A co-op session covers the selected mission instance. When the mission ends, players leave that session and return to their own game, then recruit or join again for another supported mission.",
-          "details": ["Sessions are organized mission by mission", "The party does not remain together for open-world travel", "Testament of the Soul can be used to revisit completed missions"]
+          "details": [
+            "Sessions are organized mission by mission",
+            "The party does not remain together for open-world travel",
+            "Testament of the Soul can be used to revisit completed missions"
+          ]
         },
         {
           "question": "What is required to play Rise of the Ronin co-op on each platform?",
           "answer": "PS5 online co-op requires an active PlayStation Plus membership. The Steam version uses Steam online services and does not require PlayStation Plus.",
-          "details": ["Internet connection required", "Platform account and online access required", "No PvP matchmaking"]
+          "details": [
+            "Internet connection required",
+            "Platform account and online access required",
+            "No PvP matchmaking"
+          ]
         },
         {
           "question": "What are asynchronous ronin in Rise of the Ronin?",
           "answer": "Other players' ronin can appear in your world as asynchronous online characters. They represent other players without those players actively sharing your current session.",
-          "details": ["Not live co-op partners", "Can appear during normal world play", "Separate from Join, Recruit and Search"]
+          "details": [
+            "Not live co-op partners",
+            "Can appear during normal world play",
+            "Separate from Join, Recruit and Search"
+          ]
         },
         {
           "question": "How does the Rise of the Ronin Pilgrim Dog work?",
           "answer": "Deposit money with the Pilgrim Dog to send it into other players' games. It later returns with items for you, creating an indirect online exchange without forming a multiplayer party.",
-          "details": ["Asynchronous feature", "Uses deposited money", "Returns with items"]
+          "details": [
+            "Asynchronous feature",
+            "Uses deposited money",
+            "Returns with items"
+          ]
         }
       ]
     }
