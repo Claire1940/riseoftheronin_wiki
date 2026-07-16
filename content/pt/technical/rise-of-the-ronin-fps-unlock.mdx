@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desbloqueio de FPS em A Ascensão do Ronin: Melhores Configurações e Guia de Config",
+  description: "Maximize seu desempenho com nosso guia de desbloqueio de FPS para A Ascensão do Ronin. Aprenda ajustes de configuração, configurações gráficas e passos de solução de problemas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=FPS+Unlock+Guide",
+  date: "2026-07-16",
+  author: "Equipe do Wiki de A Ascensão do Ronin",
+  keywords: "A Ascensão do Ronin, desbloqueio de FPS, configurações de PC, guia de otimização, aumentar FPS"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Desbloqueio de FPS**: Modifique o arquivo de configuração local para remover limites de desempenho e estabilizar as taxas de quadros.
+- **Caminho da Config**: Navegue até a pasta Koei Tecmo em seu diretório de Documentos para aplicar configurações personalizadas.
+- **Ajustes Gráficos**: Desative opções pesadas, como Ray Tracing e Névoa Volumétrica, para obter aumentos imediatos de desempenho.
+- **Meta de Hardware**: Busque um patamar estável de 60 FPS usando métodos de redimensionamento otimizados, como DLSS ou FSR.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral de Desempenho e Guia em Vídeo">
+
+Alcançar um desempenho fluido em jogos com muita ação exige uma calibração cuidadosa das configurações de hardware e software. Jogadores que buscam o **desbloqueio de FPS em A Ascensão do Ronin** frequentemente encontram gargalos de hardware que limitam a taxa de quadros padrão, resultando em comandos lentos durante confrontos críticos de combate. Ao ajustar os parâmetros principais do motor e otimizar os arquivos locais do sistema, você pode contornar as limitações padrão do hardware e desfrutar de um combate fluido.
+
+O jogo apresenta um vasto mundo aberto com ambientes densos, sistemas de clima dinâmico e modelos de personagens complexos. Esses elementos impõem uma carga pesada tanto sobre a unidade central de processamento (CPU) quanto sobre a unidade de processamento gráfico (GPU). As configurações padrão do jogo às vezes não conseguem resolver gargalos profundos de renderização, razão pela qual os ajustes manuais de configuração se tornam necessários.
+
+Este guia abrange os ajustes essenciais necessários para estabilizar sua taxa de quadros, reduzir o atraso de entrada e eliminar quedas repentinas de quadros durante cenários de combate intenso. A utilização de perfis de configuração personalizados permite que o motor do jogo use os recursos do sistema de forma mais eficiente, garantindo que a entrega de quadros permaneça consistente mesmo em áreas congestionadas, como grandes cidades e campos de batalha ativos.
+
+**Destaques do Vídeo:**
+- **Instalação do Arquivo de Configuração**: Demonstração passo a passo da substituição dos arquivos de configuração padrão.
+- **Configurações de HDR**: Dicas sobre como ativar e calibrar o HDR para obter um melhor contraste visual sem perder desempenho.
+- **Testes de GPU**: Demonstração de desempenho em tempo real usando hardware gráfico de gama média.
+- **Estabilidade da Taxa de Quadros**: Demonstração de como manter uma meta consistente de 50 a 60 FPS.
+
+<YouTubeEmbed videoId="BUGVK-_NPSo" title="Rise of the Ronin OPTIMIZATION Guide - BOOST FPS, Fix Lag & Fix FPS Drops on ANY PC / Best Settings" />
+
+| Perfil | Taxa de Quadros Alvo | Resolução | Principal Benefício |
+| Performance | 60 FPS | 1080p | Jogabilidade mais fluida |
+| Gráficos | 30 FPS | 4K | Fidelidade visual máxima |
+| Ray Tracing | 30-45 FPS | Dinâmica | Iluminação aprimorada |
+
+<Callout type="warning" title="Lembrete de Backup">
+Sempre crie um backup seguro de seus arquivos de configuração originais antes de fazer qualquer ajuste manual no diretório do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Edições no Arquivo de Configuração para Desbloqueio de FPS">
+
+Ajustar manualmente os arquivos de configuração do jogo é um dos métodos mais confiáveis para obter um aumento de desempenho. Isso ignora os menus padrão do jogo, permitindo forçar configurações que, de outra forma, estariam bloqueadas por padrão. O arquivo de configuração contém variáveis de renderização específicas que ditam o tamanho dos mapas de sombra, limites de partículas e distâncias de escala de nível de detalhe (LOD).
+
+Ao modificar essas variáveis diretamente, você pode reduzir efeitos que consomem muitos recursos, mantendo a qualidade visual principal do jogo. Os títulos da Koei Tecmo normalmente armazenam esses perfis de usuário na pasta Documentos do sistema, em vez do diretório de instalação principal. Essa escolha de design facilita a modificação das configurações sem alterar os arquivos principais do jogo, minimizando o risco de corromper a instalação. Siga as etapas abaixo para configurar seus arquivos corretamente.
+
+<Steps>
+  <Step num="1" title="Localize o Diretório">
+    Navegue até o seu diretório de usuário local. O caminho padrão normalmente está localizado em `Documentos\KoeiTecmo\RiseOfTheRonin` na sua unidade de sistema.
+  </Step>
+  <Step num="2" title="Backup da Configuração Existente">
+    Encontre o arquivo chamado `r_of_config` (ou arquivo de configuração de perfil semelhante). Copie este arquivo e cole-o em uma pasta de backup separada na sua área de trabalho.
+  </Step>
+  <Step num="3" title="Substitua o Arquivo">
+    Extraia o arquivo de configuração otimizado do arquivo baixado e copie-o diretamente para a pasta principal `RiseOfTheRonin`, substituindo o original.
+  </Step>
+  <Step num="4" title="Verifique os Atributos do Arquivo">
+    Clique com o botão direito no arquivo recém-colado, selecione Propriedades e considere marcá-lo como Somente Leitura para evitar que o jogo redefina suas configurações personalizadas.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Configurações de Somente Leitura">
+Se precisar alterar as configurações do jogo mais tarde, lembre-se de desmarcar o atributo Somente Leitura primeiro, fazer as alterações e depois aplicá-lo novamente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configurações Gráficas do Jogo e Otimização">
+
+Embora as modificações nos arquivos de configuração forneçam uma base sólida, o ajuste fino das configurações internas do jogo é crucial para manter a clareza visual. Certos recursos gráficos exigem recursos substanciais do sistema sem oferecer uma melhoria visual perceptível. Priorizar configurações favoráveis ao desempenho garante uma experiência mais suave durante combates rápidos, onde reações em frações de segundo são necessárias.
+
+Por exemplo, a Névoa Volumétrica e a Qualidade das Sombras são notórias por consumir o orçamento de renderização devido aos cálculos matemáticos complexos necessários para a dispersão da luz. Reduzir essas configurações em um único nível pode renderizar ganhos de desempenho de dois dígitos sem fazer com que o ambiente pareça plano. Por outro lado, a Qualidade de Textura tem um impacto mínimo no desempenho, desde que sua placa de vídeo tenha memória de vídeo suficiente para armazenar os recursos. Use as tabelas abaixo para configurar suas opções para obter o melhor equilíbrio entre qualidade e velocidade.
+
+| Configuração | Valor Recomendado | Impacto no Desempenho |
+| Ambient Occlusion | Padrão | Médio |
+| Qualidade das Sombras | Médio | Alto |
+| Qualidade de Textura | Alto | Baixo (dependente de VRAM) |
+| Desfoque de Movimento | Desativado | Baixo |
+| Névoa Volumétrica | Baixo | Alto |
+
+Além disso, as configurações de exibição desempenham um papel fundamental na estabilidade geral. A utilização de tecnologias modernas de redimensionamento (upscaling) pode ajudar a preencher a lacuna entre altas resoluções e altas taxas de quadros.
+
+| Recurso | Recomendado | Detalhes |
+| HDR | Ativado | Requer monitor compatível com HDR |
+| V-Sync | Desativado | Use G-Sync ou FreeSync em vez disso |
+| Upscaling | DLSS/FSR Qualidade | Aumenta o desempenho significativamente |
+
+<Callout type="success" title="Recomendação de Desfoque de Movimento">
+Desativar o Desfoque de Movimento não apenas melhora ligeiramente o desempenho, mas também aumenta a clareza visual durante movimentos rápidos da câmera.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de Hardware e Benchmarks">
+
+A escalabilidade do desempenho depende muito das especificações do seu sistema. Placas de vídeo de gama mais baixa com memória de vídeo (VRAM) limitada exigem configurações conservadoras para evitar travamentos. Quando a capacidade de VRAM é excedida, o sistema é força a utilizar a memória RAM do sistema, que é mais lenta, para armazenar texturas, resultando em quedas repentinas e graves na taxa de quadros.
+
+Entender como as diferentes classes de hardware se comportam ajuda a definir metas de desempenho realistas. Por exemplo, testes em uma RTX A2000 (6GB) demonstram que até mesmo placas profissionais de entrada e placas de vídeo gamer econômicas podem alcançar taxas de quadros perfeitamente jogáveis ao utilizar arquivos de configuração otimizados. Analise os níveis de hardware abaixo para ver onde seu sistema se enquadra e quais níveis de desempenho você pode esperar ao utilizar configurações otimizadas.
+
+<CardGrid cols={3}>
+  <Card title="Entrada (6GB VRAM)">
+    - **Alvo**: 1080p / 50 FPS
+    - **Configurações**: Mistura de Médio-Baixo
+    - **Foco Principal**: Gerenciamento de VRAM
+  </Card>
+  <Card title="Gama Média (8GB VRAM)">
+    - **Alvo**: 1080p / 60+ FPS
+    - **Configurações**: Mistura de Alto-Médio
+    - **Foco Principal**: Redimensionamento equilibrado
+  </Card>
+  <Card title="Gama Alta (12GB+ VRAM)">
+    - **Alvo**: 1440p / 90+ FPS
+    - **Configurações**: Configurações máximas
+    - **Foco Principal**: Estabilidade de ray tracing
+  </Card>
+</CardGrid>
+
+| Nível de GPU | FPS Médio | Resolução | Estabilidade |
+| RTX A2000 (6GB) | 49-58 FPS | 1080p | Moderada |
+| RTX 4060 | 60+ FPS | 1080p | Alta |
+| RTX 4070 Ti | 90+ FPS | 1440p | Muito Alta |
+
+<Callout type="info" title="Gargalos de VRAM">
+Sistemas com 6GB de VRAM ou menos devem evitar definir a Qualidade de Textura para Ultra, pois isso pode causar travamentos graves ao entrar em novas zonas do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Metas e Lista de Verificação">
+
+Para garantir que seu processo de otimização seja bem-sucedido, passe pela seguinte lista de verificação. O acompanhamento dessas etapas ajudará a isolar possíveis problemas e verificar se as alterações de desempenho surtiram efeito. A otimização é um processo iterativo, e verificar cada etapa garante que você não substitua acidentalmente seu progresso.
+
+<Checklist
+  id="optimization-milestones"
+  title="Pontos de Verificação de Otimização:"
+  items={[
+    "Fazer backup dos perfis de configuração originais",
+    "Aplicar o arquivo de configuração personalizado ao diretório Documentos",
+    "Desativar o V-Sync e configurar o G-Sync/FreeSync de hardware",
+    "Ajustar as configurações internas de névoa volumétrica e sombras",
+    "Monitorar as taxas de quadros em áreas exigentes de mundo aberto"
+  ]}
+/>
+
+Se você encontrar problemas como corte de tela (screen tearing) ou microtravamentos, consulte a tabela de solução de problemas abaixo para identificar a causa raiz e aplicar a solução recomendada. Muitos problemas comuns, como travamentos de compilação de shader, se resolvem após alguns minutos de jogo, mas outros exigem intervenção ativa no painel de controle de gráficos do seu sistema.
+
+| Problema | Causa Potencial | Solução Recomendada |
+| Corte de Tela | V-Sync desativado sem VRR | Ative o G-Sync ou Fast Sync |
+| Microtravamentos | Compilação de shader | Deixe os shaders carregarem no menu principal |
+| Configuração Redefinindo | O jogo está substituindo os arquivos | Defina o arquivo de configuração como Somente Leitura |
+
+<Callout type="warning" title="Verificação de Driver">
+Certifique-se de que seus drivers de vídeo estejam atualizados para a versão mais recente lançada em 2026 para garantir compatibilidade com perfis de otimização.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+Aqui estão algumas das perguntas mais comuns sobre ajustes de desempenho e otimizações do sistema.
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear o FPS em A Ascensão do Ronin?",
+    answer: "Você pode desbloquear a taxa de quadros substituindo o arquivo de configuração padrão em seu diretório de Documentos por um arquivo de configuração otimizado e, em seguida, ajustando as configurações do jogo, como Névoa Volumétrica e Ray Tracing."
+  },
+  {
+    question: "Modificar arquivos de configuração causará problemas de estabilidade?",
+    answer: "Modificar arquivos de configuração geralmente é seguro se você mantiver um backup das configurações originais. Se o jogo não iniciar, basta restaurar o arquivo de backup."
+  },
+  {
+    question: "O HDR é compatível com essas configurações de otimização?",
+    answer: "Sim, o HDR pode permanecer ativado ao usar perfis de configuração otimizados, desde que seu monitor seja compatível com conteúdo HDR."
+  },
+  {
+    question: "Por que o jogo substitui meu arquivo de configuração personalizado?",
+    answer: "O cliente do jogo pode substituir os arquivos ao sair. Para evitar isso, clique com o botão direito no arquivo de configuração, abra Propriedades e marque a caixa Somente Leitura."
+  }
+]} />
+
+<Callout type="tip" title="Dica Final de Desempenho">
+Se você tiver problemas de superaquecimento (thermal throttling) durante sessões prolongadas, considere limitar sua taxa de quadros ligeiramente abaixo da taxa de atualização máxima do monitor para reduzir a carga da GPU.
+</Callout>
+
+</Section>

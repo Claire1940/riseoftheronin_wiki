@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Rise of the Ronin Steam: PC Specs, Features & Settings Guide",
+  description: "Optimize Rise of the Ronin on Steam. Check official PC system requirements, graphics settings for 60+ FPS, performance patches, and co-op details.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0b1524/fff?text=Rise+of+the+Ronin+Steam+PC+Guide",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Steam Version**: Released on Steam on March 11, 2025, featuring comprehensive PC-specific optimizations.
+- **Storage Requirement**: Requires 155GB of free space strictly installed on an SSD.
+- **Key Features**: Supports DLSS, FSR, XeSS, Frame Generation, and up to 120 FPS.
+- **Multiplayer**: Up to 3-player online co-op is supported via Steam services without subscription fees.
+</Callout>
+
+<Section icon={Shield} title="Hardware Requirements & Target Performance">
+
+The PC release of **rise of the ronin steam** brings Team NINJA's action-heavy Bakumatsu-era open-world RPG to computer setups worldwide. To experience the fluid swordplay and high-speed traversal across Yokohama, Edo, and Kyoto, players must ensure their systems meet the official hardware baselines. The PC port demands DirectX 12 compatibility and a robust multi-channel memory configuration to handle seamless world loading.
+
+| Specification | Minimum Specs | Recommended Specs |
+| :--- | :--- | :--- |
+| OS | Windows 10/11 (64-bit) | Windows 10/11 (64-bit) |
+| Processor | Intel i5-10400 / AMD Ryzen 5 1600 | Intel i5-10600K / AMD Ryzen 5 5600X |
+| Memory | 16 GB RAM | 16 GB RAM |
+| Graphics Card | NVIDIA GTX 1060 / AMD RX 5500 XT | NVIDIA RTX 2080 Super / AMD RX 6700 XT |
+| Storage | 155 GB SSD Required | 155 GB NVMe SSD Recommended |
+| DirectX | Version 12 | Version 12 |
+
+The minimum configuration targets 1080p resolution at 30 FPS using the lowest graphics presets combined with upscaling. The recommended hardware configuration aims for a smoother 1080p at 60 FPS under standard graphics settings. Multi-channel memory architecture is highly recommended to prevent micro-stuttering while traveling through densely populated city districts.
+
+<Callout type="warning" title="SSD Mandatory">
+An SSD is strictly required to run the game. Installing the files on a mechanical HDD will result in severe texture pop-in, loading freezes, and audio desynchronization during cutscenes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rise of the Ronin Steam Graphics Settings & Optimization">
+
+The PC version includes a suite of modern display features designed to leverage high-end hardware. Players can push their frame rates up to 120 FPS or output at clean resolutions up to 8K. Additionally, native support for ultra-wide and super ultra-wide monitors ensures that the cinematic vistas of 19th-century Japan are fully realized.
+
+| Feature | Support Level | Technical Details |
+| :--- | :--- | :--- |
+| Max Resolution | Up to 8K Ultra HD | Supported on compatible high-end displays |
+| Target Frame Rate | Up to 120 FPS | Native support for high refresh rate monitors |
+| Upscaling Tech | DLSS, FSR, XeSS | Multiple vendor options available for performance boost |
+| Frame Generation | Supported | Increases visual fluidity on compatible GPUs |
+| Ray Tracing | Supported | Enhances lighting, shadows, and reflections |
+| Ultra-Wide Support | Supported | Native 21:9 and 32:9 aspect ratio layouts |
+
+To achieve a stable 60 FPS or higher, players should carefully adjust individual settings. Shadow quality, ray tracing, and volumetric rendering have the highest impact on hardware performance.
+
+| Setting | Recommended Option | Performance Impact |
+| :--- | :--- | :--- |
+| Rendering Resolution | Native / DLSS Quality | High impact on GPU load |
+| Ray Tracing | Off / Low | Severe performance drop when enabled |
+| Shadow Quality | Medium | Moderate CPU and GPU usage |
+| Ambient Occlusion | Standard | Improved depth with optimized VRAM usage |
+| Texture Quality | High (8GB+ VRAM) | High VRAM consumption, minimal FPS loss |
+| Motion Blur | Off | Subjective visual preference, slight FPS gain |
+
+<Callout type="tip" title="Frame Generation Advice">
+If you are struggling to maintain a stable 60 FPS on mid-range graphics cards, enable DLSS or FSR in Quality mode combined with Frame Generation to significantly boost performance without compromising visual clarity.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="PC Version Performance Patches & Stability Fixes">
+
+Since the launch of the Steam version, the developers have released multiple software updates to address performance bottlenecks, memory leaks, and hardware compatibility issues. Keeping the game client updated is essential for maintaining optimal stability.
+
+| Version | Release Date | Major Stability & Performance Fixes |
+| :--- | :--- | :--- |
+| v1.09.0.5 | Nov 11, 2025 | Fixed crashes triggered by specific Windows updates |
+| v1.09.0.4 | Apr 30, 2025 | Added save recovery for bugged bond missions, reduced stutter |
+| v1.09.0.3 | Apr 10, 2025 | Reduced VRAM leakages, improved ambient occlusion efficiency |
+| v1.09.0.2 | Mar 25, 2025 | Added Prioritize Graphics and FPS presets, extra backup saves |
+| v1.09.0.1 | Mar 14, 2025 | Resolved launch crashes on high-thread CPUs (33+ threads) |
+
+These updates have drastically improved the overall experience on PC, especially for players utilizing multi-threaded processors. Stuttering in highly detailed environments like Yokohama has been heavily mitigated through improved shader pre-compilation routines.
+
+<Callout type="info" title="Driver Optimization">
+Always keep your graphics card drivers updated to the latest releases. Both NVIDIA and AMD periodically roll out dedicated driver updates specifically optimized for open-world titles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Starting Your Journey: Character Archetypes & Early Progression">
+
+Before diving into the open world, players must choose a starting weapon and establish their playstyle. While you can eventually master all nine melee weapons, selecting a solid starting option helps ease the early difficulty curve.
+
+<CardGrid cols={3}>
+  <Card title="Katana (S-Tier)">
+    - **Excellent versatility**
+    - Wide range of combat styles
+    - Best for mastering Counterspark timing and parrying bosses
+  </Card>
+  <Card title="Paired Swords (S-Tier)">
+    - **Very high attack speed**
+    - Rapid Ki depletion on enemies
+    - Ideal for agile movement and fast recovery
+  </Card>
+  <Card title="Odachi (A-Tier)">
+    - **High raw damage**
+    - Massive Ki pressure
+    - Best suited for heavy punish attacks and breaking guards
+  </Card>
+</CardGrid>
+
+Once you select your starting gear, follow these essential steps to navigate the opening hours safely.
+
+<Steps>
+  <Step num="1" title="Difficulty Selection">
+    Choose Dawn for relaxed exploration, Dusk for the standard balanced experience, or Twilight for aggressive combat. You can adjust this setting at any time from the main menu.
+  </Step>
+  <Step num="2" title="Master Counterspark Timing">
+    Focus on the enemy's weapon hand rather than their body. Press the parry button just before the strike impacts to panic the target and drain their Ki.
+  </Step>
+  <Step num="3" title="Manage Your Ki Gauge">
+    Avoid exhausting your entire Ki bar on offense. Use Blade Flash after a combo to clean blood from the blade and recover Ki instantly.
+  </Step>
+  <Step num="4" title="Raise Region Bonds">
+    Clear bandit camps, defeat local fugitives, and help citizens in Yokohama to unlock merchant discounts, rare crafting materials, and new skills.
+  </Step>
+</Steps>
+
+<Checklist
+  id="yokohama-milestones"
+  title="Yokohama Early Goals:"
+  items={[
+    "Clear all Public Order hostile bases in the starting district",
+    "Defeat the fugitive Gonzo and decide his fate",
+    "Infiltrate the aerial base to retrieve the camera",
+    "Unlock the Longhouse to customize gear and manage bonds"
+  ]}
+/>
+
+<Callout type="success" title="Zero Penalty Respec">
+Do not worry about making 'wrong' choices or skill investments early on. You can reset your skills at the Longhouse, and the Testament of the Soul lets you replay completed missions to explore alternative story paths.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Steam Co-op Setup & Online Matchmaking Guide">
+
+The PC version supports seamless online cooperative play for up to three players. Matchmaking is handled directly through Steam's networking infrastructure, meaning players do not need external subscription services to access online features.
+
+| Feature Type | How It Works | Gameplay Impact |
+| :--- | :--- | :--- |
+| Direct Co-op | Join or recruit up to 3 players for specific story missions | Shared combat, cooperative boss fights |
+| Password Match | Restrict your lobby to friends using a matching key | Private sessions without random matchmaking |
+| Async Ronin | Other players' avatars appear as NPCs in your world | Fight them for loot or recruit them as AI allies |
+| Pilgrim Dog | Send your dog to other worlds with deposited money | Returns later with rare items and materials |
+
+To host a session, select "Recruit" from a supported mission's cooperative setup screen. If you wish to join a specific friend, ensure both of you have set the exact same password in the matchmaking settings.
+
+<Callout type="info" title="Co-op Limitations">
+Cooperative play is strictly mission-based. You cannot freely roam the open world with friends; once a co-op mission is completed, players will return to their respective solo worlds.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does rise of the ronin steam support crossplay with PS5?",
+    answer: "No, the Steam version utilizes Steam online services and matchmaking, which is separate from the PlayStation Network infrastructure. Crossplay between PC and PS5 is not supported."
+  },
+  {
+    question: "How do I fix stuttering issues on the PC version?",
+    answer: "Ensure the game is installed on an SSD, update your GPU drivers, and turn down demanding settings like Ray Tracing and Shadow Quality. Enabling DLSS or FSR with Frame Generation also helps stabilize frame rates."
+  },
+  {
+    question: "Can I play the entire game in co-op mode?",
+    answer: "No. While major story missions and ally missions support up to three-player co-op, general open-world exploration, regional bond clearing, and traversal must be completed in solo play."
+  },
+  {
+    question: "Is a controller recommended for playing on Steam?",
+    answer: "Yes. While keyboard and mouse controls are fully customizable, the combat system is heavily designed around precise directional parries and multi-button style switching, making a controller highly recommended."
+  }
+]} />
+
+<Callout type="tip" title="Combat Style Strategy">
+Keep an eye on the color-coded combat style indicators (Ten, Chi, Jin) during fights. Swapping to an advantageous style makes your Countersparks significantly more effective at staggering tough bosses.
+</Callout>
+
+</Section>

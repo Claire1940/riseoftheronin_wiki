@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin Beginner Guide: 2026 Combat & Quest Tips",
+  description: "Master combat mechanics, select the best starting class, and navigate the Bakumatsu period with our comprehensive Rise of the Ronin beginner guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beginner+Guide",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary guide focus**: Master the high skill floor of combat and exploration with this essential rise of the ronin beginner guide.
+- **Class selection**: Opt for Killer or Breaker origins early on to secure powerful stat advantages and unique starting skills.
+- **Stance matching**: Swap combat stances dynamically to counter specific enemy weapons and prolong their panicked states.
+- **Critical skill**: Unlock Speechcraft dialogue options immediately to secure optimal quest outcomes and rapid bond growth.
+- **Spare Gonzo**: Choose to spare the bandit chief Gonzo early in the story to unlock exclusive missions and a powerful Odachi stance.
+</Callout>
+
+<Section icon={Map} title="Rise of the Ronin Beginner Guide: Traversal & Exploration">
+
+Entering the open world of Yokohama during the chaotic Bakumatsu period presents a massive influx of tutorials, map markers, and complex systems. While the urge to clear every point of interest immediately is strong, taking a structured approach to your early hours will save you time and prevent unnecessary difficulty. This rise of the ronin beginner guide outlines the optimal path to establishing your traversal options and passive income streams before diving deep into exploration.
+
+**Video Highlights:**
+- Discover why rushing the initial main quest is crucial for unlocking traversal tools.
+- Learn how to obtain the horse whistle and glider early in your playthrough.
+- Understand the Longhouse mechanics and how Pilgrim Dogs generate rare silver coins.
+
+<YouTubeEmbed videoId="vHaydORsLnk" title="Rise of the Ronin Beginner Guide - MUST KNOW Tips & Combat Guide" />
+
+When you first enter the open world, prioritize the main story path. Attempting to explore extensively on foot is highly inefficient. Follow the main questline until you clear the first public order encounter. Once completed, you will spawn at the Veiled Edge Banner. Directly in front of you, interact with the hay bundle to obtain the horse whistle. This item allows you to summon your mount instantly at any time.
+
+To achieve complete traversal freedom, continue progressing the main questline until you complete the mission titled "The Curtain Falls, Curtain Rises." This rewards you with the glider, allowing you to leap from high cliffs and navigate the vertical architecture of Yokohama with ease.
+
+The open world does not feature quest timers, meaning you can tackle side content at your own pace. Even when the story transitions to a new city, you can return to previous regions via the Longhouse system to finish incomplete objectives. Do not neglect the Longhouse, as it serves as a central hub for passive material and currency generation.
+
+| Traversal Tool | Unlock Requirement | Primary Function | Exploration Impact |
+| :--- | :--- | :--- | :--- |
+| **Horse Whistle** | Clear first Public Order, inspect hay | Summons mount instantly | High ground speed across flat terrain |
+| **Glider** | Complete "The Curtain Falls, Curtain Rises" | Allows aerial gliding | Essential for vertical navigation |
+| **Longhouse** | Progress main campaign | Access storage and passive systems | Hub for managing bonds and resources |
+| **Pilgrim Dogs** | Interact at the Longhouse | Passive silver coin generation | Highly efficient passive income |
+
+<Callout type="success" title="Silver Coin Tip">
+Petting every Pilgrim Dog you encounter on the roads is an excellent way to accumulate silver coins. Additionally, sending your own Pilgrim Dog out from the Longhouse with a money pouch will yield consistent silver returns roughly every hour.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Blade Sharpening Origins & Class Selection">
+
+Your journey begins with selecting a Blade Sharpening Origin, which serves as your starting class. This choice determines your initial stat allocation and unlocks specific starting skills. While you can eventually re-spec your character later in the game using a specialized item at your Longhouse, choosing an origin that aligns with your preferred playstyle makes the challenging early hours significantly smoother.
+
+<CardGrid cols={2}>
+  <Card title="Killer (Strength Focus)">
+    Increases primary attack power and overall defense. Unlocks the ability to parry incoming arrows and bullets back at enemies. Highly recommended for players favoring Katanas, Odachis, and Greatswords.
+  </Card>
+  <Card title="Breaker (Dexterity Focus)">
+    Boosts secondary weapon damage and Ki damage. Unlocks the Rapid Assassination skill, allowing you to chain stealth kills on grouped enemies. Excellent for Paired Swords and Bayonets.
+  </Card>
+  <Card title="Seducer (Charm Focus)">
+    Improves Poise, Ki recovery speed, and item drop rates. Unlocks the Speechcraft: Liar dialogue option, which is highly useful during early-game conversations. Best paired with Polearms and Oxtail Blades.
+  </Card>
+  <Card title="Sapper (Intellect Focus)">
+    Enhances status ailment application and elemental resistance. Grants an extra healing pill upon death or resting. Ideal for players utilizing Spears, Sabers, and elemental consumables.
+  </Card>
+</CardGrid>
+
+It is generally recommended to avoid the Beginner origin, as it does not provide any unique starting skills, and the Unsharpened origin, which starts with severely penalized attributes. The extra damage scaling from matching your origin stats with your weapons is helpful, but it does not restrict you from experimenting with other weapon types throughout your playthrough.
+
+| Origin | Key Stat | Unique Starting Ability | Weapon Compatibility |
+| :--- | :--- | :--- | :--- |
+| **Killer** | Strength | Arrow & Bullet Parry | Katana, Odachi, Greatsword |
+| **Breaker** | Dexterity | Rapid Assassination | Paired Swords, Bayonet |
+| **Seducer** | Charm | Speechcraft: Liar | Polearm, Oxtail Blade |
+| **Sapper** | Intellect | Refill Medicinal Pills | Spear, Saber |
+
+<Callout type="tip" title="Respec Availability">
+Do not feel overwhelmed by your initial class choice. The stat differences are minor in the long run, and you can easily purchase a respec item later to completely alter your build.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Fundamentals & Stance Dynamics">
+
+Combat in Rise of the Ronin features a high skill floor, requiring precise timing and disciplined stamina management. Your stamina is represented by the Ki meter. Depleting your Ki leaves you temporarily stunned and vulnerable to critical strikes. To maintain offensive pressure, you must integrate the Blade Flash mechanic into your offensive flow. Pressing R1 immediately after completing a attack combo cleanses the blood from your weapon, rapidly replenishing your Ki based on your blood gauge.
+
+The defensive foundation of combat relies on the Counterspark, a unique parry mechanic. The timing and physical animation of your Counterspark change depending on your equipped stance. Successfully parrying normal attacks deflects damage, while parrying red martial skills or the final hit of an enemy combo inflicts heavy Ki damage and causes the enemy to panic.
+
+During missions, get into the habit of swapping characters frequently. When your active character is caught in a grab animation, runs out of Ki, or is pinned against a wall, instantly switch to an ally. This allows the AI to handle defense while you maintain offensive momentum from a different angle.
+
+| Stance Type | Strong Against | Weak Against | Tactical Playstyle |
+| :--- | :--- | :--- | :--- |
+| **Jin (Earth)** | Sabers, Lightweight weapons | Odachis, Heavy weapons | Defensive, precise parry windows |
+| **Chi (Human)** | Odachis, Heavy weapons | Katanas, Normal weapons | Slow, heavy-hitting physical strikes |
+| **Ten (Heaven)** | Katanas, Normal weapons | Sabers, Lightweight weapons | Rapid, aggressive aerial combos |
+| **Shinobi** | None | All weapon types | High-damage stealth and martial skills |
+
+Stances scale with your primary attributes: Strength, Dexterity, Charm, and Intellect. You can improve this scaling and unlock new martial skills by training at the Dojo or raising your bond levels with specific characters who utilize those stances.
+
+<Callout type="warning" title="Boss Panic Baiting">
+Be cautious when fighting difficult bosses. Some opponents will intentionally simulate a panic state to bait you into attacking, only to counter with an unstoppable martial skill. Learn to recognize these bait animations and prepare to parry the follow-up.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Critical Early Game Skills to Unlock">
+
+The skill tree is divided into four main attributes, each offering passive upgrades and active combat maneuvers. While there are dozens of options, a few select skills provide massive quality-of-life improvements and should be acquired as early as possible.
+
+<Steps>
+  <Step num="1" title="Unlock Speechcraft Skills">
+    Prioritize Persuade, Intimidate, and Lie. These skills open up unique dialogue choices during story and bond missions, which consistently yield positive outcomes and accelerate bond progression.
+  </Step>
+  <Step num="2" title="Acquire Auto Life Recovery">
+    Located in the Strength tree, this skill automatically restores your health to maximum immediately after exiting combat. This saves an enormous number of medicinal pills during open-world exploration.
+  </Step>
+  <Step num="3" title="Invest in the Grappling Rope Tree">
+    This allows you to pull yourself toward enemies on high ground, throw staggered enemies, and steal items. You can even use it to steal medicinal pills from bosses as they attempt to heal.
+  </Step>
+  <Step num="4" title="Upgrade the Assassination Tree">
+    Unlock skills that allow you to perform rapid stealth kills on grouped enemies and execute silent takedowns from high ledges using your grappling rope.
+  </Step>
+</Steps>
+
+Investing in these utility skills early ensures you have the tools necessary to handle both diplomatic encounters and complex combat scenarios without relying on raw mechanical skill alone.
+
+<Callout type="info" title="Merchant Discounts">
+Maxing out your Persuade level early reduces global purchase prices at all standard shops by up to 10%, making high-tier gear and gifts much more affordable.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Bond Progression & Gift Giving Strategies">
+
+Building relationships with your allies is not just for story purposes; raising your bond levels directly unlocks combat stances, upgrades martial skills, and awards valuable attribute points. One of your first major bond decisions involves Gonzo, the bandit chief encountered early in the campaign. Sparing Gonzo's life allows you to unlock him as an ally, opening up exclusive bond missions and granting access to the powerful Nodaichi Jigan-ryu stance for the Odachi.
+
+To raise your bond levels efficiently, utilize the gift-giving system:
+- Open the Bonds menu to locate your allies' current positions.
+- Look for the small heart icon on items in your inventory, indicating a preferred gift (such as specific books, booze, or poetry).
+- Give three of the same preferred gift at once to maximize relationship gains while bypassing the gifting cooldown timer.
+
+<Checklist
+  id="early-bond-milestones"
+  title="Early Relationship Goals:"
+  items={[
+    "Spare Gonzo during the bandit camp mission to secure his bond",
+    "Identify preferred gifts with heart icons in your inventory",
+    "Reach Bond Level 4 with your primary combat allies for stance upgrades",
+    "Clear local public orders to boost regional bond levels for shop discounts"
+  ]}
+/>
+
+You can buy gifts from Traders and Black Marketeers using silver coins. To optimize your spending, always purchase items in regions where you have established a high regional bond level, as this grants a substantial discount.
+
+| Merchant Type | Accepted Currency | Discount Requirement | High-Value Items |
+| :--- | :--- | :--- | :--- |
+| **Black Marketeer** | Silver Coins | High Regional Bond Level | Character-specific gifts, rare materials |
+| **Faction Base Trader**| Silver Coins | High Faction Alignment | High-tier weaponry and armor pieces |
+| **Street Peddler** | Standard Coins | Random street encounters | Cheap consumables and basic gifts |
+
+<Callout type="tip" title="Faction Base Discounts">
+Make sure to monitor your alignment with the pro-shogunate and anti-shogunate factions. Purchasing items from the base of your highly aligned faction guarantees the best prices in the game.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+Understanding the underlying mechanics of Rise of the Ronin can significantly improve your overall experience. Below are answers to some of the most common questions players ask during their initial hours.
+
+<FAQ items={[
+  {
+    question: "What is the most critical combat mechanic to master in this rise of the ronin beginner guide?",
+    answer: "The most important mechanics are mastering the Counterspark (parry) timing to panic enemies and consistently using the Blade Flash (R1) after your attack combos to manage your Ki stamina."
+  },
+  {
+    question: "Is it better to kill or spare Gonzo early in the game?",
+    answer: "It is highly recommended to spare Gonzo. Sparing him unlocks him as a companion, grants access to a unique Chi stance for the Odachi, and opens up multiple exclusive bond missions later in the story."
+  },
+  {
+    question: "Can I change my starting Blade Sharpening Origin later if I dislike my playstyle?",
+    answer: "Yes. You are not permanently locked into your starting class. You can easily purchase a specialized respec item later in the campaign to alter your origin and reallocate your stat points at the Longhouse."
+  },
+  {
+    question: "How do I secure the best discounts when buying gifts for my allies?",
+    answer: "Clear local public orders, find hidden cats, and visit regional landmarks to raise your regional bond level. This unlocks permanent merchant discounts at local Black Marketeers and Traders."
+  }
+]} />
+
+<Callout type="info" title="Final Advice">
+Take your time to learn enemy attack patterns. Defense is just as important as offense, and utilizing your allies during tough boss fights can turn a frustrating encounter into an easy victory.
+</Callout>
+
+</Section>

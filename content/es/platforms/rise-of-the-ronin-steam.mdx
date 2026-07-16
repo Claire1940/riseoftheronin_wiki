@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Rise of the Ronin en Steam: Guía de Requisitos de PC, Características y Ajustes",
+  description: "Optimiza Rise of the Ronin en Steam. Consulta los requisitos oficiales del sistema para PC, ajustes gráficos para más de 60 FPS, parches de rendimiento y detalles del cooperativo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b1524/fff?text=Rise+of+the+Ronin+Steam+PC+Guide",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Rise of the Ronin",
+  keywords: "Rise of the Ronin, Steam, PC, requisitos, ajustes gráficos, optimización, cooperativo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Versión de Steam**: Lanzada en Steam el 11 de marzo de 2025, con optimizaciones completas específicas para PC.
+- **Requisito de Almacenamiento**: Requiere 155 GB de espacio libre, instalado estrictamente en un SSD.
+- **Características Clave**: Soporta DLSS, FSR, XeSS, Generación de Fotogramas y hasta 120 FPS.
+- **Multijugador**: Soporta cooperativo en línea de hasta 3 jugadores a través de los servicios de Steam sin cuotas de suscripción.
+</Callout>
+
+<Section icon={Shield} title="Requisitos de Hardware y Rendimiento Objetivo">
+
+El lanzamiento para PC de **rise of the ronin steam** trae el RPG de mundo abierto de la era Bakumatsu, cargado de acción de Team NINJA, a los equipos informáticos de todo el mundo. Para experimentar el fluido manejo de la espada y el desplazamiento a alta velocidad por Yokohama, Edo y Kioto, los jugadores deben asegurarse de que sus sistemas cumplan con las bases de hardware oficiales. El port para PC exige compatibilidad con DirectX 12 y una robusta configuración de memoria de doble canal para manejar la carga del mundo sin interrupciones.
+
+| Especificación | Requisitos Mínimos | Requisitos Recomendados |
+| :--- | :--- | :--- |
+| SO | Windows 10/11 (64-bit) | Windows 10/11 (64-bit) |
+| Procesador | Intel i5-10400 / AMD Ryzen 5 1600 | Intel i5-10600K / AMD Ryzen 5 5600X |
+| Memoria | 16 GB RAM | 16 GB RAM |
+| Tarjeta Gráfica | NVIDIA GTX 1060 / AMD RX 5500 XT | NVIDIA RTX 2080 Super / AMD RX 6700 XT |
+| Almacenamiento | 155 GB SSD Requerido | 155 GB NVMe SSD Recomendado |
+| DirectX | Versión 12 | Versión 12 |
+
+La configuración mínima apunta a una resolución de 1080p a 30 FPS utilizando los ajustes gráficos más bajos combinados con escalado (upscaling). La configuración de hardware recomendada busca un rendimiento más fluido de 1080p a 60 FPS bajo ajustes gráficos estándar. Se recomienda encarecidamente una arquitectura de memoria de doble canal para evitar micro-tirones (stuttering) mientras se viaja por distritos urbanos densamente poblados.
+
+<Callout type="warning" title="SSD Obligatorio">
+Se requiere estrictamente un SSD para ejecutar el juego. Instalar los archivos en un HDD mecánico resultará en una carga lenta de texturas (pop-in), congelamientos durante la carga y desincronización de audio durante las cinemáticas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ajustes Gráficos y Optimización de Rise of the Ronin en Steam">
+
+La versión de PC incluye una serie de características de visualización modernas diseñadas para aprovechar el hardware de gama alta. Los jugadores pueden aumentar su tasa de fotogramas hasta 120 FPS o emitir a resoluciones nítidas de hasta 8K. Además, el soporte nativo para monitores ultra panorámicos y súper ultra panorámicos garantiza que los paisajes cinematográficos del Japón del siglo XIX se vean con total plenitud.
+
+| Característica | Nivel de Soporte | Detalles Técnicos |
+| :--- | :--- | :--- |
+| Resolución Máxima | Hasta 8K Ultra HD | Soportado en pantallas de gama alta compatibles |
+| FPS Objetivo | Hasta 120 FPS | Soporte nativo para monitores de alta frecuencia de actualización |
+| Tecnologías de Escalado | DLSS, FSR, XeSS | Múltiples opciones disponibles para mejorar el rendimiento |
+| Generación de Fotogramas | Soportado | Aumenta la fluidez visual en GPUs compatibles |
+| Trazado de Rayos | Soportado | Mejora la iluminación, sombras y reflejos |
+| Soporte Ultra Panorámico | Soportado | Diseños nativos para relaciones de aspecto 21:9 y 32:9 |
+
+Para lograr unos 60 FPS estables o superiores, los jugadores deben ajustar cuidadosamente los parámetros individuales. La calidad de las sombras, el trazado de rayos y el renderizado volumétrico tienen el mayor impacto en el rendimiento del hardware.
+
+| Ajuste | Opción Recomendada | Impacto en el Rendimiento |
+| :--- | :--- | :--- |
+| Resolución de Renderizado | Nativa / DLSS Calidad | Alto impacto en la carga de la GPU |
+| Trazado de Rayos | Desactivado / Bajo | Caída severa de rendimiento al activarlo |
+| Calidad de Sombras | Media | Uso moderado de CPU y GPU |
+| Oclusión Ambiental | Estándar | Profundidad mejorada con uso de VRAM optimizado |
+| Calidad de Texturas | Alta (8GB+ VRAM) | Alto consumo de VRAM, pérdida mínima de FPS |
+| Desenfoque de Movimiento | Desactivado | Preferencia visual subjetiva, ligera ganancia de FPS |
+
+<Callout type="tip" title="Consejo sobre Generación de Fotogramas">
+Si tienes dificultades para mantener unos 60 FPS estables en tarjetas gráficas de gama media, activa DLSS o FSR en modo Calidad combinado con la Generación de Fotogramas para aumentar significativamente el rendimiento sin comprometer la claridad visual.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Parches de Rendimiento y Mejoras de Estabilidad de la Versión de PC">
+
+Desde el lanzamiento de la versión de Steam, los desarrolladores han publicado múltiples actualizaciones de software para abordar cuellos de botella de rendimiento, fugas de memoria y problemas de compatibilidad de hardware. Mantener el cliente del juego actualizado es esencial para una estabilidad óptima.
+
+| Versión | Fecha de Lanzamiento | Principales Mejoras de Estabilidad y Rendimiento |
+| :--- | :--- | :--- |
+| v1.09.0.5 | 11 de nov. de 2025 | Corregidos cierres inesperados causados por actualizaciones específicas de Windows |
+| v1.09.0.4 | 30 de abr. de 2025 | Añadida recuperación de partidas para misiones de vínculo con errores, tirones reducidos |
+| v1.09.0.3 | 10 de abr. de 2025 | Reducidas fugas de VRAM, mejorada la eficiencia de la oclusión ambiental |
+| v1.09.0.2 | 25 de mar. de 2025 | Añadidos preajustes de Priorizar Gráficos y FPS, guardados de respaldo extra |
+| v1.09.0.1 | 14 de mar. de 2025 | Resueltos cierres al iniciar en CPUs de muchos hilos (33+ hilos) |
+
+Estas actualizaciones han mejorado drásticamente la experiencia general en PC, especialmente para los jugadores que utilizan procesadores multihilo. Los tirones en entornos altamente detallados como Yokohama se han mitigado considerablemente mediante rutinas mejoradas de precompilación de shaders.
+
+<Callout type="info" title="Optimización de Controladores">
+Mantén siempre los controladores de tu tarjeta gráfica actualizados a las versiones más recientes. Tanto NVIDIA como AMD lanzan periódicamente actualizaciones dedicadas optimizadas específicamente para títulos de mundo abierto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comenzando tu Viaje: Arquetipos de Personaje y Progresión Temprana">
+
+Antes de sumergirse en el mundo abierto, los jugadores deben elegir un arma inicial y establecer su estilo de juego. Aunque eventualmente puedes dominar las nueve armas cuerpo a cuerpo, seleccionar una opción inicial sólida ayuda a suavizar la curva de dificultad inicial.
+
+<CardGrid cols={3}>
+  <Card title="Katana (Tier S)">
+    - **Excelente versatilidad**
+    - Amplia gama de estilos de combate
+    - La mejor para dominar el tiempo del Contraataque y desviar jefes
+  </Card>
+  <Card title="Espadas Dobles (Tier S)">
+    - **Velocidad de ataque muy alta**
+    - Agotamiento rápido del Ki enemigo
+    - Ideal para movimientos ágiles y recuperación rápida
+  </Card>
+  <Card title="Odachi (Tier A)">
+    - **Alto daño bruto**
+    - Gran presión sobre el Ki
+    - Ideal para ataques de castigo pesados y romper guardias
+  </Card>
+</CardGrid>
+
+Una vez que selecciones tu equipo inicial, sigue estos pasos esenciales para navegar las primeras horas de forma segura.
+
+<Steps>
+  <Step num="1" title="Selección de Dificultad">
+    Elige Amanecer para una exploración relajada, Ocaso para la experiencia estándar equilibrada o Crepúsculo para un combate agresivo. Puedes ajustar este ajuste en cualquier momento desde el menú principal.
+  </Step>
+  <Step num="2" title="Dominar el Tiempo del Contraataque">
+    Céntrate en la mano del arma del enemigo en lugar de en su cuerpo. Presiona el botón de desvío justo antes de que el golpe impacte para aturdir al objetivo y agotar su Ki.
+  </Step>
+  <Step num="3" title="Gestionar tu Barra de Ki">
+    Evita agotar toda tu barra de Ki en la ofensiva. Usa el Destello de Hoja después de un combo para limpiar la sangre de la hoja y recuperar Ki instantáneamente.
+  </Step>
+  <Step num="4" title="Aumentar Vínculos de Región">
+    Despeja campamentos de bandidos, derrota a fugitivos locales y ayuda a los ciudadanos en Yokohama para desbloquear descuentos en mercaderes, materiales de artesanía raros y nuevas habilidades.
+  </Step>
+</Steps>
+
+<Checklist
+  id="yokohama-milestones"
+  title="Objetivos Iniciales en Yokohama:"
+  items={[
+    "Despejar todas las bases hostiles de Orden Público en el distrito inicial",
+    "Derrotar al fugitivo Gonzo y decidir su destino",
+    "Infiltrarse en la base aérea para recuperar la cámara",
+    "Desbloquear el Refugio para personalizar equipo y gestionar vínculos"
+  ]}
+/>
+
+<Callout type="success" title="Reasignación de Habilidades sin Penalización">
+No te preocupes por tomar decisiones "equivocadas" o inversiones de habilidades al principio. Puedes restablecer tus habilidades en el Refugio, y el Testamento del Alma te permite volver a jugar misiones completadas para explorar rutas narrativas alternativas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Configuración Cooperativa en Steam y Guía de Emparejamiento">
+
+La versión de PC admite el juego cooperativo en línea sin interrupciones para hasta tres jugadores. El emparejamiento se gestiona directamente a través de la infraestructura de red de Steam, lo que significa que los jugadores no necesitan servicios de suscripción externos para acceder a las funciones en línea.
+
+| Tipo de Función | Cómo Funciona | Impacto en el Juego |
+| :--- | :--- | :--- |
+| Cooperativo Directo | Únete o recluta hasta 3 jugadores para misiones de historia específicas | Combate compartido, peleas de jefes cooperativas |
+| Coincidencia por Contraseña | Restringe tu sala a amigos usando una clave compartida | Sesiones privadas sin emparejamiento aleatorio |
+| Ronin Asíncrono | Los avatares de otros jugadores aparecen como NPCs en tu mundo | Lucha contra ellos por botín o reclútalos como aliados de IA |
+| Perro Peregrino | Envía a tu perro a otros mundos con dinero depositado | Regresa más tarde con objetos y materiales raros |
+
+Para organizar una sesión, selecciona "Reclutar" en la pantalla de configuración cooperativa de una misión compatible. Si deseas unirte a un amigo específico, asegúrate de que ambos hayan configurado exactamente la misma contraseña en los ajustes de emparejamiento.
+
+<Callout type="info" title="Limitaciones del Cooperativo">
+El juego cooperativo se limita estrictamente a las misiones. No puedes deambular libremente por el mundo abierto con amigos; una vez que se completa una misión cooperativa, los jugadores regresarán a sus respectivos mundos individuales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Admite Rise of the Ronin en Steam el juego cruzado con PS5?",
+    answer: "No, la versión de Steam utiliza los servicios en línea y el emparejamiento de Steam, que es independiente de la infraestructura de PlayStation Network. El juego cruzado entre PC y PS5 no está soportado."
+  },
+  {
+    question: "¿Cómo soluciono los problemas de tirones (stuttering) en la versión de PC?",
+    answer: "Asegúrate de que el juego esté instalado en un SSD, actualiza los controladores de tu GPU y baja los ajustes exigentes como el Trazado de Rayos y la Calidad de Sombras. Activar DLSS o FSR con Generación de Fotogramas también ayuda a estabilizar la tasa de fotogramas."
+  },
+  {
+    question: "¿Puedo jugar todo el juego en modo cooperativo?",
+    answer: "No. Aunque las misiones principales de la historia y las misiones de aliados admiten cooperativo de hasta tres jugadores, la exploración general del mundo abierto, la limpieza de vínculos regionales y el desplazamiento deben completarse en solitario."
+  },
+  {
+    question: "¿Se recomienda un mando para jugar en Steam?",
+    answer: "Sí. Aunque los controles de teclado y ratón son totalmente personalizables, el sistema de combate está diseñado en gran medida en torno a desvíos direccionales precisos y cambios de estilo con múltiples botones, por lo que se recomienda encarecidamente el uso de un mando."
+  }
+]} />
+
+<Callout type="tip" title="Estrategia de Estilo de Combate">
+Presta atención a los indicadores de estilo de combate codificados por colores (Ten, Chi, Jin) durante las peleas. Cambiar a un estilo ventajoso hace que tus Contraataques sean significativamente más efectivos para aturdir a los jefes difíciles.
+</Callout>
+
+</Section>

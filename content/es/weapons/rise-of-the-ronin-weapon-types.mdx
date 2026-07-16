@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tipos de armas en Rise of the Ronin: Estilos de combate y clasificaciones",
+  description: "Domina todos los tipos de armas de Rise of the Ronin con nuestra guía de 2026. Aprende sobre armas principales, secundarias, posturas y técnicas avanzadas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a202c/ffffff?text=Weapon+Types+Guide",
+  date: "2026-07-16",
+  author: "Equipo de Wiki de Rise of the Ronin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **tipos de armas de Rise of the Ronin** incluyen armas cuerpo a cuerpo principales y armas secundarias versátiles a distancia.
+- La **Contrachispa** (Counterspark) es la mecánica esencial de desvío utilizada para agotar el Ki del enemigo y crear aperturas.
+- Las **Posturas de combate** siguen un sistema de piedra, papel o tijera categorizado en Ten, Chi y Jin.
+- El **Destello de hoja** permite a los jugadores recuperar Ki limpiando la sangre de su arma en pleno combate.
+- Los **Ataques relámpago** permiten cambiar de arma sin interrupciones para mantener la presión ofensiva.
+</Callout>
+
+<Section icon={Swords} title="Resumen de los tipos de armas principales de Rise of the Ronin">
+
+Elegir la herramienta adecuada es el primer paso para sobrevivir en el Japón del siglo XIX. La variedad de **tipos de armas de Rise of the Ronin** permite diversos estilos de juego, desde los veloces ataques de las Espadas duales hasta el poder demoledor del Odachi. Cada arma cuenta con su propio conjunto de habilidades marciales y animaciones únicas que dictan cómo te enfrentarás a los enemigos más peligrosos de la era Bakumatsu.
+
+**Puntos destacados del video:**
+- Dominar el medidor de Ki es esencial tanto para la ofensiva como para la defensiva.
+- El tiempo de la Contrachispa se indica mediante un destello rojo distintivo en los ataques imparables.
+- Las ventajas de postura (Ten, Chi, Jin) son visibles mediante iconos junto a las barras de salud enemigas.
+- Las armas secundarias como arcos y fusiles proporcionan ventajas tácticas críticas a distancia.
+
+<YouTubeEmbed videoId="OBN3CSY8YLo" title="Rise of the Ronin - 8 consejos esenciales de combate" />
+
+Las armas principales se dividen en varias categorías, cada una destacando en diferentes escenarios de combate. Mientras que la Katana es la más versátil, armas especializadas como la Lanza o el Espadón ofrecen un alcance e impacto que pueden cambiar el rumbo de un duelo.
+
+| Tipo de arma | Velocidad | Daño | Alcance | Estilo de juego principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Katana** | Rápida | Moderado | Medio | Equilibrado / Versátil |
+| **Odachi** | Lenta | Alto | Largo | Golpes pesados / Alcance |
+| **Espadas duales** | Muy rápida | Bajo | Corto | Alta presión / Agilidad |
+| **Lanza** | Moderada | Moderado | Muy largo | Control de distancia / Estocadas |
+| **Arma de asta** | Rápida | Moderado | Medio | Barridos amplios / Control de masas |
+| **Espadón** | Muy lenta | Muy alto | Medio | Romper postura / Daño masivo |
+| **Bayoneta** | Moderada | Moderado | Mixto | Híbrido cuerpo a cuerpo y distancia |
+| **Sable** | Rápida | Moderado | Corto | Preciso / Estilo de esgrima |
+
+<Callout type="tip" title="Consejo de Maestría">
+Aumentar tu competencia con tipos de armas específicos desbloquea el movimiento **Vendaval violento**, que te permite cambiar de postura en mitad de un combo sin perder el impulso.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El sistema de posturas: Ten, Chi y Jin">
+
+En Rise of the Ronin, la maestría de los **tipos de armas de Rise of the Ronin** está incompleta sin comprender el sistema de posturas. Las posturas se categorizan en tres tipos principales: Ten (Cielo), Chi (Tierra) y Jin (Humano). Este sistema funciona de manera similar a piedra, papel o tijera, donde ciertas posturas son naturalmente más efectivas contra los estilos utilizados por tus oponentes.
+
+<CardGrid cols={3}>
+  <Card title="Ten (Cielo)">
+    - **Fuerte contra**: Armas pesadas y objetivos de movimiento lento.
+    - **Enfoque**: Golpes de gran alcance y potencia descendente.
+    - **Ideal para**: Romper la defensa de enemigos defensivos.
+  </Card>
+  <Card title="Chi (Tierra)">
+    - **Fuerte contra**: Armas ligeras y atacantes rápidos.
+    - **Enfoque**: Centro de gravedad bajo y estabilidad defensiva.
+    - **Ideal para**: Contraatacar contra enemigos de ataques rápidos.
+  </Card>
+  <Card title="Jin (Humano)">
+    - **Fuerte contra**: Armas equilibradas e infantería estándar.
+    - **Enfoque**: Tajos horizontales precisos y movimiento ágil.
+    - **Ideal para**: Mantener la presión en duelos uno contra uno.
+  </Card>
+</CardGrid>
+
+Más allá de estas tres, existen estilos únicos como el **Estilo Shinobi**, que técnicamente es ineficaz contra todos los demás, pero proporciona un enorme bono de aturdimiento tras una Contrachispa exitosa. Este estilo de alto riesgo y alta recompensa es perfecto para jugadores que dominan los tiempos de desvío.
+
+| Tipo de postura | Ventaja | Desventaja | Propiedad especial |
+| :--- | :--- | :--- | :--- |
+| **Ten** | Alta potencia | Inicio lento | Excelente para romper guardias desde arriba |
+| **Chi** | Alta defensa | Movilidad limitada | Ventana de desvío más fuerte para ataques ligeros |
+| **Jin** | Alta velocidad | Menor daño | Recuperación más rápida tras ataques fallidos |
+| **Shinobi** | Ninguna | Todos los estilos | Aturdimiento masivo en desvío exitoso |
+
+<Callout type="warning" title="Vigila los iconos">
+Mira siempre el símbolo junto a la barra de vida de un enemigo. Una flecha azul hacia arriba significa que tu postura actual es fuerte; una flecha roja hacia abajo significa que estás en desventaja y deberías cambiar de inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas de combate avanzadas y gestión del Ki">
+
+El combate en Rise of the Ronin es fundamentalmente una batalla de resistencia, conocida como Ki. Cada acción —balancear tu arma, bloquear o esquivar— consume Ki. Si tu medidor se agota, entras en un estado "agotado", quedando vulnerable a ataques críticos. Por lo tanto, gestionar tu Ki mientras presionas el medidor del enemigo es el núcleo del juego de alto nivel.
+
+<Steps>
+  <Step num="1" title="El Destello de hoja">
+    Después de una serie de ataques, la sangre se acumula en tu arma. Presiona **R1** inmediatamente después de un ataque para realizar un Destello de hoja. Esto limpia la hoja y restaura una parte de tu Ki basada en el medidor de sangre.
+  </Step>
+  <Step num="2" title="La Contrachispa">
+    Esta es tu principal herramienta defensiva. A diferencia del bloqueo, que sigue costando Ki, una Contrachispa (parry) exitosa restaura Ki y hace que el enemigo entre en pánico. Busca el **destello rojo** en las habilidades marciales enemigas para medir el tiempo de tu desvío.
+  </Step>
+  <Step num="3" title="Ataques relámpago">
+    Desbloquea esta habilidad temprano en el árbol de Fuerza. Al presionar **R1 + Arriba en el D-Pad** en mitad de un combo, cambias a tu arma secundaria y continúas el ataque. Esto llena el medidor de sangre de la nueva arma al instante.
+  </Step>
+  <Step num="4" title="Vendaval violento">
+    Disponible al nivel cinco de competencia con el arma, esto te permite cambiar de postura (Ten/Chi/Jin) en mitad de un combo. Úsalo para adaptarte a un enemigo que cambie su propia postura sin detener tu flujo ofensivo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Eficiencia de combos">
+Combinar el Destello de hoja con Ataques relámpago te permite extender tus combos indefinidamente, siempre que mantengas un ritmo que limpie tu hoja con regularidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Armas secundarias y herramientas tácticas">
+
+Mientras que los **tipos de armas de Rise of the Ronin** principales se encargan del grueso de la lucha, las armas secundarias proporcionan la utilidad necesaria para el sigilo y el control de masas. Estas van desde herramientas tradicionales japonesas hasta armas de fuego occidentales modernas introducidas durante el período Bakumatsu.
+
+| Arma secundaria | Uso | Nivel de ruido | Ventaja clave |
+| :--- | :--- | :--- | :--- |
+| **Arco** | Francotirador sigiloso | Silencioso | Los disparos a la cabeza matan a enemigos básicos |
+| **Fusil** | Largo alcance | Ruidoso | Daño alto, puede atravesar coberturas |
+| **Pistola** | En combate | Ruidoso | Interrumpe las habilidades marciales enemigas |
+| **Shuriken** | Relleno de combo | Silencioso | Mantiene la presión en el medidor de Ki enemigo |
+| **Tubo de fuego** | Negación de área | Ruidoso | Aplica el estado de Quemadura a grupos |
+| **Vasija de barro** | Distracción | Silencioso | Atrae a los enemigos lejos de sus patrullas |
+
+El **Gancho de agarre** es otra herramienta esencial. Se puede usar para atraer enemigos hacia ti, lanzarte al aire para un ataque descendente o incluso lanzar objetos del entorno como barriles explosivos a grupos de oponentes.
+
+<Callout type="info" title="Consejo sobre armas de fuego">
+Las pistolas se usan mejor como "interrupciones". Si un enemigo está a punto de asestar un golpe poderoso y tu Ki es demasiado bajo para desviarlo, un disparo rápido de pistola puede hacerlo entrar en pánico y reiniciar el enfrentamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estados alterados y estrategia ambiental">
+
+Dominar el campo de batalla requiere más que conocer los **tipos de armas de Rise of the Ronin**; también debes comprender los efectos de estado que puedes infligir y sufrir. Infligir múltiples efectos de estado simultáneamente conduce al devastador estado de **Mareo**.
+
+| Efecto de estado | Descripción | Contra / Remedio |
+| :--- | :--- | :--- |
+| **Quemadura** | Drenaje continuo de salud | Esquiva repetidamente para extinguirlo |
+| **Veneno** | Drenaje lento de salud en el tiempo | Usa objetos antídotos |
+| **Parálisis** | Congela al personaje en el sitio | Espera la duración o usa un remedio |
+| **Inflamable** | Aumenta la susceptibilidad a Quemadura | Evita fuentes de fuego mientras esté activo |
+| **Mareo** | Ocurre con 2+ efectos activos | Daño de Ki máximo y estado de pánico |
+
+Puedes aplicar estos efectos usando piedras de afilar en tus armas principales o utilizando armas secundarias específicas como el Tubo de fuego. En misiones donde tengas aliados, cambiar entre personajes puede ayudar a gestionar estos efectos, ya que los compañeros controlados por la IA pueden distraer a los enemigos mientras te recuperas.
+
+<Checklist
+  id="combat-mastery"
+  title="Lista de verificación de maestría en combate:"
+  items={[
+    "Desbloquea el Ataque relámpago en el árbol de habilidades de Fuerza",
+    "Alcanza el nivel 5 de competencia con tu arma favorita",
+    "Desvía con éxito una habilidad marcial (ataque con aura roja)",
+    "Realiza un Destello de hoja con el medidor de sangre lleno",
+    "Inflige el estado de Mareo a un enemigo de nivel jefe"
+  ]}
+/>
+
+<Callout type="warning" title="Peligro de Mareo">
+Ten mucho cuidado al luchar contra enemigos que usan veneno y fuego simultáneamente. Si sufres Mareo, recibirás el máximo daño de Ki, lo que hace que una rotura de postura sea casi inevitable.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre Rise of the Ronin">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los mejores tipos de armas de Rise of the Ronin para principiantes?",
+    answer: "Se recomiendan encarecidamente la Katana y el Odachi. La Katana ofrece un conjunto de movimientos equilibrado que funciona en casi cualquier situación, mientras que el gran alcance del Odachi permite mantener a los enemigos a una distancia segura."
+  },
+  {
+    question: "¿Cómo desbloqueo más estilos de combate para mis armas?",
+    answer: "Los estilos se desbloquean aumentando tu nivel de Vínculo con personajes específicos, derrotando a Fugitivos que se encuentran en el mundo abierto y progresando en las misiones de la historia principal."
+  },
+  {
+    question: "¿Puedo usar dos armas principales al mismo tiempo?",
+    answer: "Sí, puedes equipar dos armas principales y cambiar entre ellas instantáneamente. Usar la habilidad de Ataque relámpago te permite cambiar de arma en mitad de un combo para obtener la máxima presión."
+  },
+  {
+    question: "¿Afecta el peso de mi armadura a la velocidad del arma?",
+    answer: "Aunque el peso de la armadura afecta principalmente al consumo de Ki y a la distancia de esquiva, no cambia directamente la velocidad de animación de los movimientos de tu arma."
+  }
+]} />
+
+</Section>

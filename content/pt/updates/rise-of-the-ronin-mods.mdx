@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mods de A Ascensão do Ronin: Melhores Aperfeiçoamentos Visuais e de Desempenho",
+  description: "Melhore sua experiência com os melhores mods de A Ascensão do Ronin. Aprenda a instalar reshades visuais, correções de desempenho e ajustes de jogabilidade para PC.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Rise+of+the+Ronin+Mods",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de A Ascensão do Ronin",
+  keywords: "A Ascensão do Ronin, mods, desempenho, melhorias visuais, reshade, PC"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **mods de A Ascensão do Ronin** focam principalmente na **fidelidade visual**, **otimização de desempenho** e **customização da interface** para a versão de PC.
+- Os **presets de Reshade** são a escolha mais popular para jogadores que buscam aprimorar a **estética da era Bakumatsu** e a iluminação.
+- **Mods de desempenho** ajudam a estabilizar a taxa de quadros em hardwares mais antigos, ajustando o uso de **DLSS**, **FSR** e **VRAM**.
+- A **instalação** geralmente requer a colocação manual de arquivos ou um **gerenciador de mods** dedicado para garantir a estabilidade do jogo.
+- **Segurança em primeiro lugar**: Sempre faça um **backup dos seus dados salvos** antes de aplicar qualquer modificação de terceiros nos arquivos do seu jogo.
+</Callout>
+
+<Section icon={Sparkles} title="O Cenário de Modding em A Ascensão do Ronin">
+
+O lançamento da versão para PC em março de 2025 abriu as portas para a comunidade criar vários **mods de A Ascensão do Ronin**. Embora os jogos da Team NINJA sejam conhecidos por seus sistemas de combate complexos, a comunidade de modding focou em diminuir a lacuna entre a otimização de console e as capacidades de ponta do hardware de PC moderno. Esteja você procurando nitidez nas texturas de Yokohama ou desbloquear configurações gráficas ocultas, os mods oferecem um nível de personalização não disponível no jogo base.
+
+Como o jogo exige recursos significativos — requerendo pelo menos **16 GB de RAM** e **155 GB de espaço em SSD** — muitos dos primeiros mods focaram na estabilidade. No entanto, conforme o cenário amadureceu ao longo de 2026, vimos um surgimento de mods de "qualidade de vida" que ajustam a interface de **gerenciamento de Ki** ou esclarecem as janelas de tempo do **Contra-ataque (Counterspark)**.
+
+| Categoria do Mod | Foco Principal | Nível de Impacto |
+| :--- | :--- | :--- |
+| **Visual/Reshade** | Iluminação, gradação de cores e nitidez de textura | Alto (Visual) |
+| **Desempenho** | Estabilidade de FPS, redução de VRAM e correções de stuttering | Alto (Técnico) |
+| **Jogabilidade/QoL** | Ajustes de interface, ajustes de câmera e visibilidade de itens | Médio |
+| **Save/Utilitários** | Desbloqueáveis, backups de progressão e ferramentas de modo foto | Baixo |
+
+<Callout type="success" title="Vantagem da Versão PC">
+A versão para PC suporta recursos como **120 FPS**, **resolução 8K** e **Ray Tracing**. Os mods podem refinar ainda mais esses recursos oficiais para funcionar de forma mais eficiente em uma ampla gama de arquiteturas de GPU, incluindo NVIDIA, AMD e Intel Arc.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Principais Melhorias Visuais e Estéticas">
+
+Os mods visuais são a base da comunidade. Muitos jogadores acham que a paleta de cores padrão de **A Ascensão do Ronin** é um pouco lavada ou depende excessivamente de uma névoa atmosférica específica. Os **presets de Reshade** permitem injetar cores de alto alcance dinâmico (HDR) e aumentar a nitidez dos detalhes intrincados da armadura e armas do seu ronin.
+
+<CardGrid cols={3}>
+  <Card title="Bakumatsu Cinemático">
+    - **Contraste aprimorado**
+    - Profundidade de sombra realista
+    - Remove o tom amarelado
+  </Card>
+  <Card title="Reshade de Desempenho">
+    - **Apenas nitidez**
+    - Impacto zero no FPS
+    - Clareza de borda aprimorada
+  </Card>
+  <Card title="Yokohama Vívida">
+    - **Cores saturadas**
+    - Melhor detalhamento de folhagem
+    - Texturas de céu vibrantes
+  </Card>
+</CardGrid>
+
+Esses mods frequentemente interagem com os recursos do **DirectX 12 Ultimate** do jogo. Ao ajustar como o motor lida com a oclusão ambiental e o pós-processamento, os modders conseguiram fazer o jogo parecer significativamente mais "próxima geração" sem um impacto massivo no hardware.
+
+| Tipo de Mod | Recurso Principal | Recomendado Para |
+| :--- | :--- | :--- |
+| **Presets de LUT** | Altera a gradação de cores | Jogadores que desejam um visual de "filme" |
+| **Pacotes de Textura** | Roupas/equipamentos em alta resolução | Usuários de GPU com alta VRAM (12GB+) |
+| **Mod Sem HUD** | Limpa a tela | Fotógrafos virtuais |
+
+<Callout type="tip" title="A Iluminação Importa">
+Ao usar mods visuais, certifique-se de que as configurações de **Brilho** e **HDR** do jogo estejam calibradas primeiro. A maioria dos presets de Reshade é projetada com base na predefinição gráfica "Padrão".
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Mods de Desempenho e Correções Técnicas">
+
+Dados os altos requisitos de sistema do jogo, os **mods de A Ascensão do Ronin** voltados para o desempenho são essenciais para muitos usuários. As especificações oficiais recomendadas sugerem uma **RTX 2080 Super** ou **RX 6700 XT** para 1080p/60 FPS, o que pode ser um patamar elevado. Os modders desenvolveram scripts para otimizar o **uso de VRAM** e melhorar a implementação de upscalers como **DLSS** e **FSR**.
+
+| Recurso | Suporte Oficial | Melhoria via Mod |
+| :--- | :--- | :--- |
+| **Geração de Quadros** | Suportado (NVIDIA/AMD) | Melhoria na latência e estabilidade |
+| **DLSS / FSR** | Versões padrão | Presets de ultra-qualidade e trocas de DLL |
+| **Stuttering** | Correções do patch 1.09.0.3 | Pré-carregamento de cache em nível de motor |
+| **Ultrawide** | Suporte nativo | FOV corrigido e centralização de interface |
+
+A maioria dos mods de desempenho funciona modificando os arquivos de configuração do jogo (.ini) ou substituindo arquivos de biblioteca específicos (.dll) para permitir um gerenciamento de memória mais agressivo. Isso é particularmente útil para jogadores que rodam o jogo em CPUs com alto número de threads, já que as primeiras versões do jogo enfrentaram problemas de estabilidade em processadores com mais de 33 threads.
+
+<Callout type="warning" title="Anti-Cheat e Jogo Online">
+Embora **A Ascensão do Ronin** não possua um modo PvP competitivo, ele apresenta **cooperativo online para 3 jogadores**. O uso de mods que alteram a memória do jogo ou estatísticas do personagem pode, às vezes, acionar alertas durante sessões online. Atenha-se a mods visuais e de desempenho ao jogar com outras pessoas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Instalar Mods em A Ascensão do Ronin">
+
+Instalar **mods de A Ascensão do Ronin** é geralmente um processo direto, mas requer precisão para evitar corromper sua instalação. A maioria dos mods está hospedada em repositórios da comunidade e vem na forma de pastas compactadas.
+
+<Steps>
+  <Step num="1" title="Localize o Diretório do Jogo">
+    Navegue até a pasta onde o jogo está instalado (geralmente em `SteamLibrary\steamapps\common\Rise of the Ronin`).
+  </Step>
+  <Step num="2" title="Instale os Carregadores de Mods">
+    Se o mod exigir um carregador específico (como um injetor de Reshade), instale-o primeiro apontando para o arquivo executável principal do jogo.
+  </Step>
+  <Step num="3" title="Baixe e Extraia">
+    Baixe o mod escolhido e extraia os arquivos usando uma ferramenta como 7-Zip ou WinRAR.
+  </Step>
+  <Step num="4" title="Posicione os Arquivos Corretamente">
+    Mova os arquivos extraídos para a pasta designada. Mods visuais geralmente vão no diretório raiz, enquanto mods de jogabilidade podem ir para uma subpasta `Data` ou `Mods`.
+  </Step>
+  <Step num="5" title="Verifique e Inicie">
+    Inicie o jogo e verifique a tecla de ativação do mod (geralmente Home ou F12 para Reshades) para garantir que esteja funcionando corretamente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gerenciadores de Mods">
+A partir de 2026, vários gerenciadores de mods criados pela comunidade suportam **A Ascensão do Ronin**, permitindo que você ative e desative mods sem excluir arquivos manualmente. Esta é a maneira mais segura de gerenciar múltiplas modificações.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Segurança no Modding e Melhores Práticas">
+
+Antes de começar a experimentar os **mods de A Ascensão do Ronin**, é vital estabelecer uma rotina de segurança. Como o jogo usa um sistema de salvamento complexo envolvendo a progressão do **Testamento da Alma** e a **Dificuldade Meia-noite**, perder um arquivo de save pode significar a perda de centenas de horas de progresso.
+
+<Checklist
+  id="modding-safety"
+  title="Checklist Pré-Modding:"
+  items={[
+    "Faça backup da sua pasta 'SaveData' localizada no diretório Documentos.",
+    "Desative temporariamente a Sincronização em Nuvem da Steam para evitar que saves corrompidos sejam carregados.",
+    "Leia o arquivo 'ReadMe' do mod para avisos específicos de compatibilidade.",
+    "Instale apenas um mod por vez para identificar facilmente qual deles causa falhas.",
+    "Mantenha uma cópia limpa dos executáveis originais do jogo."
+  ]}
+/>
+
+| Fator de Risco | Problema Potencial | Estratégia de Mitigação |
+| :--- | :--- | :--- |
+| **Incompatibilidade de Versão** | O jogo trava após uma atualização | Atualize os mods imediatamente após as atualizações do jogo |
+| **Corrupção de Save** | Perda de progresso do personagem | Backups manuais diários em uma unidade separada |
+| **Queda de Desempenho** | Reshades sobrepostos | Use apenas um mod de iluminação por vez |
+
+<Callout type="tip" title="A Vantagem do Testamento">
+Se um mod de jogabilidade tornar o resultado de uma missão indesejável, lembre-se de que você pode usar o sistema do **Testamento da Alma** na **Longhouse** para refazer missões e resetar escolhas da história sem precisar desinstalar o mod ou reiniciar o jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Os mods de A Ascensão do Ronin desativam as conquistas?",
+    answer: "Geralmente, mods visuais e de desempenho não desativam as conquistas da Steam. No entanto, mods que alteram estatísticas de jogo ou fornecem 'trapaças' podem impedir que as conquistas sejam acionadas durante essa sessão."
+  },
+  {
+    question: "Posso usar mods em missões cooperativas online?",
+    answer: "Mods visuais são geralmente seguros para o modo cooperativo. Mods que alteram o dano da arma, o consumo de Ki ou a velocidade do personagem devem ser desativados para evitar erros de sincronização ou possíveis banimentos dos serviços online."
+  },
+  {
+    question: "Onde posso encontrar os melhores mods para a versão de PC?",
+    answer: "As fontes mais confiáveis são sites voltados para a comunidade, como o Nexus Mods e servidores dedicados do Discord. Sempre verifique a data da 'Última Atualização' para garantir a compatibilidade com a versão atual do jogo (ex: v1.09.0.5)."
+  },
+  {
+    question: "Os mods ajudam com os engasgos (stuttering) do jogo?",
+    answer: "Sim, mods de desempenho específicos são projetados para corrigir os problemas de engasgos vistos nas regiões de Yokohama e Edo. Esses mods otimizam como o jogo lida com o streaming de recursos do seu SSD."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+Modificar **A Ascensão do Ronin** é a melhor maneira de adaptar a experiência ao seu hardware de PC específico. Ao focar na **clareza visual** e na **estabilidade da taxa de quadros**, você pode aproveitar a era Bakumatsu com a fidelidade que ela merece.
+</Callout>
+
+</Section>

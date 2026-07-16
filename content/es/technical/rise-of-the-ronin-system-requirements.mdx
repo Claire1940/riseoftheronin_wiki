@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos del sistema de Rise of the Ronin: Guía de configuración para PC",
+  description: "Prepara tu PC para Rise of the Ronin. Consulta los requisitos oficiales del sistema, pruebas de rendimiento de GPU y consejos de optimización de almacenamiento para obtener el mejor rendimiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PC+System+Requirements",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Rise of the Ronin",
+  keywords: "requisitos del sistema, pc, rise of the ronin, gpu, ssd, optimización"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Requisitos del sistema**: Al revisar los requisitos oficiales del sistema para Rise of the Ronin, se revela una demanda de un enorme SSD de 180 GB y 16 GB de RAM.
+- **Hardware mínimo**: Los jugadores necesitan al menos una CPU Intel Core i5-10400 emparejada con una GPU GTX 1060 de 6 GB para una jugabilidad básica.
+- **Rendimiento objetivo**: Lograr 1080p a 30 FPS en configuraciones bajas requiere escalado activo, mientras que los 60 FPS exigen hardware moderno.
+- **GPU recomendada**: Se recomienda una RTX 2080 Super o equivalente para desbloquear una mayor fidelidad gráfica y frecuencias de cuadro más fluidas.
+</Callout>
+
+<Section icon={Sparkles} title="Requisitos oficiales de hardware y especificaciones de PC">
+
+El esperado port para PC del RPG de acción de mundo abierto de Team Ninja está programado para lanzarse el 11 de marzo de 2026. Para garantizar una experiencia de juego fluida a través de las calles históricas del Japón del siglo XIX, los jugadores deben evaluar sus configuraciones de hardware. El juego introduce demandas de hardware significativas, particularmente en lo que respecta al espacio de almacenamiento y la configuración de la memoria, lo que puede afectar el rendimiento si no se aborda adecuadamente.
+
+**Puntos destacados del video:**
+- **Huella de almacenamiento masiva**: El juego requiere 180 GB de espacio en SSD, lo que lo convierte en una de las instalaciones más grandes del género.
+- **Objetivo de GPU mínima**: Se requiere una GTX 1060 (6 GB) para ejecutar el juego a 1080p y 30 FPS en la configuración más baja con el escalado habilitado.
+- **Estándar de hardware recomendado**: Se recomienda una RTX 2080 Super para ajustes gráficos más altos y frecuencias de cuadro más estables.
+
+<YouTubeEmbed videoId="ZWwMxU147RE" title="180GB SSD REQUIRED! Rise of the Ronin 2 PC System Requirements Analysis" />
+
+Las especificaciones oficiales de hardware describen dos niveles distintos de rendimiento. El nivel mínimo está dirigido a sistemas básicos, mientras que el nivel recomendado está diseñado para equipos de juego de gama media-alta.
+
+| Componente de hardware | Especificación mínima (1080p / 30 FPS) | Especificación recomendada (1080p / 60 FPS) |
+|-|-|-|
+| **SO** | Windows 10/11 64-bit | Windows 10/11 64-bit |
+| **CPU** | Intel Core i5-10400 o equivalente | Intel Core i7-10700 o equivalente |
+| **GPU** | NVIDIA GTX 1060 6GB o equivalente AMD | NVIDIA RTX 2080 Super o equivalente |
+| **RAM** | 16 GB de memoria del sistema | 16 GB de memoria del sistema |
+| **Almacenamiento** | 180 GB de espacio disponible en SSD | 180 GB de espacio disponible en SSD |
+| **Escalado** | Requerido (DLSS/FSR/XeSS) | Opcional (Recomendado para FPS altos) |
+
+<Callout type="warning" title="Se requiere instalación en SSD">
+El juego no es compatible con discos duros mecánicos tradicionales (HDD). Instalar el juego en un HDD provocará retrasos severos en la carga de texturas, desincronización de audio y pausas frecuentes por carga.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimización de memoria y almacenamiento">
+
+El aspecto más llamativo de los requisitos del sistema de Rise of the Ronin es el requisito de 180 GB de almacenamiento SSD. Esta enorme huella se debe a las texturas de alta resolución, los entornos detallados de mundo abierto y las mecánicas de transmisión rápida de recursos. Para mantener un rendimiento estable, los jugadores deben optimizar sus dispositivos de almacenamiento y la memoria del sistema.
+
+Se recomienda encarecidamente una arquitectura de memoria de doble canal para este título. El uso de un solo módulo de 16 GB de RAM (monocanal) puede limitar el ancho de banda de la CPU, lo que provoca caídas repentinas de cuadros al moverse rápidamente por el mundo del juego. Utilizar RAM de doble canal (como dos módulos de 8 GB) proporciona el ancho de banda necesario para mantener estables las frecuencias de cuadro.
+
+| Dispositivo de almacenamiento | Velocidad de lectura | Impacto en el rendimiento | Recomendación |
+|-|-|-|-|
+| **NVMe PCIe Gen 4 SSD** | 5000+ MB/s | Tiempos de carga más rápidos, sin tirones | Muy recomendado |
+| **SATA III SSD** | 500 MB/s | Tiempos de carga normales, transmisión estable | Requisito mínimo |
+| **HDD Mecánico** | 100 MB/s | Tirones graves, carga lenta de texturas | No compatible |
+
+<Callout type="tip" title="Consejo de mantenimiento de la unidad">
+Asegúrate de que tu SSD tenga al menos un 15% a 20% de espacio libre después de instalar el juego. El rendimiento del SSD puede degradarse significativamente cuando la unidad está cerca de su capacidad máxima, lo que puede causar tirones en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tarjetas gráficas y escalado de rendimiento">
+
+Las demandas gráficas del juego varían según la resolución y la frecuencia de cuadros objetivo. Si bien las tarjetas gráficas más antiguas como la GTX 1060 de 6 GB pueden ejecutar el juego, deben depender de tecnologías de escalado para mantener unos 30 FPS jugables. Las GPU modernas con mayores cantidades de VRAM están mejor preparadas para manejar los entornos detallados del juego.
+
+Para los jugadores que buscan resoluciones más altas como 1440p o 4K, la gestión de la VRAM se vuelve crítica. La RTX 2080 Super recomendada cuenta con 8 GB de VRAM, lo cual es suficiente para jugar a 1080p y 1440p ligero. Sin embargo, para ajustes máximos en 4K, se recomienda una GPU con al menos 12 GB de VRAM.
+
+<CardGrid cols={3}>
+  <Card title="Ajuste de rendimiento">
+    - **Resolución**: 1080p
+    - **FPS objetivo**: 30 - 45 FPS
+    - **Escalado**: Modo Rendimiento
+    - **GPU ideal**: GTX 1060 / RX 580
+  </Card>
+  <Card title="Ajuste equilibrado">
+    - **Resolución**: 1080p / 1440p
+    - **FPS objetivo**: 60 FPS
+    - **Escalado**: Modo Calidad
+    - **GPU ideal**: RTX 2060 Super / RTX 3060
+  </Card>
+  <Card title="Ajuste de calidad">
+    - **Resolución**: 1440p / 4K
+    - **FPS objetivo**: 60+ FPS
+    - **Escalado**: Nativo o Calidad
+    - **GPU ideal**: RTX 2080 Super / RTX 4070
+  </Card>
+</CardGrid>
+
+| Resolución | FPS objetivo | GPU recomendada | Uso de VRAM |
+|-|-|-|-|
+| **1080p Bajo** | 30 FPS | GTX 1060 6GB | ~5.5 GB |
+| **1080p Alto** | 60 FPS | RTX 2080 Super | ~7.2 GB |
+| **1440p Alto** | 60 FPS | RTX 3070 Ti | ~7.8 GB |
+| **4K Alto** | 60 FPS | RTX 4070 Ti Super | ~11.5 GB |
+
+<Callout type="info" title="Soporte de escalado">
+El juego cuenta con soporte integrado para NVIDIA DLSS, AMD FSR e Intel XeSS. Si tu sistema tiene dificultades para mantener una frecuencia de cuadros estable, habilitar estas funciones en modo "Calidad" o "Equilibrado" puede proporcionar un impulso sustancial de rendimiento sin sacrificar demasiada claridad visual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de configuración de PC paso a paso">
+
+Para preparar tu PC para el lanzamiento del juego y asegurar que tu sistema cumpla con los umbrales de rendimiento necesarios, sigue esta guía de optimización.
+
+<Steps>
+  <Step num="1" title="Preparar espacio de almacenamiento">
+    Verifica que tienes al menos 180 GB de espacio libre en un SSD. Si es necesario, mueve juegos antiguos a un almacenamiento secundario o realiza una limpieza de disco para eliminar archivos temporales del sistema.
+  </Step>
+  <Step num="2" title="Verificar la configuración de la memoria">
+    Abre el Administrador de tareas y revisa la pestaña Rendimiento en la sección Memoria. Asegúrate de que tu RAM esté funcionando en una configuración de doble canal y que XMP (Extreme Memory Profile) o DOCP esté habilitado en la BIOS de tu sistema para alcanzar las velocidades máximas anunciadas.
+  </Step>
+  <Step num="3" title="Actualizar controladores de gráficos">
+    Descarga e instala los últimos controladores de gráficos de NVIDIA, AMD o Intel. Los fabricantes de GPU lanzan regularmente controladores optimizados para juegos que incluyen mejoras específicas y correcciones de errores para nuevos lanzamientos.
+  </Step>
+  <Step num="4" title="Configurar los ajustes gráficos del juego">
+    Al iniciar el juego, navega a las opciones de gráficos. Si usas una GPU de especificaciones mínimas, establece el ajuste gráfico en Bajo, habilita tu escalador preferido y limita la frecuencia de cuadros a 30 FPS para evitar tirones.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Configuración completada">
+Seguir estos pasos ayudará a minimizar los cuellos de botella de rendimiento, reducir los tiempos de carga y proporcionar una experiencia de juego más estable durante tu viaje.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de preparación para PC">
+
+Antes de lanzar el juego el 11 de marzo de 2026, utiliza esta lista de verificación para asegurarte de que tu sistema esté totalmente optimizado y listo para manejar la exigente arquitectura del juego.
+
+| Tarea de optimización | Prioridad | Beneficio esperado |
+|-|-|-|
+| **Instalar en SSD** | Crítica | Previene tirones y problemas de carga de texturas |
+| **Habilitar RAM de doble canal** | Alta | Minimiza caídas repentinas de FPS en áreas de mundo abierto |
+| **Actualizar controladores de GPU** | Alta | Corrige posibles errores de renderizado y mejora la estabilidad |
+| **Configurar el Modo de juego de Windows** | Media | Prioriza los recursos del sistema para el cliente del juego |
+
+<Checklist
+  id="pc-readiness"
+  title="Lista de verificación previa al lanzamiento:"
+  items={[
+    "Verificar al menos 180 GB de espacio disponible en una unidad de estado sólido (SSD).",
+    "Confirmar que tu sistema tiene 16 GB de RAM instalados en una configuración de doble canal.",
+    "Instalar los últimos controladores de gráficos optimizados para el juego de tu fabricante de GPU.",
+    "Limpiar el polvo de los ventiladores de refrigeración de tu PC para evitar el estrangulamiento térmico durante largas sesiones de juego."
+  ]}
+/>
+
+<Callout type="tip" title="Gestión térmica">
+Debido a que el juego utiliza intensamente tanto la CPU como la GPU, los componentes de tu sistema generarán un calor significativo. Asegúrate de que tu PC tenga una ventilación adecuada para evitar el estrangulamiento térmico, que puede causar caídas repentinas de rendimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Revisa estas preguntas comunes sobre las especificaciones de hardware de PC y las características de rendimiento del juego.
+
+<FAQ items={[
+  {
+    question: "¿Puedo ejecutar Rise of the Ronin en un disco duro mecánico estándar (HDD)?",
+    answer: "No, los requisitos oficiales del sistema de Rise of the Ronin especifican que se requiere un SSD. Ejecutar el juego en un HDD estándar provocará graves problemas de rendimiento, aparición repentina de elementos (pop-in) y retrasos en la carga."
+  },
+  {
+    question: "¿Son suficientes 16 GB de RAM para ejecutar el juego sin problemas?",
+    answer: "Sí, 16 GB de RAM son suficientes tanto para los requisitos mínimos como para los recomendados. Sin embargo, se recomienda encarecidamente que esta memoria funcione en una configuración de doble canal para garantizar un ancho de banda del sistema adecuado."
+  },
+  {
+    question: "¿Qué tarjeta gráfica necesito para jugar a 1080p y 60 FPS?",
+    answer: "Para lograr unos 60 FPS estables a 1080p, deberías tener una NVIDIA RTX 2080 Super, una AMD Radeon RX 6700 XT o una tarjeta gráfica moderna comparable con al menos 8 GB de VRAM."
+  },
+  {
+    question: "¿Por qué el juego requiere escalado para la especificación mínima?",
+    answer: "La tarjeta gráfica mínima, la GTX 1060 de 6 GB, es hardware antiguo. Para mantener unos 30 FPS jugables a 1080p con esta GPU, el juego debe utilizar tecnologías de escalado como FSR o DLSS para reducir la carga de renderizado."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones del sistema">
+Los requisitos de hardware y las características de rendimiento pueden cambiar a medida que los desarrolladores lancen parches y actualizaciones de rendimiento después del lanzamiento. Consulta siempre las últimas actualizaciones del juego para asegurar un rendimiento óptimo.
+</Callout>
+
+</Section>

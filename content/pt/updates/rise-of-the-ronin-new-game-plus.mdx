@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Novo Jogo+ de A Ascensão do Ronin: Guia da Dificuldade Meia-noite e Obra-prima",
+  description: "Domine o Novo Jogo+ de A Ascensão do Ronin com nosso guia da dificuldade Meia-noite, equipamentos Obra-prima e habilidades de Superação para o endgame definitivo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=New+Game+Plus+Guide",
+  date: "2026-07-16",
+  author: "Equipe Wiki de A Ascensão do Ronin"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **Novo Jogo+ de A Ascensão do Ronin** é desbloqueado após a conclusão da missão final da história, "A Lâmina Oculta".
+- A **Dificuldade Meia-noite** é o núcleo do endgame, oferecendo desafios significativamente mais difíceis e melhores recompensas.
+- O **Equipamento Obra-prima** é uma nova categoria de raridade (Verde) exclusiva do modo Meia-noite, com atributos superiores.
+- As **Habilidades de Superação** permitem aos jogadores melhorar atributos como PV Máximo e Poder de Ataque além dos limites padrão.
+- O **Testamento da Alma** é a principal ferramenta para rejogar missões e alterar rumos históricos.
+</Callout>
+
+<Section icon={Map} title="Desbloqueando a Experiência do Novo Jogo+">
+
+Concluir a campanha principal de A Ascensão do Ronin é apenas o começo de sua jornada como um samurai sem mestre. A transição para o ambiente do **Novo Jogo+ de A Ascensão do Ronin** ocorre imediatamente após os créditos rolarem na missão final, "A Lâmina Oculta". Antes de poder acessar o conteúdo de nível alto, você deve enfrentar seu Gêmeo da Lâmina em um confronto final que dita suas recompensas iniciais e o tom da sua experiência de endgame.
+
+**Destaques do Vídeo:**
+- Detalhes passo a passo da missão final "A Lâmina Oculta" e do encontro com o Gêmeo da Lâmina.
+- Comparação das recompensas ao poupar ou matar seu Gêmeo da Lâmina.
+- Visão geral dos novos sistemas de menu para habilidades de Superação e o modo Meia-noite.
+- Demonstração dos recursos aprimorados do Lar e acessibilidade do ferreiro.
+
+<YouTubeEmbed videoId="qOrWLohI180" title="What Happens After you Finish the Game | NEW Game Plus ► Rise of the Ronin" />
+
+A escolha que você faz em relação ao destino do seu Gêmeo da Lâmina — seja poupá-lo ou matá-lo — resulta em diferentes recompensas cosméticas e funcionais. Independentemente da sua escolha, você retornará à região de Edo com suas primeiras peças de equipamento Obra-prima, sinalizando o início da progressão pós-jogo.
+
+| Resultado da Escolha | Recompensa Principal | Tipo de Equipamento | Raridade |
+| :--- | :--- | :--- | :--- |
+| **Poupar o Gêmeo da Lâmina** | Casaco Invera | Armadura de Torso | Obra-prima |
+| **Matar o Gêmeo da Lâmina** | Quimono do Demônio Vingativo | Armadura de Torso | Obra-prima |
+| **Conclusão da Campanha** | Dificuldade Meia-noite | Estado do Mundo | N/A |
+| **Conclusão da Campanha** | Habilidades de Superação | Árvore de Habilidades | N/A |
+
+<Callout type="tip" title="Escolha Estratégica">
+Embora o impacto na história seja significativo, os jogadores focados em eficiência devem escolher a peça de armadura que melhor se adapta à estética desejada, pois ambas são itens Obra-prima de alto nível que fornecem um enorme bônus de defesa para as fases iniciais da dificuldade Meia-noite.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dificuldade Meia-noite e Progressão do Mundo">
+
+O recurso definidor do **Novo Jogo+ de A Ascensão do Ronin** é a configuração de dificuldade Meia-noite. Isso não é simplesmente um "modo difícil", mas uma reestruturação completa do nível de desafio do jogo. Acessada por meio do Testamento da Alma em seu Lar, a dificuldade Meia-noite redefine o estado do mundo enquanto permite que você mantenha todos os seus equipamentos, níveis e habilidades.
+
+No modo Meia-noite, o nível base dos inimigos começa no 60. Mesmo que você tenha terminado a campanha no nível 45 ou 50, você se encontrará significativamente abaixo do nível para os encontros iniciais em Yokohama. A progressão é limitada por região, exigindo que você conclua missões específicas de Ronin para avançar de Yokohama para Edo e, eventualmente, para Kyoto.
+
+| Recurso | Crepúsculo (Padrão) | Meia-noite (NJ+) |
+| :--- | :--- | :--- |
+| **Nível dos Inimigos** | Escala com a História | Nível 60 ao Nível 100+ |
+| **Raridade do Saque** | Até Lendário (Ouro) | Obra-prima (Verde) Desbloqueado |
+| **Agressividade dos Inimigos** | IA Padrão | Ataques mais rápidos, menor tempo de recuperação |
+| **Ordens Públicas** | Conclusão fixa | Renasce para novas recompensas |
+| **Fugitivos** | Conclusão fixa | Renasce com drops Obra-prima |
+
+<Steps>
+  <Step num="1" title="Acesse o Testamento">
+    Entre no seu Lar e interaja com o Testamento da Alma. Procure a opção no canto inferior direito para alternar o estado do mundo para Meia-noite.
+  </Step>
+  <Step num="2" title="Conclua as Missões de Yokohama">
+    Você deve concluir um determinado número de missões de Ronin (Principais) na região de Yokohama. Foque nelas para construir seu conjunto inicial de Obra-prima.
+  </Step>
+  <Step num="3" title="Desbloqueie Edo e Kyoto">
+    Assim que progredir o suficiente em Yokohama, a região de Edo será desbloqueada. Repita o processo em Edo para eventualmente obter acesso às missões de nível alto em Kyoto.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Pico de Dificuldade">
+Não subestime o salto de dificuldade. Os inimigos no modo Meia-noite têm padrões de ataque implacáveis e frequentemente quebrarão seu Ki muito mais rápido do que no jogo base. O domínio da mecânica de Contra-faísca é obrigatório para a sobrevivência.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipamentos Obra-prima e Melhorias de Criação">
+
+Os equipamentos Obra-prima representam o ápice dos itens no **Novo Jogo+ de A Ascensão do Ronin**. Identificados por seu ícone verde distinto, os equipamentos Obra-prima oferecem atributos básicos mais altos e mais espaços para efeitos especiais em comparação com itens Lendários (Ouro). Esses itens só dropam na dificuldade Meia-noite ou como recompensas de missões de Aliados de nível alto e confrontos contra chefes secretos.
+
+O Lar também recebe uma atualização significativa no pós-jogo. Agora você pode acessar serviços completos de ferraria e criação diretamente de sua base, eliminando a necessidade de viajar para mercadores específicos na cidade. Isso simplifica o processo de Transferência de Elo e a melhoria dos seus novos achados Obra-prima.
+
+| Aspecto do Equipamento | Lendário (Ouro) | Obra-prima (Verde) |
+| :--- | :--- | :--- |
+| **Dano/Defesa Base** | Alto | Máximo |
+| **Espaços de Efeito Especial** | 3-4 Espaços | 4-5 Espaços |
+| **Potencial de Melhoria** | Limitado por materiais padrão | Requer materiais Obra-prima |
+| **Fonte de Drop** | Todas as dificuldades | Apenas na Dificuldade Meia-noite |
+
+<CardGrid cols={2}>
+  <Card title="Estratégia de Transferência de Elo">
+    Use seus antigos equipamentos Lendários para transferir bônus poderosos para seus novos itens Obra-prima. Isso permite que você mantenha a sinergia da sua build enquanto melhora seus atributos brutos.
+  </Card>
+  <Card title="Caça a Fugitivos">
+    Os fugitivos no modo Meia-noite têm garantia de dropar itens Obra-prima. Caçá-los no mundo aberto é a maneira mais rápida de se equipar antes de enfrentar as missões principais.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Praticidade do Ferreiro">
+A habilidade de usar o ferreiro diretamente do Lar economiza muito tempo. Use isso para desmontar rapidamente a montanha de saques que você coletará no modo Meia-noite para obter os materiais necessários para as melhorias Obra-prima.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades de Superação e Maestria de Combate">
+
+Além das árvores de habilidades padrão (Força, Destreza, Inteligência, Carisma), o **Novo Jogo+ de A Ascensão do Ronin** introduz as Habilidades de Superação. Elas são encontradas no menu de atributos, marcadas pelo símbolo da "Lâmina Oculta". As Habilidades de Superação permitem uma progressão infinita (ou com limite muito alto) nos atributos principais do personagem.
+
+Essas habilidades são essenciais para sobreviver ao endgame, pois fornecem o poder bruto necessário para superar os inimigos de nível 60+. Você ganhará pontos de Superação ao obter experiência no limite de nível ou ao concluir objetivos específicos exclusivos da Meia-noite.
+
+| Categoria de Habilidade | Benefício Principal | Tipo de Escalonamento |
+| :--- | :--- | :--- |
+| **Maestria de Vida** | Aumenta o PV Máximo | Bônus fixo por nível |
+| **Maestria de Arma** | Aumenta o Poder de Ataque | Baseado em porcentagem |
+| **Habilidade de Arma Secundária** | Melhora Arco/Rifle/Shuriken | Dano e velocidade de recarga |
+| **Estilos de Combate** | Desbloqueia novas variantes de estilo | Conjuntos de movimentos únicos |
+
+<Checklist
+  id="breakthrough-priorities"
+  title="Objetivos de Progressão do Endgame:"
+  items={[
+    "Alcançar o Nível de Jogador 60 para estabilizar a sobrevivência na Meia-noite",
+    "Investir os primeiros 10 pontos de Superação em PV Máximo",
+    "Desbloquear pelo menos uma arma Obra-prima para seu estilo principal",
+    "Limpar todas as Ordens Públicas de Yokohama na dificuldade Meia-noite",
+    "Derrotar os três primeiros Chefes Secretos para obter drops exclusivos de Obra-prima"
+  ]}
+/>
+
+<Callout type="info" title="Missões de Aliados">
+As Missões de Aliados são um novo modo "Implacável" desbloqueado no pós-jogo. Trata-se de desafios extremamente difíceis onde você e seus companheiros enfrentam ondas de inimigos. É altamente recomendável alcançar pelo menos o nível 70 antes de tentá-las.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rejogabilidade e Chefes Secretos">
+
+O Testamento da Alma não serve apenas para mudar a dificuldade; ele é a chave para explorar os cenários de "E se..." da história. No **Novo Jogo+ de A Ascensão do Ronin**, você pode voltar a momentos cruciais e escolher a facção oposta (Pró-Xogunato vs. Anti-Xogunato) para ver como o mundo muda e desbloquear Novas Missões que antes estavam inacessíveis.
+
+Além disso, o mundo contém "Chefes Secretos" ocultos — guerreiros poderosos escondidos em cantos remotos do mapa. Na dificuldade Meia-noite, esses chefes são ajustados para encontros de nível 100 e dropam alguns dos itens Obra-prima mais poderosos do jogo.
+
+| Atividade | Tipo de Recompensa | Valor de Rejogabilidade |
+| :--- | :--- | :--- |
+| **Troca de Facção** | Novas Cenas / Missões de História | Alto (Ver todo o conteúdo) |
+| **Chefes Secretos** | Conjuntos Obra-prima Únicos | Alto (Melhores equipamentos do jogo) |
+| **Missões de Elo** | Equipamento Obra-prima de Companheiro | Médio (Específico para builds) |
+| **Ordens Públicas** | Consumíveis e Materiais | Baixo (Apenas farming) |
+
+<Callout type="warning" title="Consistência Histórica">
+Quando você altera uma escolha no Testamento da Alma, isso se "reflete" em seu estado atual do mundo. Se quiser manter as recompensas de ambos os caminhos, você deve concluir a missão e salvar a nova linha do tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Eu perco meu progresso ao iniciar o Novo Jogo+ de A Ascensão do Ronin?",
+    answer: "Não. Você mantém todos os equipamentos, habilidades, níveis e colecionáveis. O mundo simplesmente é reiniciado para permitir que você ganhe recompensas de nível mais alto na dificuldade Meia-noite."
+  },
+  {
+    question: "Qual é o nível máximo no Novo Jogo+ de A Ascensão do Ronin?",
+    answer: "Embora o limite de nível básico seja 100, o sistema de Habilidades de Superação permite que você continue melhorando seus atributos, como PV e Poder de Ataque, indefinidamente usando pontos de Superação."
+  },
+  {
+    question: "Posso jogar a dificuldade Meia-noite em modo cooperativo?",
+    answer: "Sim, a dificuldade Meia-noite é totalmente compatível com o modo cooperativo online. Na verdade, jogar com outras pessoas é altamente recomendado para as Missões de Aliados devido à extrema agressividade dos inimigos."
+  },
+  {
+    question: "Como obtenho mais materiais Obra-prima?",
+    answer: "Os materiais Obra-prima são obtidos principalmente ao desmontar equipamentos Obra-prima de raridade verde ou ao concluir missões de nível alto na dificuldade Meia-noite."
+  }
+]} />
+
+</Section>

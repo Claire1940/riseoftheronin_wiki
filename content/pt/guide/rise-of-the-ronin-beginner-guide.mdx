@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Iniciantes de A Ascensão do Ronin: Dicas de Combate e Missões para 2026",
+  description: "Domine as mecânicas de combate, escolha a melhor classe inicial e explore o período Bakumatsu com o nosso guia completo de iniciantes para A Ascensão do Ronin.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beginner+Guide",
+  date: "2026-07-16",
+  author: "Equipe do Wiki de A Ascensão do Ronin"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco principal do guia**: Domine o alto nível de habilidade exigido para o combate e a exploração com este guia essencial de iniciantes de A Ascensão do Ronin.
+- **Seleção de classe**: Opte pelas origens Matador (Killer) ou Invasor (Breaker) logo no início para garantir vantagens poderosas de atributos e habilidades iniciais exclusivas.
+- **Combinação de posturas**: Alterne as posturas de combate dinamicamente para contra-atacar armas específicas dos inimigos e prolongar seus estados de pânico.
+- **Habilidade crítica**: Desbloqueie as opções de diálogo de Persuasão (Speechcraft) imediatamente para garantir os melhores resultados em missões e um rápido crescimento de elos.
+- **Poupe Gonzo**: Escolha poupar o chefe dos bandidos, Gonzo, no início da história para desbloquear missões exclusivas e uma poderosa postura de Odachi.
+</Callout>
+
+<Section icon={Map} title="Guia de Iniciantes de A Ascensão do Ronin: Travessia e Exploração">
+
+Entrar no mundo aberto de Yokohama durante o caótico período Bakumatsu traz uma quantidade massiva de tutoriais, marcadores de mapa e sistemas complexos. Embora o desejo de limpar todos os pontos de interesse imediatamente seja forte, adotar uma abordagem estruturada em suas primeiras horas economizará tempo e evitará dificuldades desnecessárias. Este guia de iniciantes de A Ascensão do Ronin descreve o caminho ideal para estabelecer suas opções de travessia e fontes de renda passiva antes de mergulhar de cabeça na exploração.
+
+**Destaques do Vídeo:**
+- Descubra por que avançar rapidamente na missão principal inicial é crucial para desbloquear ferramentas de travessia.
+- Saiba como obter o apito de cavalo e o planador logo no início do jogo.
+- Entenda as mecânicas do Lar (Longhouse) e como os Cães Peregrinos geram moedas de prata raras.
+
+<YouTubeEmbed videoId="vHaydORsLnk" title="Guia de Iniciantes de A Ascensão do Ronin - Dicas que VOCÊ PRECISA SABER e Guia de Combate" />
+
+Quando você entrar no mundo aberto pela primeira vez, priorize o caminho da história principal. Tentar explorar extensivamente a pé é altamente ineficiente. Siga a linha de missões principal até concluir o primeiro confronto de ordem pública. Uma vez concluído, você aparecerá no Estandarte da Lâmina Oculta (Veiled Edge Banner). Diretamente à sua frente, interaja com o fardo de feno para obter o apito de cavalo. Este item permite que você convoque sua montaria instantaneamente a qualquer momento.
+
+Para alcançar total liberdade de travessia, continue progredindo na história principal até concluir a missão intitulada "O Cair do Pano, O Erguer do Pano" ("The Curtain Falls, Curtain Rises"). Isso recompensa você com o planador, permitindo que você salte de penhascos altos e navegue pela arquitetura vertical de Yokohama com facilidade.
+
+O mundo aberto não possui temporizadores de missão, o que significa que você pode realizar o conteúdo secundário no seu próprio ritmo. Mesmo quando a história transitar para uma nova cidade, você poderá retornar às regiões anteriores por meio do sistema do Lar (Longhouse) para concluir objetivos inacabados. Não negligencie o Lar, pois ele serve como um ponto central para a geração passiva de materiais e moedas.
+
+| Ferramenta de Travessia | Requisito de Desbloqueio | Função Principal | Impacto na Exploração |
+| :--- | :--- | :--- | :--- |
+| **Apito de Cavalo** | Conclua a primeira Ordem Pública, inspecione o feno | Evoca a montaria instantaneamente | Alta velocidade terrestre em terrenos planos |
+| **Planador** | Conclua "O Cair do Pano, O Erguer do Pano" | Permite planar no ar | Essencial para navegação vertical |
+| **Lar (Longhouse)** | Progrida na campanha principal | Acesso ao armazenamento e sistemas passivos | Ponto central para gerenciar elos e recursos |
+| **Cães Peregrinos** | Interaja no Lar | Geração passiva de moedas de prata | Renda passiva altamente eficiente |
+
+<Callout type="success" title="Dica de Moedas de Prata">
+Acariciar cada Cão Peregrino que você encontrar nas estradas é uma excelente maneira de acumular moedas de prata. Além disso, enviar seu próprio Cão Peregrino do Lar com uma bolsa de dinheiro renderá retornos consistentes de prata aproximadamente a cada hora.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Origens de Afiação de Lâmina e Seleção de Classe">
+
+Sua jornada começa com a seleção de uma Origem de Afiação de Lâmina, que serve como sua classe inicial. Essa escolha determina sua alocação inicial de atributos e desbloqueia habilidades iniciais específicas. Embora você possa eventualmente redefinir os atributos do seu personagem mais tarde no jogo usando um item especializado no seu Lar, escolher uma origem que se alinhe ao seu estilo de jogo preferido torna as desafiadoras horas iniciais significativamente mais suaves.
+
+<CardGrid cols={2}>
+  <Card title="Matador (Foco em Força)">
+    Aumenta o poder de ataque principal e a defesa geral. Desbloqueia a habilidade de rebater flechas e balas recebidas de volta nos inimigos. Altamente recomendado para jogadores que preferem Katanas, Odachis e Espadas Grandes.
+  </Card>
+  <Card title="Invasor (Foco em Destreza)">
+    Aumenta o dano de armas secundárias e o dano de Ki. Desbloqueia a habilidade de Assassinato Rápido, permitindo que você encadeie eliminações furtivas em inimigos agrupados. Excelente para Espadas Duplas e Baionetas.
+  </Card>
+  <Card title="Sedutor (Foco em Carisma)">
+    Melhora a Postura (Poise), a velocidade de recuperação de Ki e a taxa de queda de itens. Desbloqueia a opção de diálogo Persuasão: Mentira, que é altamente útil durante as conversas no início do jogo. Melhor combinado com Armas de Haste e Lâminas de Cauda de Boi.
+  </Card>
+  <Card title="Sapador (Foco em Intelecto)">
+    Melhora a aplicação de condições de status nocivas e a resistência elemental. Concede uma pílula de cura adicional ao morrer ou descansar. Ideal para jogadores que utilizam Lanças, Sabres e consumíveis elementais.
+  </Card>
+</CardGrid>
+
+Geralmente, recomenda-se evitar a origem Iniciante (Beginner), pois ela não fornece nenhuma habilidade inicial exclusiva, e a origem Não Afiada (Unsharpened), que começa com atributos severamente penalizados. O bônus de dano adicional obtido ao combinar os atributos da sua origem com suas armas é útil, mas não impede que você experimente outros tipos de armas ao longo do jogo.
+
+| Origem | Atributo Principal | Habilidade Inicial Única | Compatibilidade de Armas |
+| :--- | :--- | :--- | :--- |
+| **Matador** | Força | Rebater Flechas e Balas | Katana, Odachi, Espada Grande |
+| **Invasor** | Destreza | Assassinato Rápido | Espadas Duplas, Baioneta |
+| **Sedutor** | Carisma | Persuasão: Mentira | Arma de Haste, Lâmina de Cauda de Boi |
+| **Sapador** | Intelecto | Reabastecer Pílulas Medicinais | Lança, Sabre |
+
+<Callout type="tip" title="Disponibilidade de Redefinição">
+Não se sinta sobrecarregado por sua escolha de classe inicial. As diferenças de atributos são pequenas a longo prazo, e você pode facilmente comprar um item de redefinição de atributos mais tarde para alterar completamente a sua build.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fundamentos de Combate e Dinâmica de Posturas">
+
+O combate em A Ascensão do Ronin apresenta um alto nível de habilidade exigido, demandando timing preciso e gerenciamento disciplinado de vigor. Seu vigor é representado pelo medidor de Ki. Esgotar seu Ki deixa você temporariamente atordoado e vulnerável a golpes críticos. Para manter a pressão ofensiva, você deve integrar a mecânica de Lampejo de Lâmina (Blade Flash) ao seu fluxo de ataque. Pressionar R1 imediatamente após concluir um combo de ataque limpa o sangue da sua arma, reabastecendo rapidamente seu Ki com base no seu medidor de sangue.
+
+A base defensiva do combate depende do Contra-faísca (Counterspark), uma mecânica de parry exclusiva. O timing e a animação física do seu Contra-faísca mudam dependendo da postura equipada. Aparar com sucesso ataques normais desvia o dano, enquanto aparar habilidades marciais vermelhas ou o golpe final de um combo inimigo causa pesados danos de Ki e faz com que o inimigo entre em pânico.
+
+Durante as missões, adquira o hábito de alternar de personagem frequentemente. Quando seu personagem ativo for pego em uma animação de agarrão, ficar sem Ki ou for encurralado contra a parede, mude instantaneamente para um aliado. Isso permite que a IA cuide da defesa enquanto você mantém o ritmo ofensivo de um ângulo diferente.
+
+| Tipo de Postura | Forte Contra | Fraco Contra | Estilo de Jogo Tático |
+| :--- | :--- | :--- | :--- |
+| **Jin (Terra)** | Sabres, Armas leves | Odachis, Armas pesadas | Defensivo, janelas de parry precisas |
+| **Chi (Humano)** | Odachis, Armas pesadas | Katanas, Armas normais | Golpes físicos lentos e pesados |
+| **Ten (Céu)** | Katanas, Armas normais | Sabres, Armas leves | Combos aéreos rápidos e agressivos |
+| **Shinobi** | Nenhum | Todos os tipos de armas | Furtividade e habilidades marciais de alto dano |
+
+As posturas escalam com seus atributos principais: Força, Destreza, Carisma e Intelecto. Você pode melhorar esse escalonamento e desbloquear novas habilidades marciais treinando no Dojo ou aumentando seus níveis de elo com personagens específicos que utilizam essas posturas.
+
+<Callout type="warning" title="Isca de Pânico de Chefes">
+Tenha cuidado ao lutar contra chefes difíceis. Alguns oponentes simularão intencionalmente um estado de pânico para induzir você a atacar, apenas para contra-atacar com uma habilidade marcial indefensável. Aprenda a reconhecer essas animações de isca e prepare-se para aparar o ataque seguinte.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades Críticas do Início do Jogo para Desbloquear">
+
+A árvore de habilidades é dividida em quatro atributos principais, cada um oferecendo melhorias passivas e manobras de combate ativas. Embora existam dezenas de opções, algumas habilidades selecionadas oferecem melhorias massivas na qualidade de vida e devem ser adquiridas o mais rápido possível.
+
+<Steps>
+  <Step num="1" title="Desbloqueie Habilidades de Persuasão">
+    Prioritize Persuadir, Intimidar e Mentir. Essas habilidades abrem escolhas de diálogo exclusivas durante missões de história e de elo, que geram consistentemente resultados positivos e aceleram a progressão de elos.
+  </Step>
+  <Step num="2" title="Adquira Recuperação Automática de Vida">
+    Localizada na árvore de Força, esta habilidade restaura automaticamente sua saúde ao máximo imediatamente após sair de um combate. Isso economiza uma quantidade enorme de pílulas medicinais durante a exploração do mundo aberto.
+  </Step>
+  <Step num="3" title="Invista na Árvore da Corda com Gancho">
+    Isso permite que você se puxe em direção a inimigos em locais elevados, arremesse inimigos cambaleantes e roube itens. Você pode até usá-la para roubar pílulas medicinais de chefes quando eles tentarem se curar.
+  </Step>
+  <Step num="4" title="Melhore a Árvore de Assassinato">
+    Desbloqueie habilidades que permitem realizar eliminações furtivas rápidas em inimigos agrupados e executar abates silenciosos de bordas altas usando sua corda com gancho.
+  </Step>
+</Steps>
+
+Investir nessas habilidades de utilidade logo cedo garante que você tenha as ferramentas necessárias para lidar tanto com encontros diplomáticos quanto com cenários de combate complexos sem depender apenas de pura habilidade mecânica.
+
+<Callout type="info" title="Descontos de Mercadores">
+Maximizar seu nível de Persuasão cedo reduz os preços de compra globais em todas as lojas padrão em até 10%, tornando equipamentos de alto nível e presentes muito mais acessíveis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão de Elos e Estratégias de Presentes">
+
+Construir relacionamentos com seus aliados não serve apenas para fins de história; aumentar seus níveis de elo desbloqueia diretamente posturas de combate, melhora habilidades marciais e concede valiosos pontos de atributos. Uma das suas primeiras grandes decisões de elo envolve Gonzo, o chefe dos bandidos encontrado no início da campanha. Poupar a vida de Gonzo permite que você o desbloqueie como aliado, abrindo missões de elo exclusivas e concedendo acesso à poderosa postura Nodaichi Jigan-ryu para a Odachi.
+
+Para aumentar seus níveis de elo de forma eficiente, utilize o sistema de dar presentes:
+- Abra o menu de Elos para localizar as posições atuais dos seus aliados.
+- Procurar pelo ícone de coração pequeno nos itens do seu inventário, indicando um presente preferido (como livros específicos, bebidas ou poesias).
+- Dê três do mesmo presente preferido de uma só vez para maximizar os ganhos de relacionamento, ignorando o tempo de recarga para dar presentes.
+
+<Checklist
+  id="early-bond-milestones"
+  title="Metas de Relacionamento Iniciais:"
+  items={[
+    "Poupe Gonzo durante a missão do acampamento de bandidos para garantir seu elo",
+    "Identifique presentes preferidos com ícones de coração em seu inventário",
+    "Alcance o Nível de Elo 4 com seus principais aliados de combate para atualizações de postura",
+    "Conclua ordens públicas locais para aumentar os níveis de elo regional e obter descontos em lojas"
+  ]}
+/>
+
+Você can comprar presentes de Comerciantes e Traficantes do Mercado Negro usando moedas de prata. Para otimizar seus gastos, sempre compre itens em regiões onde você estabeleceu um alto nível de elo regional, pois isso concede um desconto substancial.
+
+| Tipo de Mercador | Moeda Aceita | Requisito de Desconto | Itens de Alto Valor |
+| :--- | :--- | :--- | :--- |
+| **Traficante do Mercado Negro** | Moedas de Prata | Alto Nível de Elo Regional | Presentes específicos de personagens, materiais raros |
+| **Comerciante de Base de Facção**| Moedas de Prata | Alto Alinhamento de Facção | Armas e peças de armadura de alto nível |
+| **Camelô de Rua** | Moedas Padrão | Encontros aleatórios de rua | Consumíveis baratos e presentes básicos |
+
+<Callout type="tip" title="Descontos de Base de Facção">
+Certifique-se de monitorar seu alinhamento com as facções pró-shogunato e anti-shogunato. Comprar itens na base da sua facção altamente alinhada garante os melhores preços do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Compreender as mecânicas subjacentes de A Ascensão do Ronin pode melhorar significativamente sua experiência geral. Abaixo estão as respostas para algumas das perguntas mais comuns que os jogadores fazem durante suas horas iniciais.
+
+<FAQ items={[
+  {
+    question: "Qual é a mecânica de combate mais crítica para dominar neste guia de iniciantes de A Ascensão do Ronin?",
+    answer: "As mecânicas mais importantes são dominar o tempo do Contra-faísca (parry) para colocar os inimigos em pânico e usar consistentemente o Lampejo de Lâmina (R1) após seus combos de ataque para gerenciar seu vigor de Ki."
+  },
+  {
+    question: "É melhor matar ou poupar Gonzo no início do jogo?",
+    answer: "É altamente recomendável poupar Gonzo. Poupá-lo o desbloqueia como companheiro, concede acesso a uma postura Chi exclusiva para a Odachi e abre várias missões de elo exclusivas mais tarde na história."
+  },
+  {
+    question: "Posso mudar minha Origem de Afiação de Lâmina inicial mais tarde se eu não gostar do meu estilo de jogo?",
+    answer: "Sim. Você não fica preso permanentemente à sua classe inicial. Você pode facilmente comprar um item de redefinição de atributos especializado mais tarde na campanha para alterar sua origem e realocar seus pontos de atributos no Lar."
+  },
+  {
+    question: "Como faço para garantir os melhores descontos ao comprar presentes para meus aliados?",
+    answer: "Conclua ordens públicas locais, encontre gatos escondidos e visite pontos de referência regionais para aumentar seu nível de elo regional. Isso desbloqueia descontos permanentes de mercadores em Traficantes do Mercado Negro e Comerciantes locais."
+  }
+]} />
+
+<Callout type="info" title="Conselho Final">
+Leve o tempo que precisar para aprender os padrões de ataque dos inimigos. A defesa é tão importante quanto o ataque, e utilizar seus aliados durante lutas difíceis contra chefes pode transformar um encontro frustrante em uma vitória fácil.
+</Callout>
+
+</Section>

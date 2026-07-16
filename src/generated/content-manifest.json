@@ -1,1 +1,714 @@
-{}
+{
+  "en": {
+    "guide": [
+      {
+        "slug": "rise-of-the-ronin-beginner-guide",
+        "file": "rise-of-the-ronin-beginner-guide"
+      },
+      {
+        "slug": "rise-of-the-ronin-fugitive-missing",
+        "file": "rise-of-the-ronin-fugitive-missing"
+      },
+      {
+        "slug": "rise-of-the-ronin-how-to-catch-scared-cats",
+        "file": "rise-of-the-ronin-how-to-catch-scared-cats"
+      },
+      {
+        "slug": "rise-of-the-ronin-how-to-get-into-military-academy",
+        "file": "rise-of-the-ronin-how-to-get-into-military-academy"
+      },
+      {
+        "slug": "rise-of-the-ronin-trophy-guide",
+        "file": "rise-of-the-ronin-trophy-guide"
+      }
+    ],
+    "map": [
+      {
+        "slug": "rise-of-the-ronin-hiranuma-treasure",
+        "file": "rise-of-the-ronin-hiranuma-treasure"
+      },
+      {
+        "slug": "rise-of-the-ronin-map",
+        "file": "rise-of-the-ronin-map"
+      },
+      {
+        "slug": "rise-of-the-ronin-motomachi-treasure-chest",
+        "file": "rise-of-the-ronin-motomachi-treasure-chest"
+      },
+      {
+        "slug": "rise-of-the-ronin-shibuya-treasure-chest",
+        "file": "rise-of-the-ronin-shibuya-treasure-chest"
+      },
+      {
+        "slug": "rise-of-the-ronin-tuxedo-cat",
+        "file": "rise-of-the-ronin-tuxedo-cat"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "rise-of-the-ronin-pc",
+        "file": "rise-of-the-ronin-pc"
+      },
+      {
+        "slug": "rise-of-the-ronin-ps-plus",
+        "file": "rise-of-the-ronin-ps-plus"
+      },
+      {
+        "slug": "rise-of-the-ronin-ps5",
+        "file": "rise-of-the-ronin-ps5"
+      },
+      {
+        "slug": "rise-of-the-ronin-release-date",
+        "file": "rise-of-the-ronin-release-date"
+      },
+      {
+        "slug": "rise-of-the-ronin-steam",
+        "file": "rise-of-the-ronin-steam"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "rise-of-the-ronin-gameplay",
+        "file": "rise-of-the-ronin-gameplay"
+      },
+      {
+        "slug": "rise-of-the-ronin-metacritic",
+        "file": "rise-of-the-ronin-metacritic"
+      },
+      {
+        "slug": "rise-of-the-ronin-review",
+        "file": "rise-of-the-ronin-review"
+      },
+      {
+        "slug": "rise-of-the-ronin-vs-ghost-of-tsushima",
+        "file": "rise-of-the-ronin-vs-ghost-of-tsushima"
+      },
+      {
+        "slug": "rise-of-the-ronin-worth-it",
+        "file": "rise-of-the-ronin-worth-it"
+      }
+    ],
+    "story": [
+      {
+        "slug": "rise-of-the-ronin-are-you-forced-to-work-with-katsu",
+        "file": "rise-of-the-ronin-are-you-forced-to-work-with-katsu"
+      },
+      {
+        "slug": "rise-of-the-ronin-does-your-blade-twin-come-back",
+        "file": "rise-of-the-ronin-does-your-blade-twin-come-back"
+      },
+      {
+        "slug": "rise-of-the-ronin-give-letter-to-taka-or-katsura",
+        "file": "rise-of-the-ronin-give-letter-to-taka-or-katsura"
+      },
+      {
+        "slug": "rise-of-the-ronin-kill-naosuke-ii-or-not",
+        "file": "rise-of-the-ronin-kill-naosuke-ii-or-not"
+      },
+      {
+        "slug": "rise-of-the-ronin-why-does-your-blade-twin-betray-you",
+        "file": "rise-of-the-ronin-why-does-your-blade-twin-betray-you"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "rise-of-the-ronin-crash-fix",
+        "file": "rise-of-the-ronin-crash-fix"
+      },
+      {
+        "slug": "rise-of-the-ronin-fps-unlock",
+        "file": "rise-of-the-ronin-fps-unlock"
+      },
+      {
+        "slug": "rise-of-the-ronin-performance-fix",
+        "file": "rise-of-the-ronin-performance-fix"
+      },
+      {
+        "slug": "rise-of-the-ronin-save-location",
+        "file": "rise-of-the-ronin-save-location"
+      },
+      {
+        "slug": "rise-of-the-ronin-system-requirements",
+        "file": "rise-of-the-ronin-system-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "rise-of-the-ronin-demo",
+        "file": "rise-of-the-ronin-demo"
+      },
+      {
+        "slug": "rise-of-the-ronin-dlc",
+        "file": "rise-of-the-ronin-dlc"
+      },
+      {
+        "slug": "rise-of-the-ronin-mods",
+        "file": "rise-of-the-ronin-mods"
+      },
+      {
+        "slug": "rise-of-the-ronin-new-game-plus",
+        "file": "rise-of-the-ronin-new-game-plus"
+      },
+      {
+        "slug": "rise-of-the-ronin-patch-notes",
+        "file": "rise-of-the-ronin-patch-notes"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "rise-of-the-ronin-best-weapon",
+        "file": "rise-of-the-ronin-best-weapon"
+      },
+      {
+        "slug": "rise-of-the-ronin-oxtail-blade-styles",
+        "file": "rise-of-the-ronin-oxtail-blade-styles"
+      },
+      {
+        "slug": "rise-of-the-ronin-tatsumi-ryu",
+        "file": "rise-of-the-ronin-tatsumi-ryu"
+      },
+      {
+        "slug": "rise-of-the-ronin-weapon-tier-list",
+        "file": "rise-of-the-ronin-weapon-tier-list"
+      },
+      {
+        "slug": "rise-of-the-ronin-weapon-types",
+        "file": "rise-of-the-ronin-weapon-types"
+      }
+    ]
+  },
+  "es": {
+    "guide": [
+      {
+        "slug": "rise-of-the-ronin-beginner-guide",
+        "file": "rise-of-the-ronin-beginner-guide"
+      },
+      {
+        "slug": "rise-of-the-ronin-fugitive-missing",
+        "file": "rise-of-the-ronin-fugitive-missing"
+      },
+      {
+        "slug": "rise-of-the-ronin-how-to-catch-scared-cats",
+        "file": "rise-of-the-ronin-how-to-catch-scared-cats"
+      },
+      {
+        "slug": "rise-of-the-ronin-how-to-get-into-military-academy",
+        "file": "rise-of-the-ronin-how-to-get-into-military-academy"
+      },
+      {
+        "slug": "rise-of-the-ronin-trophy-guide",
+        "file": "rise-of-the-ronin-trophy-guide"
+      }
+    ],
+    "map": [
+      {
+        "slug": "rise-of-the-ronin-hiranuma-treasure",
+        "file": "rise-of-the-ronin-hiranuma-treasure"
+      },
+      {
+        "slug": "rise-of-the-ronin-map",
+        "file": "rise-of-the-ronin-map"
+      },
+      {
+        "slug": "rise-of-the-ronin-motomachi-treasure-chest",
+        "file": "rise-of-the-ronin-motomachi-treasure-chest"
+      },
+      {
+        "slug": "rise-of-the-ronin-shibuya-treasure-chest",
+        "file": "rise-of-the-ronin-shibuya-treasure-chest"
+      },
+      {
+        "slug": "rise-of-the-ronin-tuxedo-cat",
+        "file": "rise-of-the-ronin-tuxedo-cat"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "rise-of-the-ronin-pc",
+        "file": "rise-of-the-ronin-pc"
+      },
+      {
+        "slug": "rise-of-the-ronin-ps-plus",
+        "file": "rise-of-the-ronin-ps-plus"
+      },
+      {
+        "slug": "rise-of-the-ronin-ps5",
+        "file": "rise-of-the-ronin-ps5"
+      },
+      {
+        "slug": "rise-of-the-ronin-release-date",
+        "file": "rise-of-the-ronin-release-date"
+      },
+      {
+        "slug": "rise-of-the-ronin-steam",
+        "file": "rise-of-the-ronin-steam"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "rise-of-the-ronin-gameplay",
+        "file": "rise-of-the-ronin-gameplay"
+      },
+      {
+        "slug": "rise-of-the-ronin-metacritic",
+        "file": "rise-of-the-ronin-metacritic"
+      },
+      {
+        "slug": "rise-of-the-ronin-review",
+        "file": "rise-of-the-ronin-review"
+      },
+      {
+        "slug": "rise-of-the-ronin-vs-ghost-of-tsushima",
+        "file": "rise-of-the-ronin-vs-ghost-of-tsushima"
+      },
+      {
+        "slug": "rise-of-the-ronin-worth-it",
+        "file": "rise-of-the-ronin-worth-it"
+      }
+    ],
+    "story": [
+      {
+        "slug": "rise-of-the-ronin-are-you-forced-to-work-with-katsu",
+        "file": "rise-of-the-ronin-are-you-forced-to-work-with-katsu"
+      },
+      {
+        "slug": "rise-of-the-ronin-does-your-blade-twin-come-back",
+        "file": "rise-of-the-ronin-does-your-blade-twin-come-back"
+      },
+      {
+        "slug": "rise-of-the-ronin-give-letter-to-taka-or-katsura",
+        "file": "rise-of-the-ronin-give-letter-to-taka-or-katsura"
+      },
+      {
+        "slug": "rise-of-the-ronin-kill-naosuke-ii-or-not",
+        "file": "rise-of-the-ronin-kill-naosuke-ii-or-not"
+      },
+      {
+        "slug": "rise-of-the-ronin-why-does-your-blade-twin-betray-you",
+        "file": "rise-of-the-ronin-why-does-your-blade-twin-betray-you"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "rise-of-the-ronin-crash-fix",
+        "file": "rise-of-the-ronin-crash-fix"
+      },
+      {
+        "slug": "rise-of-the-ronin-fps-unlock",
+        "file": "rise-of-the-ronin-fps-unlock"
+      },
+      {
+        "slug": "rise-of-the-ronin-performance-fix",
+        "file": "rise-of-the-ronin-performance-fix"
+      },
+      {
+        "slug": "rise-of-the-ronin-save-location",
+        "file": "rise-of-the-ronin-save-location"
+      },
+      {
+        "slug": "rise-of-the-ronin-system-requirements",
+        "file": "rise-of-the-ronin-system-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "rise-of-the-ronin-demo",
+        "file": "rise-of-the-ronin-demo"
+      },
+      {
+        "slug": "rise-of-the-ronin-dlc",
+        "file": "rise-of-the-ronin-dlc"
+      },
+      {
+        "slug": "rise-of-the-ronin-mods",
+        "file": "rise-of-the-ronin-mods"
+      },
+      {
+        "slug": "rise-of-the-ronin-new-game-plus",
+        "file": "rise-of-the-ronin-new-game-plus"
+      },
+      {
+        "slug": "rise-of-the-ronin-patch-notes",
+        "file": "rise-of-the-ronin-patch-notes"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "rise-of-the-ronin-best-weapon",
+        "file": "rise-of-the-ronin-best-weapon"
+      },
+      {
+        "slug": "rise-of-the-ronin-oxtail-blade-styles",
+        "file": "rise-of-the-ronin-oxtail-blade-styles"
+      },
+      {
+        "slug": "rise-of-the-ronin-tatsumi-ryu",
+        "file": "rise-of-the-ronin-tatsumi-ryu"
+      },
+      {
+        "slug": "rise-of-the-ronin-weapon-tier-list",
+        "file": "rise-of-the-ronin-weapon-tier-list"
+      },
+      {
+        "slug": "rise-of-the-ronin-weapon-types",
+        "file": "rise-of-the-ronin-weapon-types"
+      }
+    ]
+  },
+  "ja": {
+    "guide": [
+      {
+        "slug": "rise-of-the-ronin-beginner-guide",
+        "file": "rise-of-the-ronin-beginner-guide"
+      },
+      {
+        "slug": "rise-of-the-ronin-fugitive-missing",
+        "file": "rise-of-the-ronin-fugitive-missing"
+      },
+      {
+        "slug": "rise-of-the-ronin-how-to-catch-scared-cats",
+        "file": "rise-of-the-ronin-how-to-catch-scared-cats"
+      },
+      {
+        "slug": "rise-of-the-ronin-how-to-get-into-military-academy",
+        "file": "rise-of-the-ronin-how-to-get-into-military-academy"
+      },
+      {
+        "slug": "rise-of-the-ronin-trophy-guide",
+        "file": "rise-of-the-ronin-trophy-guide"
+      }
+    ],
+    "map": [
+      {
+        "slug": "rise-of-the-ronin-hiranuma-treasure",
+        "file": "rise-of-the-ronin-hiranuma-treasure"
+      },
+      {
+        "slug": "rise-of-the-ronin-map",
+        "file": "rise-of-the-ronin-map"
+      },
+      {
+        "slug": "rise-of-the-ronin-motomachi-treasure-chest",
+        "file": "rise-of-the-ronin-motomachi-treasure-chest"
+      },
+      {
+        "slug": "rise-of-the-ronin-shibuya-treasure-chest",
+        "file": "rise-of-the-ronin-shibuya-treasure-chest"
+      },
+      {
+        "slug": "rise-of-the-ronin-tuxedo-cat",
+        "file": "rise-of-the-ronin-tuxedo-cat"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "rise-of-the-ronin-pc",
+        "file": "rise-of-the-ronin-pc"
+      },
+      {
+        "slug": "rise-of-the-ronin-ps-plus",
+        "file": "rise-of-the-ronin-ps-plus"
+      },
+      {
+        "slug": "rise-of-the-ronin-ps5",
+        "file": "rise-of-the-ronin-ps5"
+      },
+      {
+        "slug": "rise-of-the-ronin-release-date",
+        "file": "rise-of-the-ronin-release-date"
+      },
+      {
+        "slug": "rise-of-the-ronin-steam",
+        "file": "rise-of-the-ronin-steam"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "rise-of-the-ronin-gameplay",
+        "file": "rise-of-the-ronin-gameplay"
+      },
+      {
+        "slug": "rise-of-the-ronin-metacritic",
+        "file": "rise-of-the-ronin-metacritic"
+      },
+      {
+        "slug": "rise-of-the-ronin-review",
+        "file": "rise-of-the-ronin-review"
+      },
+      {
+        "slug": "rise-of-the-ronin-vs-ghost-of-tsushima",
+        "file": "rise-of-the-ronin-vs-ghost-of-tsushima"
+      },
+      {
+        "slug": "rise-of-the-ronin-worth-it",
+        "file": "rise-of-the-ronin-worth-it"
+      }
+    ],
+    "story": [
+      {
+        "slug": "rise-of-the-ronin-are-you-forced-to-work-with-katsu",
+        "file": "rise-of-the-ronin-are-you-forced-to-work-with-katsu"
+      },
+      {
+        "slug": "rise-of-the-ronin-does-your-blade-twin-come-back",
+        "file": "rise-of-the-ronin-does-your-blade-twin-come-back"
+      },
+      {
+        "slug": "rise-of-the-ronin-give-letter-to-taka-or-katsura",
+        "file": "rise-of-the-ronin-give-letter-to-taka-or-katsura"
+      },
+      {
+        "slug": "rise-of-the-ronin-kill-naosuke-ii-or-not",
+        "file": "rise-of-the-ronin-kill-naosuke-ii-or-not"
+      },
+      {
+        "slug": "rise-of-the-ronin-why-does-your-blade-twin-betray-you",
+        "file": "rise-of-the-ronin-why-does-your-blade-twin-betray-you"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "rise-of-the-ronin-crash-fix",
+        "file": "rise-of-the-ronin-crash-fix"
+      },
+      {
+        "slug": "rise-of-the-ronin-fps-unlock",
+        "file": "rise-of-the-ronin-fps-unlock"
+      },
+      {
+        "slug": "rise-of-the-ronin-performance-fix",
+        "file": "rise-of-the-ronin-performance-fix"
+      },
+      {
+        "slug": "rise-of-the-ronin-save-location",
+        "file": "rise-of-the-ronin-save-location"
+      },
+      {
+        "slug": "rise-of-the-ronin-system-requirements",
+        "file": "rise-of-the-ronin-system-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "rise-of-the-ronin-demo",
+        "file": "rise-of-the-ronin-demo"
+      },
+      {
+        "slug": "rise-of-the-ronin-dlc",
+        "file": "rise-of-the-ronin-dlc"
+      },
+      {
+        "slug": "rise-of-the-ronin-mods",
+        "file": "rise-of-the-ronin-mods"
+      },
+      {
+        "slug": "rise-of-the-ronin-new-game-plus",
+        "file": "rise-of-the-ronin-new-game-plus"
+      },
+      {
+        "slug": "rise-of-the-ronin-patch-notes",
+        "file": "rise-of-the-ronin-patch-notes"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "rise-of-the-ronin-best-weapon",
+        "file": "rise-of-the-ronin-best-weapon"
+      },
+      {
+        "slug": "rise-of-the-ronin-oxtail-blade-styles",
+        "file": "rise-of-the-ronin-oxtail-blade-styles"
+      },
+      {
+        "slug": "rise-of-the-ronin-tatsumi-ryu",
+        "file": "rise-of-the-ronin-tatsumi-ryu"
+      },
+      {
+        "slug": "rise-of-the-ronin-weapon-tier-list",
+        "file": "rise-of-the-ronin-weapon-tier-list"
+      },
+      {
+        "slug": "rise-of-the-ronin-weapon-types",
+        "file": "rise-of-the-ronin-weapon-types"
+      }
+    ]
+  },
+  "pt": {
+    "guide": [
+      {
+        "slug": "rise-of-the-ronin-beginner-guide",
+        "file": "rise-of-the-ronin-beginner-guide"
+      },
+      {
+        "slug": "rise-of-the-ronin-fugitive-missing",
+        "file": "rise-of-the-ronin-fugitive-missing"
+      },
+      {
+        "slug": "rise-of-the-ronin-how-to-catch-scared-cats",
+        "file": "rise-of-the-ronin-how-to-catch-scared-cats"
+      },
+      {
+        "slug": "rise-of-the-ronin-how-to-get-into-military-academy",
+        "file": "rise-of-the-ronin-how-to-get-into-military-academy"
+      },
+      {
+        "slug": "rise-of-the-ronin-trophy-guide",
+        "file": "rise-of-the-ronin-trophy-guide"
+      }
+    ],
+    "map": [
+      {
+        "slug": "rise-of-the-ronin-hiranuma-treasure",
+        "file": "rise-of-the-ronin-hiranuma-treasure"
+      },
+      {
+        "slug": "rise-of-the-ronin-map",
+        "file": "rise-of-the-ronin-map"
+      },
+      {
+        "slug": "rise-of-the-ronin-motomachi-treasure-chest",
+        "file": "rise-of-the-ronin-motomachi-treasure-chest"
+      },
+      {
+        "slug": "rise-of-the-ronin-shibuya-treasure-chest",
+        "file": "rise-of-the-ronin-shibuya-treasure-chest"
+      },
+      {
+        "slug": "rise-of-the-ronin-tuxedo-cat",
+        "file": "rise-of-the-ronin-tuxedo-cat"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "rise-of-the-ronin-pc",
+        "file": "rise-of-the-ronin-pc"
+      },
+      {
+        "slug": "rise-of-the-ronin-ps-plus",
+        "file": "rise-of-the-ronin-ps-plus"
+      },
+      {
+        "slug": "rise-of-the-ronin-ps5",
+        "file": "rise-of-the-ronin-ps5"
+      },
+      {
+        "slug": "rise-of-the-ronin-release-date",
+        "file": "rise-of-the-ronin-release-date"
+      },
+      {
+        "slug": "rise-of-the-ronin-steam",
+        "file": "rise-of-the-ronin-steam"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "rise-of-the-ronin-gameplay",
+        "file": "rise-of-the-ronin-gameplay"
+      },
+      {
+        "slug": "rise-of-the-ronin-metacritic",
+        "file": "rise-of-the-ronin-metacritic"
+      },
+      {
+        "slug": "rise-of-the-ronin-review",
+        "file": "rise-of-the-ronin-review"
+      },
+      {
+        "slug": "rise-of-the-ronin-vs-ghost-of-tsushima",
+        "file": "rise-of-the-ronin-vs-ghost-of-tsushima"
+      },
+      {
+        "slug": "rise-of-the-ronin-worth-it",
+        "file": "rise-of-the-ronin-worth-it"
+      }
+    ],
+    "story": [
+      {
+        "slug": "rise-of-the-ronin-are-you-forced-to-work-with-katsu",
+        "file": "rise-of-the-ronin-are-you-forced-to-work-with-katsu"
+      },
+      {
+        "slug": "rise-of-the-ronin-does-your-blade-twin-come-back",
+        "file": "rise-of-the-ronin-does-your-blade-twin-come-back"
+      },
+      {
+        "slug": "rise-of-the-ronin-give-letter-to-taka-or-katsura",
+        "file": "rise-of-the-ronin-give-letter-to-taka-or-katsura"
+      },
+      {
+        "slug": "rise-of-the-ronin-kill-naosuke-ii-or-not",
+        "file": "rise-of-the-ronin-kill-naosuke-ii-or-not"
+      },
+      {
+        "slug": "rise-of-the-ronin-why-does-your-blade-twin-betray-you",
+        "file": "rise-of-the-ronin-why-does-your-blade-twin-betray-you"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "rise-of-the-ronin-crash-fix",
+        "file": "rise-of-the-ronin-crash-fix"
+      },
+      {
+        "slug": "rise-of-the-ronin-fps-unlock",
+        "file": "rise-of-the-ronin-fps-unlock"
+      },
+      {
+        "slug": "rise-of-the-ronin-performance-fix",
+        "file": "rise-of-the-ronin-performance-fix"
+      },
+      {
+        "slug": "rise-of-the-ronin-save-location",
+        "file": "rise-of-the-ronin-save-location"
+      },
+      {
+        "slug": "rise-of-the-ronin-system-requirements",
+        "file": "rise-of-the-ronin-system-requirements"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "rise-of-the-ronin-demo",
+        "file": "rise-of-the-ronin-demo"
+      },
+      {
+        "slug": "rise-of-the-ronin-dlc",
+        "file": "rise-of-the-ronin-dlc"
+      },
+      {
+        "slug": "rise-of-the-ronin-mods",
+        "file": "rise-of-the-ronin-mods"
+      },
+      {
+        "slug": "rise-of-the-ronin-new-game-plus",
+        "file": "rise-of-the-ronin-new-game-plus"
+      },
+      {
+        "slug": "rise-of-the-ronin-patch-notes",
+        "file": "rise-of-the-ronin-patch-notes"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "rise-of-the-ronin-best-weapon",
+        "file": "rise-of-the-ronin-best-weapon"
+      },
+      {
+        "slug": "rise-of-the-ronin-oxtail-blade-styles",
+        "file": "rise-of-the-ronin-oxtail-blade-styles"
+      },
+      {
+        "slug": "rise-of-the-ronin-tatsumi-ryu",
+        "file": "rise-of-the-ronin-tatsumi-ryu"
+      },
+      {
+        "slug": "rise-of-the-ronin-weapon-tier-list",
+        "file": "rise-of-the-ronin-weapon-tier-list"
+      },
+      {
+        "slug": "rise-of-the-ronin-weapon-types",
+        "file": "rise-of-the-ronin-weapon-types"
+      }
+    ]
+  }
+}

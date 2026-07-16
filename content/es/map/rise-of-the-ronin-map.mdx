@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Navigation, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa de Rise of the Ronin: Todos los coleccionables y ubicaciones de fugitivos",
+  description: "Domina el mapa de Rise of the Ronin con nuestra guía de Yokohama, Edo y Kioto. Encuentra todos los gatos, santuarios, fugitivos y estandartes del filo velado en el Japón del Bakumatsu.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Map+and+Collectibles+Guide",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Rise of the Ronin",
+  keywords: "mapa, coleccionables, fugitivos, yokohama, edo, kioto, rise of the ronin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El mapa de Rise of the Ronin** cuenta con tres regiones masivas de mundo abierto: **Yokohama**, **Edo** y **Kioto**.
+- **Restaurar el orden público** es la forma principal de revelar iconos ocultos, coleccionables y actividades de vínculo regional.
+- **Los estandartes del filo velado** sirven como tu red de viaje rápido y son esenciales para gestionar tu inventario y aliados.
+- **Los coleccionables** como gatos y santuarios otorgan divisas únicas (monedas de plata) y mejoras permanentes de estadísticas (puntos de habilidad).
+- **El Testamento del alma** te permite regresar a mapas anteriores para completar el 100% después de avanzar en la historia.
+</Callout>
+
+<Section icon={Map} title="Explorando las regiones del mapa de Rise of the Ronin">
+
+El **mapa de Rise of the Ronin** se divide en tres regiones históricas distintas, cada una representando una fase diferente de la era Bakumatsu. A diferencia de los juegos de acción lineales tradicionales, estos mundos abiertos están densamente repletos de verticalidad, monumentos históricos y encuentros dinámicos. Comprender la disposición de cada ciudad es vital para una progresión eficiente y para encontrar equipo de alto nivel.
+
+**Resumen de Regiones:**
+
+- **Yokohama**: La puerta a la influencia occidental. Incluye el puerto, el asentamiento extranjero y Yamashita. Tiene una atmósfera costera, multicultural y montañosa.
+- **Edo**: El corazón político del Shogunato. Incluye el Castillo Edo, Nihonbashi y Yoshiwara. Su ambiente es urbano, denso y fortificado.
+- **Kioto**: La capital imperial y escenario de conflictos. Incluye Mibu-dera, Kiyomizu-dera y Gion. Destaca por su estilo tradicional, elegante y volátil.
+
+Cada región requiere un enfoque diferente para la exploración. Yokohama introduce al jugador en las mecánicas básicas de desplazamiento, mientras que Edo expande la escala con castillos masivos y distritos bulliciosos. Kioto sirve como el desafío del juego tardío, con trazados de calles complejos y encuentros con fugitivos de alto nivel.
+
+<Callout type="tip" title="Consejo Profesional">
+Prioriza siempre la activación de los **estandartes del filo velado** tan pronto como entres en un nuevo distrito. Revelan los alrededores inmediatos y proporcionan un lugar seguro para recuperar salud y gestionar tu equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Iconos del mapa y tipos de coleccionables">
+
+Navegar por el **mapa de Rise of the Ronin** implica identificar varios iconos que representan oportunidades para el crecimiento del personaje. El mapa utiliza un sistema de capas donde ciertos iconos solo aparecen después de aumentar tu nivel de vínculo con un distrito específico.
+
+<CardGrid cols={2}>
+  <Card title="Iconos de Exploración">
+    - **Estandartes del filo velado**: Puntos de viaje rápido y reaparición.
+    - **Santuarios**: Interactúa para obtener puntos de habilidad permanentes.
+    - **Puntos fotográficos**: Captura vistas históricas para obtener recompensas.
+    - **Lugares de interés**: Sitios históricos que aumentan los vínculos regionales.
+  </Card>
+  <Card title="Iconos de Actividad">
+    - **Orden público**: Zonas de combate que necesitan ser despejadas.
+    - **Fugitivos**: Minijefes con nombre que sueltan equipo único.
+    - **Gatos**: Felinos coleccionables que recompensan con monedas de plata.
+    - **Cofres del tesoro**: Botín oculto que contiene armas y armaduras.
+  </Card>
+</CardGrid>
+
+Coleccionar gatos es particularmente importante para los jugadores que buscan comprar equipo especializado. Una vez recogidos, los gatos se envían a Usugumo Dayu en el distrito de placer, donde puedes canjear los puntos acumulados por accesorios poderosos y estilos de combate.
+
+<Callout type="success" title="Recompensa por Completar">
+Alcanzar el 100% de finalización en un distrito a menudo te recompensa con materiales de artesanía raros y aumentos permanentes en tus atributos principales (Fuerza, Destreza, Carisma e Intelecto).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Restaurar el orden público y cazar fugitivos">
+
+Muchas áreas del **mapa de Rise of the Ronin** comienzan en un estado de agitación, marcadas por zonas rojas. En estas áreas, el orden público se ha deteriorado debido a la actividad de bandidos o disputas entre facciones. Restaurar el orden es la forma más efectiva de desbloquear todo el potencial de un distrito.
+
+<Steps>
+  <Step num="1" title="Localiza la zona de agitación">
+    Identifica las áreas sombreadas en rojo en tu mapa. Indican lugares donde bandidos o samuráis renegados han tomado el control de una aldea o puesto avanzado.
+  </Step>
+  <Step num="2" title="Elimina a los líderes">
+    Entra en la zona y busca enemigos con un icono blanco sobre sus cabezas. Estos son los líderes. Derrotarlos rompe inmediatamente la moral del enemigo.
+  </Step>
+  <Step num="3" title="Derrota a los fugitivos con nombre">
+    Los objetivos de alto valor suelen esconderse en estas zonas. Los fugitivos son significativamente más fuertes que los enemigos estándar y requieren una sincronización precisa de la Contrachispa para ser derrotados.
+  </Step>
+  <Step num="4" title="Iza el estandarte">
+    Una vez neutralizadas todas las amenazas, interactúa con el estandarte del filo velado local para restaurar el orden. Esto devuelve a los civiles a la zona y revela todos los coleccionables cercanos.
+  </Step>
+</Steps>
+
+**Tipos de Enemigos y Tácticas:**
+
+- **Bandido común**: Dificultad baja. Otorga materiales básicos y cobre. Usa el sigilo para eliminaciones rápidas.
+- **Líder / Bruto**: Dificultad media. Otorga equipo poco común y medicina. Concéntrate en agotar su Ki con armas pesadas.
+- **Fugitivo con nombre**: Dificultad alta. Otorga equipo raro/exótico y estilos. Vigila los ataques rojos; el parry es obligatorio.
+- **Jefe oculto**: Dificultad extrema. Otorga objetos legendarios y títulos. Solo enfréntate a ellos cuando tengas el nivel y equipo adecuados.
+
+<Callout type="warning" title="Vigila tu nivel">
+Los fugitivos tienen niveles específicos que se muestran junto a sus nombres. Intentar luchar contra un fugitivo con más de 5 niveles por encima del tuyo es extremadamente peligroso y suele resultar en una derrota inmediata.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Vínculos regionales y recompensas de progresión">
+
+A medida que interactúas con el **mapa de Rise of the Ronin**, desarrollas un **Vínculo regional**. Esto representa tu influencia y reputación dentro de esa área específica. Hay tres niveles de vínculo regional, cada uno con mejores beneficios.
+
+- **Nivel 1**: Requiere restaurar el orden público. Beneficios: Se revelan iconos básicos del mapa y acceso a mercaderes locales.
+- **Nivel 2**: Requiere completar tareas secundarias. Beneficios: Se revelan las ubicaciones de los coleccionables y obtienes descuentos en mercaderes.
+- **Nivel 3**: Requiere el 100% de actividad del distrito. Beneficios: Disponibilidad de objetos raros y velocidad máxima de viaje rápido.
+
+Más allá de revelar iconos, los vínculos regionales altos te permiten comprar equipo específico del distrito que no se encuentra en otros lugares. Por ejemplo, el asentamiento extranjero en Yokohama ofrece sables y armas de fuego de estilo occidental que no están disponibles en los distritos rurales más tradicionales.
+
+<Callout type="info" title="Sincronización del Mapa">
+En el juego avanzado, puedes usar el **Testamento del alma** para sincronizar tu nivel con una región. Esto hace que las áreas de nivel bajo vuelvan a ser desafiantes y te permite farmear materiales de alto nivel de fugitivos iniciales.
+</Callout>
+
+</Section>
+
+<Section icon={Navigation} title="Dominando el desplazamiento y caminos ocultos">
+
+El **mapa de Rise of the Ronin** está diseñado pensando en la verticalidad. No estás restringido a los caminos; de hecho, las mejores recompensas suelen encontrarse en tejados o senderos ocultos en acantilados. Dominar tus herramientas de desplazamiento es esencial para completar el 100%.
+
+<Checklist
+  id="traversal-essentials"
+  title="Lista de maestría de desplazamiento:"
+  items={[
+    "Desbloquea el planeador Avian para viajes aéreos de larga distancia",
+    "Domina el gancho para alcanzar tejados de templos ocultos",
+    "Mejora la velocidad de tu caballo para una exploración terrestre más rápida",
+    "Usa el reloj de bolsillo para cambiar la hora del día (algunos NPC solo aparecen de noche)",
+    "Encuentra todos los cofres submarinos ocultos en la zona del puerto de Yokohama"
+  ]}
+/>
+
+Recorrer el mapa de manera eficiente ahorra horas de juego. El planeador Avian, en particular, te permite evitar grandes grupos de enemigos o llegar a ubicaciones de fugitivos que de otro modo serían inaccesibles. Busca siempre los "puntos de enganche" (marcados por iconos circulares blancos) para encontrar atajos verticales.
+
+<Callout type="tip" title="Secreto de Exploración">
+Algunos santuarios y cofres del tesoro están ocultos detrás de paredes destruibles. Si ves una pared con grietas o barriles cerca, usa un ataque pesado o un barril explosivo para revelar el camino oculto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre el mapa de Rise of the Ronin">
+
+<FAQ items={[
+  {
+    question: "¿Puedo volver a Yokohama después de ir a Edo?",
+    answer: "Sí. Una vez que llegues a Edo, desbloquearás el Testamento del alma en tu casa comunal. Esta función te permite viajar de regreso al mapa de Yokohama en cualquier momento para completar coleccionables o misiones."
+  },
+  {
+    question: "¿Cómo veo la ubicación de los gatos en el mapa?",
+    answer: "Las ubicaciones de los gatos se revelan una vez que alcanzas el Nivel 2 de Vínculo regional en un distrito específico. Puedes aumentar este vínculo despejando zonas de orden público y completando peticiones locales."
+  },
+  {
+    question: "¿Qué significan los iconos grises en el mapa?",
+    answer: "Los iconos grises representan ubicaciones que has descubierto pero que aún no has completado o recogido. Una vez finalizada la tarea (como visitar un santuario o acariciar a un gato), el icono se volverá blanco o desaparecerá según la configuración de tu mapa."
+  },
+  {
+    question: "¿Hay áreas secretas que no se muestran en el mapa de Rise of the Ronin?",
+    answer: "Sí, hay 'Ubicaciones no marcadas' ocultas, como cuevas y habitaciones secretas en castillos que no tienen iconos en el mapa. Estas suelen contener botín de alto nivel o huevos de pascua como la pelea contra el jefe William de Nioh."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El **mapa de Rise of the Ronin** es un registro vivo de tu viaje. A medida que tomes decisiones en la historia, ciertas áreas pueden cambiar y nuevos personajes pueden aparecer en distritos que ya has despejado. Volver a visitar mapas antiguos siempre es gratificante.
+</Callout>
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos de sistema de A Ascensão do Ronin: Guia de Configuração para PC",
+  description: "Prepare seu PC para A Ascensão do Ronin. Confira os requisitos de sistema oficiais, benchmarks de GPU e dicas de otimização de armazenamento para obter o melhor desempenho.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PC+System+Requirements",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de A Ascensão do Ronin"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Requisitos de sistema**: Analisar os requisitos de sistema oficiais de A Ascensão do Ronin revela a necessidade de um SSD massivo de 180 GB e 16 GB de RAM.
+- **Hardware mínimo**: Os jogadores precisam de pelo menos uma CPU Intel Core i5-10400 emparelhada com uma GPU GTX 1060 de 6 GB para uma jogabilidade básica.
+- **Desempenho alvo**: Alcançar 1080p a 30 FPS nas configurações baixas exige upscaling ativo, enquanto 60 FPS exige hardware moderno.
+- **GPU recomendada**: Uma RTX 2080 Super ou equivalente é recomendada para desbloquear maior fidelidade gráfica e taxas de quadros mais fluidas.
+</Callout>
+
+<Section icon={Sparkles} title="Requisitos Oficiais de Hardware e Especificações de PC">
+
+A tão aguardada versão para PC do RPG de ação em mundo aberto da Team Ninja está programada para ser lançada em 11 de março de 2026. Para garantir uma experiência de jogo fluida pelas ruas históricas do Japão do século XIX, os jogadores devem avaliar suas configurações de hardware. O jogo apresenta demandas de hardware significativas, principalmente em relação ao espaço de armazenamento e à configuração de memória, o que pode afetar o desempenho se não for devidamente planejado.
+
+**Destaques do Vídeo:**
+- **Espaço de armazenamento massivo**: O jogo exige 180 GB de espaço em SSD, tornando-se uma das maiores instalações do gênero.
+- **GPU mínima recomendada**: Uma GTX 1060 (6 GB) é necessária para rodar o jogo a 1080p e 30 FPS nas configurações mais baixas com upscaling ativado.
+- **Padrão de hardware recomendado**: Uma RTX 2080 Super é recomendada para predefinições gráficas mais altas e taxas de quadros mais fluidas.
+
+<YouTubeEmbed videoId="ZWwMxU147RE" title="SSD DE 180 GB NECESSÁRIO! Análise dos Requisitos de Sistema de A Ascensão do Ronin para PC" />
+
+As especificações oficiais de hardware descrevem dois níveis distintos de desempenho. O nível mínimo é voltado para sistemas de entrada, enquanto o nível recomendado é projetado para computadores de jogos de médio a alto desempenho.
+
+| Componente de Hardware | Especificação Mínima (1080p / 30 FPS) | Especificação Recomendada (1080p / 60 FPS) |
+|-|-|-|
+| **SO** | Windows 10/11 de 64 bits | Windows 10/11 de 64 bits |
+| **CPU** | Intel Core i5-10400 ou equivalente | Intel Core i7-10700 ou equivalente |
+| **GPU** | NVIDIA GTX 1060 6GB ou equivalente AMD | NVIDIA RTX 2080 Super ou equivalente |
+| **RAM** | 16 GB de Memória do Sistema | 16 GB de Memória do Sistema |
+| **Armazenamento** | 180 GB de Espaço Disponível em SSD | 180 GB de Espaço Disponível em SSD |
+| **Upscaling** | Obrigatório (DLSS/FSR/XeSS) | Opcional (Recomendado para FPS alto) |
+
+<Callout type="warning" title="Instalação em SSD Obrigatória">
+O jogo não suporta discos rígidos mecânicos tradicionais (HDDs). Instalar o jogo em um HDD resultará em graves atrasos de carregamento de assets (streaming), dessincronização de áudio e pausas frequentes para carregamento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Otimização de Armazenamento e Memória">
+
+O aspecto mais impressionante dos requisitos de sistema de A Ascensão do Ronin é a exigência de 180 GB de armazenamento em SSD. Esse tamanho massivo é impulsionado por texturas de alta resolução, ambientes detalhados de mundo aberto e mecânicas de carregamento rápido de assets. Para manter um desempenho estável, os jogadores devem otimizar seus dispositivos de armazenamento e a memória do sistema.
+
+A arquitetura de memória multicanal é fortemente recomendada para este título. Usar um único pente de 16 GB de RAM (single-channel) pode limitar a largura de banda da CPU, levando a quedas repentinas de quadros ao se mover rapidamente pelo mundo do jogo. Utilizar RAM em dual-channel (como dois pentes de 8 GB) fornece a largura de banda necessária para manter as taxas de quadros estáveis.
+
+| Dispositivo de Armazenamento | Velocidade de Leitura | Impacto no Desempenho | Recomendação |
+|-|-|-|-|
+| **SSD NVMe PCIe Gen 4** | 5000+ MB/s | Tempos de carregamento mais rápidos, zero travamentos de carregamento | Altamente Recomendado |
+| **SSD SATA III** | 500 MB/s | Tempos de carregamento normais, carregamento estável | Requisito Mínimo |
+| **HDD Mecânico** | 100 MB/s | Travamentos graves, carregamento lento de texturas | Não Suportado |
+
+<Callout type="tip" title="Dica de Manutenção do Disco">
+Certifique-se de que seu SSD tenha pelo menos 15% a 20% de espaço livre restante após instalar o jogo. O desempenho do SSD pode cair significativamente quando o disco está próximo de sua capacidade máxima, o que pode causar travamentos no jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Placas de Vídeo e Escalonamento de Desempenho">
+
+As exigências gráficas do jogo variam dependendo da sua resolução e taxa de quadros alvo. Embora placas de vídeo mais antigas, como a GTX 1060 de 6 GB, consigam rodar o jogo, elas precisam contar com tecnologias de upscaling para manter uma taxa jogável de 30 FPS. GPUs modernas com maior quantidade de VRAM são mais adequadas para lidar com os ambientes detalhados do jogo.
+
+Para os jogadores que buscam resoluções mais altas, como 1440p ou 4K, o gerenciamento de VRAM torna-se crítico. A RTX 2080 Super recomendada possui 8 GB de VRAM, o que é suficiente para jogar em 1080p e um 1440p leve. No entanto, para configurações máximas em 4K, recomenda-se uma GPU com pelo menos 12 GB de VRAM.
+
+<CardGrid cols={3}>
+  <Card title="Predefinição de Desempenho">
+    - **Resolução**: 1080p
+    - **FPS Alvo**: 30 - 45 FPS
+    - **Upscaling**: Modo Desempenho
+    - **GPU Ideal**: GTX 1060 / RX 580
+  </Card>
+  <Card title="Predefinição Equilibrada">
+    - **Resolução**: 1080p / 1440p
+    - **FPS Alvo**: 60 FPS
+    - **Upscaling**: Modo Qualidade
+    - **GPU Ideal**: RTX 2060 Super / RTX 3060
+  </Card>
+  <Card title="Predefinição de Qualidade">
+    - **Resolução**: 1440p / 4K
+    - **FPS Alvo**: 60+ FPS
+    - **Upscaling**: Nativo ou Qualidade
+    - **GPU Ideal**: RTX 2080 Super / RTX 4070
+  </Card>
+</CardGrid>
+
+| Resolução | Taxa de Quadros Alvo | GPU Recomendada | Uso de VRAM |
+|-|-|-|-|
+| **1080p Baixo** | 30 FPS | GTX 1060 6GB | ~5,5 GB |
+| **1080p Alto** | 60 FPS | RTX 2080 Super | ~7,2 GB |
+| **1440p Alto** | 60 FPS | RTX 3070 Ti | ~7,8 GB |
+| **4K Alto** | 60 FPS | RTX 4070 Ti Super | ~11,5 GB |
+
+<Callout type="info" title="Suporte a Upscaling">
+O jogo conta com suporte integrado para NVIDIA DLSS, AMD FSR e Intel XeSS. Se o seu sistema tiver dificuldades para manter uma taxa de quadros estável, ativar esses recursos no modo "Qualidade" ou "Equilibrado" pode proporcionar um aumento substancial de desempenho sem sacrificar muita clareza visual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Configuração do PC Passo a Passo">
+
+Para preparar seu PC para o lançamento do jogo e garantir que seu sistema atinja os limites de desempenho necessários, siga este guia de otimização.
+
+<Steps>
+  <Step num="1" title="Prepare o Espaço de Armazenamento">
+    Verifique se você tem pelo menos 180 GB de espaço livre em um SSD. Se necessário, mova jogos mais antigos para um armazenamento secundário ou faça uma limpeza de disco para remover arquivos temporários do sistema.
+  </Step>
+  <Step num="2" title="Verifique a Configuração de Memória">
+    Abra o Gerenciador de Tarefas e verifique a guia Desempenho em Memória. Certifique-se de que sua RAM esteja funcionando em uma configuração dual-channel e que o XMP (Extreme Memory Profile) ou DOCP esteja ativado na BIOS do sistema para atingir as velocidades máximas anunciadas.
+  </Step>
+  <Step num="3" title="Atualize os Drivers de Vídeo">
+    Baixe e instale os drivers de vídeo mais recentes da NVIDIA, AMD ou Intel. Os fabricantes de GPU lançam regularmente drivers prontos para jogos (Game Ready) que incluem otimizações específicas e correções de bugs para novos lançamentos.
+  </Step>
+  <Step num="4" title="Configure as Opções Gráficas do Jogo">
+    Ao iniciar o jogo, navegue até as opções gráficas. Se você estiver usando uma GPU com as especificações mínimas, defina a predefinição gráfica para Baixo, ative seu upscaler preferido e limite a taxa de quadros a 30 FPS para evitar travamentos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Configuração Concluída">
+Seguir estas etapas ajudará a minimizar gargalos de desempenho, reduzir os tempos de carregamento e proporcionar uma experiência de jogo mais estável durante a sua jornada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Prontidão do PC">
+
+Antes de iniciar o jogo em 11 de março de 2026, use esta lista de verificação para garantir que seu sistema esteja totalmente otimizado e pronto para lidar com a exigente arquitetura do jogo.
+
+| Tarefa de Otimização | Prioridade | Benefício Esperado |
+|-|-|-|
+| **Instalar no SSD** | Crítica | Evita travamentos e problemas de carregamento de assets |
+| **Ativar RAM em Dual-Channel** | Alta | Minimiza quedas repentinas de quadros em áreas de mundo aberto |
+| **Atualizar Drivers de GPU** | Alta | Corrige possíveis bugs de renderização e melhora a estabilidade |
+| **Configurar o Modo de Jogo do Windows** | Média | Prioriza os recursos do sistema para o cliente do jogo |
+
+<Checklist
+  id="pc-readiness"
+  title="Lista de Verificação Pré-Lançamento:"
+  items={[
+    "Verifique se há pelo menos 180 GB de espaço disponível em uma Unidade de Estado Sólido (SSD).",
+    "Confirme se o seu sistema possui 16 GB de RAM instalados em uma configuração dual-channel.",
+    "Instale os drivers de vídeo mais recentes prontos para o jogo do fabricante da sua GPU.",
+    "Limpe a poeira das ventoinhas de resfriamento do seu PC para evitar o estrangulamento térmico (thermal throttling) durante longas sessões de jogo."
+  ]}
+/>
+
+<Callout type="tip" title="Gerenciamento Térmico">
+Como o jogo utiliza intensamente tanto a CPU quanto a GPU, os componentes do seu sistema gerarão calor significativo. Certifique-se de que seu PC tenha ventilação adequada para evitar o estrangulamento térmico, que pode causar quedas repentinas de desempenho.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Revise estas perguntas comuns sobre as especificações de hardware do PC e as características de desempenho do jogo.
+
+<FAQ items={[
+  {
+    question: "Posso rodar A Ascensão do Ronin em um disco rígido mecânico padrão (HDD)?",
+    answer: "Não, os requisitos de sistema oficiais de A Ascensão do Ronin especificam que um SSD é obrigatório. Rodar o jogo em um HDD padrão resultará em graves problemas de desempenho, atraso no carregamento de texturas (pop-in de assets) e demoras no carregamento."
+  },
+  {
+    question: "16 GB de RAM são suficientes para rodar o jogo de forma fluida?",
+    answer: "Sim, 16 GB de RAM são suficientes tanto para os requisitos mínimos quanto para os recomendados. No entanto, é altamente recomendável executar essa memória em uma configuração dual-channel para garantir largura de banda adequada para o sistema."
+  },
+  {
+    question: "Qual placa de vídeo eu preciso para jogar a 1080p e 60 FPS?",
+    answer: "Para alcançar 60 FPS estáveis a 1080p, você deve ter uma NVIDIA RTX 2080 Super, uma AMD Radeon RX 6700 XT ou uma placa de vídeo moderna comparável com pelo menos 8 GB de VRAM."
+  },
+  {
+    question: "Por que o jogo exige upscaling para a especificação mínima?",
+    answer: "A placa de vídeo mínima, a GTX 1060 de 6 GB, é um hardware mais antigo. Para manter uma taxa jogável de 30 FPS a 1080p nesta GPU, o jogo precisa usar tecnologias de upscaling como FSR ou DLSS para reduzir a carga de renderização."
+  }
+]} />
+
+<Callout type="info" title="Atualizações do Sistema">
+Os requisitos de hardware e as características de desempenho podem mudar à medida que patches pós-lançamento e atualizações de desempenho forem lançados pelos desenvolvedores. Sempre verifique as atualizações mais recentes do jogo para garantir o desempenho ideal.
+</Callout>
+
+</Section>

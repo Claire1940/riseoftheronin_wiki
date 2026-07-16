@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin Patch Notes: 2026 PC Performance Fixes",
+  description: "Check the latest Rise of the Ronin patch notes for PC and PS5. Track 1.09 updates, performance optimizations, DLSS support, and new Ally missions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/fff?text=Patch+Notes+Update",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Latest Version**: The current **rise of the ronin patch notes** highlight version 1.09.0.5 as the most stable release for PC users.
+- **Key Fixes**: Major updates focus on **VRAM optimization**, crash prevention on high-thread CPUs, and stuttering reduction.
+- **Performance Boost**: Features like **DLSS, FSR, and Frame Generation** have been refined to support 120 FPS on recommended hardware.
+- **New Content**: Recent patches added five new **Ally Missions** and expanded Dojo training partners for endgame progression.
+- **System Requirement**: Ensure you are using an **SSD** with at least 155 GB of space to avoid loading-related crashes.
+</Callout>
+
+<Section icon={Settings} title="Rise of the Ronin Patch Notes: Version 1.09 History">
+
+Since the PC launch in March 2025, Team NINJA has released several critical updates to address performance stability and gameplay balance. The **rise of the ronin patch notes** track a transition from initial launch troubleshooting to advanced graphical optimizations. These updates are essential for players experiencing stuttering in dense areas like Yokohama or Edo, as well as those utilizing high-end NVIDIA or AMD hardware.
+
+| Version | Date | Primary Focus | Key Highlight |
+| :--- | :--- | :--- | :--- |
+| **1.09.0.5** | Nov 11, 2025 | Stability | Fixed crashes related to specific character equipment |
+| **1.09.0.4** | Apr 30, 2025 | Bug Fixes | Added save-data recovery for 'In Search of New Knowledge' |
+| **1.09.0.3** | Apr 10, 2025 | Optimization | Reduced VRAM usage and improved Ambient Occlusion |
+| **1.09.0.2** | Mar 25, 2025 | Performance | Added 'Prioritize Graphics' and 'Prioritize FPS' modes |
+| **1.09.0.1** | Mar 14, 2025 | Launch Day | Fixed launch crashes on CPUs with 33+ threads |
+
+<Callout type="warning" title="Update Requirement">
+Version 1.09.0.3 is considered a mandatory update for players with 8GB VRAM cards. Failure to update may result in significant frame drops during the transition to the Kyoto region.
+</Callout>
+
+The development team has prioritized the "stuttering" issues reported during the first month of the PC release. By optimizing how the engine handles DirectX 12 shaders, the 1.09.0.2 update successfully reduced micro-stutters during high-speed traversal with the glider.
+
+</Section>
+
+<Section icon={Sparkles} title="PC Performance and Graphics Optimizations">
+
+The PC version of Rise of the Ronin introduced several features not present in the original PS5 release, necessitating specific technical adjustments. The **rise of the ronin patch notes** detail the implementation of vendor-specific upscaling technologies to help players reach the 120 FPS target.
+
+<CardGrid cols={3}>
+  <Card title="Upscaling Tech">
+    - **NVIDIA DLSS 3.5**
+    - **AMD FSR 3.0**
+    - **Intel XeSS**
+    - Optimized for 4K output
+  </Card>
+  <Card title="Frame Generation">
+    - Increases perceived FPS
+    - Supported on RTX 40-series
+    - Reduces input latency
+    - Best for 60+ base FPS
+  </Card>
+  <Card title="VRAM Management">
+    - Reduced texture overhead
+    - Improved cache clearing
+    - Better 8GB GPU support
+    - Prevents memory leaks
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Optimization Tip">
+If you are using an Intel Arc B580 or similar mid-range card, the 1.09.0.3 patch specifically verified 1080p/60 FPS stability when using standard settings and XeSS enabled.
+</Callout>
+
+Beyond upscaling, the patches have refined the "Dynamic Adjustment of FPS" setting. This feature allows the game to automatically scale internal resolution to maintain a consistent frame rate during chaotic combat encounters involving multiple fire-based status effects or large groups of enemies.
+
+| Feature | Support Level | Patch Impact |
+| :--- | :--- | :--- |
+| **Ray Tracing** | Full Support | Improved stability in v1.09.0.2 |
+| **Ultrawide** | 21:9 / 32:9 | Fixed UI stretching in v1.09.0.1 |
+| **Reflex** | NVIDIA Only | Reduced latency in v1.09.0.3 |
+| **8K Resolution** | Supported | Optimized LOD scaling in v1.09.0.5 |
+
+</Section>
+
+<Section icon={Swords} title="Gameplay Adjustments and Content Additions">
+
+While technical fixes dominate the **rise of the ronin patch notes**, Team NINJA has also introduced significant gameplay balance changes. These updates affect how Ki is managed, the effectiveness of certain combat styles, and the availability of endgame missions.
+
+**Major Gameplay Highlights:**
+- **Ki Recovery**: Adjusted Blade Flash timing to be more forgiving across all weapon types.
+- **Midnight Difficulty**: Introduced two additional set bonuses for players who have cleared the main story.
+- **Ally Missions**: Added five new missions in the May 2024 content update, which were integrated into the PC version at launch.
+- **Dojo Training**: Expanded the roster of training partners to include late-game faction leaders.
+
+<Callout type="info" title="Combat Balance">
+The 1.09 series of patches specifically tuned the 'Shinobi' combat styles. While these styles remain disadvantaged against standard weapon matchups, the precision window for Countersparks was slightly widened to reward high-skill play.
+</Callout>
+
+The "Testament of the Soul" system also received updates to allow for level-synced replays. This ensures that returning to Yokohama after completing the Kyoto arc still provides a challenge and relevant loot drops. Players can now toggle "Public Order Deterioration" in the Midnight world replay to keep the open world populated with high-level fugitives.
+
+| Activity | Update Change | Benefit |
+| :--- | :--- | :--- |
+| **Bond Missions** | Added 5 new Ally missions | Better relationship rewards |
+| **Public Order** | Optional Deterioration | Endless endgame farming |
+| **Set Bonuses** | 2 New Midnight Sets | Specialized build potential |
+| **Dojo** | New partners added | Master styles faster |
+
+</Section>
+
+<Section icon={Target} title="How to Update and Verify Game Files">
+
+To ensure you are running the latest version of the game and have all the fixes mentioned in the **rise of the ronin patch notes**, follow these steps to manage your installation on Steam or PS5.
+
+<Steps>
+  <Step num="1" title="Check for Automatic Updates">
+    Ensure your platform is set to 'Always keep this game updated.' On Steam, right-click the game in your library, select Properties, then Updates.
+  </Step>
+  <Step num="2" title="Verify Integrity of Game Files">
+    If you experience crashes despite being on version 1.09.0.5, use the 'Verify Integrity' tool on Steam. This checks for corrupted textures or missing DLL files that might cause instability.
+  </Step>
+  <Step num="3" title="Clear Shader Cache">
+    After a major performance patch (like 1.09.0.3), it is recommended to clear your GPU shader cache via the NVIDIA or AMD control panel to allow the game to rebuild them cleanly.
+  </Step>
+  <Step num="4" title="Confirm Version Number">
+    Launch the game and check the bottom-right corner of the title screen. It should display the current build number (e.g., 1.09.0.5).
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Save Data Safety">
+The 1.09.0.2 update created an additional backup-save location. If your primary save becomes corrupted due to a power outage, check the 'Saved Games' folder in your Windows user profile for the '.bak' files.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="2026 Update Readiness Checklist">
+
+As Rise of the Ronin continues to receive support, staying prepared for future content drops and technical refinements is key to a smooth experience. Use this checklist to ensure your system is optimized for the latest **rise of the ronin patch notes**.
+
+<Checklist
+  id="patch-readiness"
+  title="Post-Patch Optimization Tasks:"
+  items={[
+    "Install the latest NVIDIA/AMD Game Ready drivers (released after Nov 2025)",
+    "Confirm game is installed on an NVMe SSD for 1.09.0.3 loading fixes",
+    "Enable 'Prioritize FPS' mode if playing on a 144Hz+ monitor",
+    "Verify 'Testament of the Soul' access at the Longhouse",
+    "Check for updated community-made controller layouts on Steam"
+  ]}
+/>
+
+<Callout type="warning" title="Note for Modders">
+Large patches like 1.09.0.3 often break community-made performance mods or reshades. Always disable mods before updating to avoid launch-loop errors.
+</Callout>
+
+</Section>
+
+<Section icon={Info} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do the rise of the ronin patch notes apply to both PS5 and PC?",
+    answer: "Most gameplay and content updates (like new Ally Missions) apply to both. However, the 1.09.0.x series specifically addresses PC-only performance issues, graphics settings, and hardware compatibility."
+  },
+  {
+    question: "How do I fix the stuttering in Yokohama after the latest update?",
+    answer: "Ensure you have 'Dynamic Adjustment of FPS' enabled and that your shader cache has been cleared. The 1.09.0.3 patch significantly improved this, but outdated GPU drivers can still cause hitches."
+  },
+  {
+    question: "Was Midnight difficulty changed in the recent patches?",
+    answer: "Yes, the patches added two additional set bonuses specifically for Midnight difficulty and introduced the 'Public Order Deterioration' feature for players who want to reset hostile bases in the post-game."
+  },
+  {
+    question: "Can I play co-op with players who haven't updated to 1.09.0.5?",
+    answer: "No, online multiplayer requires all participants to be on the same version. The game will prompt you to update before allowing you to enter the 'Recruit' or 'Join' menus."
+  }
+]} />
+
+</Section>

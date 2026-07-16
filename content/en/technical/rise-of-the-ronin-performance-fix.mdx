@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin Performance Fix: PC Setup Guide",
+  description: "Optimize Rise of the Ronin on PC. Fix lag, stuttering, and FPS drops with our optimized config files and graphics settings guide.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Performance+Fix+Guide",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Performance optimization**: Implement the primary rise of the ronin performance fix to stabilize frame rates on mid-range hardware.
+- **Config modification**: Adjust the local configuration file to bypass default rendering limitations and enable stable HDR options.
+- **Hardware scaling**: Scale down demanding settings like volumetric effects and shadow resolutions to prevent micro-stuttering.
+- **System alignment**: Align GPU control panel settings with Windows graphics scheduling for optimal hardware utilization.
+</Callout>
+
+<Section icon={Sparkles} title="Config File Optimization and Video Guide">
+
+Optimizing the configuration files directly is one of the most efficient methods to resolve persistent frame rate drops and stuttering. Modifying parameters outside the in-game menu allows players to fine-tune rendering pipelines, adjust memory allocation limits, and force specific display modes that might otherwise default to suboptimal settings. This approach is particularly useful for mid-range graphics cards, enabling smoother performance even when running taxing features like High Dynamic Range (HDR) processing.
+
+**Video Highlights:**
+- **Config location**: Locate the hidden game configuration files within the user documents folder.
+- **FPS stabilization**: Achieve stable frame rates averaging 50 to 58 FPS on mid-range GPUs.
+- **HDR integration**: Force HDR settings to remain active without causing major performance penalties.
+- **File replacement**: Replace standard configuration values with optimized code blocks.
+
+<YouTubeEmbed videoId="BUGVK-_NPSo" title="Rise of the Ronin OPTIMIZATION Guide - BOOST FPS, Fix Lag & Fix FPS Drops on ANY PC / Best Settings" />
+
+To manually apply this file-based optimization, navigate to the local directory where configuration data is saved. This folder is typically located in the Documents directory under the publisher path: `Documents\KOEI TECMO\Rise of the Ronin`. Replacing the default configuration files with optimized scripts can bypass engine bottlenecks and improve memory distribution.
+
+<Callout type="warning" title="Backup Required">
+Always create a backup copy of your original configuration files before replacing them. Store the original files in a separate folder so you can restore them if you encounter display errors or stability issues.
+</Callout>
+
+| Parameter | Default Value | Optimized Value | Performance Impact |
+|---|---|---|---|
+| **RenderScale** | 1.000000 | 0.900000 | High FPS boost |
+| **ShadowMapSize** | 2048 | 1024 | Reduces VRAM load |
+| **HDRMode** | 0 | 1 | Enables HDR stability |
+| **VSync** | 1 | 0 | Prevents input latency |
+| **VolumetricFog** | 2 | 1 | Improves GPU throughput |
+
+</Section>
+
+<Section icon={Swords} title="Optimal In-Game Graphics Settings">
+
+Adjusting in-game graphics parameters is essential for balancing visual fidelity and frame rate stability. Certain options, such as volumetric effects, shadows, and screen-space reflections, place a heavy load on the GPU while offering minimal visual improvement during fast-paced combat. Lowering these specific parameters allows players to maintain high-quality textures while keeping frame rates consistent during intense encounters.
+
+<CardGrid cols={3}>
+  <Card title="High FPS Preset">
+    - **Shadow Quality**: Low
+    - **Volumetric Fog**: Off
+    - **Texture Quality**: Medium
+    - **Priority**: Maximum frames
+  </Card>
+  <Card title="Balanced Setup">
+    - **Shadow Quality**: Medium
+    - **Volumetric Fog**: Low
+    - **Texture Quality**: High
+    - **Priority**: Visual balance
+  </Card>
+  <Card title="Visual Quality Focus">
+    - **Shadow Quality**: High
+    - **Volumetric Fog**: Medium
+    - **Texture Quality**: High
+    - **Priority**: High-end hardware
+  </Card>
+</CardGrid>
+
+For players using graphics cards with limited VRAM, texture streaming budgets must be managed carefully. Setting the texture quality too high can lead to sudden frame drops when transitioning between different areas of the open world. Using a balanced preset ensures that assets load smoothly without saturating the graphics card's memory buffer.
+
+<Callout type="tip" title="HDR Configuration Tip">
+If you enable HDR, ensure your display is properly calibrated in Windows before launching the game. Mismatched luminance settings can cause washed-out colors and minor rendering delays during lighting transitions.
+</Callout>
+
+| Setting Name | Recommended Value | Performance Impact | Visual Loss |
+|---|---|---|---|
+| **Texture Quality** | High (VRAM dependent) | Minimal | Low |
+| **Shadow Resolution** | Medium | Moderate | Low |
+| **Ambient Occlusion** | SSAO | Moderate | Low |
+| **Volumetric Effects** | Low | High | Medium |
+| **Motion Blur** | Off | Minimal | Subjective |
+| **Screen Space Reflections** | Medium | Moderate | Low |
+
+</Section>
+
+<Section icon={Shield} title="System-Level Windows and GPU Tweaks">
+
+System-level configurations often dictate how resources are allocated to the game executable. If Windows or the GPU control panel is not configured correctly, the system may limit power delivery or fail to prioritize the game process, leading to micro-stutters and input lag. Adjusting these settings ensures your hardware operates at its full potential.
+
+<Steps>
+  <Step num="1" title="Enable Hardware-Accelerated GPU Scheduling">
+    Open the Windows Start menu, search for Graphics Settings, and toggle the Hardware-Accelerated GPU Scheduling (HAGS) option to On. Restart your computer to apply the changes.
+  </Step>
+  <Step num="2" title="Adjust GPU Power Management">
+    Open the Nvidia Control Panel or AMD Radeon Software, navigate to global settings, and set the Power Management Mode to Prefer Maximum Performance.
+  </Step>
+  <Step num="3" title="Optimize Shader Cache Size">
+    In your GPU control panel, increase the Shader Cache Size to 10GB or Unlimited. This allows the system to store compiled shaders, reducing stuttering during gameplay.
+  </Step>
+  <Step num="4" title="Disable Background Overlays">
+    Turn off in-game overlays in applications like Discord, Steam, and GeForce Experience, as these programs can consume system resources and cause performance conflicts.
+  </Step>
+</Steps>
+
+These system tweaks work in tandem with the in-game settings to create a more stable environment for the game engine. By increasing shader cache limits, you allow the game to retrieve pre-compiled assets instantly, avoiding the sudden drops in performance that occur when entering new zones or initiating combat encounters.
+
+<Callout type="info" title="Driver Updates">
+Ensure your graphics drivers are updated to the latest version. Manufacturers frequently release hotfixes and optimization profiles tailored specifically for open-world action titles.
+</Callout>
+
+| Utility Setting | Nvidia Recommendation | AMD Recommendation | Purpose |
+|---|---|---|---|
+| **Shader Cache** | 10GB | Enabled / Reset | Reduces compilation stutter |
+| **Power Mode** | Prefer Max Performance | High Performance | Prevents GPU downclocking |
+| **Threaded Optimization** | On | Not Applicable | Enhances CPU core usage |
+| **Low Latency Mode** | On / Ultra | Anti-Lag | Minimizes input delay |
+
+</Section>
+
+<Section icon={Target} title="Troubleshooting Stuttering and System Bottlenecks">
+
+Even with optimized settings, players may still experience performance issues due to hardware bottlenecks or software conflicts. Identifying whether the CPU or GPU is causing the restriction is key to resolving these issues. Monitoring hardware utilization in real-time can help pinpoint the exact cause of performance degradation.
+
+<Checklist
+  id="troubleshooting-steps"
+  title="Performance Verification Checklist:"
+  items={[
+    "Verify that the game is running on the dedicated graphics card rather than integrated graphics.",
+    "Monitor CPU and GPU temperatures to ensure thermal throttling is not reducing clock speeds.",
+    "Check background processes in Task Manager and close resource-heavy applications.",
+    "Verify the integrity of game installation files through your launcher library."
+  ]}
+/>
+
+If your CPU usage remains close to 100% while GPU usage is low, the system is experiencing a CPU bottleneck. This is common in densely populated areas of the game. Lowering settings that impact CPU calculations, such as crowd density and view distance, can help balance the load and stabilize frame rates.
+
+<Callout type="success" title="Administrative Privileges">
+Running the game executable as an administrator can prevent background permissions from restricting access to system resources, improving overall stability.
+</Callout>
+
+| Issue | Potential Cause | Recommended Fix |
+|---|---|---|
+| **Frequent micro-stutters** | Shader compilation | Increase Shader Cache size to 10GB |
+| **FPS drops in cities** | High CPU load | Reduce in-game crowd density settings |
+| **Screen tearing** | Refresh rate mismatch | Enable G-Sync/FreeSync or use Fast V-Sync |
+| **Sudden crashes to desktop** | VRAM overflow | Lower texture quality and resolution scale |
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+For additional support, review these common solutions to performance issues.
+
+<FAQ items={[
+  {
+    question: "How do I apply the rise of the ronin performance fix to my configuration files?",
+    answer: "Navigate to Documents\\KOEI TECMO\\Rise of the Ronin, locate the configuration file, and open it with a text editor. Replace the rendering and shadow values with the optimized parameters listed in our guide, then save the file."
+  },
+  {
+    question: "Will modifying the configuration file trigger anti-cheat bans?",
+    answer: "No, modifying local configuration files for graphics and display options does not alter core game files or memory addresses, making it safe to use without risking a ban."
+  },
+  {
+    question: "Why does enabling HDR cause my frame rate to drop?",
+    answer: "HDR requires additional color processing and peak brightness rendering, which increases GPU load. Lowering volumetric effects and shadows can offset this performance cost."
+  },
+  {
+    question: "What is the most effective way to eliminate screen tearing?",
+    answer: "Enable variable refresh rate technologies like G-Sync or FreeSync in your GPU control panel. If your monitor does not support these, enable V-Sync in your graphics driver settings rather than in the game menu."
+  }
+]} />
+
+<Callout type="info" title="Patch Monitoring">
+Keep track of official game updates. Developers frequently release performance patches that address engine optimization and hardware compatibility issues directly.
+</Callout>
+
+</Section>

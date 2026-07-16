@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mods de Rise of the Ronin: Mejores mejoras visuales y de rendimiento",
+  description: "Mejora tu experiencia con los mejores mods de Rise of the Ronin. Aprende a instalar reshades visuales, correcciones de rendimiento y ajustes de jugabilidad para PC.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Rise+of+the+Ronin+Mods",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Rise of the Ronin",
+  keywords: "rise of the ronin mods, rendimiento pc, reshade, mejoras visuales, guía de instalación"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **mods de Rise of the Ronin** se centran principalmente en la **fidelidad visual**, la **optimización del rendimiento** y la **personalización de la interfaz** para la versión de PC.
+- Los **ajustes preestablecidos de Reshade** son la opción más popular para los jugadores que buscan mejorar la **estética de la era Bakumatsu** y la iluminación.
+- Los **mods de rendimiento** ayudan a estabilizar la tasa de fotogramas en hardware antiguo ajustando el uso de **DLSS**, **FSR** y **VRAM**.
+- La **instalación** normalmente requiere la colocación manual de archivos o un **gestor de mods** dedicado para garantizar la estabilidad del juego.
+- **La seguridad es lo primero**: Haz siempre una **copia de seguridad de tus datos de guardado** antes de aplicar cualquier modificación de terceros a los archivos del juego.
+</Callout>
+
+<Section icon={Sparkles} title="El panorama de los mods para Rise of the Ronin">
+
+El lanzamiento de la versión para PC en marzo de 2025 abrió las puertas para que la comunidad creara varios **mods de Rise of the Ronin**. Aunque los juegos de Team NINJA son conocidos por sus complejos sistemas de combate, la comunidad de modding se ha centrado en cerrar la brecha entre la optimización de estilo consola y las capacidades de gama alta del hardware de PC moderno. Ya sea que busques nitidez en las texturas de Yokohama o desbloquear ajustes gráficos ocultos, los mods proporcionan un nivel de personalización no disponible en el juego base.
+
+Dado que el juego exige recursos significativos —requiriendo al menos **16 GB de RAM** y **155 GB de espacio en SSD**— muchos de los primeros mods se centraron en la estabilidad. Sin embargo, a medida que la escena maduró a lo largo de 2026, hemos visto un aumento en los mods de "calidad de vida" que ajustan la interfaz de **gestión de Ki** o aclaran las ventanas de tiempo del **Contrachispa**.
+
+| Categoría del Mod | Enfoque Principal | Nivel de Impacto |
+| :--- | :--- | :--- |
+| **Visual/Reshade** | Iluminación, gradación de color y nitidez de texturas | Alto (Visual) |
+| **Rendimiento** | Estabilidad de FPS, reducción de VRAM y corrección de tirones | Alto (Técnico) |
+| **Jugabilidad/QoL** | Ajustes de interfaz, ajustes de cámara y visibilidad de objetos | Medio |
+| **Guardado/Utilidad** | Desbloqueables, respaldos de progresión y herramientas de modo foto | Bajo |
+
+<Callout type="success" title="Ventaja de la Versión de PC">
+La versión de PC admite funciones como **120 FPS**, **resolución 8K** y **Ray Tracing**. Los mods pueden refinar aún más estas características oficiales para que funcionen de manera más eficiente en una gama más amplia de arquitecturas de GPU, incluyendo NVIDIA, AMD e Intel Arc.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Principales mejoras visuales y estéticas">
+
+Los mods visuales son la piedra angular de la comunidad. Muchos jugadores encuentran que la paleta de colores predeterminada de **Rise of the Ronin** está un poco deslavada o depende demasiado de una niebla atmosférica específica. Los **ajustes preestablecidos de Reshade** te permiten inyectar colores de alto rango dinámico (HDR) y resaltar los detalles intrincados de la armadura y las armas de tu ronin.
+
+<CardGrid cols={3}>
+  <Card title="Bakumatsu Cinemático">
+    - **Contraste mejorado**
+    - Profundidad de sombras realista
+    - Elimina el tinte amarillento
+  </Card>
+  <Card title="Reshade de Rendimiento">
+    - **Solo nitidez**
+    - Cero impacto en FPS
+    - Claridad de bordes mejorada
+  </Card>
+  <Card title="Yokohama Vívido">
+    - **Colores saturados**
+    - Mejor detalle en el follaje
+    - Texturas de cielo vibrantes
+  </Card>
+</CardGrid>
+
+Estos mods suelen interactuar con las funciones de **DirectX 12 Ultimate** del juego. Al ajustar cómo el motor maneja la oclusión ambiental y el post-procesamiento, los modders han logrado que el juego parezca significativamente más de "próxima generación" sin un golpe masivo al hardware.
+
+| Tipo de Mod | Característica Clave | Recomendado Para |
+| :--- | :--- | :--- |
+| **Ajustes LUT** | Cambia la gradación de color | Jugadores que buscan un aspecto de "película" |
+| **Packs de Texturas** | Ropa/equipo en alta resolución | Usuarios con GPU de alta VRAM (12GB+) |
+| **Mod Sin HUD** | Limpia la pantalla | Fotógrafos virtuales |
+
+<Callout type="tip" title="La Iluminación Importa">
+Al usar mods visuales, asegúrate de que los ajustes de **Brillo** y **HDR** dentro del juego estén calibrados primero. La mayoría de los ajustes de Reshade están diseñados en torno al preajuste gráfico "Estándar".
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Mods de rendimiento y correcciones técnicas">
+
+Dados los altos requisitos del sistema, los **mods de Rise of the Ronin** destinados al rendimiento son esenciales para muchos usuarios. Las especificaciones oficiales recomendadas sugieren una **RTX 2080 Super** o **RX 6700 XT** para 1080p/60 FPS, lo cual puede ser un listón alto. Los modders han desarrollado scripts para optimizar el **uso de VRAM** y mejorar la implementación de reescaladores como **DLSS** y **FSR**.
+
+| Función | Soporte Oficial | Mejora con Mods |
+| :--- | :--- | :--- |
+| **Generación de Fotogramas** | Soportado (NVIDIA/AMD) | Latencia y estabilidad mejoradas |
+| **DLSS / FSR** | Versiones estándar | Ajustes de ultra-calidad y cambios de DLL |
+| **Tirones (Stuttering)** | Corregido en parche 1.09.0.3 | Precarga de caché a nivel de motor |
+| **Ultrawide** | Soporte integrado | FOV corregido y centrado de interfaz |
+
+La mayoría de los mods de rendimiento funcionan modificando los archivos de configuración del juego (.ini) o reemplazando archivos de biblioteca específicos (.dll) para permitir una gestión de memoria más agresiva. Esto es particularmente útil para los jugadores que ejecutan el juego en CPUs con un alto número de hilos, ya que las primeras versiones del juego enfrentaron problemas de estabilidad en procesadores con más de 33 hilos.
+
+<Callout type="warning" title="Anti-Cheat y Juego en Línea">
+Aunque **Rise of the Ronin** no tiene un modo PvP competitivo, cuenta con **cooperativo en línea para 3 jugadores**. El uso de mods que alteran la memoria del juego o las estadísticas del personaje a veces puede activar alertas durante las sesiones en línea. Limítate a mods visuales y de rendimiento cuando juegues con otros.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo instalar mods de Rise of the Ronin">
+
+Instalar **mods de Rise of the Ronin** es generalmente un proceso sencillo, pero requiere precisión para evitar corromper la instalación. La mayoría de los mods se alojan en repositorios de la comunidad y vienen en forma de carpetas comprimidas.
+
+<Steps>
+  <Step num="1" title="Localiza el directorio del juego">
+    Navega hasta la carpeta donde está instalado el juego (normalmente bajo `SteamLibrary\steamapps\common\Rise of the Ronin`).
+  </Step>
+  <Step num="2" title="Instala los cargadores de mods">
+    Si el mod requiere un cargador específico (como un inyector de Reshade), instálalo primero apuntando al archivo ejecutable principal del juego.
+  </Step>
+  <Step num="3" title="Descarga y extrae">
+    Descarga el mod elegido y extrae los archivos usando una herramienta como 7-Zip o WinRAR.
+  </Step>
+  <Step num="4" title="Coloca los archivos correctamente">
+    Mueve los archivos extraídos a la carpeta designada. Los mods visuales suelen ir en el directorio raíz, mientras que los mods de jugabilidad podrían ir en una subcarpeta `Data` o `Mods`.
+  </Step>
+  <Step num="5" title="Verifica e inicia">
+    Inicia el juego y comprueba la tecla de activación del mod (a menudo Home o F12 para Reshades) para asegurarte de que funciona correctamente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gestores de Mods">
+A partir de 2026, varios gestores de mods creados por la comunidad son compatibles con **Rise of the Ronin**, lo que te permite activar y desactivar mods sin tener que borrar archivos manualmente. Esta es la forma más segura de gestionar múltiples modificaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Seguridad y mejores prácticas al modear">
+
+Antes de comenzar a experimentar con **mods de Rise of the Ronin**, es vital establecer una rutina de seguridad. Debido a que el juego utiliza un sistema de guardado complejo que involucra la progresión del **Testamento del Alma** y la **Dificultad Medianoche**, perder un archivo de guardado puede significar perder cientos de horas de progreso.
+
+<Checklist
+  id="modding-safety"
+  title="Lista de verificación previa al modding:"
+  items={[
+    "Haz una copia de seguridad de tu carpeta 'SaveData' ubicada en el directorio Documentos.",
+    "Desactiva temporalmente el Sincronizado en la Nube de Steam para evitar que se suban guardados corruptos.",
+    "Lee el archivo 'ReadMe' del mod para advertencias específicas de compatibilidad.",
+    "Instala solo un mod a la vez para identificar fácilmente cuál causa un fallo.",
+    "Mantén una copia limpia de los ejecutables originales del juego."
+  ]}
+/>
+
+| Factor de Riesgo | Problema Potencial | Estrategia de Mitigación |
+| :--- | :--- | :--- |
+| **Desajuste de Versión** | El juego se cierra tras un parche | Actualiza los mods inmediatamente después de las actualizaciones del juego |
+| **Corrupción de Guardado** | Pérdida de progreso del personaje | Copias de seguridad manuales diarias en una unidad separada |
+| **Caída de Rendimiento** | Superposición de Reshades | Usa solo un mod de iluminación a la vez |
+
+<Callout type="tip" title="La Ventaja del Testamento">
+Si un mod de jugabilidad hace que el resultado de una misión sea indeseable, recuerda que puedes usar el sistema del **Testamento del Alma** en la **Casa de Té** para rejugar misiones y restablecer las decisiones de la historia sin necesidad de desinstalar el mod o reiniciar el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Los mods de Rise of the Ronin desactivan los logros?",
+    answer: "Generalmente, los mods visuales y de rendimiento no desactivan los logros de Steam. Sin embargo, los mods que alteran las estadísticas de jugabilidad o proporcionan 'trucos' pueden evitar que los logros se activen durante esa sesión."
+  },
+  {
+    question: "¿Puedo usar mods en misiones cooperativas en línea?",
+    answer: "Los mods visuales suelen ser seguros para el cooperativo. Los mods que cambian el daño de las armas, el consumo de Ki o la velocidad del personaje deben desactivarse para evitar errores de sincronización o posibles bloqueos de los servicios en línea."
+  },
+  {
+    question: "¿Dónde puedo encontrar los mejores mods para la versión de PC?",
+    answer: "Las fuentes más fiables son sitios impulsados por la comunidad como Nexus Mods y servidores de Discord dedicados. Comprueba siempre la fecha de 'Última actualización' para asegurar la compatibilidad con la versión actual del juego (ej., v1.09.0.5)."
+  },
+  {
+    question: "¿Ayudarán los mods con los tirones del juego?",
+    answer: "Sí, hay mods de rendimiento específicos diseñados para solucionar los problemas de tirones (stuttering) vistos en las regiones de Yokohama y Edo. Estos mods optimizan cómo el juego maneja la transmisión de recursos desde tu SSD."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+Modear **Rise of the Ronin** es la mejor manera de adaptar la experiencia a tu hardware de PC específico. Al centrarte en la **claridad visual** y la **estabilidad de la tasa de fotogramas**, puedes disfrutar de la era Bakumatsu con la fidelidad que merece.
+</Callout>
+
+</Section>

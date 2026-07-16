@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin Trophy Guide: Platinum Walkthrough & Tips",
+  description: "Master the Bakumatsu era with our Rise of the Ronin trophy guide. Learn how to unlock all endings, master combat styles, and reach the Platinum trophy.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/fff?text=Platinum+Trophy+Guide",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Rise of the Ronin trophy guide**: Achieving the Platinum requires completing the story, reaching level 55, and mastering all 9 weapon types.
+- **Missable content**: No trophies are strictly missable thanks to the **Testament of the Soul** system which allows mission replay.
+- **Difficulty requirement**: You must complete one mission on **Midnight Difficulty** (post-game) to secure the final combat trophies.
+- **Bond focus**: Maximize character bonds and region levels early to unlock essential combat styles and rewards.
+- **Collection strategy**: Use the gliding and grappling mechanics to efficiently clear 100% of Yokohama, Edo, and Kyoto.
+</Callout>
+
+<Section icon={Map} title="Platinum Roadmap and Progression">
+
+Securing the Platinum in this Bakumatsu-era RPG requires a blend of story completion, skill mastery, and thorough exploration. The journey is divided into three distinct phases: the initial story run, the collection of regional bonds, and the post-game Midnight challenge. Unlike many action RPGs, you do not need to worry about permanent failures in your first playthrough.
+
+| Category | Details |
+| :--- | :--- |
+| **Estimated Difficulty** | 4/10 (Skill dependent) |
+| **Approximate Time** | 60-80 hours |
+| **Total Trophies** | 51 (1 Platinum, 2 Gold, 9 Silver, 39 Bronze) |
+| **Minimum Playthroughs** | 1 (Plus mission clean-up via Testament) |
+| **Difficulty Trophies** | Yes (One mission required on Midnight) |
+
+<Steps>
+  <Step num="1" title="Complete the Main Story">
+    Focus on the main campaign while experimenting with all 9 melee weapons. Make choices that align with your preferred faction (Pro-Shogunate or Anti-Shogunate), but remember that you can explore alternate paths later.
+  </Step>
+  <Step num="2" title="Regional Completion & Bonds">
+    After reaching the final region, use your map to track down all Fugitives, Cats, and Shrines. Maximize bonds with at least 5 key characters to unlock the **Veiled Vow** and combat style trophies.
+  </Step>
+  <Step num="3" title="Midnight Difficulty Clean-up">
+    Once the credits roll, unlock Midnight difficulty. You only need to complete a single mission on this setting to earn the "Midnight Crossing" trophy, but it requires a well-optimized build.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Tip">
+Always use **Blade Flash** (R1) after combat strings. Not only does it restore Ki, but there is a specific trophy for performing successful Blade Flashes consistently across your journey.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Story Choices and Faction Trophies">
+
+The narrative of Rise of the Ronin is shaped by the conflict between the Shogunate and the Imperial forces. While most story trophies are unmissable, specific outcomes depend on your faction alignment. To earn the Platinum, you must experience the consequences of major decisions, which can be easily managed using the Longhouse functions.
+
+| Decision Point | Faction Involved | Potential Outcome |
+| :--- | :--- | :--- |
+| **Gonzo's Fate** | Neutral | Sparing him allows him to become an ally later. |
+| **The Camera Hunt** | Anti-Shogunate | Influence your bond with Igashichi Iizuka. |
+| **Mibu-dera Choice** | Pro/Anti-Shogunate | Determines which allies are available for the final act. |
+| **The Fate of Edo** | Shogunate | Affects the world state and specific character survival. |
+
+<Callout type="warning" title="Important">
+Do not restart your game if you regret a choice. The **Testament of the Soul** system, unlocked in Edo, allows you to jump back to any previous mission and change your decision to see different results.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mastery and Weapon Styles">
+
+A significant portion of the **rise of the ronin trophy guide** involves mastering the game's deep combat mechanics. You are required to reach "Master" rank in various combat styles and defeat enemies using specific techniques like Countersparks and Martial Skills.
+
+<CardGrid cols={3}>
+  <Card title="The Countersparker">
+    - **Objective**: Perform 100 successful Countersparks.
+    - **Tip**: Practice against standard Katana users to learn the timing.
+  </Card>
+  <Card title="Style Specialist">
+    - **Objective**: Reach Master rank in a style.
+    - **Tip**: Defeat Fugitives and raise bonds with style-specific mentors.
+  </Card>
+  <Card title="Versatile Warrior">
+    - **Objective**: Defeat enemies with every weapon type.
+    - **Tip**: Keep one slot for your main and rotate the second slot.
+  </Card>
+</CardGrid>
+
+### Combat Style Effectiveness
+
+Matching your style (Ten, Chi, Jin) against the enemy's weapon is crucial for breaking Ki and earning combat-related trophies.
+
+| Style Type | Effective Against | Weak Against |
+| :--- | :--- | :--- |
+| **Ten (Sky)** | Katanas / Medium Weapons | Sabers / Light Weapons |
+| **Chi (Earth)** | Odachis / Heavy Weapons | Katanas / Medium Weapons |
+| **Jin (Human)** | Sabers / Light Weapons | Odachis / Heavy Weapons |
+| **Shinobi** | Specialist / Mixed | Standard Matchups |
+
+<Callout type="success" title="Build Suggestion">
+For the "Midnight Crossing" trophy, focus on a **Charm-based Ki-Break build**. This allows you to recover Ki rapidly after a Counterspark, making difficult bosses much more manageable.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Bonds, Romance, and Exploration">
+
+Exploration is more than just filler; it is tied directly to several Silver and Gold trophies. You must restore Public Order in all districts and find every collectible to reach 100% completion in the three major cities.
+
+### Exploration Checklist
+<Checklist
+  id="exploration-trophies"
+  title="Mandatory Collection Goals:"
+  items={[
+    "Find and pet all 100 Cats across Japan",
+    "Pray at every Shrine to earn Skill Points",
+    "Photograph all designated scenic spots",
+    "Defeat all 50+ unique Fugitives",
+    "Max out the Region Bond in Yokohama, Edo, and Kyoto"
+  ]}
+/>
+
+### Relationship Rewards
+Building bonds with your companions unlocks the **Veiled Vow** (romance) trophies. You must reach the highest bond level with at least one eligible character.
+
+| Activity | Bond Impact | Trophy Progress |
+| :--- | :--- | :--- |
+| **Giving Gifts** | High Increase | Speeds up Veiled Vow access. |
+| **Bond Missions** | Very High | Unlocks unique weapons and styles. |
+| **Longhouse Chat** | Moderate | Provides background lore and minor boosts. |
+| **Ally Missions** | High | Required for the "Social Butterfly" trophy. |
+
+<Callout type="info" title="Note">
+The May 2024 update added five additional Ally Missions. While not strictly required for the base Platinum, they provide excellent opportunities to earn high-end gear for your Midnight run.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Endgame: Midnight Difficulty and Cleanup">
+
+The final hurdle in your **rise of the ronin trophy guide** is the post-game content. After completing the main story, you unlock the Midnight difficulty level. This mode features tougher enemies and better loot drops.
+
+1. **Midnight Crossing**: Complete any mission on Midnight difficulty. The easiest way is to replay the first mission of the prologue using your end-game gear.
+2. **Level Mastery**: Reach Level 55. If you have cleared all regions, you should be close to this. If not, replaying missions on Midnight provides massive XP.
+3. **Equipment Upgrades**: Enhance a piece of equipment to its maximum level. Save your materials for a "Masterwork" (red) rarity item found in the post-game.
+
+<Callout type="warning" title="Warning">
+Upgrading gear is expensive. Only invest heavily in weapons that have four compatible set bonuses to maximize your efficiency in combat.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Are there any missable trophies in Rise of the Ronin?",
+    answer: "No. The Testament of the Soul system allows you to replay any mission and change your story choices, ensuring no trophy is permanently locked."
+  },
+  {
+    question: "Do I need to play online co-op for the Platinum?",
+    answer: "No, all trophies can be earned in single-player. While co-op is available for story missions, it is not a requirement for any trophy."
+  },
+  {
+    question: "What is the hardest trophy in the game?",
+    answer: "Most players find 'Midnight Crossing' the most challenging, as it requires you to adapt to the significantly increased aggression of enemies in the post-game difficulty."
+  },
+  {
+    question: "How do I unlock the Veiled Vow trophy?",
+    answer: "You must maximize your bond with an eligible companion (like Ryoma or Usugumo) and select the romantic dialogue option when it appears at the Longhouse."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Rise of the Ronin PC: Setup Guide & Performance Settings",
+  description: "Optimize Rise of the Ronin on PC. Check system requirements, best graphics settings, DLSS/FSR configuration, patch history, and combat builds.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0b1524/fff?text=Rise+of+the+Ronin+PC+Guide",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Key Takeaways">
+- **System Optimization**: Running **rise of the ronin pc** smoothly requires an SSD with 155 GB of available space and at least 16 GB of RAM.
+- **Performance Tech**: Utilize AMD FSR, NVIDIA DLSS, or Intel XeSS upscaling alongside Frame Generation to achieve stable frame rates up to 120 FPS.
+- **Combat Mastery**: Pair your primary weapons with matching Ten, Chi, and Jin combat styles to break enemy Ki and execute Critical Hits.
+- **Progression Flexibility**: Reset your skill points at the Longhouse in Yokohama to adapt your build without restarting your campaign.
+</Callout>
+
+<Section icon={Shield} title="Rise of the Ronin PC System Requirements & Specs">
+
+Optimizing your system for **rise of the ronin pc** is crucial to achieving a fluid combat experience in Bakumatsu-era Japan. This demanding open-world action-RPG features dense urban environments, highly detailed historical landscapes, and lightning-fast parry-based swordplay. To ensure your hardware is capable of handling the game's intensive asset streaming and physics calculations, compare your current specifications against the official hardware configurations outlined below.
+
+| Component | Minimum Specs | Recommended Specs |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10 or Windows 11 (64-bit) | Windows 10 or Windows 11 (64-bit) |
+| **Processor** | Intel Core i5-10400 / AMD Ryzen 5 1600 | Intel Core i5-10600K / AMD Ryzen 5 5600X |
+| **Memory** | 16 GB RAM | 16 GB RAM |
+| **Graphics Card** | NVIDIA GTX 1060 (6 GB) / RX 5500 XT (8 GB) | NVIDIA RTX 2080 Super / RX 6700 XT |
+| **Storage** | 155 GB available space (SSD required) | 155 GB available space (NVMe SSD recommended) |
+| **DirectX** | Version 12 | Version 12 |
+| **Audio** | 16-bit stereo, 48 kHz playback | 16-bit stereo, 48 kHz playback |
+
+<Callout type="warning" title="SSD Installation Mandatory">
+The game requires a solid-state drive (SSD) for both minimum and recommended configurations. Installing the game on a traditional mechanical hard drive (HDD) will result in severe loading stutters, delayed texture rendering, and potential audio desynchronization during cutscenes.
+</Callout>
+
+A multi-channel memory architecture is highly recommended for this title. Running 16 GB of RAM in dual-channel mode (two 8 GB sticks) significantly reduces micro-stutters when traveling through highly populated areas like Yokohama, Edo, and Kyoto.
+
+</Section>
+
+<Section icon={Sparkles} title="Graphics Settings & Performance Optimization">
+
+Achieving a consistent 60 FPS or higher in **rise of the ronin pc** requires balancing visual fidelity with hardware capabilities. The PC version includes advanced upscaling options, ray-traced graphics, and frame generation technologies designed to maximize performance across a variety of hardware configurations. 
+
+| Setting Option | Recommended Value | Performance Impact |
+| :--- | :--- | :--- |
+| **Upscaling Technology** | NVIDIA DLSS / AMD FSR / Intel XeSS | High Performance Boost |
+| **Upscaling Mode** | Quality (for 1080p/1440p) / Balanced (for 4K) | Moderate |
+| **Frame Generation** | Enabled (if supported by GPU) | Massive FPS Increase |
+| **Ray Tracing** | Disabled (unless using RTX 3080 / RX 6800 or higher) | High |
+| **Ambient Occlusion** | Standard | Moderate |
+| **Shadow Quality** | Medium | Moderate |
+| **Texture Quality** | High (if VRAM is 8 GB or higher) | Low |
+
+<Callout type="tip" title="Leverage Dynamic FPS Adjustment">
+If you experience performance drops in densely populated city markets, enable the "Dynamic Adjustment of FPS" setting introduced in patch 1.09.0.3. This feature automatically scales internal resolution dynamically to preserve your target frame rate during intensive combat sequences.
+</Callout>
+
+For players targeting 120 FPS on high-refresh-rate monitors, combining an upscaler in "Quality" mode with Frame Generation provides the most stable frame pacing. Ensure your graphics card drivers are updated to the latest version to prevent visual artifacts when upscaling is active.
+
+</Section>
+
+<Section icon={Trophy} title="PC Version Features & Patch History">
+
+The PC release of this historical epic brings several platform-exclusive enhancements that elevate the visual and gameplay experience beyond its original console release. From ultra-wide monitor support to customizable control bindings, the PC version offers a highly tailored experience.
+
+| Feature Type | Support Level | Technical Details |
+| :--- | :--- | :--- |
+| **Max Resolution** | Up to 8K | Supported on compatible displays and enthusiast hardware |
+| **Max Frame Rate** | Up to 120 FPS | High-refresh-rate option available in display settings |
+| **Aspect Ratio** | Ultra-wide & Super Ultra-wide | Built-in support for 21:9 and 32:9 monitor configurations |
+| **Control Input** | Keyboard, Mouse, & Controllers | Fully customizable key bindings and native DualSense haptics |
+| **Audio Format** | 3D Spatial Audio | Supported on compatible spatial sound systems |
+
+Since its launch on March 11, 2025, the developers have released several crucial updates to address stability, stuttering, and hardware compatibility.
+
+| Version | Release Date | Key Adjustments & Fixes |
+| :--- | :--- | :--- |
+| **1.09.0.5** | November 11, 2025 | Resolved crashes caused by specific Windows updates when certain items loaded |
+| **1.09.0.4** | April 30, 2025 | Added save-data recovery for "In Search of New Knowledge" and fixed area stutters |
+| **1.09.0.3** | April 10, 2025 | Introduced Dynamic FPS, reduced VRAM overhead, and improved GPU upscaling |
+| **1.09.0.2** | March 25, 2025 | Added Prioritize Graphics/FPS modes and created an extra backup-save location |
+| **1.09.0.1** | March 14, 2025 | Adjusted graphics presets and fixed launch crashes on CPUs with 33+ threads |
+
+<Callout type="info" title="High-Thread CPU Fix">
+If you are running an enthusiast-grade processor with 33 or more threads, ensure your game is updated to at least version 1.09.0.1 to prevent instant crashes upon launching the executable via Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Builds & Combat Customization">
+
+The combat in this title centers around managing your Ki (stamina) while depleting your opponent's guard. By structuring your character's stats around Strength, Dexterity, Charm, or Intellect, you can customize your playstyle to favor raw power, stealth, parry efficiency, or status-inflicting tools.
+
+<CardGrid cols={3}>
+  <Card title="Strength Aggressive Melee">
+    - **Primary Stats**: Strength / Charm
+    - **Weapons**: Katana, Odachi, Greatsword
+    - **Focus**: High direct damage, guard efficiency, and devastating Martial Skills. Ideal for heavy punish attacks after a successful Counterspark.
+  </Card>
+  <Card title="Charm Parry & Ki-Break">
+    - **Primary Stats**: Charm / Strength
+    - **Weapons**: Katana, Polearm, Oxtail Blade
+    - **Focus**: Rapid Ki recovery, increased resistance to Ki damage, and massive Critical Hit damage after breaking an opponent's stance.
+  </Card>
+  <Card title="Dexterity Stealth Assassin">
+    - **Primary Stats**: Dexterity / Intellect
+    - **Weapons**: Paired Swords, Bayonet, Katana
+    - **Focus**: Silent assassinations, high mobility, and ranged sub-weapon utility. Perfect for clearing hostile bases from rooftops.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="No Permanent Lock-In">
+Do not worry about overcommitting to a specific build early on. Once you establish your personal lodging (the Longhouse) in Yokohama, you can reset your skill points at any time to try out new weapon types and combat styles.
+</Callout>
+
+To maximize your combat efficiency, always equip weapons with complementary special effects. For instance, pairing a fast weapon like Paired Swords with gear that increases Ki recovery on successful deflections allows you to maintain relentless offensive pressure.
+
+</Section>
+
+<Section icon={Target} title="Beginner Progression & Gameplay Steps">
+
+Starting your journey as a masterless samurai can be daunting. The open world is filled with rival factions, dangerous fugitives, and complex political choices. Follow this structured progression path to establish a strong foothold during your first few hours in Yokohama.
+
+<Steps>
+  <Step num="1" title="Select a Balanced Difficulty">
+    Choose **Dawn** if you want to focus on the story with more forgiving recovery items and lower Ki consumption. Choose **Dusk** for the standard, parry-focused action-RPG balance. You can adjust this setting at any time from the menu or before entering major story missions.
+  </Step>
+  <Step num="2" title="Practice Counterspark Timing">
+    The Counterspark serves as both an attack and a parry. Do not react to the enemy's initial body movement; instead, watch their weapon and press the Counterspark button shortly before the strike connects. If an enemy uses a complex combination, block the first few hits and Counterspark the final blow.
+  </Step>
+  <Step num="3" title="Manage Your Blood Gauge with Blade Flash">
+    As you attack, blood accumulates on your weapon, filling the blood gauge. Pressing the Blade Flash button immediately after a combination cleans the blade, restoring a significant portion of your spent Ki. Consistently using Blade Flash prevents you from being left vulnerable with an empty stamina bar.
+  </Step>
+  <Step num="4" title="Establish Region and Character Bonds">
+    Explore Yokohama to clear bandit-controlled areas and restore Public Order. Doing so increases your Region Bond, unlocking merchant discounts and revealing hidden collectibles. Talk to companion characters, complete their unique Bond Missions, and offer them gifts to unlock exclusive combat styles and skills.
+  </Step>
+</Steps>
+
+<Checklist
+  id="pc-progression-goals"
+  title="Essential Early-Game Milestones:"
+  items={[
+    "Retrieve Igashichi Iizuka's camera during the aerial glider mission",
+    "Defeat your first named fugitive to unlock specialized combat styles",
+    "Establish your first Veiled Vow or close character bond at the Longhouse",
+    "Unlock the Testament of the Soul in Edo to replay missions and explore alternative choices"
+  ]}
+/>
+
+<Callout type="tip" title="Explore Alternate Choices Safely">
+The decisions you make regarding pro-Shogunate or anti-Shogunate factions will alter mission paths and ally availability. However, you do not need to restart the game to see other outcomes. The Testament of the Soul system allows you to replay completed chapters and make different decisions while keeping your current progress.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+To help you get the most out of your experience, we have compiled answers to the most common questions regarding performance, gameplay mechanics, and multiplayer systems.
+
+<FAQ items={[
+  {
+    question: "Does Rise of the Ronin PC support cross-play with PS5 players?",
+    answer: "No, direct cooperative multiplayer is platform-specific. Steam players can only join or recruit other PC players. However, the PC version does not require a subscription service like PlayStation Plus to access online features."
+  },
+  {
+    question: "What is the difference between direct co-op and asynchronous ronin?",
+    answer: "Direct co-op allows up to three players to tackle specific story missions together in real-time. Asynchronous ronin are AI-controlled characters representing other players' avatars that randomly appear in your world to assist you or challenge you to a duel."
+  },
+  {
+    question: "How does the Pilgrim Dog mechanic work?",
+    answer: "The Pilgrim Dog is an asynchronous online feature. By depositing money with the dog at your Longhouse, you send it on a journey to other players' game worlds. It will eventually return to your game carrying valuable crafting materials, consumables, and gear."
+  },
+  {
+    question: "Can I play the entire game in a seamless open-world co-op mode?",
+    answer: "Cooperative multiplayer is strictly mission-based. While you can complete major story operations and battle bosses with up to two friends, general open-world exploration, fugitive hunting, and town activities must be completed in your solo world."
+  }
+]} />
+
+<Callout type="info" title="Need More Help?">
+Join the official Koei Tecmo Discord or visit the community forums on Steam and Reddit to discuss advanced weapon builds, trade performance optimization tips, and find reliable co-op partners for high-difficulty Midnight missions.
+</Callout>
+
+</Section>

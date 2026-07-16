@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Navigation, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Rise of the Ronin Map: Full Collectibles & Fugitive Locations",
+  description: "Master the Rise of the Ronin map with our guide to Yokohama, Edo, and Kyoto. Find all cats, shrines, fugitives, and Veiled Edge Banners in Bakumatsu Japan.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Map+and+Collectibles+Guide",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Rise of the Ronin map** features three massive open-world regions: **Yokohama**, **Edo**, and **Kyoto**.
+- **Restoring Public Order** is the primary way to reveal hidden icons, collectibles, and regional bond activities.
+- **Veiled Edge Banners** serve as your fast-travel network and are essential for managing your inventory and allies.
+- **Collectibles** like cats and shrines provide unique currencies (Silver Coins) and permanent stat upgrades (Skill Points).
+- **Testament of the Soul** allows you to return to previous maps to finish 100% completion after moving the story forward.
+</Callout>
+
+<Section icon={Map} title="Exploring the Rise of the Ronin Map Regions">
+
+The **rise of the ronin map** is divided into three distinct historical regions, each representing a different phase of the Bakumatsu era. Unlike traditional linear action games, these open worlds are densely packed with verticality, historical landmarks, and dynamic encounters. Understanding the layout of each city is vital for efficient progression and finding high-tier equipment.
+
+<Table>
+| Region | Historical Context | Key Landmarks | Map Atmosphere |
+| :--- | :--- | :--- | :--- |
+| **Yokohama** | The gateway to Western influence | Port, Foreign Settlement, Yamashita | Coastal, multicultural, hilly |
+| **Edo** | The Shogunate's political heart | Edo Castle, Nihonbashi, Yoshiwara | Urban, dense, fortified |
+| **Kyoto** | The Imperial capital and site of conflict | Mibu-dera, Kiyomizu-dera, Gion | Traditional, elegant, volatile |
+</Table>
+
+Each region requires a different approach to exploration. Yokohama introduces the player to the basic traversal mechanics, while Edo expands the scale with massive castles and bustling districts. Kyoto serves as the late-game challenge, featuring complex street layouts and high-level fugitive encounters.
+
+<Callout type="tip" title="Pro Tip">
+Always prioritize activating **Veiled Edge Banners** as soon as you enter a new district. They reveal the immediate surroundings and provide a safe haven for health replenishment and gear management.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Map Icons and Collectible Types">
+
+Navigating the **rise of the ronin map** involves identifying various icons that represent opportunities for character growth. The map uses a layered system where certain icons only appear after you increase your Bond level with a specific district.
+
+<CardGrid cols={2}>
+  <Card title="Exploration Icons">
+    - **Veiled Edge Banners**: Fast travel and respawn points.
+    - **Shrines**: Interact to gain permanent Skill Points.
+    - **Photography Spots**: Capture historical views for rewards.
+    - **Landmarks**: Historical sites that boost regional bonds.
+  </Card>
+  <Card title="Activity Icons">
+    - **Public Order**: Combat zones that need clearing.
+    - **Fugitives**: Named mini-bosses with unique gear drops.
+    - **Cats**: Collectible felines that reward Silver Coins.
+    - **Treasure Chests**: Hidden loot containing weapons and armor.
+  </Card>
+</CardGrid>
+
+Collecting cats is particularly important for players looking to purchase specialized gear. Once collected, cats are sent to the Usugumo Dayu in the Pleasure District, where you can trade the accumulated points for powerful accessories and combat styles.
+
+<Callout type="success" title="Completion Reward">
+Reaching 100% completion in a district often rewards you with rare crafting materials and permanent increases to your primary attributes (Strength, Dexterity, Charm, and Intellect).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Restoring Public Order and Hunting Fugitives">
+
+Many areas of the **rise of the ronin map** begin in a state of unrest, marked by red zones. In these areas, Public Order has deteriorated due to bandit activity or factional disputes. Restoring order is the most effective way to unlock the full potential of a district.
+
+<Steps>
+  <Step num="1" title="Locate the Unrest Zone">
+    Identify red-shaded areas on your map. These indicate locations where bandits or rogue samurai have taken control of a village or outpost.
+  </Step>
+  <Step num="2" title="Eliminate the Leaders">
+    Enter the zone and look for enemies with a white icon above their heads. These are the leaders. Defeating them immediately breaks the enemy's morale.
+  </Step>
+  <Step num="3" title="Defeat Named Fugitives">
+    High-value targets often hide within these zones. Fugitives are significantly tougher than standard enemies and require precise Counterspark timing to defeat.
+  </Step>
+  <Step num="4" title="Raise the Banner">
+    Once all threats are neutralized, interact with the local Veiled Edge Banner to restore order. This returns civilians to the area and reveals all nearby collectibles.
+  </Step>
+</Steps>
+
+<Table>
+| Enemy Type | Difficulty | Rewards | Tactical Advice |
+| :--- | :--- | :--- | :--- |
+| **Common Bandit** | Low | Basic materials, copper | Use stealth for quick takedowns |
+| **Leader/Brute** | Medium | Uncommon gear, medicine | Focus on Ki depletion with heavy weapons |
+| **Named Fugitive** | High | Rare/Exotic gear, styles | Watch for red attacks; parry is mandatory |
+| **Hidden Boss** | Extreme | Legendary items, titles | Only engage once properly leveled and geared |
+</Table>
+
+<Callout type="warning" title="Watch Your Level">
+Fugitives have specific levels displayed next to their names. Attempting to fight a fugitive more than 5 levels above your current rank is extremely dangerous and often results in an immediate defeat.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Region Bonds and Progression Rewards">
+
+As you interact with the **rise of the ronin map**, you develop a **Region Bond**. This represents your influence and reputation within that specific area. There are three levels of Region Bond, each offering progressively better benefits.
+
+<Table>
+| Bond Level | Requirement | Unlockable Benefits |
+| :--- | :--- | :--- |
+| **Level 1** | Restore Public Order | Basic map icons revealed, local merchant access |
+| **Level 2** | Complete side tasks | Collectible locations revealed, merchant discounts |
+| **Level 3** | 100% District activity | Rare item availability, maximum fast travel speed |
+</Table>
+
+Beyond just revealing icons, high Region Bonds allow you to purchase district-specific gear that cannot be found elsewhere. For example, the foreign settlement in Yokohama offers Western-style sabers and firearms that are unavailable in the more traditional rural districts.
+
+<Callout type="info" title="Map Sync">
+In the late game, you can use **Testament of the Soul** to sync your level to a region. This makes low-level map areas challenging again and allows you to farm high-tier endgame materials from early-game fugitives.
+</Callout>
+
+</Section>
+
+<Section icon={Navigation} title="Mastering Traversal and Hidden Paths">
+
+The **rise of the ronin map** is designed with verticality in mind. You are not restricted to the roads; in fact, the best rewards are often found on rooftops or hidden cliffside paths. Mastering your traversal tools is essential for 100% completion.
+
+<Checklist
+  id="traversal-essentials"
+  title="Traversal Mastery Checklist:"
+  items={[
+    "Unlock the Avian glider for long-distance aerial travel",
+    "Master the Grappling Hook to reach hidden temple rooftops",
+    "Upgrade your horse's speed for faster ground exploration",
+    "Use the Pocket Watch to change time of day (some NPCs only appear at night)",
+    "Find all hidden underwater chests in the Yokohama port area"
+  ]}
+/>
+
+Traversing the map efficiently saves hours of gameplay. The Avian glider, in particular, allows you to bypass large groups of enemies or reach Fugitive locations that are otherwise inaccessible. Always look for "Grapple Points" (marked by white circular prompts) to find vertical shortcuts.
+
+<Callout type="tip" title="Exploration Secret">
+Some shrines and treasure chests are hidden behind destructible walls. If you see a wall with cracks or barrels nearby, use a heavy attack or an explosive barrel to reveal the hidden path.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rise of the Ronin Map FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I go back to Yokohama after moving to Edo?",
+    answer: "Yes. Once you reach Edo, you will unlock the Testament of the Soul at your Longhouse. This feature allows you to travel back to the Yokohama map at any time to finish collectibles or missions."
+  },
+  {
+    question: "How do I see cat locations on the map?",
+    answer: "Cat locations are revealed once you reach Region Bond Level 2 in a specific district. You can raise this bond by clearing Public Order zones and completing local requests."
+  },
+  {
+    question: "What do the grey icons on the map mean?",
+    answer: "Grey icons represent locations you have discovered but not yet completed or collected. Once a task is finished (like a shrine visited or a cat petted), the icon will turn white or disappear depending on your map settings."
+  },
+  {
+    question: "Are there secret areas not shown on the Rise of the Ronin map?",
+    answer: "Yes, there are hidden 'Unmarked Locations' such as caves and secret rooms in castles that do not have map icons. These usually contain high-tier loot or easter eggs like the William boss fight from Nioh."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+The **rise of the ronin map** is a living record of your journey. As you make choices in the story, certain areas may change, and new characters may appear in districts you've already cleared. Re-visiting old maps is always rewarding.
+</Callout>
+
+</Section>

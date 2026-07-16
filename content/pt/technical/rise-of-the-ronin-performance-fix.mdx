@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Correção de Desempenho de A Ascensão do Ronin: Guia de Configuração para PC",
+  description: "Otimize A Ascensão do Ronin no PC. Corrija lag, travamentos e quedas de FPS com nossos arquivos de configuração otimizados e guia de configurações gráficas.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Performance+Fix+Guide",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de A Ascensão do Ronin",
+  keywords: "A Ascensão do Ronin, desempenho, correção de FPS, guia de PC, otimização"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Otimização de desempenho**: Implemente a correção de desempenho principal de A Ascensão do Ronin para estabilizar a taxa de quadros em hardware de nível médio.
+- **Modificação de configuração**: Ajuste o arquivo de configuração local para ignorar as limitações de renderização padrão e ativar opções estáveis de HDR.
+- **Escalonamento de hardware**: Diminua configurações exigentes, como efeitos volumétricos e resoluções de sombra, para evitar micro-travamentos.
+- **Alinhamento do sistema**: Alinhe as configurações do painel de controle da GPU com o agendamento gráfico do Windows para uma utilização ideal do hardware.
+</Callout>
+
+<Section icon={Sparkles} title="Otimização do Arquivo de Configuração e Guia em Vídeo">
+
+Otimizar os arquivos de configuração diretamente é um dos métodos mais eficientes para resolver quedas persistentes de taxa de quadros e travamentos. Modificar parâmetros fora do menu do jogo permite que os jogadores ajustem os pipelines de renderização, ajustem os limites de alocação de memória e forcem modos de exibição específicos que, de outra forma, poderiam ser definidos como sub-otimizados por padrão. Essa abordagem é particularmente útil para placas de vídeo de nível médio, permitindo um desempenho mais suave mesmo ao executar recursos pesados, como o processamento de High Dynamic Range (HDR).
+
+**Destaques do Vídeo:**
+- **Localização da configuração**: Localize os arquivos ocultos de configuração do jogo na pasta de documentos do usuário.
+- **Estabilização de FPS**: Alcance taxas de quadros estáveis com média de 50 a 58 FPS em GPUs de nível médio.
+- **Integração de HDR**: Force as configurações de HDR a permanecerem ativas sem causar grandes penalidades de desempenho.
+- **Substituição de arquivos**: Substitua os valores de configuração padrão por blocos de código otimizados.
+
+<YouTubeEmbed videoId="BUGVK-_NPSo" title="Rise of the Ronin OPTIMIZATION Guide - BOOST FPS, Fix Lag & Fix FPS Drops on ANY PC / Best Settings" />
+
+Para aplicar manualmente esta otimização baseada em arquivos, navegue até o diretório local onde os dados de configuração são salvos. Esta pasta geralmente está localizada no diretório Documentos sob o caminho do editor: `Documents\KOEI TECMO\Rise of the Ronin`. Substituir os arquivos de configuração padrão por scripts otimizados pode ignorar gargalos do motor e melhorar a distribuição de memória.
+
+<Callout type="warning" title="Backup Necessário">
+Sempre crie uma cópia de backup de seus arquivos de configuração originais antes de substituí-los. Armazene os arquivos originais em uma pasta separada para que você possa restaurá-los se encontrar erros de exibição ou problemas de estabilidade.
+</Callout>
+
+| Parâmetro | Valor Padrão | Valor Otimizado | Impacto no Desempenho |
+|---|---|---|---|
+| **RenderScale** | 1.000000 | 0.900000 | Alto aumento de FPS |
+| **ShadowMapSize** | 2048 | 1024 | Reduz carga de VRAM |
+| **HDRMode** | 0 | 1 | Ativa estabilidade de HDR |
+| **VSync** | 1 | 0 | Evita latência de entrada |
+| **VolumetricFog** | 2 | 1 | Melhora o rendimento da GPU |
+
+</Section>
+
+<Section icon={Swords} title="Configurações Gráficas Ideais no Jogo">
+
+Ajustar os parâmetros gráficos no jogo é essencial para equilibrar a fidelidade visual e a estabilidade da taxa de quadros. Certas opções, como efeitos volumétricos, sombras e reflexos de espaço de tela, colocam uma carga pesada na GPU, oferecendo melhora visual mínima durante combates acelerados. Diminuir esses parâmetros específicos permite que os jogadores mantenham texturas de alta qualidade enquanto mantêm as taxas de quadros consistentes durante encontros intensos.
+
+<CardGrid cols={3}>
+  <Card title="Predefinição de FPS Alto">
+    - **Qualidade de Sombra**: Baixa
+    - **Névoa Volumétrica**: Desligado
+    - **Qualidade de Textura**: Média
+    - **Prioridade**: Quadros máximos
+  </Card>
+  <Card title="Configuração Equilibrada">
+    - **Qualidade de Sombra**: Média
+    - **Névoa Volumétrica**: Baixa
+    - **Qualidade de Textura**: Alta
+    - **Prioridade**: Equilíbrio visual
+  </Card>
+  <Card title="Foco em Qualidade Visual">
+    - **Qualidade de Sombra**: Alta
+    - **Névoa Volumétrica**: Média
+    - **Qualidade de Textura**: Alta
+    - **Prioridade**: Hardware de ponta
+  </Card>
+</CardGrid>
+
+Para jogadores que usam placas de vídeo com VRAM limitada, os orçamentos de streaming de textura devem ser gerenciados com cuidado. Definir a qualidade da textura muito alta pode levar a quedas repentinas de quadros ao transitar entre diferentes áreas do mundo aberto. Usar uma predefinição equilibrada garante que os ativos carreguem suavemente sem saturar o buffer de memória da placa de vídeo.
+
+<Callout type="tip" title="Dica de Configuração de HDR">
+Se você ativar o HDR, certifique-se de que sua tela esteja devidamente calibrada no Windows antes de iniciar o jogo. Configurações de luminância incompatíveis podem causar cores lavadas e pequenos atrasos de renderização durante as transições de iluminação.
+</Callout>
+
+| Nome da Configuração | Valor Recomendado | Impacto no Desempenho | Perda Visual |
+|---|---|---|---|
+| **Qualidade de Textura** | Alta (depende da VRAM) | Mínimo | Baixa |
+| **Resolução de Sombra** | Média | Moderado | Baixa |
+| **Oclusão Ambiental** | SSAO | Moderado | Baixa |
+| **Efeitos Volumétricos** | Baixo | Alto | Média |
+| **Desfoque de Movimento** | Desligado | Mínimo | Subjetivo |
+| **Reflexos de Espaço de Tela** | Médio | Moderado | Baixa |
+
+</Section>
+
+<Section icon={Shield} title="Ajustes de Windows e GPU em Nível de Sistema">
+
+As configurações em nível de sistema geralmente ditam como os recursos são alocados ao executável do jogo. Se o Windows ou o painel de controle da GPU não estiverem configurados corretamente, o sistema pode limitar o fornecimento de energia ou falhar em priorizar o processo do jogo, levando a micro-travamentos e lag de entrada. Ajustar essas configurações garante que seu hardware opere em seu potencial máximo.
+
+<Steps>
+  <Step num="1" title="Ativar Agendamento de GPU Acelerado por Hardware">
+    Abra o menu Iniciar do Windows, pesquise por Configurações Gráficas e mude a opção Agendamento de GPU Acelerado por Hardware (HAGS) para Ativado. Reinicie o computador para aplicar as alterações.
+  </Step>
+  <Step num="2" title="Ajustar Gerenciamento de Energia da GPU">
+    Abra o Painel de Controle da Nvidia ou o Software AMD Radeon, navegue até as configurações globais e defina o Modo de Gerenciamento de Energia para Preferir Desempenho Máximo.
+  </Step>
+  <Step num="3" title="Otimizar Tamanho do Cache de Shader">
+    No painel de controle da sua GPU, aumente o Tamanho do Cache de Shader para 10 GB ou Ilimitado. Isso permite que o sistema armazene shaders compilados, reduzindo travamentos durante o jogo.
+  </Step>
+  <Step num="4" title="Desativar Sobreposições em Segundo Plano">
+    Desative as sobreposições no jogo em aplicativos como Discord, Steam e GeForce Experience, pois esses programas podem consumir recursos do sistema e causar conflitos de desempenho.
+  </Step>
+</Steps>
+
+Esses ajustes de sistema funcionam em conjunto com as configurações do jogo para criar um ambiente mais estável para o motor do jogo. Ao aumentar os limites do cache de shader, você permite que o jogo recupere ativos pré-compilados instantaneamente, evitando quedas repentinas de desempenho que ocorrem ao entrar em novas zonas ou iniciar encontros de combate.
+
+<Callout type="info" title="Atualizações de Driver">
+Certifique-se de que seus drivers gráficos estejam atualizados para a versão mais recente. Os fabricantes frequentemente lançam correções e perfis de otimização adaptados especificamente para títulos de ação em mundo aberto.
+</Callout>
+
+| Configuração do Utilitário | Recomendação Nvidia | Recomendação AMD | Objetivo |
+|---|---|---|---|
+| **Cache de Shader** | 10GB | Ativado / Redefinir | Reduz travamentos de compilação |
+| **Modo de Energia** | Preferir Desempenho Máximo | Alto Desempenho | Evita redução de clock da GPU |
+| **Otimização Segmentada** | Ligado | Não Aplicável | Melhora o uso dos núcleos da CPU |
+| **Modo de Baixa Latência** | Ligado / Ultra | Anti-Lag | Minimiza o atraso de entrada |
+
+</Section>
+
+<Section icon={Target} title="Solução de Problemas de Travamentos e Gargalos do Sistema">
+
+Mesmo com configurações otimizadas, os jogadores ainda podem enfrentar problemas de desempenho devido a gargalos de hardware ou conflitos de software. Identificar se a CPU ou a GPU está causando a restrição é a chave para resolver esses problemas. Monitorar a utilização do hardware em tempo real pode ajudar a identificar a causa exata da degradação do desempenho.
+
+<Checklist
+  id="troubleshooting-steps"
+  title="Checklist de Verificação de Desempenho:"
+  items={[
+    "Verifique se o jogo está rodando na placa de vídeo dedicada em vez da placa integrada.",
+    "Monitore as temperaturas da CPU e GPU para garantir que o thermal throttling não esteja reduzindo as velocidades de clock.",
+    "Verifique os processos em segundo plano no Gerenciador de Tarefas e feche aplicativos pesados.",
+    "Verifique a integridade dos arquivos de instalação do jogo através da biblioteca do seu inicializador."
+  ]}
+/>
+
+Se o uso da CPU permanecer próximo de 100% enquanto o uso da GPU estiver baixo, o sistema está enfrentando um gargalo de CPU. Isso é comum em áreas densamente povoadas do jogo. Diminuir as configurações que afetam os cálculos da CPU, como densidade de multidão e distância de visão, pode ajudar a equilibrar a carga e estabilizar a taxa de quadros.
+
+<Callout type="success" title="Privilégios Administrativos">
+Executar o executável do jogo como administrador pode evitar que permissões em segundo plano restrinjam o acesso aos recursos do sistema, melhorando a estabilidade geral.
+</Callout>
+
+| Problema | Causa Potencial | Correção Recomendada |
+|---|---|---|
+| **Micro-travamentos frequentes** | Compilação de shader | Aumentar o tamanho do Cache de Shader para 10GB |
+| **Quedas de FPS nas cidades** | Alta carga de CPU | Reduzir densidade de multidão no jogo |
+| **Screen tearing** | Incompatibilidade de taxa de atualização | Ativar G-Sync/FreeSync ou usar Fast V-Sync |
+| **Crashes repentinos para a área de trabalho** | Estouro de VRAM | Diminuir qualidade de textura e escala de resolução |
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para suporte adicional, revise estas soluções comuns para problemas de desempenho.
+
+<FAQ items={[
+  {
+    question: "Como aplico a correção de desempenho de A Ascensão do Ronin aos meus arquivos de configuração?",
+    answer: "Navegue até Documentos\\KOEI TECMO\\Rise of the Ronin, localize o arquivo de configuração e abra-o com um editor de texto. Substitua os valores de renderização e sombra pelos parâmetros otimizados listados em nosso guia e salve o arquivo."
+  },
+  {
+    question: "Modificar o arquivo de configuração causará banimentos por anti-cheat?",
+    answer: "Não, modificar arquivos de configuração locais para opções de gráficos e exibição não altera os arquivos principais do jogo ou endereços de memória, tornando seguro o uso sem risco de banimento."
+  },
+  {
+    question: "Por que ativar o HDR faz minha taxa de quadros cair?",
+    answer: "O HDR requer processamento de cor adicional e renderização de brilho de pico, o que aumenta a carga da GPU. Diminuir os efeitos volumétricos e as sombras pode compensar esse custo de desempenho."
+  },
+  {
+    question: "Qual é a maneira mais eficaz de eliminar o screen tearing?",
+    answer: "Ative tecnologias de taxa de atualização variável como G-Sync ou FreeSync no painel de controle da sua GPU. Se o seu monitor não suportar essas tecnologias, ative o V-Sync nas configurações do driver da placa de vídeo em vez do menu do jogo."
+  }
+]} />
+
+<Callout type="info" title="Monitoramento de Patches">
+Acompanhe as atualizações oficiais do jogo. Os desenvolvedores frequentemente lançam patches de desempenho que abordam a otimização do motor e problemas de compatibilidade de hardware diretamente.
+</Callout>
+
+</Section>

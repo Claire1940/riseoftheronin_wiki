@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Navigation, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa de A Ascensão do Ronin: Todos os Colecionáveis e Localizações de Fugitivos",
+  description: "Domine o mapa de A Ascensão do Ronin com nosso guia de Yokohama, Edo e Kyoto. Encontre todos os gatos, santuários, fugitivos e Estandartes da Lâmina Oculta no Japão do Bakumatsu.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Map+and+Collectibles+Guide",
+  date: "2026-07-16",
+  author: "Equipe Wiki de A Ascensão do Ronin"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **mapa de A Ascensão do Ronin** apresenta três grandes regiões de mundo aberto: **Yokohama**, **Edo** e **Kyoto**.
+- **Restaurar a Ordem Pública** é a principal maneira de revelar ícones ocultos, colecionáveis e atividades de elo regional.
+- Os **Estandartes da Lâmina Oculta** servem como sua rede de viagem rápida e são essenciais para gerenciar seu inventário e aliados.
+- **Colecionáveis** como gatos e santuários fornecem moedas exclusivas (Moedas de Prata) e melhorias permanentes de atributos (Pontos de Habilidade).
+- O **Testamento da Alma** permite que você retorne a mapas anteriores para concluir 100% do progresso após avançar na história.
+</Callout>
+
+<Section icon={Map} title="Explorando as Regiões do Mapa de A Ascensão do Ronin">
+
+O **mapa de A Ascensão do Ronin** é dividido em três regiões históricas distintas, cada uma representando uma fase diferente da era Bakumatsu. Ao contrário dos jogos de ação lineares tradicionais, esses mundos abertos são densamente repletos de verticalidade, marcos históricos e encontros dinâmicos. Compreender o layout de cada cidade é vital para uma progressão eficiente e para encontrar equipamentos de alto nível.
+
+<Table>
+| Região | Contexto Histórico | Pontos de Interesse | Atmosfera do Mapa |
+| :--- | :--- | :--- | :--- |
+| **Yokohama** | A porta de entrada para a influência ocidental | Porto, Assentamento Estrangeiro, Yamashita | Costeira, multicultural, montanhosa |
+| **Edo** | O coração político do Xogunato | Castelo de Edo, Nihonbashi, Yoshiwara | Urbana, densa, fortificada |
+| **Kyoto** | A capital imperial e palco de conflitos | Mibu-dera, Kiyomizu-dera, Gion | Tradicional, elegante, volátil |
+</Table>
+
+Cada região requer uma abordagem diferente para a exploração. Yokohama introduz o jogador às mecânicas básicas de travessia, enquanto Edo expande a escala com castelos massivos e distritos movimentados. Kyoto serve como o desafio de fim de jogo, apresentando layouts de ruas complexos e encontros com fugitivos de alto nível.
+
+<Callout type="tip" title="Dica Profissional">
+Sempre priorize a ativação dos **Estandartes da Lâmina Oculta** assim que entrar em um novo distrito. Eles revelam os arredores imediatos e fornecem um refúgio seguro para reabastecimento de vida e gerenciamento de equipamentos.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Ícones do Mapa e Tipos de Colecionáveis">
+
+Navegar pelo **mapa de A Ascensão do Ronin** envolve identificar vários ícones que representam oportunidades de crescimento para o personagem. O mapa utiliza um sistema de camadas onde certos ícones só aparecem depois que você aumenta seu nível de Elo com um distrito específico.
+
+<CardGrid cols={2}>
+  <Card title="Ícones de Exploração">
+    - **Estandartes da Lâmina Oculta**: Pontos de viagem rápida e renascimento.
+    - **Santuários**: Interaja para obter Pontos de Habilidade permanentes.
+    - **Pontos de Fotografia**: Capture vistas históricas para obter recompensas.
+    - **Pontos de Interesse**: Locais históricos que aumentam os elos regionais.
+  </Card>
+  <Card title="Ícones de Atividade">
+    - **Ordem Pública**: Zonas de combate que precisam ser limpas.
+    - **Fugitivos**: Minichefes nomeados com saques de equipamentos exclusivos.
+    - **Gatos**: Felinos colecionáveis que recompensam com Moedas de Prata.
+    - **Baús de Tesouro**: Saques ocultos contendo armas e armaduras.
+  </Card>
+</CardGrid>
+
+Coletar gatos é particularmente importante para os jogadores que desejam comprar equipamentos especializados. Uma vez coletados, os gatos são enviados para Usugumo Dayu no Distrito de Prazer, onde você pode trocar os pontos acumulados por acessórios poderosos e estilos de combate.
+
+<Callout type="success" title="Recompensa de Conclusão">
+Alcançar 100% de conclusão em um distrito frequentemente recompensa você com materiais de criação raros e aumentos permanentes em seus atributos primários (Força, Destreza, Carisma e Intelecto).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Restaurando a Ordem Pública e Caçando Fugitivos">
+
+Muitas áreas do **mapa de A Ascensão do Ronin** começam em um estado de agitação, marcadas por zonas vermelhas. Nessas áreas, a Ordem Pública se deteriorou devido à atividade de bandidos ou disputas de facções. Restaurar a ordem é a maneira mais eficaz de desbloquear todo o potencial de um distrito.
+
+<Steps>
+  <Step num="1" title="Localize a Zona de Agitação">
+    Identifique as áreas sombreadas em vermelho no seu mapa. Elas indicam locais onde bandidos ou samurais renegados assumiram o controle de uma vila ou posto avançado.
+  </Step>
+  <Step num="2" title="Elimine os Líderes">
+    Entre na zona e procure por inimigos com um ícone branco acima de suas cabeças. Estes são os líderes. Derrotá-los quebra imediatamente a moral dos inimigos.
+  </Step>
+  <Step num="3" title="Derrote os Fugitivos Nomeados">
+    Alvos de alto valor costumam se esconder nessas zonas. Os fugitivos são significativamente mais fortes do que os inimigos comuns e exigem um tempo preciso de Contra-centelha (Counterspark) para serem derrotados.
+  </Step>
+  <Step num="4" title="Erga o Estandarte">
+    Assim que todas as ameaças forem neutralizadas, interaja com o Estandarte da Lâmina Oculta local para restaurar a ordem. Isso faz com que os civis retornem à área e revela todos os colecionáveis próximos.
+  </Step>
+</Steps>
+
+<Table>
+| Tipo de Inimigo | Dificuldade | Recompensas | Conselho Tático |
+| :--- | :--- | :--- | :--- |
+| **Bandido Comum** | Baixa | Materiais básicos, cobre | Use furtividade para eliminações rápidas |
+| **Líder/Bruto** | Média | Equipamento incomum, remédios | Foque no esgotamento de Ki com armas pesadas |
+| **Fugitivo Nomeado** | Alta | Equipamento raro/exótico, estilos | Cuidado com os acrobatas e ataques vermelhos; o aparo é obrigatório |
+| **Chefe Oculto** | Extrema | Itens lendários, títulos | Só enfrente quando estiver no nível e com equipamentos adequados |
+</Table>
+
+<Callout type="warning" title="Fique de Olho no seu Nível">
+Os fugitivos têm níveis específicos exibidos ao lado de seus nomes. Tentar lutar contra um fugitivo com mais de 5 níveis acima do seu nível atual é extremamente perigoso e frequentemente resulta em uma derrota imediata.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Elos Regionais e Recompensas de Progressão">
+
+À medida que você interage com o **mapa de A Ascensão do Ronin**, você desenvolve um **Elo Regional**. Isso representa sua influência e reputação dentro daquela área específica. Existem três níveis de Elo Regional, cada um oferecendo benefícios progressivamente melhores.
+
+<Table>
+| Nível de Elo | Requisito | Benefícios Desbloqueáveis |
+| :--- | :--- | :--- |
+| **Nível 1** | Restaurar a Ordem Pública | Ícones básicos do mapa revelados, acesso a mercadores locais |
+| **Nível 2** | Concluir tarefas secundárias | Localizações de colecionáveis reveladas, descontos em mercadores |
+| **Nível 3** | 100% de atividade no distrito | Disponibilidade de itens raros, velocidade máxima de viagem rápida |
+</Table>
+
+Além de apenas revelar ícones, elos regionais altos permitem que você compre equipamentos específicos de distritos que não podem ser encontrados em outro lugar. For exemplo, o assentamento estrangeiro em Yokohama oferece sabres de estilo ocidental e armas de fogo que não estão disponíveis nos distritos rurais mais tradicionais.
+
+<Callout type="info" title="Sincronização do Mapa">
+No final do jogo, você pode usar o **Testamento da Alma** para sincronizar seu nível a uma região. Isso torna as áreas de nível baixo do mapa desafiadoras novamente e permite que você farme materiais de fim de jogo de alta qualidade de fugitivos do início do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Navigation} title="Dominando a Travessia e Caminhos Ocultos">
+
+O **mapa de A Ascensão do Ronin** foi projetado com a verticalidade em mente. Você não está restrito às estradas; na verdade, as melhores recompensas costumam ser encontradas em telhados ou caminhos escondidos em penhascos. Dominar suas ferramentas de travessia é essencial para obter 100% de conclusão.
+
+<Checklist
+  id="traversal-essentials"
+  title="Lista de Verificação para Domínio de Travessia:"
+  items={[
+    "Desbloqueie o planador Avícula para viagens aéreas de longa distância",
+    "Domine o Gancho de Garra para alcançar telhados de templos escondidos",
+    "Melhore a velocidade do seu cavalo para uma exploração terrestre mais rápida",
+    "Use o Relógio de Bolso para alterar a hora do dia (alguns NPCs só aparecem à noite)",
+    "Encontre todos os baús subaquáticos escondidos na área do porto de Yokohama"
+  ]}
+/>
+
+Atravessar o mapa de forma eficiente economiza horas de jogo. O planador Avícula, em particular, permite que você ignore grandes grupos de inimigos ou alcance locais de fugitivos que, de outra forma, seriam inacessíveis. Sempre procure por "Pontos de Gancho" (marcados por comandos circulares brancos) para encontrar atalhos verticais.
+
+<Callout type="tip" title="Segredo de Exploração">
+Alguns santuários e baús de tesouro estão escondidos atrás de paredes destrutíveis. Se você vir uma parede com rachaduras ou barris por perto, use um ataque pesado ou um barril explosivo para revelar o caminho oculto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes do Mapa de A Ascensão do Ronin">
+
+<FAQ items={[
+  {
+    question: "Posso voltar para Yokohama depois de ir para Edo?",
+    answer: "Sim. Assim que chegar a Edo, você desbloqueará o Testamento da Alma em seu Lar. Esse recurso permite que você viaje de volta ao mapa de Yokohama a qualquer momento para terminar colecionáveis ou missões."
+  },
+  {
+    question: "Como faço para ver a localização dos gatos no mapa?",
+    answer: "As localizações dos gatos são reveladas assim que você atinge o Nível 2 de Elo Regional em um distrito específico. Você pode aumentar esse elo limpando zonas de Ordem Pública e concluindo pedidos locais."
+  },
+  {
+    question: "O que significam os ícones cinzas no mapa?",
+    answer: "Os ícones cinzas representam locais que você descobriu, mas ainda não concluiu ou coletou. Assim que uma tarefa for concluída (como um santuário visitado ou um gato acariciado), o ícone ficará branco ou desaparecerá, dependendo das configurações do seu mapa."
+  },
+  {
+    question: "Existem áreas secretas não mostradas no mapa de A Ascensão do Ronin?",
+    answer: "Sim, existem 'Locais Não Marcados' ocultos, como cavernas e salas secretas em castelos que não possuem ícones no mapa. Eles geralmente contêm saques de alto nível ou easter eggs, como a luta contra o chefe William de Nioh."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+O **mapa de A Ascensão do Ronin** é um registro vivo da sua jornada. Conforme você faz escolhas na história, certas áreas podem mudar e novos personagens podem aparecer em distritos que você já limpou. Revisitar mapas antigos sempre vale a pena.
+</Callout>
+
+</Section>

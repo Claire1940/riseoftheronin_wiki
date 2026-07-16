@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Notas del Parche de Rise of the Ronin: Correcciones de Rendimiento para PC 2026",
+  description: "Consulta las últimas notas del parche de Rise of the Ronin para PC y PS5. Sigue las actualizaciones 1.09, optimizaciones de rendimiento, soporte DLSS y nuevas misiones de aliados.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/fff?text=Patch+Notes+Update",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Rise of the Ronin",
+  keywords: "notas del parche, rendimiento pc, optimización, misiones de aliados, rise of the ronin, dlss, fsr"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Última Versión**: Las actuales **notas del parche de Rise of the Ronin** destacan la versión 1.09.0.5 como el lanzamiento más estable para usuarios de PC.
+- **Correcciones Clave**: Las actualizaciones principales se centran en la **optimización de VRAM**, prevención de cierres en CPUs de muchos hilos y reducción de tirones (stuttering).
+- **Mejora de Rendimiento**: Funciones como **DLSS, FSR y Generación de Fotogramas** se han refinado para soportar 120 FPS en hardware recomendado.
+- **Nuevo Contenido**: Los parches recientes añadieron cinco nuevas **Misiones de Aliados** y expandieron los compañeros de entrenamiento del Dojo para la progresión final del juego.
+- **Requisito del Sistema**: Asegúrate de usar un **SSD** con al menos 155 GB de espacio para evitar cierres relacionados con la carga.
+</Callout>
+
+<Section icon={Settings} title="Notas del Parche de Rise of the Ronin: Historial de la Versión 1.09">
+
+Desde el lanzamiento para PC en marzo de 2025, Team NINJA ha lanzado varias actualizaciones críticas para abordar la estabilidad del rendimiento y el equilibrio de la jugabilidad. Las **notas del parche de Rise of the Ronin** registran una transición desde la solución de problemas iniciales del lanzamiento hasta optimizaciones gráficas avanzadas. Estas actualizaciones son esenciales para los jugadores que experimentan tirones en áreas densas como Yokohama o Edo, así como para aquellos que utilizan hardware de gama alta de NVIDIA o AMD.
+
+| Versión | Fecha | Enfoque Principal | Aspecto Destacado |
+| :--- | :--- | :--- | :--- |
+| **1.09.0.5** | 11 nov, 2025 | Estabilidad | Corregidos cierres relacionados con equipo específico de personajes |
+| **1.09.0.4** | 30 abr, 2025 | Corrección de Errores | Añadida recuperación de datos de guardado para 'En busca de nuevos conocimientos' |
+| **1.09.0.3** | 10 abr, 2025 | Optimización | Reducción del uso de VRAM y mejora de la Oclusión Ambiental |
+| **1.09.0.2** | 25 mar, 2025 | Rendimiento | Añadidos modos 'Priorizar Gráficos' y 'Priorizar FPS' |
+| **1.09.0.1** | 14 mar, 2025 | Día de Lanzamiento | Corregidos cierres en CPUs con más de 33 hilos |
+
+<Callout type="warning" title="Requisito de Actualización">
+La versión 1.09.0.3 se considera una actualización obligatoria para jugadores con tarjetas de 8GB de VRAM. No actualizar puede resultar en caídas significativas de fotogramas durante la transición a la región de Kioto.
+</Callout>
+
+El equipo de desarrollo ha priorizado los problemas de "stuttering" reportados durante el primer mes del lanzamiento en PC. Al optimizar cómo el motor maneja los sombreadores de DirectX 12, la actualización 1.09.0.2 redujo con éxito los micro-tirones durante los desplazamientos a alta velocidad con el planeador.
+
+</Section>
+
+<Section icon={Sparkles} title="Rendimiento de PC y Optimizaciones Gráficas">
+
+La versión para PC de Rise of the Ronin introdujo varias características no presentes en el lanzamiento original de PS5, lo que requirió ajustes técnicos específicos. Las **notas del parche de Rise of the Ronin** detallan la implementación de tecnologías de escalado específicas de cada fabricante para ayudar a los jugadores a alcanzar el objetivo de 120 FPS.
+
+<CardGrid cols={3}>
+  <Card title="Tecnología de Escalado">
+    - **NVIDIA DLSS 3.5**
+    - **AMD FSR 3.0**
+    - **Intel XeSS**
+    - Optimizado para salida 4K
+  </Card>
+  <Card title="Generación de Fotogramas">
+    - Aumenta los FPS percibidos
+    - Soportado en la serie RTX 40
+    - Reduce la latencia de entrada
+    - Ideal para más de 60 FPS base
+  </Card>
+  <Card title="Gestión de VRAM">
+    - Sobrecarga de texturas reducida
+    - Limpieza de caché mejorada
+    - Mejor soporte para GPUs de 8GB
+    - Previene fugas de memoria
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Optimización">
+Si estás utilizando una Intel Arc B580 o una tarjeta similar de gama media, el parche 1.09.0.3 verificó específicamente la estabilidad de 1080p/60 FPS usando configuraciones estándar y XeSS activado.
+</Callout>
+
+Más allá del escalado, los parches han refinado el ajuste de "Ajuste Dinámico de FPS". Esta función permite que el juego escale automáticamente la resolución interna para mantener una tasa de fotogramas constante durante encuentros de combate caóticos que involucran múltiples efectos de estado basados en fuego o grandes grupos de enemigos.
+
+| Característica | Nivel de Soporte | Impacto del Parche |
+| :--- | :--- | :--- |
+| **Ray Tracing** | Soporte Completo | Estabilidad mejorada en v1.09.0.2 |
+| **Ultrawide** | 21:9 / 32:9 | Corregido estiramiento de UI en v1.09.0.1 |
+| **Reflex** | Solo NVIDIA | Latencia reducida en v1.09.0.3 |
+| **Resolución 8K** | Soportado | Escalado de LOD optimizado en v1.09.0.5 |
+
+</Section>
+
+<Section icon={Swords} title="Ajustes de Jugabilidad y Adiciones de Contenido">
+
+Aunque las correcciones técnicas dominan las **notas del parche de Rise of the Ronin**, Team NINJA también ha introducido cambios significativos en el equilibrio del juego. Estas actualizaciones afectan cómo se gestiona el Ki, la efectividad de ciertos estilos de combate y la disponibilidad de misiones de final de juego.
+
+**Principales Aspectos de Jugabilidad:**
+- **Recuperación de Ki**: Se ajustó el tiempo del Destello de Hoja para que sea más permisivo en todos los tipos de armas.
+- **Dificultad Medianoche**: Se introdujeron dos bonificaciones de conjunto adicionales para los jugadores que han completado la historia principal.
+- **Misiones de Aliados**: Se añadieron cinco nuevas misiones en la actualización de contenido de mayo de 2024, que se integraron en la versión de PC desde el lanzamiento.
+- **Entrenamiento en el Dojo**: Se amplió la lista de compañeros de entrenamiento para incluir a los líderes de facción de la etapa final del juego.
+
+<Callout type="info" title="Equilibrio de Combate">
+La serie de parches 1.09 ajustó específicamente los estilos de combate 'Shinobi'. Aunque estos estilos siguen teniendo desventaja frente a emparejamientos de armas estándar, la ventana de precisión para los Contraataques (Countersparks) se amplió ligeramente para recompensar el juego de alta habilidad.
+</Callout>
+
+El sistema "Testimonio del Alma" también recibió actualizaciones para permitir repeticiones con nivel sincronizado. Esto asegura que volver a Yokohama después de completar el arco de Kioto siga proporcionando un desafío y botines relevantes. Los jugadores ahora pueden activar el "Deterioro del Orden Público" en la repetición del mundo en dificultad Medianoche para mantener el mundo abierto poblado con fugitivos de alto nivel.
+
+| Actividad | Cambio en la Actualización | Beneficio |
+| :--- | :--- | :--- |
+| **Misiones de Vínculo** | 5 nuevas misiones de Aliados | Mejores recompensas de relación |
+| **Orden Público** | Deterioro Opcional | Farmear infinitamente al final del juego |
+| **Bonos de Conjunto** | 2 nuevos conjuntos Medianoche | Potencial para builds especializadas |
+| **Dojo** | Nuevos compañeros añadidos | Domina estilos más rápido |
+
+</Section>
+
+<Section icon={Target} title="Cómo Actualizar y Verificar los Archivos del Juego">
+
+Para asegurarte de que estás ejecutando la última versión del juego y tienes todas las correcciones mencionadas en las **notas del parche de Rise of the Ronin**, sigue estos pasos para gestionar tu instalación en Steam o PS5.
+
+<Steps>
+  <Step num="1" title="Comprobar Actualizaciones Automáticas">
+    Asegúrate de que tu plataforma esté configurada para 'Mantener siempre este juego actualizado'. En Steam, haz clic derecho en el juego en tu biblioteca, selecciona Propiedades y luego Actualizaciones.
+  </Step>
+  <Step num="2" title="Verificar Integridad de los Archivos">
+    Si experimentas cierres a pesar de estar en la versión 1.09.0.5, usa la herramienta 'Verificar integridad de los archivos' en Steam. Esto busca texturas dañadas o archivos DLL faltantes que podrían causar inestabilidad.
+  </Step>
+  <Step num="3" title="Limpiar Caché de Sombreadores">
+    Después de un parche de rendimiento importante (como el 1.09.0.3), se recomienda limpiar el caché de sombreadores de tu GPU a través del panel de control de NVIDIA o AMD para permitir que el juego los reconstruya limpiamente.
+  </Step>
+  <Step num="4" title="Confirmar Número de Versión">
+    Inicia el juego y comprueba la esquina inferior derecha de la pantalla de título. Debería mostrar el número de compilación actual (ej. 1.09.0.5).
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Seguridad de los Datos de Guardado">
+La actualización 1.09.0.2 creó una ubicación de guardado de respaldo adicional. Si tu guardado principal se corrompe debido a un corte de energía, busca en la carpeta 'Saved Games' en tu perfil de usuario de Windows los archivos '.bak'.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Preparación para la Actualización 2026">
+
+A medida que Rise of the Ronin continúa recibiendo soporte, estar preparado para futuras adiciones de contenido y refinamientos técnicos es clave para una experiencia fluida. Usa esta lista para asegurar que tu sistema esté optimizado para las últimas **notas del parche de Rise of the Ronin**.
+
+<Checklist
+  id="patch-readiness"
+  title="Tareas de Optimización Post-Parche:"
+  items={[
+    "Instalar los últimos controladores NVIDIA/AMD Game Ready (lanzados después de nov. 2025)",
+    "Confirmar que el juego esté instalado en un SSD NVMe para las correcciones de carga de 1.09.0.3",
+    "Activar el modo 'Priorizar FPS' si juegas en un monitor de 144Hz+",
+    "Verificar el acceso al 'Testimonio del Alma' en la Casa de Té",
+    "Comprobar diseños de mando actualizados por la comunidad en Steam"
+  ]}
+/>
+
+<Callout type="warning" title="Nota para Modders">
+Los parches grandes como el 1.09.0.3 a menudo rompen los mods de rendimiento o reshades de la comunidad. Siempre desactiva los mods antes de actualizar para evitar errores de bucle de inicio.
+</Callout>
+
+</Section>
+
+<Section icon={Info} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Se aplican las notas del parche de Rise of the Ronin tanto a PS5 como a PC?",
+    answer: "La mayoría de las actualizaciones de jugabilidad y contenido (como las nuevas Misiones de Aliados) se aplican a ambos. Sin embargo, la serie 1.09.0.x aborda específicamente problemas de rendimiento, configuraciones gráficas y compatibilidad de hardware exclusivos de PC."
+  },
+  {
+    question: "¿Cómo soluciono los tirones en Yokohama después de la última actualización?",
+    answer: "Asegúrate de tener activado el 'Ajuste Dinámico de FPS' y de haber limpiado el caché de sombreadores. El parche 1.09.0.3 mejoró esto significativamente, pero los controladores de GPU desactualizados aún pueden causar tirones."
+  },
+  {
+    question: "¿Cambió la dificultad Medianoche en los parches recientes?",
+    answer: "Sí, los parches añadieron dos bonificaciones de conjunto adicionales específicamente para la dificultad Medianoche e introdujeron la función de 'Deterioro del Orden Público' para los jugadores que desean restablecer bases hostiles en el post-juego."
+  },
+  {
+    question: "¿Puedo jugar en cooperativo con jugadores que no han actualizado a la 1.09.0.5?",
+    answer: "No, el multijugador en línea requiere que todos los participantes estén en la misma versión. El juego te pedirá que actualices antes de permitirte entrar en los menús de 'Reclutar' o 'Unirse'."
+  }
+]} />
+
+</Section>

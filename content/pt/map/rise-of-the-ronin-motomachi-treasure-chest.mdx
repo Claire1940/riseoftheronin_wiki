@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Baú de Tesouro de Motomachi em A Ascensão do Ronin: Guia de Desbloqueio",
+  description: "Saiba como localizar e desbloquear o baú de tesouro de Motomachi em A Ascensão do Ronin. Obtenha a localização exata da chave, dicas de combate e recompensas de equipamentos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0a192f/ff4500?text=Motomachi+Treasure+Chest",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de A Ascensão do Ronin",
+  keywords: "A Ascensão do Ronin, Motomachi, baú de tesouro, guia, localização da chave, Yokohama"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Localizar e abrir o **baú de tesouro de Motomachi em A Ascensão do Ronin** que está trancado em Yokohama.
+- **Requisito de Chave**: Concluir o evento de Ordem Pública local em Motomachi para obter a Chave Enferrujada.
+- **Localização do Baú**: Dentro do armazém trancado situado no setor sul do distrito de Motomachi.
+- **Recompensa Principal**: Equipamentos de alta qualidade para o início do jogo, materiais de fabricação e valiosos pontos de vínculo regional.
+</Callout>
+
+<Section icon={Map} title="Exploração de Yokohama: Visão Geral do Distrito de Motomachi">
+
+Motomachi é um dos primeiros distritos de mundo aberto que você encontra após completar o prólogo linear de A Ascensão do Ronin. Localizado na movimentada região portuária de Yokohama, este distrito serve como um excelente campo de treinamento para os jogadores que estão aprendendo a navegar nas mecânicas de exploração e nos sistemas de vínculo regional do jogo. Para atingir 100% de conclusão em Motomachi, você deve rastrear vários itens colecionáveis distintos, incluindo um baú de tesouro trancado muito procurado.
+
+Completar atividades regionais faz mais do que apenas preencher sua lista de verificação no mapa. Aumentar seu Vínculo Regional com Motomachi desbloqueia benefícios substanciais que auxiliam sua jornada pelo Japão da era Bakumatsu.
+
+| Tipo de Colecionável | Contagem Total | Contribuição de Recompensa |
+| :--- | :--- | :--- |
+| Ponto de Referência | 1 | Baixo Vínculo Regional |
+| Santuário Shinto | 1 | Médio Vínculo Regional, 1 Ponto de Habilidade |
+| Gatos | 1 | Moedas de Prata, Progresso no Vendedor de Gatos |
+| Fugitivos | 1 | Alta Experiência, Progresso no Estilo de Combate |
+| Baús de Tesouro | 1 | Equipamento Raro, Materiais de Fabricação |
+
+<CardGrid cols={3}>
+  <Card title="Bônus de Vínculo Regional">
+    - **Aumento de descontos em mercadores**
+    - Serviços locais aprimorados
+    - Viagem rápida regional mais veloz
+  </Card>
+  <Card title="Espólios de Materiais Raros">
+    - **Componentes de fabricação de alto nível**
+    - Materiais de melhoria de início de jogo
+    - Consumíveis para batalhas difíceis
+  </Card>
+  <Card title="Experiência de Combate">
+    - **Pontos de habilidade valiosos**
+    - Crescimento da proficiência com armas
+    - Desbloqueio de novos estilos de combate
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica Profissional">
+Sempre priorize restaurar a Ordem Pública em um novo distrito antes de caçar colecionáveis individuais. Eliminar forças hostis revela marcadores ocultos no mapa e torna a exploração significativamente mais segura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Localizando o baú de tesouro de Motomachi em A Ascensão do Ronin">
+
+Encontrar a localização física do **baú de tesouro de Motomachi em A Ascensão do Ronin** é apenas metade da batalha. O baú em si está trancado com segurança dentro de um armazém tradicional japonês (*kura*) localizado na parte sul do distrito de Motomachi. Este armazém possui paredes distintas de gesso branco e portas de madeira pesadas que não podem ser rompidas por ataques normais ou explosivos.
+
+To reach the storehouse, start at the Motomachi Veiled Edge Banner and head south toward the coastline. The building is nestled near a cluster of residential structures, surrounded by wooden fences and patrolled by a few stray hostile guards.
+
+Para chegar ao armazém, comece no Estandarte de Lâmina Velada de Motomachi e siga para o sul em direção à costa. O edifício está situado perto de um aglomerado de estruturas residenciais, cercado por cercas de madeira e patrulhado por alguns guardas hostis.
+
+| Ponto de Referência | Direção a partir do Baú | Distância Aproximada |
+| :--- | :--- | :--- |
+| Estandarte de Lâmina Velada de Motomachi | Noroeste | 120 metros |
+| Acampamento Central de Bandidos | Norte | 80 metros |
+| Costa Sul | Sul | 50 metros |
+
+<Callout type="warning" title="Aviso Importante">
+Não perca tempo tentando encontrar um ponto de entrada alternativo, como uma abertura no telhado ou uma janela quebrada. Este armazém específico está completamente selado, e a única maneira de entrar é adquirindo a chave correta através do evento de Ordem Pública local.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Como Desbloquear o Armazém de Motomachi">
+
+Desbloquear o armazém exige que você confronte os bandidos que ocupam o acampamento central em Motomachi. Este evento de Ordem Pública deve ser completamente resolvido para que o portador da chave apareça.
+
+Ao enfrentar os bandidos, lembre-se de gerenciar seu Ki e usar suas Faíscas de Contra-ataque de forma eficaz. Se enfrentar vários inimigos, use o sigilo para diminuir as fileiras deles antes de entrar em combate direto.
+
+| Tipo de Inimigo | Arma Principal | Vantagem de Estilo | Nível de Ameaça |
+| :--- | :--- | :--- | :--- |
+| Batedor Bandido | Sabre | Estilo Jin | Baixo |
+| Guarda do Acampamento | Lança | Estilo Ten | Médio |
+| Líder Bandido | Odachi | Estilo Chi | Alto |
+
+<Steps>
+  <Step num="1" title="Infiltre-se no Acampamento de Bandidos">
+    Aproxime-se da zona central de Ordem Pública de Motomachi pelos telhados para manter a vantagem furtiva. Use seu arco ou um assassinato silencioso para eliminar primeiro os batedores em locais elevados.
+  </Step>
+  <Step num="2" title="Derrote o Líder Bandido">
+    Localize o elite Líder Bandido empunhando uma pesada Odachi. Enfrente-o usando o estilo de combate Chi para contra-atacar seus ataques pesados. Cronometre suas Faíscas de Contra-ataque para esgotar o Ki dele e executar um Golpe Crítico.
+  </Step>
+  <Step num="3" title="Saqueie a Chave Enferrujada">
+    Assim que o Líder Bandido for derrotado e a Ordem Pública for restaurada, aproxime-se do corpo dele para saquear a Chave Enferrujada. Se ela não for coletada automaticamente, verifique a pequena caixa de madeira localizada no centro do acampamento limpo.
+  </Step>
+  <Step num="4" title="Destranque a Porta do Armazém">
+    Retorne ao armazém ao sul com a Chave Enferrujada em seu inventário. Interaja com a porta de madeira trancada para acionar a animação de desbloqueio e ganhar acesso ao interior.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sucesso">
+Restaurar a Ordem Pública em Motomachi também desbloqueia um Estandarte de Lâmina Velada local. Este ponto de viagem rápida facilita o retorno à área mais tarde, caso precise visitar mercadores locais ou completar futuras missões de vínculo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recompensas do Baú de Tesouro e Sinergia de Build">
+
+Dentro do armazém de Motomachi, você encontrará o baú de tesouro encostado na parede do fundo. Abrir este baú concede vários itens valiosos que são altamente benéficos para a progressão do personagem no início do jogo.
+
+O equipamento obtido neste baú escala ligeiramente com seu nível atual, tornando-o uma melhoria confiável para qualquer uma das builds iniciais principais.
+
+| Nome do Item | Tipo de Item | Raridade | Build Recomendada |
+| :--- | :--- | :--- | :--- |
+| Katana Rara | Arma Principal | Excelente (Azul) | Força / Combate Próximo Agressivo |
+| Hakama de Ronin | Armadura de Peito | Bom (Verde) | Ronin Equilibrado |
+| Pólvora Negra | Material de Fabricação | Comum | Intelecto / Técnico à Distância |
+| Minério de Ferro | Material de Melhoria | Comum | Melhorias de Equipamento Universais |
+
+Se você estiver usando uma build focada em Força, a Katana Rara oferece excelente dano base e pressão de Ki, sendo a escolha perfeita para aprender o fluxo de combate inicial. Para jogadores com builds de Destreza ou Charme, o Hakama de Ronin oferece defesa equilibrada e pequenos reforços na velocidade de recuperação de Ki.
+
+<Callout type="info" title="Gerenciamento de Equipamento">
+Evite gastar grandes quantidades de materiais de melhoria em equipamentos de início de jogo. Embora os itens deste baú sejam excelentes para suas primeiras horas em Yokohama, você encontrará substitutos frequentes à medida que avança na história principal. Economize seus recursos raros para equipamentos de fim de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de 100% de Conclusão de Motomachi">
+
+Para garantir que você limpou totalmente o distrito de Motomachi e maximizou seu vínculo regional, use a lista de verificação abaixo. Concluir todas as atividades nesta zona é altamente recomendado antes de seguir para distritos maiores e de nível superior em Yokohama.
+
+<Checklist
+  id="motomachi-completion"
+  title="Objetivos do Distrito de Motomachi:"
+  items={[
+    "Restaurar o evento de Ordem Pública no centro de Motomachi",
+    "Derrotar o elite Líder Bandido e reivindicar a Chave Enferrujada",
+    "Destrancar e abrir o baú de tesouro de Motomachi",
+    "Localizar e acariciar o gato calico escondido perto da fronteira leste",
+    "Rezar no Santuário Shinto local para reivindicar seu Ponto de Habilidade gratuito"
+  ]}
+/>
+
+<Callout type="tip" title="Dica Profissional">
+Se estiver com dificuldade para encontrar os colecionáveis restantes em seu mapa, tente elevar seu Vínculo Regional para o Nível 2 completando pedidos locais. Isso revela automaticamente as localizações exatas de todos os gatos e baús restantes na área.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Para ajudar a resolver quaisquer problemas persistentes com este colecionável, compilamos as dúvidas mais comuns dos jogadores em relação ao distrito de Motomachi.
+
+<FAQ items={[
+  {
+    question: "Por que a porta do armazém de Motomachi está trancada?",
+    answer: "A porta do armazém está trancada porque requer a Chave Enferrujada para abrir. Você pode obter esta chave derrotando o elite Líder Bandido durante o evento de Ordem Pública local no centro do distrito."
+  },
+  {
+    question: "Posso obter a chave sem lutar contra os bandidos?",
+    answer: "Não, a Chave Enferrujada está ligada diretamente ao evento de Ordem Pública. Você deve eliminar as forças hostis e derrotar o líder para que a chave apareça."
+  },
+  {
+    question: "As recompensas do baú de tesouro de Motomachi em A Ascensão do Ronin escalam com a dificuldade?",
+    answer: "Os atributos base dos equipamentos internos escalam ligeiramente com o nível do seu personagem, mas a configuração de dificuldade (Alvorecer, Crepúsculo ou Anoitecer) não altera o conteúdo do baú ou as taxas de drop."
+  },
+  {
+    question: "O que devo fazer se o Líder Bandido não derrubar a chave?",
+    answer: "Se a chave não cair imediatamente, certifique-se de que o evento de Ordem Pública foi totalmente concluído. Às vezes, um batedor bandido perdido permanece escondido por perto. Assim que todos os hostis forem derrotados, verifique a caixa do acampamento central ou seu inventário, pois a chave pode ter sido coletada automaticamente."
+  }
+]} />
+
+<Callout type="warning" title="Aviso Final">
+Se você optar por ignorar este baú no início de sua jornada, poderá sempre retornar a Yokohama mais tarde usando o sistema do Testamento da Alma. No entanto, pegar este equipamento cedo oferece uma vantagem significativa durante seus primeiros grandes encontros com chefes.
+</Callout>
+
+</Section>

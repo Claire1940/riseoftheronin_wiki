@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Troféus de A Ascensão do Ronin: Passo a Passo para a Platina e Dicas",
+  description: "Domine a era Bakumatsu com nosso guia de troféus de A Ascensão do Ronin. Aprenda como desbloquear todos os finais, dominar estilos de combate e conquistar o troféu de Platina.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111827/fff?text=Platinum+Trophy+Guide",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de A Ascensão do Ronin",
+  keywords: "A Ascensão do Ronin, troféus, platina, guia, Bakumatsu, Team Ninja"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de troféus de A Ascensão do Ronin**: Conquistar a Platina exige completar a história, atingir o nível 55 e dominar todos os 9 tipos de armas.
+- **Conteúdo perdível**: Nenhum troféu é estritamente perdível graças ao sistema **Testamento da Alma**, que permite repetir missões.
+- **Requisito de dificuldade**: Você deve completar uma missão na **Dificuldade Meia-noite** (pós-jogo) para garantir os troféus finais de combate.
+- **Foco nos Vínculos**: Maximize os vínculos de personagens e os níveis de região cedo para desbloquear estilos de combate e recompensas essenciais.
+- **Estratégia de coleta**: Use as mecânicas de planador e gancho para limpar eficientemente 100% de Yokohama, Edo e Quioto.
+</Callout>
+
+<Section icon={Map} title="Roteiro da Platina e Progressão">
+
+Garantir a Platina neste RPG da era Bakumatsu exige uma mistura de conclusão da história, maestria de habilidades e exploração minuciosa. A jornada é dividida em três fases distintas: a primeira jogada da história, a coleta de vínculos regionais e o desafio Meia-noite pós-jogo. Ao contrário de muitos RPGs de ação, você não precisa se preocupar com falhas permanentes em sua primeira jogada.
+
+| Categoria | Detalhes |
+| :--- | :--- |
+| **Dificuldade Estimada** | 4/10 (Depende da habilidade) |
+| **Tempo Aproximado** | 60-80 horas |
+| **Total de Troféus** | 51 (1 Platina, 2 Ouro, 9 Prata, 39 Bronze) |
+| **Jogadas Mínimas** | 1 (Mais limpeza de missões via Testamento) |
+| **Troféus de Dificuldade** | Sim (Uma missão necessária na Meia-noite) |
+
+<Steps>
+  <Step num="1" title="Complete a História Principal">
+    Concentre-se na campanha principal enquanto experimenta todos os 9 tipos de armas brancas. Faça escolhas que se alinhem com sua facção preferida (Pró-Xogunato ou Anti-Xogunato), mas lembre-se de que você pode explorar caminhos alternativos mais tarde.
+  </Step>
+  <Step num="2" title="Conclusão Regional e Vínculos">
+    Ao chegar na última região, use seu mapa para rastrear todos os Fugitivos, Gatos e Santuários. Maximize os vínculos com pelo menos 5 personagens principais para desbloquear o **Voto Velado** e os troféus de estilo de combate.
+  </Step>
+  <Step num="3" title="Limpeza na Dificuldade Meia-noite">
+    Assim que os créditos rolarem, desbloqueie a dificuldade Meia-noite. Você só precisa completar uma única missão nesta configuração para ganhar o troféu "Travessia à Meia-noite", mas isso requer uma build bem otimizada.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Mestre">
+Sempre use o **Lampejo de Lâmina** (R1) após sequências de combate. Além de restaurar Ki, há um troféu específico por realizar Lampejos de Lâmina com sucesso consistentemente ao longo de sua jornada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Escolhas da História e Troféus de Facção">
+
+A narrativa de A Ascensão do Ronin é moldada pelo conflito entre o Xogunato e as forças Imperiais. Embora a maioria dos troféus de história seja imperdível, resultados específicos dependem do seu alinhamento de facção. Para ganhar a Platina, você deve vivenciar as consequências de grandes decisões, que podem ser facilmente gerenciadas usando as funções da Residência.
+
+| Ponto de Decisão | Facção Envolvida | Resultado Potencial |
+| :--- | :--- | :--- |
+| **Destino de Gonzo** | Neutro | Poupá-lo permite que ele se torne um aliado mais tarde. |
+| **A Caça à Câmera** | Anti-Xogunato | Influencia seu vínculo com Igashichi Iizuka. |
+| **Escolha em Mibu-dera** | Pró/Anti-Xogunato | Determina quais aliados estarão disponíveis para o ato final. |
+| **O Destino de Edo** | Xogunato | Afeta o estado do mundo e a sobrevivência de personagens específicos. |
+
+<Callout type="warning" title="Importante">
+Não reinicie seu jogo se se arrepender de uma escolha. O sistema **Testamento da Alma**, desbloqueado em Edo, permite que você volte a qualquer missão anterior e mude sua decisão para ver resultados diferentes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maestria em Combate e Estilos de Arma">
+
+Uma parte significativa do **guia de troféus de A Ascensão do Ronin** envolve dominar as profundas mecânicas de combate do jogo. Você deve alcançar o rank "Mestre" em vários estilos de combate e derrotar inimigos usando técnicas específicas como Contra-ataques e Habilidades Marciais.
+
+<CardGrid cols={3}>
+  <Card title="O Mestre do Contra-ataque">
+    - **Objetivo**: Realizar 100 Contra-ataques com sucesso.
+    - **Dica**: Pratique contra usuários padrão de Katana para aprender o tempo certo.
+  </Card>
+  <Card title="Especialista em Estilo">
+    - **Objetivo**: Alcançar o rank Mestre em um estilo.
+    - **Dica**: Derrote Fugitivos e aumente os vínculos com mentores específicos de cada estilo.
+  </Card>
+  <Card title="Guerreiro Versátil">
+    - **Objetivo**: Derrotar inimigos com todos os tipos de arma.
+    - **Dica**: Mantenha um slot para sua arma principal e alterne o segundo slot.
+  </Card>
+</CardGrid>
+
+### Eficácia dos Estilos de Combate
+
+Combinar seu estilo (Ten, Chi, Jin) contra a arma do inimigo é crucial para quebrar o Ki e ganhar troféus relacionados ao combate.
+
+| Tipo de Estilo | Eficaz Contra | Fraco Contra |
+| :--- | :--- | :--- |
+| **Ten (Céu)** | Katanas / Armas Médias | Sabres / Armas Leves |
+| **Chi (Terra)** | Odachis / Armas Pesadas | Katanas / Armas Médias |
+| **Jin (Humano)** | Sabers / Armas Leves | Odachis / Armas Pesadas |
+| **Shinobi** | Especialista / Misto | Confrontos Padrão |
+
+<Callout type="success" title="Sugestão de Build">
+Para o troféu "Travessia à Meia-noite", foque em uma **build de quebra de Ki baseada em Charme**. Isso permite que você recupere Ki rapidamente após um Contra-ataque, tornando chefes difíceis muito mais manejáveis.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Vínculos, Romance e Exploração">
+
+A exploração é mais do que apenas preenchimento; ela está ligada diretamente a vários troféus de Prata e Ouro. Você deve restaurar a Ordem Pública em todos os distritos e encontrar todos os colecionáveis para atingir 100% de conclusão nas três grandes cidades.
+
+### Checklist de Exploração
+<Checklist
+  id="exploration-trophies"
+  title="Metas de Coleta Obrigatórias:"
+  items={[
+    "Encontrar e acariciar todos os 100 Gatos pelo Japão",
+    "Rezar em todos os Santuários para ganhar Pontos de Habilidade",
+    "Fotografar todos os locais panorâmicos designados",
+    "Derrotar todos os mais de 50 Fugitivos únicos",
+    "Maximizar o Vínculo Regional em Yokohama, Edo e Quioto"
+  ]}
+/>
+
+### Recompensas de Relacionamento
+Construir vínculos com seus companheiros desbloqueia os troféus de **Voto Velado** (romance). Você deve atingir o nível máximo de vínculo com pelo menos um personagem elegível.
+
+| Atividade | Impacto no Vínculo | Progresso de Troféu |
+| :--- | :--- | :--- |
+| **Dar Presentes** | Aumento Alto | Acelera o acesso ao Voto Velado. |
+| **Missões de Vínculo** | Muito Alto | Desbloqueia armas e estilos únicos. |
+| **Conversa na Residência** | Moderado | Fornece história de fundo e pequenos bônus. |
+| **Missões de Aliado** | Alto | Necessário para o troféu "Borboleta Social". |
+
+<Callout type="info" title="Nota">
+A atualização de maio de 2024 adicionou cinco Missões de Aliado adicionais. Embora não sejam estritamente necessárias para a Platina base, elas oferecem excelentes oportunidades para ganhar equipamentos de alto nível para sua jornada na dificuldade Meia-noite.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fim de Jogo: Dificuldade Meia-noite e Limpeza">
+
+O obstáculo final em seu **guia de troféus de A Ascensão do Ronin** é o conteúdo pós-jogo. Após completar a história principal, você desbloqueia o nível de dificuldade Meia-noite. Este modo apresenta inimigos mais difíceis e melhores itens.
+
+1. **Travessia à Meia-noite**: Complete qualquer missão na dificuldade Meia-noite. A maneira mais fácil é repetir a primeira missão do prólogo usando seu equipamento de fim de jogo.
+2. **Maestria de Nível**: Alcance o Nível 55. Se você limpou todas as regiões, deve estar perto disso. Caso contrário, repetir missões na Meia-noite fornece XP massivo.
+3. **Melhorias de Equipamento**: Melhore uma peça de equipamento até o nível máximo. Economize seus materiais para um item de raridade "Obra-prima" (vermelho) encontrado no pós-jogo.
+
+<Callout type="warning" title="Aviso">
+Melhorar equipamentos é caro. Só invista pesadamente em armas que tenham quatro bônus de conjunto compatíveis para maximizar sua eficiência em combate.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Existem troféus perdíveis em A Ascensão do Ronin?",
+    answer: "Não. O sistema Testamento da Alma permite que você repita qualquer missão e mude suas escolhas de história, garantindo que nenhum troféu seja permanentemente bloqueado."
+  },
+  {
+    question: "Preciso jogar o modo cooperativo online para a Platina?",
+    answer: "Não, todos os troféus podem ser conquistados no modo single-player. Embora o co-op esteja disponível para missões de história, não é um requisito para nenhum troféu."
+  },
+  {
+    question: "Qual é o troféu mais difícil do jogo?",
+    answer: "A maioria dos jogadores considera 'Travessia à Meia-noite' o mais desafiador, pois exige que você se adapte à agressividade significativamente maior dos inimigos na dificuldade pós-jogo."
+  },
+  {
+    question: "Como desbloqueio o troféu Voto Velado?",
+    answer: "Você deve maximizar seu vínculo com um companheiro elegível (como Ryoma ou Usugumo) e selecionar a opção de diálogo romântico quando ela aparecer na Residência."
+  }
+]} />
+
+</Section>

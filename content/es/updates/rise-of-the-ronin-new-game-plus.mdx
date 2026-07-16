@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin New Game Plus: Guía de Dificultad Medianoche y Equipo Maestro",
+  description: "Domina el New Game Plus de Rise of the Ronin con nuestra guía sobre la dificultad Medianoche, equipo Maestro y habilidades de Avance para el endgame definitivo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=New+Game+Plus+Guide",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Rise of the Ronin",
+  keywords: "Rise of the Ronin, New Game Plus, dificultad Medianoche, equipo Maestro, habilidades de Avance"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **New Game Plus de Rise of the Ronin** se desbloquea tras completar la misión final de la historia, "El filo velado".
+- La **Dificultad Medianoche** es el núcleo del endgame, ofreciendo desafíos significativamente más difíciles y mejores recompensas.
+- El **Equipo Maestro** es un nuevo nivel de rareza (Verde) exclusivo del modo Medianoche con estadísticas superiores.
+- Las **Habilidades de Avance** permiten a los jugadores mejorar estadísticas como los PS máximos y el poder de ataque más allá de los límites estándar.
+- El **Testamento del alma** es la herramienta principal para repetir misiones y cambiar los resultados históricos.
+</Callout>
+
+<Section icon={Map} title="Desbloqueando la experiencia New Game Plus">
+
+Completar la campaña principal de Rise of the Ronin es solo el comienzo de tu viaje como un samurái sin señor. La transición al entorno del **New Game Plus de Rise of the Ronin** ocurre inmediatamente después de que aparecen los créditos en la misión final, "El filo velado". Antes de poder acceder al contenido de alto nivel, debes enfrentarte a tu Vínculo de filo en una confrontación final que dicta tus recompensas iniciales y el tono de tu experiencia en el endgame.
+
+**Video Destacado:**
+- Recorrido detallado de la misión final "El filo velado" y el encuentro con el Vínculo de filo.
+- Comparación de las recompensas por perdonar o matar a tu Vínculo de filo.
+- Descripción general de los nuevos sistemas de menú para las habilidades de Avance y el modo Medianoche.
+- Demostración de las funciones mejoradas del hogar y la accesibilidad al herrero.
+
+<YouTubeEmbed videoId="qOrWLohI180" title="What Happens After you Finish the Game | NEW Game Plus ► Rise of the Ronin" />
+
+La elección que tomes respecto al destino de tu Vínculo de filo —ya sea perdonarlo o matarlo— resulta en diferentes recompensas cosméticas y funcionales. Independientemente de tu elección, serás devuelto a la región de Edo con tus primeras piezas de equipo Maestro, señalando el inicio de la progresión post-juego.
+
+| Resultado de la elección | Recompensa principal | Tipo de equipo | Rareza |
+| :--- | :--- | :--- | :--- |
+| **Perdonar al Vínculo de filo** | Abrigo Invera | Armadura de torso | Maestro |
+| **Matar al Vínculo de filo** | Kimono del demonio vengativo | Armadura de torso | Maestro |
+| **Completar la campaña** | Dificultad Medianoche | Estado del mundo | N/A |
+| **Completar la campaña** | Habilidades de Avance | Árbol de habilidades | N/A |
+
+<Callout type="tip" title="Elección Estratégica">
+Aunque el impacto en la historia es significativo, los jugadores centrados en la eficiencia deben elegir la pieza de armadura que mejor se adapte a su estética deseada, ya que ambas son objetos Maestros de alto nivel que proporcionan un gran impulso de defensa para las etapas iniciales de la dificultad Medianoche.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dificultad Medianoche y progresión del mundo">
+
+La característica definitoria del **New Game Plus de Rise of the Ronin** es el ajuste de dificultad Medianoche. Esto no es simplemente un "modo difícil", sino una reestructuración completa del nivel de desafío del juego. Accedido a través del Testamento del alma en tu hogar, la dificultad Medianoche reinicia el estado del mundo permitiéndote conservar todo tu equipo, niveles y habilidades.
+
+In el modo Medianoche, el nivel base de los enemigos comienza en 60. Incluso si terminaste la campaña en el nivel 45 o 50, te encontrarás significativamente por debajo del nivel necesario para los encuentros iniciales en Yokohama. La progresión está bloqueada por regiones, requiriendo que completes misiones de Ronin específicas para moverte de Yokohama a Edo y, finalmente, a Kioto.
+
+| Característica | Crepúsculo (Estándar) | Medianoche (NG+) |
+| :--- | :--- | :--- |
+| **Nivel de enemigos** | Escala con la historia | Nivel 60 a Nivel 100+ |
+| **Rareza de botín** | Hasta Legendario (Oro) | Maestro (Verde) desbloqueado |
+| **Agresividad enemiga** | IA estándar | Ataques más rápidos, menos tiempo de recuperación |
+| **Orden público** | Completado fijo | Reaparece con nuevas recompensas |
+| **Fugitivos** | Completado fijo | Reaparece con botín Maestro |
+
+<Steps>
+  <Step num="1" title="Acceder al Testamento">
+    Entra en tu hogar e interactúa con el Testamento del alma. Busca el aviso en la esquina inferior derecha para cambiar el estado del mundo a Medianoche.
+  </Step>
+  <Step num="2" title="Limpiar misiones de Yokohama">
+    Debes completar un número específico de misiones de Ronin (principales) en la región de Yokohama. Céntrate en estas para construir tu primer conjunto Maestro.
+  </Step>
+  <Step num="3" title="Desbloquear Edo y Kioto">
+    Una vez que se haya progresado lo suficiente en Yokohama, se desbloqueará la región de Edo. Repite el proceso en Edo para obtener finalmente acceso a las misiones de alto nivel en Kioto.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Pico de Dificultad">
+No subestimes el salto en la dificultad. Los enemigos en el modo Medianoche tienen patrones de ataque implacables y a menudo romperán tu Ki mucho más rápido que en el juego base. El dominio de la mecánica de Contrasentido es obligatorio para la supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipo Maestro y mejoras de artesanía">
+
+El equipo Maestro representa la cúspide del equipo en el **New Game Plus de Rise of the Ronin**. Identificado por su distintivo icono verde, el equipo Maestro ofrece estadísticas base más altas y más ranuras para efectos especiales en comparación con los objetos Legendarios (Oro). Estos objetos solo caen en la dificultad Medianoche o como recompensas por misiones de aliados de alto nivel y re-enfrentamientos contra jefes secretos.
+
+El hogar también recibe una mejora significativa en el post-juego. Ahora puedes acceder a todos los servicios de herrería y artesanía directamente desde tu base, eliminando la necesidad de viajar a vendedores específicos en la ciudad. Esto agiliza el proceso de transferencia de vínculos y la mejora de tus nuevos hallazgos Maestros.
+
+| Aspecto del equipo | Legendario (Oro) | Maestro (Verde) |
+| :--- | :--- | :--- |
+| **Daño/Defensa base** | Alto | Máximo |
+| **Ranuras de efectos especiales** | 3-4 Ranuras | 4-5 Ranuras |
+| **Potencial de mejora** | Limitado por materiales estándar | Requiere materiales Maestros |
+| **Fuente de obtención** | Todas las dificultades | Solo dificultad Medianoche |
+
+<CardGrid cols={2}>
+  <Card title="Estrategia de Transferencia de Vínculo">
+    Usa tu antiguo equipo Legendario para transferir bonificaciones poderosas a tus nuevos objetos Maestros. Esto te permite mantener la sinergia de tu build mientras mejoras tus estadísticas puras.
+  </Card>
+  <Card title="Caza de Fugitivos">
+    Los fugitivos en el modo Medianoche tienen garantizado soltar objetos Maestros. Cazarlos en el mundo abierto es la forma más rápida de equiparse antes de abordar las misiones principales.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Comodidad del Herrero">
+La capacidad de usar al herrero desde el hogar es un gran ahorro de tiempo. Úsalo para desmantelar rápidamente la montaña de botín que recogerás en el modo Medianoche y obtener los materiales necesarios para las mejoras de equipo Maestro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades de Avance y maestría en combate">
+
+Más allá de los árboles de habilidades estándar (Fuerza, Destreza, Inteligencia, Carisma), el **New Game Plus de Rise of the Ronin** introduce las Habilidades de Avance. Estas se encuentran en el menú de estadísticas, marcadas por el símbolo de "Filo velado". Las habilidades de Avance permiten una progresión infinita (o con un límite muy alto) en los atributos principales del personaje.
+
+Estas habilidades son esenciales para sobrevivir al endgame, ya que proporcionan el poder bruto necesario para superar a los enemigos de nivel 60+. Ganarás puntos de Avance al obtener experiencia en el límite de nivel o al completar objetivos específicos exclusivos de Medianoche.
+
+| Categoría de habilidad | Beneficio principal | Tipo de escalado |
+| :--- | :--- | :--- |
+| **Maestría de salud** | Aumenta los PS máximos | Bonificación fija por nivel |
+| **Maestría de armas** | Aumenta el poder de ataque | Basado en porcentaje |
+| **Habilidad de arma secundaria** | Mejora arco/rifle/shuriken | Daño y velocidad de recarga |
+| **Estilos de combate** | Desbloquea nuevas variantes de estilo | Conjuntos de movimientos únicos |
+
+<Checklist
+  id="breakthrough-priorities"
+  title="Objetivos de progresión del endgame:"
+  items={[
+    "Alcanzar el nivel de jugador 60 para estabilizar la supervivencia en Medianoche",
+    "Invertir los primeros 10 puntos de Avance en PS máximos",
+    "Desbloquear al menos un arma Maestro para tu estilo principal",
+    "Limpiar todas las órdenes públicas de Yokohama en dificultad Medianoche",
+    "Derrotar a los tres primeros jefes secretos para obtener botines Maestros únicos"
+  ]}
+/>
+
+<Callout type="info" title="Misiones de Aliados">
+Las misiones de aliados son un nuevo modo "Implacable" desbloqueado en el post-juego. Son desafíos extremadamente difíciles donde tú y tus compañeros os enfrentáis a oleadas de enemigos. Se recomienda encarecidamente alcanzar al menos el nivel 70 antes de intentarlas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rejugabilidad y jefes secretos">
+
+El Testamento del alma no es solo para cambiar la dificultad; es la clave para explorar los escenarios "Qué pasaría si" de la historia. En el **New Game Plus de Rise of the Ronin**, puedes volver a momentos cruciales y elegir la facción opuesta (Pro-Shogunato vs. Anti-Shogunato) para ver cómo cambia el mundo y desbloquear nuevas misiones que antes eran inaccesibles.
+
+Además, el mundo contiene "Jefes Secretos" ocultos: guerreros poderosos escondidos en rincones remotos del mapa. En la dificultad Medianoche, estos jefes están ajustados para encuentros de nivel 100 y sueltan algunos de los objetos Maestros más poderosos del juego.
+
+| Actividad | Tipo de recompensa | Valor de rejugabilidad |
+| :--- | :--- | :--- |
+| **Cambio de facción** | Nuevas escenas / misiones | Alto (Ver todo el contenido) |
+| **Jefes secretos** | Conjuntos Maestros únicos | Alto (Mejor equipo del juego) |
+| **Misiones de vínculo** | Equipo Maestro de compañeros | Medio (Específico de build) |
+| **Órdenes públicas** | Consumibles y materiales | Bajo (Solo para farmear) |
+
+<Callout type="warning" title="Consistencia Histórica">
+Cuando cambias una elección en el Testamento del alma, se "refleja" en tu estado actual del mundo. Si quieres conservar las recompensas de ambos caminos, debes completar la misión y guardar la nueva línea temporal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Pierdo mi progreso al comenzar el New Game Plus de Rise of the Ronin?",
+    answer: "No. Conservas todo el equipo, habilidades, niveles y coleccionables. El mundo simplemente se reinicia para permitirte ganar recompensas de mayor nivel en la dificultad Medianoche."
+  },
+  {
+    question: "¿Cuál es el nivel máximo en el NG+ de Rise of the Ronin?",
+    answer: "Aunque el límite de nivel base es 100, el sistema de habilidades de Avance te permite seguir mejorando tus estadísticas como PS y poder de ataque indefinidamente usando puntos de Avance."
+  },
+  {
+    question: "¿Puedo jugar la dificultad Medianoche en cooperativo?",
+    answer: "Sí, la dificultad Medianoche es totalmente compatible con el cooperativo en línea. De hecho, se recomienda encarecidamente jugar con otros para las misiones de aliados debido a la agresividad extrema de los enemigos."
+  },
+  {
+    question: "¿Cómo obtengo más materiales Maestros?",
+    answer: "Los materiales Maestros se obtienen principalmente desmantelando equipo Maestro de rareza verde o completando misiones de alto nivel en la dificultad Medianoche."
+  }
+]} />
+
+</Section>

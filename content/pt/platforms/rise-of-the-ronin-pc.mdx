@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "A Ascensão do Ronin PC: Guia de Configuração e Ajustes de Desempenho",
+  description: "Otimize A Ascensão do Ronin no PC. Confira os requisitos de sistema, as melhores configurações gráficas, configuração de DLSS/FSR, histórico de patches e builds de combate.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b1524/fff?text=Rise+of+the+Ronin+PC+Guide",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de A Ascensão do Ronin",
+  keywords: "A Ascensão do Ronin, Rise of the Ronin PC, requisitos de sistema, otimização, guia de combate, configurações gráficas"
+}
+
+<Callout type="info" title="Principais Conclusões">
+- **Otimização do Sistema**: Para rodar **A Ascensão do Ronin no PC** sem problemas, é necessário um SSD com 155 GB de espaço disponível e pelo menos 16 GB de RAM.
+- **Tecnologia de Desempenho**: Utilize o upscaling AMD FSR, NVIDIA DLSS ou Intel XeSS junto com a Geração de Quadros para alcançar taxas de quadros estáveis de até 120 FPS.
+- **Domínio do Combate**: Combine suas armas principais com os estilos de combate Ten, Chi e Jin correspondentes para quebrar o Ki do inimigo e executar Acertos Críticos.
+- **Flexibilidade de Progressão**: Redefina seus pontos de habilidade na Casa Comum em Yokohama para adaptar sua build sem precisar reiniciar a campanha.
+</Callout>
+
+<Section icon={Shield} title="Requisitos de Sistema e Especificações de A Ascensão do Ronin no PC">
+
+Otimizar seu sistema para **A Ascensão do Ronin no PC** é crucial para obter uma experiência de combate fluida no Japão da era Bakumatsu. Este exigente RPG de ação em mundo aberto apresenta ambientes urbanos densos, paisagens históricas detalhadas e um combate de espadas veloz baseado em aparagens. Para garantir que seu hardware seja capaz de lidar com o intenso carregamento de ativos e cálculos de física do jogo, compare suas especificações atuais com as configurações oficiais de hardware detalhadas abaixo.
+
+| Componente | Especificações Mínimas | Especificações Recomendadas |
+| :--- | :--- | :--- |
+| **Sistema Operacional** | Windows 10 ou Windows 11 (64 bits) | Windows 10 ou Windows 11 (64 bits) |
+| **Processador** | Intel Core i5-10400 / AMD Ryzen 5 1600 | Intel Core i5-10600K / AMD Ryzen 5 5600X |
+| **Memória** | 16 GB RAM | 16 GB RAM |
+| **Placa de Vídeo** | NVIDIA GTX 1060 (6 GB) / RX 5500 XT (8 GB) | NVIDIA RTX 2080 Super / RX 6700 XT |
+| **Armazenamento** | 155 GB de espaço disponível (SSD obrigatório) | 155 GB de espaço disponível (NVMe SSD recomendado) |
+| **DirectX** | Versão 12 | Versão 12 |
+| **Áudio** | Estéreo de 16 bits, reprodução de 48 kHz | Estéreo de 16 bits, reprodução de 48 kHz |
+
+<Callout type="warning" title="Instalação em SSD é Obrigatória">
+O jogo exige uma unidade de estado sólido (SSD) tanto para as configurações mínimas quanto para as recomendadas. Instalar o jogo em um disco rígido mecânico tradicional (HDD) resultará em travamentos severos de carregamento, atraso na renderização de texturas e potencial dessincronização de áudio durante as cenas.
+</Callout>
+
+Uma arquitetura de memória de canal duplo é altamente recomendada para este título. Rodar 16 GB de RAM em modo dual-channel (dois pentes de 8 GB) reduz significativamente os micro-travamentos ao viajar por áreas altamente povoadas como Yokohama, Edo e Kyoto.
+
+</Section>
+
+<Section icon={Sparkles} title="Configurações Gráficas e Otimização de Desempenho">
+
+Alcançar 60 FPS constantes ou mais em **A Ascensão do Ronin no PC** exige um equilíbrio entre fidelidade visual e as capacidades do hardware. A versão para PC inclui opções avançadas de upscaling, gráficos com ray tracing e tecnologias de geração de quadros projetadas para maximizar o desempenho em uma variedade de configurações de hardware.
+
+| Opção de Configuração | Valor Recomendado | Impacto no Desempenho |
+| :--- | :--- | :--- |
+| **Tecnologia de Upscaling** | NVIDIA DLSS / AMD FSR / Intel XeSS | Alto Aumento de Desempenho |
+| **Modo de Upscaling** | Qualidade (para 1080p/1440p) / Equilibrado (para 4K) | Moderado |
+| **Geração de Quadros** | Ativado (se suportado pela GPU) | Aumento Massivo de FPS |
+| **Ray Tracing** | Desativado (a menos que use RTX 3080 / RX 6800 ou superior) | Alto |
+| **Oclusão Ambiental** | Padrão | Moderado |
+| **Qualidade das Sombras** | Médio | Moderado |
+| **Qualidade das Texturas** | Alto (se a VRAM for de 8 GB ou superior) | Baixo |
+
+<Callout type="tip" title="Aproveite o Ajuste Dinâmico de FPS">
+Se você notar quedas de desempenho em mercados urbanos densamente povoados, ative a configuração "Ajuste Dinâmico de FPS" introduzida no patch 1.09.0.3. Este recurso escala a resolução interna automaticamente para preservar sua taxa de quadros alvo durante sequências de combate intensas.
+</Callout>
+
+Para jogadores que buscam 120 FPS em monitores de alta taxa de atualização, combinar um upscaler no modo "Qualidade" com a Geração de Quadros oferece a estabilidade de quadros mais consistente. Certifique-se de que os drivers da sua placa de vídeo estejam atualizados para a versão mais recente para evitar artefatos visuais quando o upscaling estiver ativo.
+
+</Section>
+
+<Section icon={Trophy} title="Recursos da Versão PC e Histórico de Patches">
+
+O lançamento para PC deste épico histórico traz várias melhorias exclusivas da plataforma que elevam a experiência visual e de jogabilidade além do lançamento original para consoles. Do suporte a monitores ultra-wide a mapeamentos de controle personalizáveis, a versão para PC oferece uma experiência altamente adaptada.
+
+| Tipo de Recurso | Nível de Suporte | Detalhes Técnicos |
+| :--- | :--- | :--- |
+| **Resolução Máxima** | Até 8K | Suportado em telas compatíveis e hardware de entusiasta |
+| **Taxa de Quadros Máxima** | Até 120 FPS | Opção de alta taxa de atualização disponível nas configurações de tela |
+| **Proporção de Tela** | Ultra-wide e Super Ultra-wide | Suporte nativo para configurações de monitor 21:9 e 32:9 |
+| **Entrada de Controle** | Teclado, Mouse e Controles | Teclas totalmente personalizáveis e haptics nativos do DualSense |
+| **Formato de Áudio** | Áudio Espacial 3D | Suportado em sistemas de som espacial compatíveis |
+
+Desde seu lançamento em 11 de março de 2025, os desenvolvedores lançaram várias atualizações cruciais para resolver estabilidade, engasgos (stuttering) e compatibilidade de hardware.
+
+| Versão | Data de Lançamento | Ajustes e Correções Principais |
+| :--- | :--- | :--- |
+| **1.09.0.5** | 11 de novembro de 2025 | Resolvidos travamentos causados por atualizações específicas do Windows ao carregar certos itens |
+| **1.09.0.4** | 30 de abril de 2025 | Adicionada recuperação de dados salvos para "Em Busca de Novos Conhecimentos" e corrigidos engasgos de área |
+| **1.09.0.3** | 10 de abril de 2025 | Introduzido FPS Dinâmico, reduzido o uso de VRAM e melhorado o upscaling por GPU |
+| **1.09.0.2** | 25 de março de 2025 | Adicionados modos Priorizar Gráficos/FPS e criado um local extra para backup de salvamento |
+| **1.09.0.1** | 14 de março de 2025 | Ajustadas predefinições gráficas e corrigidos travamentos na inicialização em CPUs com mais de 33 threads |
+
+<Callout type="info" title="Correção para CPUs de Muitas Threads">
+Se você estiver usando um processador de nível entusiasta com 33 ou mais threads, certifique-se de que seu jogo esteja atualizado para pelo menos a versão 1.09.0.1 para evitar travamentos instantâneos ao iniciar o executável via Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds e Customização de Combate">
+
+O combate neste título foca em gerenciar seu Ki (estamina) enquanto esgota a guarda do oponente. Ao estruturar os atributos do seu personagem em Força, Destreza, Charme ou Intelecto, você pode personalizar seu estilo de jogo para favorecer força bruta, furtividade, eficiência de aparagem ou ferramentas que causam estados negativos.
+
+<CardGrid cols={3}>
+  <Card title="Combate Corpo a Corpo de Força">
+    - **Atributos Principais**: Força / Charme
+    - **Armas**: Katana, Odachi, Espada Grande
+    - **Foco**: Alto dano direto, eficiência de guarda e Habilidades Marciais devastadoras. Ideal para ataques de punição pesada após um Contra-ataque Faísca bem-sucedido.
+  </Card>
+  <Card title="Aparagem de Charme e Quebra de Ki">
+    - **Atributos Principais**: Charme / Força
+    - **Armas**: Katana, Arma de Haste, Lâmina de Cauda de Boi
+    - **Foco**: Recuperação rápida de Ki, maior resistência a danos de Ki e dano massivo de Acerto Crítico após quebrar a postura do oponente.
+  </Card>
+  <Card title="Assassino Furtivo de Destreza">
+    - **Atributos Principais**: Destreza / Intelecto
+    - **Armas**: Espadas Duplas, Baioneta, Katana
+    - **Foco**: Assassinatos silenciosos, alta mobilidade e utilidade de sub-armas à distância. Perfeito para limpar bases hostis a partir dos telhados.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sem Bloqueio Permanente">
+Não se preocupe em se comprometer demais com uma build específica no início. Assim que estabelecer seu alojamento pessoal (a Casa Comum) em Yokohama, você poderá redefinir seus pontos de habilidade a qualquer momento para testar novos tipos de armas e estilos de combate.
+</Callout>
+
+Para maximizar sua eficiência em combate, sempre equipe armas com efeitos especiais complementares. Por exemplo, combinar uma arma rápida como as Espadas Duplas com equipamentos que aumentam a recuperação de Ki em deflexões bem-sucedidas permite manter uma pressão ofensiva implacável.
+
+</Section>
+
+<Section icon={Target} title="Progressão para Iniciantes e Passos de Jogabilidade">
+
+Começar sua jornada como um samurai sem mestre pode ser intimidador. O mundo aberto está repleto de facções rivais, fugitivos perigosos e escolhas políticas complexas. Siga este caminho de progressão estruturado para estabelecer uma base sólida durante suas primeiras horas em Yokohama.
+
+<Steps>
+  <Step num="1" title="Selecione uma Dificuldade Equilibrada">
+    Escolha **Alvorecer** se quiser focar na história com itens de recuperação mais generosos e menor consumo de Ki. Escolha **Crepúsculo** para o equilíbrio padrão de RPG de ação focado em aparagens. Você pode ajustar essa configuração a qualquer momento no menu ou antes de entrar em missões principais da história.
+  </Step>
+  <Step num="2" title="Pratique o Tempo do Contra-ataque Faísca">
+    O Contra-ataque Faísca (Counterspark) serve tanto como ataque quanto como aparagem. Não reaja ao movimento inicial do corpo do inimigo; em vez disso, observe a arma deles e pressione o botão de Contra-ataque Faísca pouco antes do golpe atingir você. Se um inimigo usar uma combinação complexa, bloqueie os primeiros golpes e use o Contra-ataque Faísca no golpe final.
+  </Step>
+  <Step num="3" title="Gerencie sua Barra de Sangue com o Lampejo de Lâmina">
+    Conforme você ataca, o sangue se acumula na sua arma, enchendo a barra de sangue. Pressionar o botão de Lampejo de Lâmina (Blade Flash) imediatamente após um combo limpa a lâmina, restaurando uma porção significativa do seu Ki gasto. O uso consistente do Lampejo de Lâmina evita que você fique vulnerável com a barra de estamina vazia.
+  </Step>
+  <Step num="4" title="Estabeleça Elos de Região e de Personagem">
+    Explore Yokohama para limpar áreas controladas por bandidos e restaurar a Ordem Pública. Fazer isso aumenta seu Elo de Região, desbloqueando descontos em mercadores e revelando colecionáveis ocultos. Converse com personagens companheiros, complete suas Missões de Elo exclusivas e ofereça-lhes presentes para desbloquear estilos de combate e habilidades exclusivas.
+  </Step>
+</Steps>
+
+<Checklist
+  id="pc-progression-goals"
+  title="Marcos Essenciais do Início do Jogo:"
+  items={[
+    "Recupere a câmera de Igashichi Iizuka durante a missão do planador aéreo",
+    "Derrote seu primeiro fugitivo nomeado para desbloquear estilos de combate especializados",
+    "Estabeleça seu primeiro Voto Velado ou elo próximo de personagem na Casa Comum",
+    "Desbloqueie o Testamento da Alma em Edo para rejogar missões e explorar escolhas alternativas"
+  ]}
+/>
+
+<Callout type="tip" title="Explore Escolhas Alternativas com Segurança">
+As decisões que você toma em relação às facções pró-Xogunato ou anti-Xogunato alterarão os caminhos das missões e a disponibilidade de aliados. No entanto, você não precisa reiniciar o jogo para ver outros resultados. O sistema Testamento da Alma permite que você jogue novamente capítulos concluídos e tome decisões diferentes, mantendo seu progresso atual.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+Para ajudar você a aproveitar ao máximo sua experiência, compilamos respostas para as perguntas mais comuns sobre desempenho, mecânicas de jogo e sistemas multijogador.
+
+<FAQ items={[
+  {
+    question: "A Ascensão do Ronin no PC suporta cross-play com jogadores de PS5?",
+    answer: "Não, o modo multijogador cooperativo direto é específico por plataforma. Jogadores da Steam só podem se juntar ou recrutar outros jogadores de PC. No entanto, a versão para PC não exige um serviço de assinatura como o PlayStation Plus para acessar os recursos online."
+  },
+  {
+    question: "Qual é a diferença entre o co-op direto e o ronin assíncrono?",
+    answer: "O co-op direto permite que até três jogadores enfrentem missões específicas da história juntos em tempo real. Os ronins assíncronos são personagens controlados pela IA que representam os avatares de outros jogadores e aparecem aleatoriamente no seu mundo para ajudá-lo ou desafiá-lo para um duelo."
+  },
+  {
+    question: "Como funciona a mecânica do Cão Peregrino?",
+    answer: "O Cão Peregrino é um recurso online assíncrono. Ao depositar dinheiro com o cão na sua Casa Comum, você o envia em uma jornada para os mundos de outros jogadores. Ele eventualmente retornará ao seu jogo trazendo materiais valiosos de criação, consumíveis e equipamentos."
+  },
+  {
+    question: "Posso jogar o jogo inteiro em um modo co-op de mundo aberto contínuo?",
+    answer: "O multijogador cooperativo é estritamente baseado em missões. Embora você possa completar as principais operações da história e lutar contra chefes com até dois amigos, a exploração geral do mundo aberto, a caça a fugitivos e as atividades na cidade devem ser concluídas no seu mundo solo."
+  }
+]} />
+
+<Callout type="info" title="Precisa de Mais Ajuda?">
+Junte-se ao Discord oficial da Koei Tecmo ou visite os fóruns da comunidade no Steam e Reddit para discutir builds de armas avançadas, trocar dicas de otimização de desempenho e encontrar parceiros de co-op confiáveis para as missões de alta dificuldade no modo Meia-noite.
+</Callout>
+
+</Section>

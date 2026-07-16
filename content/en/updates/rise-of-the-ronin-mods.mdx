@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin Mods: Best Performance & Visual Enhancements",
+  description: "Enhance your experience with the best rise of the ronin mods. Learn how to install visual reshades, performance fixes, and gameplay tweaks for PC.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Rise+of+the+Ronin+Mods",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Rise of the ronin mods** focus primarily on **visual fidelity**, **performance optimization**, and **UI customization** for the PC version.
+- **Reshade presets** are the most popular choice for players looking to enhance the **Bakumatsu-era aesthetic** and lighting.
+- **Performance mods** help stabilize frame rates on older hardware by tweaking **DLSS**, **FSR**, and **VRAM** usage.
+- **Installation** typically requires manual file placement or a dedicated **mod manager** to ensure game stability.
+- **Safety first**: Always **backup your save data** before applying any third-party modifications to your game files.
+</Callout>
+
+<Section icon={Sparkles} title="The Modding Landscape for Rise of the Ronin">
+
+The release of the PC version in March 2025 opened the doors for the community to create various **rise of the ronin mods**. While Team NINJA games are known for their complex combat systems, the modding community has focused on bridging the gap between console-style optimization and the high-end capabilities of modern PC hardware. Whether you are looking to sharpen the textures of Yokohama or unlock hidden graphical settings, mods provide a level of customization not available in the base game.
+
+Since the game demands significant resources—requiring at least **16 GB of RAM** and **155 GB of SSD space**—many early mods focused on stability. However, as the scene matured through 2026, we have seen a surge in "quality of life" mods that adjust the **Ki management** UI or clarify **Counterspark** timing windows.
+
+| Mod Category | Primary Focus | Impact Level |
+| :--- | :--- | :--- |
+| **Visual/Reshade** | Lighting, color grading, and texture sharpening | High (Visuals) |
+| **Performance** | FPS stability, VRAM reduction, and stutter fixes | High (Technical) |
+| **Gameplay/QoL** | UI tweaks, camera adjustments, and item visibility | Medium |
+| **Save/Utility** | Unlockables, progression backups, and photo mode tools | Low |
+
+<Callout type="success" title="PC Version Advantage">
+The PC version supports features like **120 FPS**, **8K resolution**, and **Ray Tracing**. Mods can further refine these official features to work more efficiently on a wider range of GPU architectures, including NVIDIA, AMD, and Intel Arc.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Top Visual and Aesthetic Enhancements">
+
+Visual mods are the cornerstone of the community. Many players find the default color palette of **Rise of the Ronin** to be slightly washed out or overly reliant on a specific atmospheric fog. **Reshade presets** allow you to inject high-dynamic-range (HDR) colors and sharpen the intricate details of your ronin's armor and weapons.
+
+<CardGrid cols={3}>
+  <Card title="Cinematic Bakumatsu">
+    - **Enhanced contrast**
+    - Realistic shadow depth
+    - Removes yellow tint
+  </Card>
+  <Card title="Performance Reshade">
+    - **Sharpening only**
+    - Zero FPS impact
+    - Improved edge clarity
+  </Card>
+  <Card title="Vivid Yokohama">
+    - **Saturated colors**
+    - Better foliage detail
+    - Vibrant skybox textures
+  </Card>
+</CardGrid>
+
+These mods often interact with the game's **DirectX 12 Ultimate** features. By tweaking how the engine handles ambient occlusion and post-processing, modders have managed to make the game look significantly more "next-gen" without a massive hit to the hardware.
+
+| Mod Type | Key Feature | Recommended For |
+| :--- | :--- | :--- |
+| **LUT Presets** | Changes color grading | Players wanting a "film" look |
+| **Texture Packs** | High-res clothing/gear | High-VRAM GPU users (12GB+) |
+| **No-HUD Mod** | Clears the screen | Virtual photographers |
+
+<Callout type="tip" title="Lighting Matters">
+When using visual mods, ensure your in-game **Brightness** and **HDR** settings are calibrated first. Most Reshade presets are designed around the "Standard" graphics preset.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Performance Mods and Technical Fixes">
+
+Given the game's high system requirements, **rise of the ronin mods** that target performance are essential for many users. The official recommended specs suggest an **RTX 2080 Super** or **RX 6700 XT** for 1080p/60 FPS, which can be a high bar. Modders have developed scripts to optimize **VRAM usage** and improve the implementation of upscalers like **DLSS** and **FSR**.
+
+| Feature | Official Support | Modded Improvement |
+| :--- | :--- | :--- |
+| **Frame Generation** | Supported (NVIDIA/AMD) | Improved latency and stability |
+| **DLSS / FSR** | Standard versions | Ultra-quality presets and DLL swaps |
+| **Stuttering** | Patch 1.09.0.3 fixes | Engine-level cache pre-loading |
+| **Ultrawide** | Built-in support | Fixed FOV and UI centering |
+
+Most performance mods work by modifying the game's configuration files (.ini) or replacing specific library files (.dll) to allow for more aggressive memory management. This is particularly useful for players running the game on CPUs with high thread counts, as early versions of the game faced stability issues on processors with more than 33 threads.
+
+<Callout type="warning" title="Anti-Cheat and Online Play">
+While **Rise of the Ronin** does not have a competitive PvP mode, it does feature **3-player online co-op**. Using mods that alter game memory or character stats can sometimes trigger flags during online sessions. Stick to visual and performance mods when playing with others.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="How to Install Rise of the Ronin Mods">
+
+Installing **rise of the ronin mods** is generally a straightforward process, but it requires precision to avoid corrupting your installation. Most mods are hosted on community repositories and come in the form of compressed folders.
+
+<Steps>
+  <Step num="1" title="Locate Your Game Directory">
+    Navigate to the folder where the game is installed (usually under `SteamLibrary\steamapps\common\Rise of the Ronin`).
+  </Step>
+  <Step num="2" title="Install Mod Loaders">
+    If the mod requires a specific loader (like a Reshade injector), install that first by pointing it to the game's primary executable file.
+  </Step>
+  <Step num="3" title="Download and Extract">
+    Download your chosen mod and extract the files using a tool like 7-Zip or WinRAR.
+  </Step>
+  <Step num="4" title="Place Files Correctly">
+    Move the extracted files into the designated folder. Visual mods usually go in the root directory, while gameplay mods might go into a `Data` or `Mods` subfolder.
+  </Step>
+  <Step num="5" title="Verify and Launch">
+    Launch the game and check the mod's activation key (often Home or F12 for Reshades) to ensure it is working correctly.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mod Managers">
+As of 2026, several community-made mod managers support **Rise of the Ronin**, allowing you to toggle mods on and off without deleting files manually. This is the safest way to manage multiple modifications.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modding Safety and Best Practices">
+
+Before you begin experimenting with **rise of the ronin mods**, it is vital to establish a safety routine. Because the game uses a complex save system involving **Testament of the Soul** and **Midnight Difficulty** progression, losing a save file can mean losing hundreds of hours of progress.
+
+<Checklist
+  id="modding-safety"
+  title="Pre-Modding Checklist:"
+  items={[
+    "Backup your 'SaveData' folder located in the Documents directory.",
+    "Disable Steam Cloud Sync temporarily to prevent corrupted saves from uploading.",
+    "Read the mod's 'ReadMe' file for specific compatibility warnings.",
+    "Install only one mod at a time to easily identify which one causes a crash.",
+    "Keep a clean copy of the original game executables."
+  ]}
+/>
+
+| Risk Factor | Potential Issue | Mitigation Strategy |
+| :--- | :--- | :--- |
+| **Version Mismatch** | Game crashes after a patch | Update mods immediately after game updates |
+| **Save Corruption** | Loss of character progress | Manual daily backups to a separate drive |
+| **Performance Drop** | Overlapping Reshades | Use only one lighting mod at a time |
+
+<Callout type="tip" title="The Testament Advantage">
+If a gameplay mod makes a mission outcome undesirable, remember you can use the **Testament of the Soul** system at the **Longhouse** to replay missions and reset story choices without needing to uninstall the mod or restart the game.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do rise of the ronin mods disable achievements?",
+    answer: "Generally, visual and performance mods do not disable Steam achievements. However, mods that alter gameplay stats or provide 'cheats' may prevent achievements from triggering during that session."
+  },
+  {
+    question: "Can I use mods in online co-op missions?",
+    answer: "Visual mods are usually safe for co-op. Mods that change weapon damage, Ki consumption, or character speed should be disabled to avoid synchronization errors or potential bans from online services."
+  },
+  {
+    question: "Where can I find the best mods for the PC version?",
+    answer: "The most reliable sources are community-driven sites like Nexus Mods and dedicated Discord servers. Always check the 'Last Updated' date to ensure compatibility with the current game version (e.g., v1.09.0.5)."
+  },
+  {
+    question: "Will mods help with game stuttering?",
+    answer: "Yes, specific performance mods are designed to fix the stuttering issues seen in the Yokohama and Edo regions. These mods optimize how the game handles asset streaming from your SSD."
+  }
+]} />
+
+<Callout type="success" title="Final Verdict">
+Modding **Rise of the Ronin** is the best way to tailor the experience to your specific PC hardware. By focusing on **visual clarity** and **frame rate stability**, you can enjoy the Bakumatsu era with the fidelity it deserves.
+</Callout>
+
+</Section>

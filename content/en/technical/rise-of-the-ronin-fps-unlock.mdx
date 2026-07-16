@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin FPS Unlock: Best Settings & Config Guide",
+  description: "Maximize your performance with our Rise of the Ronin FPS unlock guide. Learn config tweaks, graphics settings, and troubleshooting steps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=FPS+Unlock+Guide",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **FPS Unlock**: Modify the local configuration file to remove performance caps and stabilize framerates.
+- **Config Path**: Navigate to the Koei Tecmo folder in your Documents directory to apply custom settings.
+- **Graphics Tweaks**: Disable heavy options such as Ray Tracing and Volumetric Fog for immediate performance boosts.
+- **Hardware Goal**: Target a stable 60 FPS using optimized scaling methods like DLSS or FSR.
+</Callout>
+
+<Section icon={Sparkles} title="Performance Overview & Video Guide">
+
+Achieving smooth performance in action-heavy games requires careful calibration of both hardware and software settings. Players seeking a **rise of the ronin fps unlock** often encounter hardware bottlenecks that limit the default framerate, leading to sluggish inputs during critical combat encounters. By adjusting core engine parameters and optimizing local system files, you can bypass standard hardware limitations and enjoy fluid combat.
+
+The game features a vast open world with dense environments, dynamic weather systems, and complex character models. These elements place a heavy load on both the central processing unit (CPU) and the graphics processing unit (GPU). Standard in-game settings sometimes fail to address deep-seated rendering bottlenecks, which is why manual configuration adjustments become necessary.
+
+This guide covers the essential adjustments needed to stabilize your framerate, reduce input lag, and eliminate sudden frame drops during intense combat scenarios. Utilizing custom configuration profiles allows the game engine to utilize system resources more efficiently, ensuring that frame delivery remains consistent even in congested areas like major cities and active battlefields.
+
+**Video Highlights:**
+- **Config File Installation**: Step-by-step demonstration of replacing the default configuration files.
+- **HDR Settings**: Tips on enabling and calibrating HDR for improved visual contrast without losing performance.
+- **GPU Testing**: Real-time performance showcase using mid-range graphics hardware.
+- **Framerate Stability**: Demonstrating how to maintain a consistent 50 to 60 FPS target.
+
+<YouTubeEmbed videoId="BUGVK-_NPSo" title="Rise of the Ronin OPTIMIZATION Guide - BOOST FPS, Fix Lag & Fix FPS Drops on ANY PC / Best Settings" />
+
+| Profile | Target Framerate | Resolution | Key Benefit |
+| Performance | 60 FPS | 1080p | Smoothest gameplay |
+| Graphics | 30 FPS | 4K | Maximum visual fidelity |
+| Ray Tracing | 30-45 FPS | Dynamic | Enhanced lighting |
+
+<Callout type="warning" title="Backup Reminder">
+Always create a secure backup of your original configuration files before making any manual adjustments to the game directory.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Config File Edits for Rise of the Ronin FPS Unlock">
+
+Manually adjusting the game configuration files is one of the most reliable methods to achieve a performance boost. This bypasses standard in-game menus, allowing you to force settings that are otherwise locked by default. The configuration file contains specific rendering variables that dictate shadow map sizes, particle limits, and level-of-detail (LOD) scaling distances.
+
+By modifying these variables directly, you can scale back resource-heavy effects while maintaining the core visual quality of the game. Koei Tecmo titles typically store these user profiles within the system's Documents folder rather than the main installation directory. This design choice makes it easy to modify settings without altering core game files, minimizing the risk of corrupting the installation. Follow the steps below to configure your files correctly.
+
+<Steps>
+  <Step num="1" title="Locate the Directory">
+    Navigate to your local user directory. The default path is typically located under `Documents\KoeiTecmo\RiseOfTheRonin` on your system drive.
+  </Step>
+  <Step num="2" title="Backup Existing Config">
+    Find the file named `r_of_config` (or similar profile configuration file). Copy this file and paste it into a separate backup folder on your desktop.
+  </Step>
+  <Step num="3" title="Replace the File">
+    Extract the optimized configuration file from your downloaded archive and copy it directly into the main `RiseOfTheRonin` folder, overwriting the original.
+  </Step>
+  <Step num="4" title="Verify File Attributes">
+    Right-click the newly pasted file, select Properties, and consider marking it as Read-Only to prevent the game from resetting your custom configurations.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Read-Only Settings">
+If you need to change in-game settings later, remember to uncheck the Read-Only attribute first, make your changes, and then re-apply it.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="In-Game Graphics Settings & Optimization">
+
+While config file modifications provide a strong baseline, fine-tuning the in-game settings is crucial for maintaining visual clarity. Certain graphical features demand substantial system resources without offering a noticeable visual improvement. Prioritizing performance-friendly settings ensures a smoother experience during fast-paced combat where split-second reactions are required.
+
+For instance, Volumetric Fog and Shadow Quality are notorious for consuming rendering budget due to the complex mathematical calculations required for light scattering. Reducing these settings by a single tier can yield double-digit performance gains without making the environment look flat. On the other hand, Texture Quality has a minimal impact on performance as long as your graphics card has sufficient video memory to store the assets. Use the tables below to configure your options for the best balance of quality and speed.
+
+| Setting | Recommended Value | Performance Impact |
+| Ambient Occlusion | Standard | Medium |
+| Shadow Quality | Medium | High |
+| Texture Quality | High | Low (VRAM dependent) |
+| Motion Blur | Off | Low |
+| Volumetric Fog | Low | High |
+
+Additionally, display settings play a major role in overall stability. Utilizing modern upscaling technologies can help bridge the gap between high resolutions and high framerates.
+
+| Feature | Recommended | Details |
+| HDR | Enabled | Requires HDR compatible monitor |
+| V-Sync | Off | Use G-Sync or FreeSync instead |
+| Upscaling | DLSS/FSR Quality | Boosts performance significantly |
+
+<Callout type="success" title="Motion Blur Recommendation">
+Disabling Motion Blur not only improves performance slightly but also enhances visual clarity during rapid camera movements.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hardware Requirements & Benchmarks">
+
+Performance scalability depends heavily on your system specifications. Lower-end graphics cards with limited video memory (VRAM) require conservative settings to prevent stuttering. When VRAM capacity is exceeded, the system is forced to utilize slower system RAM to store textures, resulting in sudden, severe framerate drops.
+
+Understanding how different hardware classes perform helps you set realistic performance targets. For example, testing on an RTX A2000 (6GB) demonstrates that even entry-level professional and budget gaming cards can achieve highly playable framerates when utilizing optimized config files. Analyze the hardware tiers below to see where your system stands and what performance levels you can expect when utilizing optimized configurations.
+
+<CardGrid cols={3}>
+  <Card title="Entry-Level (6GB VRAM)">
+    - **Target**: 1080p / 50 FPS
+    - **Settings**: Medium-Low mix
+    - **Key Focus**: VRAM management
+  </Card>
+  <Card title="Mid-Range (8GB VRAM)">
+    - **Target**: 1080p / 60+ FPS
+    - **Settings**: High-Medium mix
+    - **Key Focus**: Balanced scaling
+  </Card>
+  <Card title="High-End (12GB+ VRAM)">
+    - **Target**: 1440p / 90+ FPS
+    - **Settings**: Max settings
+    - **Key Focus**: Ray tracing stability
+  </Card>
+</CardGrid>
+
+| GPU Tier | Average FPS | Resolution | Stability |
+| RTX A2000 (6GB) | 49-58 FPS | 1080p | Moderate |
+| RTX 4060 | 60+ FPS | 1080p | High |
+| RTX 4070 Ti | 90+ FPS | 1440p | Very High |
+
+<Callout type="info" title="VRAM Bottlenecks">
+Systems with 6GB of VRAM or less should avoid setting Texture Quality to Ultra, as this can trigger severe stuttering when entering new game zones.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Checklist">
+
+To ensure your optimization process is successful, go through the following checklist. Tracking these steps will help you isolate potential issues and verify that the performance changes have taken effect. Optimization is an iterative process, and verifying each step ensures that you do not accidentally overwrite your progress.
+
+<Checklist
+  id="optimization-milestones"
+  title="Optimization Checkpoints:"
+  items={[
+    "Backup original configuration profiles",
+    "Apply the custom config file to the Documents directory",
+    "Disable V-Sync and configure hardware G-Sync/FreeSync",
+    "Adjust in-game volumetric and shadow settings",
+    "Monitor framerates in demanding open-world areas"
+  ]}
+/>
+
+If you encounter issues such as screen tearing or micro-stuttering, consult the troubleshooting table below to identify the root cause and apply the recommended solution. Many common issues, such as shader compilation stutter, resolve themselves after a few minutes of gameplay, but others require active intervention in your system's graphics control panel.
+
+| Issue | Potential Cause | Recommended Fix |
+| Screen Tearing | V-Sync disabled without VRR | Enable G-Sync or Fast Sync |
+| Micro-stuttering | Shader compilation | Let shaders cache in main menu |
+| Config Resetting | Game overwriting files | Set config file to Read-Only |
+
+<Callout type="warning" title="Driver Check">
+Ensure your graphics drivers are updated to the latest version released in 2026 to guarantee compatibility with optimization profiles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+Here are some of the most common questions regarding performance tweaks and system optimizations.
+
+<FAQ items={[
+  {
+    question: "How do I perform a Rise of the Ronin FPS unlock?",
+    answer: "You can unlock the framerate by replacing the default configuration file in your Documents directory with an optimized config file, then adjusting in-game settings like Volumetric Fog and Ray Tracing."
+  },
+  {
+    question: "Will modifying configuration files cause stability issues?",
+    answer: "Modifying configuration files is generally safe if you keep a backup of the original settings. If the game fails to launch, simply restore the backup file."
+  },
+  {
+    question: "Is HDR compatible with these optimization settings?",
+    answer: "Yes, HDR can remain enabled while using optimized configuration profiles, provided your display monitor supports HDR content."
+  },
+  {
+    question: "Why does the game overwrite my custom configuration file?",
+    answer: "The game client may overwrite files upon exiting. To prevent this, right-click the configuration file, open Properties, and check the Read-Only box."
+  }
+]} />
+
+<Callout type="tip" title="Final Performance Tip">
+If you experience thermal throttling during extended sessions, consider capping your framerate slightly below your monitor's maximum refresh rate to reduce GPU load.
+</Callout>
+
+</Section>

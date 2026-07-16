@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Solución de rendimiento para Rise of the Ronin: Guía de configuración para PC",
+  description: "Optimiza Rise of the Ronin en PC. Corrige el lag, los tirones y las caídas de FPS con nuestra guía de archivos de configuración optimizados y ajustes gráficos.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Performance+Fix+Guide",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Rise of the Ronin",
+  keywords: "Rise of the Ronin, optimización, PC, FPS, rendimiento, tirones, lag"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Optimización de rendimiento**: Implementa la solución de rendimiento principal de Rise of the Ronin para estabilizar los fotogramas por segundo en hardware de gama media.
+- **Modificación de la configuración**: Ajusta el archivo de configuración local para omitir las limitaciones de renderizado predeterminadas y activar opciones de HDR estables.
+- **Escalado de hardware**: Reduce los ajustes más exigentes, como los efectos volumétricos y la resolución de las sombras, para evitar microtirones.
+- **Alineación del sistema**: Sincroniza los ajustes del panel de control de tu GPU con la programación de gráficos de Windows para un uso óptimo del hardware.
+</Callout>
+
+<Section icon={Sparkles} title="Optimización del archivo de configuración y guía en video">
+
+Optimizar los archivos de configuración de forma directa es uno de los métodos más eficientes para solucionar las caídas de rendimiento y los tirones (stuttering) persistentes. Modificar los parámetros fuera del menú del juego permite a los jugadores ajustar con precisión las canalizaciones de renderizado, configurar los límites de asignación de memoria y forzar modos de pantalla específicos que, de otro modo, podrían establecerse de forma predeterminada en valores no óptimos. Este enfoque es especialmente útil para tarjetas gráficas de gama media, ya que permite un rendimiento más fluido incluso al ejecutar funciones exigentes como el procesamiento de alto rango dinámico (HDR).
+
+**Puntos clave del video:**
+- **Ubicación de la configuración**: Localiza los archivos de configuración ocultos del juego dentro de la carpeta de documentos de usuario.
+- **Estabilización de FPS**: Logra una tasa de fotogramas estable con un promedio de 50 a 58 FPS en GPU de gama media.
+- **Integración de HDR**: Fuerza a que los ajustes de HDR permanezcan activos sin causar penalizaciones graves de rendimiento.
+- **Reemplazo de archivos**: Sustituye los valores de configuración estándar por bloques de código optimizados.
+
+<YouTubeEmbed videoId="BUGVK-_NPSo" title="Guía de OPTIMIZACIÓN de Rise of the Ronin - MEJORA FPS, corrige Lag y caídas de FPS en CUALQUIER PC / Mejores ajustes" />
+
+Para aplicar manualmente esta optimización basada en archivos, navega al directorio local donde se guardan los datos de configuración. Esta carpeta se encuentra normalmente en el directorio Documentos, bajo la ruta del distribuidor: `Documents\KOEI TECMO\Rise of the Ronin`. Reemplazar los archivos de configuración predeterminados con scripts optimizados puede evitar los cuellos de botella del motor y mejorar la distribución de la memoria.
+
+<Callout type="warning" title="Copia de seguridad obligatoria">
+Crea siempre una copia de seguridad de tus archivos de configuración originales antes de reemplazarlos. Guarda los archivos originales en una carpeta separada para poder restaurarlos si experimentas errores de visualización o problemas de estabilidad.
+</Callout>
+
+| Parámetro | Valor predeterminado | Valor optimizado | Impacto en el rendimiento |
+|---|---|---|---|
+| **RenderScale** | 1.000000 | 0.900000 | Gran aumento de FPS |
+| **ShadowMapSize** | 2048 | 1024 | Reduce la carga de VRAM |
+| **HDRMode** | 0 | 1 | Permite la estabilidad de HDR |
+| **VSync** | 1 | 0 | Evita la latencia de entrada |
+| **VolumetricFog** | 2 | 1 | Mejora el rendimiento de la GPU |
+
+</Section>
+
+<Section icon={Swords} title="Ajustes gráficos óptimos dentro del juego">
+
+Ajustar los parámetros gráficos del juego es fundamental para equilibrar la fidelidad visual y la estabilidad de la tasa de fotogramas. Ciertas opciones, como los efectos volumétricos, las sombras y los reflejos en el espacio de la pantalla, ejercen una gran carga sobre la GPU a la vez que ofrecen una mejora visual mínima durante los combates rápidos. Reducir estos parámetros específicos permite a los jugadores mantener texturas de alta calidad mientras conservan tasas de fotogramas estables durante los enfrentamientos intensos.
+
+<CardGrid cols={3}>
+  <Card title="Preajuste de FPS altos">
+    - **Calidad de sombras**: Baja
+    - **Niebla volumétrica**: Desactivada
+    - **Calidad de texturas**: Media
+    - **Prioridad**: Máximo rendimiento de fotogramas
+  </Card>
+  <Card title="Configuración equilibrada">
+    - **Calidad de sombras**: Media
+    - **Niebla volumétrica**: Baja
+    - **Calidad de texturas**: Alta
+    - **Prioridad**: Equilibrio visual
+  </Card>
+  <Card title="Enfoque en calidad visual">
+    - **Calidad de sombras**: Alta
+    - **Niebla volumétrica**: Media
+    - **Calidad de texturas**: Alta
+    - **Prioridad**: Hardware de gama alta
+  </Card>
+</CardGrid>
+
+Para los jugadores que utilizan tarjetas gráficas con VRAM limitada, el presupuesto de transmisión de texturas debe gestionarse con cuidado. Configurar la calidad de las texturas demasiado alta puede provocar caídas repentinas de fotogramas al pasar de una zona a otra en el mundo abierto. El uso de un ajuste equilibrado garantiza que los elementos se carguen de manera fluida sin saturar el búfer de memoria de la tarjeta gráfica.
+
+<Callout type="tip" title="Consejo de configuración de HDR">
+Si activas el HDR, asegúrate de que tu pantalla esté correctamente calibrada en Windows antes de iniciar el juego. Los desajustes de luminancia pueden provocar colores apagados y ligeros retrasos de renderizado durante las transiciones de iluminación.
+</Callout>
+
+| Nombre del ajuste | Valor recomendado | Impacto en el rendimiento | Pérdida visual |
+|---|---|---|---|
+| **Calidad de texturas** | Alta (depende de la VRAM) | Mínimo | Baja |
+| **Resolución de sombras** | Media | Moderado | Baja |
+| **Oclusión ambiental** | SSAO | Moderado | Baja |
+| **Efectos volumétricos** | Bajo | Alto | Medio |
+| **Desenfoque de movimiento** | Desactivado | Mínimo | Subjetivo |
+| **Reflejos del espacio de pantalla** | Medio | Moderado | Baja |
+
+</Section>
+
+<Section icon={Shield} title="Ajustes a nivel de sistema en Windows y GPU">
+
+Las configuraciones a nivel de sistema a menudo dictan cómo se asignan los recursos al ejecutable del juego. Si Windows o el panel de control de la GPU no están configurados correctamente, el sistema puede limitar el suministro de energía o no dar prioridad al proceso del juego, lo que provoca microtirones y latencia de entrada (input lag). Ajustar estos valores garantiza que tu hardware funcione al máximo de su potencial.
+
+<Steps>
+  <Step num="1" title="Activa la programación de GPU acelerada por hardware">
+    Abre el menú de inicio de Windows, busca Configuración de gráficos y activa la opción de Programación de GPU acelerada por hardware (HAGS). Reinicia tu computadora para aplicar los cambios.
+  </Step>
+  <Step num="2" title="Ajusta la administración de energía de la GPU">
+    Abre el Panel de control de Nvidia o el software AMD Radeon, navega a la configuración global y establece el Modo de control de energía en Preferir rendimiento máximo.
+  </Step>
+  <Step num="3" title="Optimiza el tamaño del caché de sombreadores">
+    En el panel de control de tu GPU, aumenta el Tamaño del caché de sombreadores a 10 GB o Ilimitado. Esto permite al sistema almacenar sombreadores compilados, reduciendo los tirones durante el juego.
+  </Step>
+  <Step num="4" title="Desactiva las superposiciones en segundo plano">
+    Desactiva las superposiciones (overlays) dentro del juego en aplicaciones como Discord, Steam y GeForce Experience, ya que estos programas pueden consumir recursos del sistema y causar conflictos de rendimiento.
+  </Step>
+</Steps>
+
+Estos ajustes del sistema funcionan en conjunto con la configuración interna del juego para crear un entorno más estable para el motor gráfico. Al aumentar los límites del caché de sombreadores, permites que el juego recupere elementos precompilados de forma instantánea, evitando las caídas repentinas de rendimiento que ocurren al entrar en nuevas zonas o iniciar combates.
+
+<Callout type="info" title="Actualizaciones de controladores">
+Asegúrate de que tus controladores de gráficos estén actualizados a la última versión. Los fabricantes suelen lanzar correcciones y perfiles de optimización diseñados específicamente para títulos de acción en mundo abierto.
+</Callout>
+
+| Ajuste de utilidad | Recomendación de Nvidia | Recomendación de AMD | Propósito |
+|---|---|---|---|
+| **Caché de sombreadores** | 10GB | Activado / Restablecer | Reduce los tirones de compilación |
+| **Modo de energía** | Preferir rendimiento máximo | Alto rendimiento | Evita que la GPU baje de frecuencia |
+| **Optimización enlazada** | Activado | No aplicable | Mejora el uso de los núcleos de la CPU |
+| **Modo de baja latencia** | Activado / Ultra | Anti-Lag | Minimiza el retraso de entrada |
+
+</Section>
+
+<Section icon={Target} title="Resolución de problemas de tirones y cuellos de botella del sistema">
+
+Incluso con configuraciones optimizadas, los jugadores pueden experimentar problemas de rendimiento debido a cuellos de botella de hardware o conflictos de software. Identificar si la CPU o la GPU están causando la limitación es clave para resolver estos problemas. Monitorear el uso del hardware en tiempo real puede ayudar a identificar la causa exacta de la degradación del rendimiento.
+
+<Checklist
+  id="troubleshooting-steps"
+  title="Lista de verificación de rendimiento:"
+  items={[
+    "Verifica que el juego se ejecute en la tarjeta gráfica dedicada en lugar de la integrada.",
+    "Monitorea las temperaturas de la CPU y la GPU para asegurarte de que el estrangulamiento térmico (thermal throttling) no esté reduciendo las frecuencias.",
+    "Revisa los procesos en segundo plano en el Administrador de tareas y cierra las aplicaciones que consuman muchos recursos.",
+    "Verifica la integridad de los archivos de instalación del juego a través de la biblioteca de tu plataforma de lanzamiento."
+  ]}
+/>
+
+Si el uso de tu CPU permanece cerca del 100% mientras que el uso de la GPU es bajo, el sistema está experimentando un cuello de botella de CPU. Esto es común en áreas densamente pobladas del juego. Reducir los ajustes que afectan los cálculos de la CPU, como la densidad de la multitud y la distancia de visión, puede ayudar a equilibrar la carga y estabilizar la tasa de fotogramas.
+
+<Callout type="success" title="Privilegios de administrador">
+Ejecutar el archivo ejecutable del juego como administrador puede evitar que los permisos en segundo plano restrinjan el acceso a los recursos del sistema, mejorando la estabilidad general.
+</Callout>
+
+| Problema | Causa potencial | Solución recomendada |
+|---|---|---|
+| **Microtirones frecuentes** | Compilación de sombreadores | Aumentar el tamaño del caché de sombreadores a 10 GB |
+| **Caídas de FPS en ciudades** | Alta carga de CPU | Reducir la densidad de la multitud en el juego |
+| **Desgarro de pantalla (tearing)** | Desajuste de frecuencia de actualización | Activar G-Sync/FreeSync o usar V-Sync rápido |
+| **Cierres repentinos al escritorio** | Desbordamiento de VRAM | Reducir la calidad de las texturas y la escala de resolución |
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+Para obtener asistencia adicional, revisa estas soluciones comunes a los problemas de rendimiento.
+
+<FAQ items={[
+  {
+    question: "¿Cómo aplico la solución de rendimiento de Rise of the Ronin en mis archivos de configuración?",
+    answer: "Navega a Documentos\\KOEI TECMO\\Rise of the Ronin, localiza el archivo de configuración y ábrelo con un editor de texto. Reemplaza los valores de renderizado y sombras con los parámetros optimizados que se detallan en nuestra guía, luego guarda el archivo."
+  },
+  {
+    question: "¿Modificar el archivo de configuración puede provocar bloqueos (bans) por sistemas antitrampas?",
+    answer: "No, modificar los archivos de configuración locales para las opciones gráficas y de pantalla no altera los archivos principales del juego ni las direcciones de memoria, por lo que su uso es seguro y no hay riesgo de baneo."
+  },
+  {
+    question: "¿Por qué se reduce mi tasa de fotogramas al activar el HDR?",
+    answer: "El HDR requiere procesamiento de color adicional y renderizado de brillo máximo, lo que aumenta la carga de la GPU. Reducir los efectos volumétricos y las sombras puede compensar este costo de rendimiento."
+  },
+  {
+    question: "¿Cuál es la forma más efectiva de eliminar el desgarro de pantalla (tearing)?",
+    answer: "Activa tecnologías de frecuencia de actualización variable como G-Sync o FreeSync en el panel de control de tu GPU. Si tu monitor no es compatible con estas, activa V-Sync en la configuración del controlador de gráficos en lugar de hacerlo en el menú del juego."
+  }
+]} />
+
+<Callout type="info" title="Monitoreo de parches">
+Mantente al tanto de las actualizaciones oficiales del juego. Los desarrolladores suelen lanzar parches de rendimiento que abordan directamente la optimización del motor y los problemas de compatibilidad del hardware.
+</Callout>
+
+</Section>

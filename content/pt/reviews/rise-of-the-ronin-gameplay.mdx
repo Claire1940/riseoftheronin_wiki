@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jogabilidade de A Ascensão do Ronin: Guia de Estilos de Combate e Armas",
+  description: "Domine a jogabilidade de A Ascensão do Ronin com nosso guia sobre estilos de combate, lista de armas, mecânicas de aparagem, builds e dicas de progressão cooperativa.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/f8fafc?text=Gameplay+Guide",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de A Ascensão do Ronin",
+  keywords: "A Ascensão do Ronin, jogabilidade, armas, estilos de combate, contrafagulha, parry, builds, cooperativo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Progressão principal**: Dominar a **jogabilidade de A Ascensão do Ronin** exige aprender o ritmo das aparagens de Contrafagulha (Counterspark) e as vantagens de cada arma.
+- **Diversidade de armas**: Experimente nove armas de combate corpo a corpo exclusivas, utilizando a recuperação rápida de ataque para manter a pressão no Ki do inimigo.
+- **Correspondência de postura**: Sempre alterne entre os estilos Ten, Chi e Jin para combater a arma específica que seu oponente está segurando.
+- **Recompensas de exploração**: Limpar bases hostis e aumentar os vínculos regionais desbloqueia estilos de combate cruciais, materiais de melhoria e equipamentos especiais.
+- **Gerenciamento de escolhas**: Use o sistema Testamento da Alma (Testament of the Soul) para repetir missões e explorar caminhos alternativos da história sem precisar reiniciar o jogo.
+</Callout>
+
+<Section icon={Swords} title="Lista de Níveis e Seleção de Armas de Curto Alcance">
+
+Para dominar a **jogabilidade de A Ascensão do Ronin**, os jogadores devem entender como as armas e os estilos de combate interagem. O jogo apresenta nove categorias distintas de armas de combate corpo a corpo, além de uma opção de combate desarmado. Cada arma oferece um equilíbrio diferente de velocidade, alcance, dano e pressão de Ki. A pressão de Ki é a capacidade de esgotar a barra de vigor de um oponente, deixando-o vulnerável a Ataques Críticos devastadores.
+
+Embora todas as armas sejam viáveis quando combinadas com o estilo de combate correto, algumas opções oferecem mais consistência durante encontros difíceis com chefes e na exploração geral do mundo aberto. Nossa lista de níveis classifica essas armas com base na facilidade de uso, velocidade de recuperação de ataque e versatilidade em duelos.
+
+| Arma | Nível | Dano | Velocidade | Alcance | Ideal Para |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Katana** | S | Médio-Alto | Alta | Médio | Duelos equilibrados e aprendizado da Contrafagulha |
+| **Espadas Duplas** | S | Médio | Muito Alta | Curto | Alta pressão e troca rápida de estilo |
+| **Lâmina Rabo de Boi** | S | Médio-Alto | Muito Alta | Longo | Alta mobilidade e controle de multidões |
+| **Arma de Haste** | A | Alto | Média | Muito Longo | Distanciamento seguro e lutas em grupo |
+| **Odachi** | A | Muito Alto | Média-Baixa | Longo | Quebra de postura e dano de punição pesado |
+| **Lança** | A | Médio-Alto | Média | Longo | Distanciamento defensivo e ataques de estocada |
+| **Sabre** | A | Médio | Alta | Médio | Duelos móveis e contra-ataques rápidos |
+| **Baioneta** | A | Médio | Média | Longo | Combate híbrido corpo a corpo e arma de fogo |
+| **Espada Grande** | B | Muito Alto | Baixa | Longo | Dano máximo em um único golpe e punições pesadas |
+| **Desarmado** | C | Baixo | Alta | Muito Curto | Desafios e combate não letal |
+
+A Katana é a opção inicial mais versátil, apresentando a maior seleção de estilos de combate. Ela permite que os jogadores se adaptem a quase qualquer tipo de inimigo. Para jogadores que preferem um combate agressivo e acelerado, as Espadas Duplas e a Lâmina Rabo de Boi oferecem recuperação rápida de ataque, facilitando o cancelamento de animações e a execução de manobras defensivas. Armas pesadas como a Odachi e a Espada Grande causam danos massivos, mas exigem tempo preciso, pois golpes perdidos deixam o jogador altamente vulnerável a contra-ataques.
+
+<Callout type="tip" title="Dica de Seleção de Arma">
+Sempre equipe duas armas primárias que se complementem. Combinar uma arma rápida e de curto alcance, como as Espadas Duplas, com uma opção de longo alcance, como a Arma de Haste, garante que você possa lidar tanto com alvos únicos velozes quanto com grandes grupos de inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estilos de Combate e Mecânicas de Contrafagulha">
+
+Os estilos de combate determinam o conjunto de movimentos da sua arma, as Habilidades Marciais especiais e as animações de aparagem. O sistema de combate opera em uma dinâmica de pedra-papel-tesoura dividida em três posturas principais: Ten (Céu), Chi (Terra) e Jin (Humano). Também existem estilos Shinobi especializados que oferecem movimentos únicos e orientados para furtividade.
+
+Combinar seu estilo com a arma do inimigo é crucial. Uma vantagem tática aumenta o dano de Ki que você inflige e potencializa o efeito de atordoamento de suas Contrafagulhas.
+
+| Estilo | Significado | Forte Contra | Fraco Contra | Uso Recomendado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ten (Céu)** | Céu | Katanas e armas médias | Sabres e armas leves | Duelos de espada tradicionais e inimigos padrão |
+| **Chi (Terra)** | Terra | Odachis e armas pesadas | Katanas e armas médias | Interromper ataques lentos e pesados |
+| **Jin (Humano)** | Humano | Sabres e armas leves | Odachis e armas pesadas | Contra-atacar lâminas ocidentais rápidas e ataques velozes |
+| **Shinobi** | Especialista | Nenhum (Desvantagem) | Armas padrão | Contrafagulhas precisas de alto risco e alta recompensa |
+
+A Contrafagulha (Counterspark) é tanto um golpe ofensivo quanto uma aparagem. Ativar uma Contrafagulha pouco antes de um ataque inimigo atingir você desviará o golpe, danificando severamente o Ki dele e colocando-o temporariamente em um estado de pânico. Quando um inimigo está em pânico, seus ataques causam mais dano de saúde e de Ki.
+
+Para um gerenciamento avançado de Ki, os jogadores devem usar a mecânica Lampejo de Lâmina (Blade Flash). Pressionar o botão de troca de postura imediatamente após uma sequência de ataques limpa o sangue da sua arma, restaurando instantaneamente uma parte do Ki consumido. Isso permite manter uma pressão ofensiva sustentada sem esgotar seu vigor.
+
+<Callout type="warning" title="Cuidado Defensivo">
+Não tente usar a Contrafagulha em cada ataque individual de uma combinação de vários golpes. Se você não estiver familiarizado com o ritmo de ataque de um inimigo, é muito mais seguro segurar o botão de bloqueio e tentar a Contrafagulha apenas no golpe final do combo deles.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Builds de Personagem Ideais e Alocação de Habilidades">
+
+O desenvolvimento do personagem é impulsionado por quatro atributos primários: Força, Destreza, Carisma e Intelecto. Investir pontos de habilidade nessas árvores desbloqueia bônus de combate passivos, novas Habilidades Marciais e ferramentas vitais de exploração. Embora você possa redefinir seus pontos de habilidade mais tarde em sua Casa de Repouso (Longhouse), focar em uma build coesa desde cedo torna os encontros difíceis muito mais fáceis de lidar.
+
+<CardGrid cols={3}>
+  <Card title="Build Agressiva de Força">
+    - **Armas Primárias**: Katana, Odachi, Espada Grande
+    - **Foco Principal**: Dano físico direto, alta defesa e eficiência de guarda.
+    - **Habilidades Chave**: Melhorias de dano de arma primária e recuperação de Ki em aparagens bem-sucedidas.
+  </Card>
+  <Card title="Build de Aparagem de Carisma">
+    - **Armas Primárias**: Katana, Arma de Haste, Lâmina Rabo de Boi
+    - **Foco Principal**: Recuperação rápida de Ki, aumento de sorte para itens e fortes habilidades sociais.
+    - **Habilidades Chave**: Aumentos de dano de Ataque Crítico e taxas de progressão de vínculo aumentadas.
+  </Card>
+  <Card title="Build de Furtividade de Destreza">
+    - **Armas Primárias**: Espadas Duplas, Sabre, Baioneta
+    - **Foco Principal**: Assassinatos silenciosos, alta mobilidade e eficiência com armas à distância.
+    - **Habilidades Chave**: Abates com gancho, movimento silencioso e dano de shuriken.
+  </Card>
+</CardGrid>
+
+Builds de Intelecto também são altamente eficazes, focando em aplicações de status elementares, melhoria da potência dos remédios e dano de armas de fogo. Independentemente da sua build, priorizar habilidades que melhorem sua capacidade de itens de cura e a velocidade geral de recuperação de Ki é altamente recomendado durante as primeiras horas de jogo.
+
+<Callout type="success" title="Flexibilidade de Build">
+Você nunca está preso a um único estilo de jogo. Como você pode equipar duas armas primárias e trocar estilos de combate em tempo real, pode facilmente usar uma build híbrida, como combinar Força e Destreza para equilibrar ataques de punição pesados com abordagens furtivas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rota de Progressão Passo a Passo para Iniciantes">
+
+Navegar na transição do prólogo linear para o mundo aberto de Yokohama pode ser um desafio. Seguir uma rota de progressão estruturada garante que você colete equipamentos essenciais, desbloqueie estilos de combate poderosos e suba de nível de forma eficiente, sem encontrar barreiras de dificuldade artificiais.
+
+<Steps>
+  <Step num="1" title="Selecione sua Dificuldade Inicial">
+    Escolha entre Alvorada (Fácil), Crepúsculo (Normal) ou Anoitecer (Difícil). A dificuldade Alvorada é excelente para jogadores que querem focar na exploração e na história, pois aumenta a eficácia dos itens de cura e reduz o consumo de Ki. Você pode alterar essa configuração a qualquer momento no menu do jogo.
+  </Step>
+  <Step num="2" title="Complete o Prólogo e Aprenda o Básico">
+    Use a seção de abertura linear nos Navios Negros para praticar as mecânicas defensivas. Foque em aprender o tempo da Contrafagulha contra soldados básicos e entenda como é a recuperação das animações de ataque da sua arma primária.
+  </Step>
+  <Step num="3" title="Limpe Bases Hostis em Yokohama">
+    Ao chegar ao mundo aberto, não corra diretamente para os marcadores da história principal. Em vez disso, localize áreas vermelhas próximas no seu mapa para restaurar a Ordem Pública. Limpar esses acampamentos de bandidos desbloqueia mercadores locais, revela colecionáveis escondidos e recompensa você com equipamentos de alta qualidade.
+  </Step>
+  <Step num="4" title="Estabeleça e Melhore sua Casa de Repouso">
+    Assim que desbloquear sua acomodação na cidade (a Casa de Repouso), use-a para gerenciar seus companheiros. Converse com aliados que o visitam, dê a eles presentes preferidos para aumentar seus níveis de vínculo e personalize a aparência do seu personagem. É aqui também que você pode redefinir seus pontos de habilidade, se necessário.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota de Progressão">
+Aumentar os vínculos regionais é tão importante quanto subir o nível do seu personagem. Vínculos regionais altos concedem descontos permanentes em lojas locais e revelam a localização de fugitivos raros, que deixam cair alguns dos melhores estilos de combate do início do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cooperativo Multijogador e Exploração do Mundo">
+
+O mundo aberto do final do período Edo no Japão está repleto de atividades que podem ser realizadas sozinho ou com até dois outros jogadores. O multijogador cooperativo é baseado em missões, em vez de um mundo aberto compartilhado contínuo. Os jogadores podem recrutar amigos ou aliados aleatórios na tela de configuração cooperativa antes de iniciar grandes operações da história.
+
+| Recurso | Jogabilidade Solo | Jogabilidade Coop Online |
+| :--- | :--- | :--- |
+| **Exploração do Mundo** | Acesso total ao mundo aberto em todas as regiões | Restrito a instâncias de missões específicas |
+| **Seleção de Aliados** | Até dois companheiros de IA ou jogo solo | Até dois jogadores humanos online |
+| **Progresso da Missão** | Salva diretamente na campanha do anfitrião | O progresso se aplica ao anfitrião; convidados ganham recompensas |
+| **Recursos Assíncronos** | Cães Peregrinos e ronin errantes ativos | Desativado durante sessões multijogador ativas |
+
+Embora a exploração livre do campo continue sendo uma experiência solo, o jogo apresenta elementos online assíncronos para manter o mundo vivo. Os ronin personalizados de outros jogadores aparecerão ocasionalmente em seu jogo como NPCs errantes. Você pode lutar contra eles por equipamentos raros ou resgatá-los de bandidos para obter recompensas de facção. Além disso, enviar seu Cão Peregrino com um depósito de moedas permite que ele viaje para os mundos de outros jogadores, retornando mais tarde com itens raros e materiais de criação.
+
+<Checklist
+  id="exploration-goals"
+  title="Metas de Conclusão Regional:"
+  items={[
+    "Restaurar a Ordem Pública em todos os distritos hostis",
+    "Derrotar Fugitivos nomeados para desbloquear estilos de combate avançados",
+    "Rezar em Santuários escondidos para ganhar pontos de habilidade bônus",
+    "Encontrar e acariciar Gatos locais para desbloquear itens especiais de mercadores"
+  ]}
+/>
+
+<Callout type="tip" title="Estratégia Cooperativa">
+Ao jogar em modo cooperativo, coordene suas escolhas de armas com seus companheiros de equipe. Ter um jogador atraindo a atenção do inimigo com ataques pesados enquanto outro inflige efeitos de status à distância torna as lutas contra chefes significativamente mais fáceis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como o modo cooperativo afeta a progressão da jogabilidade em A Ascensão do Ronin?",
+    answer: "O jogo cooperativo é estritamente baseado em missões. Embora você possa completar batalhas importantes da história com amigos, a exploração do mundo aberto, a limpeza de vínculos regionais e as atividades secundárias devem ser feitas em seu mundo de jogo solo."
+  },
+  {
+    question: "Posso desbloquear todos os estilos de combate em uma única jogada?",
+    answer: "Sim. Ao aumentar seus vínculos com personagens históricos importantes, derrotar fugitivos específicos e completar missões específicas de facções, você poderá eventualmente desbloquear e aprimorar totalmente todos os estilos de combate para cada arma."
+  },
+  {
+    question: "O que devo fazer se me arrepender de uma escolha importante na história?",
+    answer: "Não reinicie seu jogo. Ao chegar à cidade de Edo, você desbloqueia o Testamento da Alma em sua Casa de Repouso. Este recurso permite que você jogue novamente missões concluídas, escolha caminhos diferentes e veja resultados alternativos, mantendo o progresso atual do seu personagem."
+  },
+  {
+    question: "Qual é o benefício de usar a mecânica Lampejo de Lâmina (Blade Flash)?",
+    answer: "O Lampejo de Lâmina recupera instantaneamente uma parte do seu vigor consumido (Ki) após um ataque. Realizar esta ação regularmente é essencial para manter combos agressivos e garantir que você sempre tenha Ki suficiente para bloquear ou aparar ataques recebidos."
+  }
+]} />
+
+<Callout type="success" title="Preparação Final">
+Agora que você entende as mecânicas principais de armas, posturas e aparagem, está pronto para explorar a bela e perigosa paisagem do Japão da era Bakumatsu. Leve o seu tempo, domine a Contrafagulha e forje seu próprio caminho através da história.
+</Callout>
+
+</Section>

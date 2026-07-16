@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fugitivos desaparecidos en Rise of the Ronin: Guía de rastreo y aparición 2026",
+  description: "Localiza a cada fugitivo desaparecido en Rise of the Ronin con nuestra guía 2026. Soluciona problemas de aparición, requisitos de tiempo y completa tu colección.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fugitive+Tracking+Guide",
+  date: "2026-07-16",
+  author: "Equipo de Wiki de Rise of the Ronin",
+  keywords: "Rise of the Ronin, fugitivos, guía, rastreo, 2026, orden público"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los problemas de **fugitivos desaparecidos en Rise of the Ronin** suelen deberse a bloqueos por la **hora del día** o a un **vínculo de región** insuficiente.
+- El **orden público** debe restaurarse en distritos específicos antes de que ciertos fugitivos aparezcan en el mapa.
+- Usa el **Testamento del alma** en el post-juego para regresar a regiones anteriores y encontrar cualquier objetivo que te falte.
+- Algunos fugitivos solo aparecen durante la **noche**; usa el reloj de bolsillo para avanzar el tiempo si falta un marcador.
+- Perdonar o matar a ciertos PNJ (como **Gonzo**) afecta su estado como fugitivo en capítulos posteriores.
+</Callout>
+
+<Section icon={Map} title="Rastreo de los objetivos fugitivos desaparecidos en Rise of the Ronin">
+
+Cazar fugitivos es una mecánica de progresión central en Rise of the Ronin, vinculada directamente al desbloqueo de nuevos estilos de combate, la obtención de equipo de alto nivel y el fortalecimiento de tu vínculo con las diversas regiones del Japón del Bakumatsu. Cuando encuentras que un **fugitivo de Rise of the Ronin ha desaparecido** de tu mapa, normalmente indica que no se ha cumplido un requisito previo en lugar de un error en el juego. Los fugitivos son enemigos únicos con nombre que han tomado áreas específicas, y derrotarlos es la forma principal de restaurar el orden público.
+
+El sistema de rastreo en 2026 se ha perfeccionado para ayudar a los jugadores a identificar qué distritos aún albergan criminales peligrosos. Sin embargo, los iconos del mapa solo aparecen una vez que has alcanzado cierto nivel de vínculo de región o has explorado físicamente las cercanías de su escondite. Si estás viendo un distrito con "100% de orden público" pero aún te falta un fugitivo en el recuento, es probable que debas buscar encuentros ocultos que se encuentran fuera de los campamentos de bandidos estándar.
+
+**Características del sistema de rastreo:**
+
+- **Icono del mapa:** Icono de calavera roja que indica un fugitivo con nombre. Requiere exploración o nivel de vínculo 2.
+- **Orden público:** Limpiar enemigos para asegurar un distrito. Requiere derrotar a todos los fugitivos locales.
+- **Recompensas:** Estilos de combate, puntos de habilidad y equipo raro. Se obtienen al confirmar la muerte o captura.
+- **Seguimiento:** Visible a través del menú "Colección". Muestra el progreso específico de la región.
+
+<Callout type="tip" title="Consejo profesional">
+Si un icono de fugitivo es visible en tu mapa pero el enemigo no aparece por ninguna parte, verifica la verticalidad. Muchos fugitivos en Edo y Kioto están escondidos en torres de vigilancia, túneles subterráneos o en azoteas accesibles solo mediante el gancho.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Razones comunes por las que no aparecen los fugitivos">
+
+Existen varias razones mecánicas por las que un fugitivo podría faltar en tu sesión actual. Rise of the Ronin utiliza un sistema de mundo dinámico donde el tiempo, la progresión de la historia y las elecciones de facción influyen en quién aparece y dónde. Comprender estos activadores es esencial para los jugadores que buscan el logro "Guardián de la paz" o maximizar sus estilos de combate.
+
+<CardGrid cols={2}>
+  <Card title="Restricciones de hora del día">
+    Ciertos fugitivos de alto nivel solo aparecen por la **noche**. Si llegas a una ubicación durante el día y solo encuentras bandidos estándar, usa tu **reloj de bolsillo** para esperar hasta el anochecer.
+  </Card>
+  <Card title="Niveles de vínculo de región">
+    El mapa no revelará todas las ubicaciones de los fugitivos hasta que alcances el **nivel de vínculo 3** en un distrito específico. Completa actividades secundarias para revelar marcadores ocultos.
+  </Card>
+  <Card title="Bloqueos por progresión de historia">
+    Algunos fugitivos están vinculados a capítulos específicos. Si te mudas de Yokohama a Edo demasiado rápido, es posible que debas usar el **Testamento del alma** para volver y terminarlos.
+  </Card>
+  <Card title="Apariciones basadas en elecciones">
+    Personajes como **Gonzo** pueden ser perdonados. Si los perdonas, pueden aparecer más tarde como aliados o en diferentes lugares, cambiando su estado como fugitivo "desaparecido".
+  </Card>
+</CardGrid>
+
+**Factores de aparición y acciones recomendadas:**
+
+- **Clima:** La lluvia intensa puede ocultar la visibilidad. Usa "Esperar" para despejar el clima.
+- **Estado de alerta:** Los fugitivos pueden huir si el sigilo falla. Reinicia en un estandarte de filo velado.
+- **Brecha de nivel:** Algunos fugitivos solo aparecen en niveles más altos. Regresa después de subir de nivel.
+- **Facción:** Áreas pro-shogunato frente a anti-shogunato. Revisa las zonas controladas por las facciones.
+
+<Callout type="warning" title="Importante">
+En la versión de PC de 2026, ciertos ajustes gráficos pueden afectar la distancia de dibujado de los marcadores de PNJ. Si estás cazando fugitivos en áreas urbanas densas como Nihonbashi, asegúrate de que el ajuste "Detalle de PNJ" esté al menos en Medio para evitar problemas de aparición repentina.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de problemas para ubicaciones de fugitivos desaparecidos">
+
+Si has limpiado todos los iconos visibles pero tu rastreador regional sigue mostrando un **fugitivo de Rise of the Ronin desaparecido**, sigue estos pasos sistemáticos para forzar la aparición o revelar la ubicación oculta. Este proceso garantiza que no pierdas tiempo deambulando por distritos ya despejados.
+
+<Steps>
+  <Step num="1" title="Consulta el menú de Colección">
+    Abre el menú principal y navega hasta la pestaña "Colección". Selecciona "Fugitivos" para ver una lista de todos los criminales con nombre en tu región actual. Los nombres en gris con "???" indican fugitivos que aún no has encontrado.
+  </Step>
+  <Step num="2" title="Avanza hasta la noche">
+    La razón más común para que falte un fugitivo es el requisito de tiempo. Usa el objeto reloj de bolsillo para establecer la hora en medianoche. Vuelve a revisar el mapa en busca de iconos de calaveras rojas que antes eran invisibles.
+  </Step>
+  <Step num="3" title="Restaura el orden público cercano">
+    Algunos fugitivos solo aparecen como "refuerzos" o líderes ocultos después de haber despejado un campamento de bandidos cercano. Asegúrate de que cada círculo blanco en tu mapa se haya vuelto azul.
+  </Step>
+  <Step num="4" title="Interactúa con los residentes locales">
+    Habla con los PNJ que tengan burbujas de diálogo en los distritos restaurados. Ocasionalmente, un residente te dará una pista sobre un "vagabundo peligroso", lo que coloca un marcador temporal en tu mapa.
+  </Step>
+  <Step num="5" title="Usa el Testamento del alma">
+    Si ya te has mudado a Edo o Kioto, usa el Testamento del alma en tu casa comunal. Esto te permite regresar a Yokohama con tus estadísticas actuales para cazar a los fugitivos de nivel bajo que te saltaste.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Éxito">
+Derrotar a todos los fugitivos en una sola región otorga un impulso masivo a tu **Karma** y, a menudo, desbloquea un arma de nivel "Legendario" específica del tema histórico de esa región.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de combate para fugitivos de élite">
+
+Los fugitivos son significativamente más peligrosos que los enemigos estándar. Poseen habilidades marciales únicas y a menudo utilizan estilos de combate que contrarrestan el estilo básico "Ten" (Cielo). Para derrotarlos de manera eficiente, debes dominar el tiempo del **Contraataque** (Counterspark) y gestionar tu indicador de **Ki** de forma eficaz.
+
+**Efectividad de los estilos de combate:**
+
+- **Ten (Cielo):** Eficaz contra katanas y armas medias. Común en ronin estándar y desertores.
+- **Chi (Tierra):** Eficaz contra odachis y armas pesadas. Común en brutos y enemigos con hachas.
+- **Jin (Humano):** Eficaz contra sables y armas ligeras. Común en duelistas occidentales y asesinos.
+- **Shinobi:** Eficaz contra todos (técnico). Común en jefes ocultos y ninjas.
+- **A distancia:** Eficaz para mantener la distancia. Útil contra fugitivos en torres o francotiradores.
+
+Al enfrentarte a un fugitivo, concéntrate en dañar su **Ki máximo**. Esto se logra mediante contraataques exitosos y el uso de habilidades marciales cuando están en estado de "Pánico". Una vez que su Ki se agote, puedes realizar un **golpe crítico** para causar un daño masivo.
+
+<Callout type="tip" title="Consejo de combate">
+Usa siempre un **Destello de hoja** (R1 en PS5 / tecla predeterminada en PC) después de un combo exitoso. Limpiar la sangre de tu hoja restaura una parte de tu Ki, lo que te permite mantener la presión sobre el fugitivo sin agotarte.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para completar fugitivos">
+
+Usa esta lista de verificación para asegurarte de haber cubierto todos los requisitos para completar el 100% de los fugitivos. Esto es particularmente útil para la dificultad "Medianoche" del juego tardío.
+
+<Checklist
+  id="fugitive-hunt-2026"
+  title="Hitos de la caza de fugitivos:"
+  items={[
+    "Alcanzar el nivel 3 de vínculo de región en todos los distritos de Yokohama",
+    "Derrotar al jefe oculto 'William' (huevo de pascua de Nioh)",
+    "Desbloquear el 'reloj de bolsillo' para manipular los tiempos de aparición",
+    "Limpiar todas las zonas de 'orden público' en Edo y Kioto",
+    "Perdonar o matar a Gonzo para resolver su estado de fugitivo",
+    "Obtener la habilidad 'Rastreador' en el árbol de Intelecto",
+    "Completar todas las misiones de vínculo que revelan fugitivos secretos"
+  ]}
+/>
+
+<Callout type="info">
+El árbol de habilidades de Intelecto contiene un nodo que aumenta el rango de detección de fugitivos en tu brújula. Invertir en esto temprano reducirá significativamente el tiempo dedicado a buscar objetivos desaparecidos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué el fugitivo de Rise of the Ronin no aparece aunque estoy en el lugar correcto?",
+    answer: "Verifica la hora del día. Muchos fugitivos solo aparecen de noche. Además, asegúrate de haber completado la misión de orden público local, ya que algunos solo aparecen cuando el área está parcialmente asegurada."
+  },
+  {
+    question: "¿Perdonar a un fugitivo me impide obtener el 100% de finalización?",
+    answer: "No. Perdonar a un fugitivo (como Gonzo) sigue contando como 'completado' para el rastreador de la región. En algunos casos, perdonarlos permite que aparezcan como aliados en misiones futuras."
+  },
+  {
+    question: "¿Puedo encontrar fugitivos desaparecidos después de terminar la historia principal?",
+    answer: "Sí. Usa el 'Testamento del alma' en cualquier casa comunal para viajar de regreso a Yokohama, Edo o Kioto. Todo tu progreso se guarda y puedes cazar a cualquier criminal que te faltara."
+  },
+  {
+    question: "¿Hay fugitivos que solo aparecen en la dificultad Medianoche?",
+    answer: "La dificultad Medianoche presenta versiones 'Élite' de los fugitivos existentes y restaura el orden público en todas las regiones. Aunque los nombres son los mismos, las recompensas se mejoran al nivel de Obra Maestra."
+  }
+]} />
+
+</Section>

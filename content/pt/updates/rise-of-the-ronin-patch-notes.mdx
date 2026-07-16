@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Notas de Atualização de A Ascensão do Ronin: Correções de Performance para PC 2026",
+  description: "Confira as últimas notas de atualização de A Ascensão do Ronin para PC e PS5. Acompanhe as atualizações 1.09, otimizações de performance, suporte a DLSS e novas missões de Aliados.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111827/fff?text=Patch+Notes+Update",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de A Ascensão do Ronin",
+  keywords: "notas de atualização, performance pc, a ascensão do ronin, correções 1.09, dlss, fsr"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Versão Mais Recente**: As atuais **notas de atualização de A Ascensão do Ronin** destacam a versão 1.09.0.5 como a versão mais estável para usuários de PC.
+- **Principais Correções**: As atualizações principais focam na **otimização de VRAM**, prevenção de crashes em CPUs de alta contagem de threads e redução de stuttering (travamentos leves).
+- **Melhoria de Performance**: Recursos como **DLSS, FSR e Frame Generation** foram refinados para suportar 120 FPS em hardware recomendado.
+- **Novo Conteúdo**: Patches recentes adicionaram cinco novas **Missões de Aliados** e expandiram os parceiros de treinamento no Dojo para progressão de endgame.
+- **Requisito de Sistema**: Certifique-se de usar um **SSD** com pelo menos 155 GB de espaço livre para evitar crashes relacionados ao carregamento.
+</Callout>
+
+<Section icon={Settings} title="Notas de Atualização de A Ascensão do Ronin: Histórico da Versão 1.09">
+
+Desde o lançamento para PC em março de 2025, a Team NINJA lançou várias atualizações críticas para abordar a estabilidade de performance e o equilíbrio da jogabilidade. As **notas de atualização de A Ascensão do Ronin** acompanham a transição da resolução de problemas iniciais de lançamento para otimizações gráficas avançadas. Essas atualizações são essenciais para jogadores que enfrentam stuttering em áreas densas como Yokohama ou Edo, bem como para aqueles que utilizam hardware de ponta da NVIDIA ou AMD.
+
+| Versão | Data | Foco Principal | Destaque |
+| :--- | :--- | :--- | :--- |
+| **1.09.0.5** | 11 de nov de 2025 | Estabilidade | Corrigidos crashes relacionados a equipamentos específicos de personagens |
+| **1.09.0.4** | 30 de abr de 2025 | Correção de Bugs | Adicionada recuperação de dados salvos para 'Em Busca de Novos Conhecimentos' |
+| **1.09.0.3** | 10 de abr de 2025 | Otimização | Redução do uso de VRAM e melhoria na Oclusão Ambiental |
+| **1.09.0.2** | 25 de mar de 2025 | Performance | Adicionados modos 'Priorizar Gráficos' e 'Priorizar FPS' |
+| **1.09.0.1** | 14 de mar de 2025 | Dia de Lançamento | Corrigidos crashes de inicialização em CPUs com mais de 33 threads |
+
+<Callout type="warning" title="Requisito de Atualização">
+A versão 1.09.0.3 é considerada uma atualização obrigatória para jogadores com placas de 8GB de VRAM. A falha ao atualizar pode resultar em quedas significativas de quadros durante a transição para a região de Kyoto.
+</Callout>
+
+A equipe de desenvolvimento priorizou os problemas de "stuttering" relatados durante o primeiro mês do lançamento para PC. Ao otimizar como o motor lida com os shaders do DirectX 12, a atualização 1.09.0.2 reduziu com sucesso os micro-travamentos durante a travessia em alta velocidade com o planador.
+
+</Section>
+
+<Section icon={Sparkles} title="Performance de PC e Otimizações Gráficas">
+
+A versão de PC de A Ascensão do Ronin introduziu vários recursos não presentes no lançamento original do PS5, necessitando de ajustes técnicos específicos. As **notas de atualização de A Ascensão do Ronin** detalham a implementação de tecnologias de upscaling específicas de fabricantes para ajudar os jogadores a atingirem a meta de 120 FPS.
+
+<CardGrid cols={3}>
+  <Card title="Tecnologia de Upscaling">
+    - **NVIDIA DLSS 3.5**
+    - **AMD FSR 3.0**
+    - **Intel XeSS**
+    - Otimizado para saída 4K
+  </Card>
+  <Card title="Geração de Quadros">
+    - Aumenta a percepção de FPS
+    - Suportado na série RTX 40
+    - Reduz a latência de entrada
+    - Melhor para base de 60+ FPS
+  </Card>
+  <Card title="Gestão de VRAM">
+    - Sobrecarga de textura reduzida
+    - Limpeza de cache aprimorada
+    - Melhor suporte para GPUs de 8GB
+    - Previne vazamentos de memória
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Otimização">
+Se você estiver usando uma Intel Arc B580 ou placa intermediária similar, o patch 1.09.0.3 verificou especificamente a estabilidade de 1080p/60 FPS ao usar configurações padrão e o XeSS ativado.
+</Callout>
+
+Além do upscaling, os patches refinaram a configuração de "Ajuste Dinâmico de FPS". Este recurso permite que o jogo dimensione automaticamente a resolução interna para manter uma taxa de quadros consistente durante encontros de combate caóticos envolvendo múltiplos efeitos de status baseados em fogo ou grandes grupos de inimigos.
+
+| Recurso | Nível de Suporte | Impacto do Patch |
+| :--- | :--- | :--- |
+| **Ray Tracing** | Suporte Total | Estabilidade aprimorada na v1.09.0.2 |
+| **Ultrawide** | 21:9 / 32:9 | Corrigido esticamento de UI na v1.09.0.1 |
+| **Reflex** | Apenas NVIDIA | Latência reduzida na v1.09.0.3 |
+| **Resolução 8K** | Suportado | Otimização de escala de LOD na v1.09.0.5 |
+
+</Section>
+
+<Section icon={Swords} title="Ajustes de Jogabilidade e Adições de Conteúdo">
+
+Embora as correções técnicas dominem as **notas de atualização de A Ascensão do Ronin**, a Team NINJA também introduziu mudanças significativas no equilíbrio da jogabilidade. Essas atualizações afetam como o Ki é gerenciado, a eficácia de certos estilos de combate e a disponibilidade de missões de endgame.
+
+**Principais Destaques de Jogabilidade:**
+- **Recuperação de Ki**: Ajustado o tempo do Lampejo de Lâmina para ser mais tolerante em todos os tipos de armas.
+- **Dificuldade Meia-noite**: Introduzidos dois bônus de conjunto adicionais para jogadores que concluíram a história principal.
+- **Missões de Aliados**: Adicionadas cinco novas missões na atualização de conteúdo de maio de 2024, que foram integradas à versão de PC no lançamento.
+- **Treinamento no Dojo**: Expandida a lista de parceiros de treinamento para incluir líderes de facções do final do jogo.
+
+<Callout type="info" title="Equilíbrio de Combate">
+A série de patches 1.09 sintonizou especificamente os estilos de combate 'Shinobi'. Embora esses estilos permaneçam em desvantagem contra confrontos de armas padrão, a janela de precisão para Contra-ataques Faísca foi levemente ampliada para recompensar jogadas de alta habilidade.
+</Callout>
+
+O sistema "Testamento da Alma" também recebeu atualizações para permitir replays com sincronização de nível. Isso garante que retornar a Yokohama após completar o arco de Kyoto ainda proporcione um desafio e drops de saque relevantes. Os jogadores agora podem alternar a "Deterioração da Ordem Pública" no replay do mundo Meia-noite para manter o mundo aberto povoado com fugitivos de alto nível.
+
+| Atividade | Mudança na Atualização | Benefício |
+| :--- | :--- | :--- |
+| **Missões de Vínculo** | Adicionadas 5 novas missões de Aliados | Melhores recompensas de relacionamento |
+| **Ordem Pública** | Deterioração Opcional | Farm de endgame infinito |
+| **Bônus de Conjunto** | 2 Novos Conjuntos Meia-noite | Potencial de build especializada |
+| **Dojo** | Novos parceiros adicionados | Domine estilos mais rápido |
+
+</Section>
+
+<Section icon={Target} title="Como Atualizar e Verificar Arquivos do Jogo">
+
+Para garantir que você está executando a versão mais recente do jogo e possui todas as correções mencionadas nas **notas de atualização de A Ascensão do Ronin**, siga estes passos para gerenciar sua instalação no Steam ou PS5.
+
+<Steps>
+  <Step num="1" title="Verificar Atualizações Automáticas">
+    Certifique-se de que sua plataforma está configurada para 'Sempre manter este jogo atualizado'. No Steam, clique com o botão direito no jogo em sua biblioteca, selecione Propriedades e depois Atualizações.
+  </Step>
+  <Step num="2" title="Verificar Integridade dos Arquivos do Jogo">
+    Se você enfrentar crashes apesar de estar na versão 1.09.0.5, use a ferramenta 'Verificar Integridade' no Steam. Isso verifica texturas corrompidas ou arquivos DLL ausentes que podem causar instabilidade.
+  </Step>
+  <Step num="3" title="Limpar Cache de Shaders">
+    Após um grande patch de performance (como o 1.09.0.3), recomenda-se limpar o cache de shaders da sua GPU através do painel de controle da NVIDIA ou AMD para permitir que o jogo os reconstrua do zero.
+  </Step>
+  <Step num="4" title="Confirmar Número da Versão">
+    Inicie o jogo e verifique o canto inferior direito da tela de título. Ele deve exibir o número da build atual (ex: 1.09.0.5).
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Segurança dos Dados Salvos">
+A atualização 1.09.0.2 criou um local adicional de backup para os saves. Se o seu save primário for corrompido devido a uma queda de energia, verifique a pasta 'Saved Games' no seu perfil de usuário do Windows pelos arquivos '.bak'.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Preparação para Atualizações 2026">
+
+À medida que A Ascensão do Ronin continua a receber suporte, manter-se preparado para futuros lançamentos de conteúdo e refinamentos técnicos é a chave para uma experiência suave. Use este checklist para garantir que seu sistema está otimizado para as últimas **notas de atualização de A Ascensão do Ronin**.
+
+<Checklist
+  id="patch-readiness"
+  title="Tarefas de Otimização Pós-Patch:"
+  items={[
+    "Instale os drivers Game Ready mais recentes da NVIDIA/AMD (lançados após nov 2025)",
+    "Confirme se o jogo está instalado em um SSD NVMe para correções de carregamento da 1.09.0.3",
+    "Ative o modo 'Priorizar FPS' se estiver jogando em um monitor de 144Hz+",
+    "Verifique o acesso ao 'Testamento da Alma' na Casa de Chá",
+    "Procure por layouts de controle atualizados feitos pela comunidade no Steam"
+  ]}
+/>
+
+<Callout type="warning" title="Nota para Modders">
+Patches grandes como o 1.09.0.3 frequentemente quebram mods de performance ou reshades feitos pela comunidade. Sempre desative os mods antes de atualizar para evitar erros de loop de inicialização.
+</Callout>
+
+</Section>
+
+<Section icon={Info} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "As notas de atualização de A Ascensão do Ronin se aplicam tanto ao PS5 quanto ao PC?",
+    answer: "A maioria das atualizações de jogabilidade e conteúdo (como novas Missões de Aliados) se aplica a ambos. No entanto, a série 1.09.0.x aborda especificamente problemas de performance, configurações gráficas e compatibilidade de hardware exclusivos do PC."
+  },
+  {
+    question: "Como corrijo o stuttering em Yokohama após a última atualização?",
+    answer: "Certifique-se de ter o 'Ajuste Dinâmico de FPS' ativado e que seu cache de shaders tenha sido limpo. O patch 1.09.0.3 melhorou isso significativamente, mas drivers de GPU desatualizados ainda podem causar engasgos."
+  },
+  {
+    question: "A dificuldade Meia-noite foi alterada nos patches recentes?",
+    answer: "Sim, os patches adicionaram dois bônus de conjunto adicionais especificamente para a dificuldade Meia-noite e introduziram o recurso 'Deterioração da Ordem Pública' para jogadores que desejam resetar bases hostis no pós-jogo."
+  },
+  {
+    question: "Posso jogar co-op com jogadores que não atualizaram para a 1.09.0.5?",
+    answer: "Não, o multiplayer online exige que todos os participantes estejam na mesma versão. O jogo solicitará que você atualize antes de permitir que você entre nos menus 'Recrutar' ou 'Participar'."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Rise of the Ronin Gameplay: Combat Styles & Weapons Guide",
+  description: "Master Rise of the Ronin gameplay with our guide to combat styles, weapon tier lists, parrying mechanics, builds, and co-op progression tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/f8fafc?text=Gameplay+Guide",
+  date: "2026-07-16",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core progression**: Mastering **rise of the ronin gameplay** requires learning the rhythm of Counterspark parries and weapon matchups.
+- **Weapon diversity**: Experiment with nine unique melee weapons, utilizing fast attack recovery to maintain pressure on enemy Ki.
+- **Stance matching**: Always switch between Ten, Chi, and Jin styles to counter the specific weapon your opponent is holding.
+- **Exploration rewards**: Clearing hostile bases and raising regional bonds unlocks crucial combat styles, upgrade materials, and special gear.
+- **Choice management**: Use the Testament of the Soul system to replay missions and explore alternative story pathways without restarting.
+</Callout>
+
+<Section icon={Swords} title="Melee Weapons Tier List and Selection">
+
+To master **rise of the ronin gameplay**, players must understand how weapons and combat styles interact. The game features nine distinct melee weapon categories, along with an unarmed combat option. Each weapon offers a different balance of speed, reach, damage, and Ki pressure. Ki pressure is the ability to deplete an opponent's stamina gauge, leaving them vulnerable to devastating Critical Hits. 
+
+While every weapon is viable when paired with the correct combat style, some options provide more consistency during difficult boss encounters and general open-world exploration. Our tier list ranks these weapons based on ease of use, attack recovery speed, and versatility in duels.
+
+| Weapon | Tier | Damage | Speed | Reach | Best For |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Katana** | S | Medium-High | High | Medium | Balanced dueling and Counterspark learning |
+| **Paired Swords** | S | Medium | Very High | Short | High pressure and rapid style switching |
+| **Oxtail Blade** | S | Medium-High | Very High | Long | High mobility and crowd control |
+| **Polearm** | A | High | Medium | Very Long | Safe spacing and group fights |
+| **Odachi** | A | Very High | Medium-Low | Long | Stance breaking and heavy punish damage |
+| **Spear** | A | Medium-High | Medium | Long | Defensive spacing and thrust attacks |
+| **Saber** | A | Medium | High | Medium | Mobile dueling and quick counter-attacks |
+| **Bayonet** | A | Medium | Medium | Long | Hybrid melee and ranged firearm combat |
+| **Greatsword** | B | Very High | Low | Long | Maximum single-hit damage and heavy punishes |
+| **Unarmed** | C | Low | High | Very Short | Challenge runs and non-lethal combat |
+
+The Katana is the most versatile starting option, featuring the largest selection of combat styles. It allows players to adapt to almost any enemy matchup. For players who prefer aggressive, fast-paced combat, the Paired Swords and Oxtail Blade offer rapid attack recovery, making it easier to cancel animations and perform defensive maneuvers. Heavy weapons like the Odachi and Greatsword deal massive damage but require precise timing, as missed swings leave the player highly vulnerable to counter-attacks.
+
+<Callout type="tip" title="Weapon Selection Tip">
+Always equip two primary weapons that complement each other. Pairing a fast, short-range weapon like the Paired Swords with a long-reaching option like the Polearm ensures you can handle both swift single targets and large groups of enemies.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Combat Styles and Counterspark Mechanics">
+
+Combat styles determine your weapon's moveset, special Martial Skills, and parry animations. The combat system operates on a rock-paper-scissors dynamic split across three primary stances: Ten (Sky), Chi (Earth), and Jin (Human). There are also specialized Shinobi styles that offer unique, stealth-oriented movements. 
+
+Matching your style against the enemy's weapon is crucial. An advantageous matchup increases the Ki damage you inflict and enhances the stagger effect of your Countersparks.
+
+| Style | Meaning | Strong Against | Weak Against | Recommended Use |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ten (Sky)** | Sky | Katanas and medium weapons | Sabers and light weapons | Traditional sword duels and standard enemies |
+| **Chi (Earth)** | Earth | Odachis and heavy weapons | Katanas and medium weapons | Interrupting slow, heavy attacks |
+| **Jin (Human)** | Human | Sabers and light weapons | Odachis and heavy weapons | Countering fast Western blades and rapid strikes |
+| **Shinobi** | Specialist | None (Disadvantaged) | Standard weapons | High-risk, high-reward precise Countersparks |
+
+The Counterspark is both an offensive strike and a parry. Activating a Counterspark just before an enemy's attack lands will deflect the blow, severely damaging their Ki and temporarily putting them into a panicked state. When an enemy is panicked, your attacks deal increased health and Ki damage.
+
+For advanced Ki management, players must use the Blade Flash mechanic. Pressing the stance-switch button immediately after an attack string cleans blood from your weapon, instantly restoring a portion of your consumed Ki. This allows you to maintain sustained offensive pressure without exhausting your stamina.
+
+<Callout type="warning" title="Defensive Caution">
+Do not attempt to Counterspark every single attack in a multi-hit combination. If you are unfamiliar with an enemy's attack rhythm, it is much safer to hold the block button and only attempt to Counterspark the final strike of their combo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimal Character Builds and Skill Allocations">
+
+Character development is driven by four primary attributes: Strength, Dexterity, Charm, and Intellect. Investing skill points into these trees unlocks passive combat bonuses, new Martial Skills, and vital exploration tools. While you can reset your skill points later at your Longhouse, focusing on a cohesive build early on makes tough encounters much more manageable.
+
+<CardGrid cols={3}>
+  <Card title="Strength Aggressive Build">
+    - **Primary Weapons**: Katana, Odachi, Greatsword
+    - **Core Focus**: Direct physical damage, high defense, and guard efficiency.
+    - **Key Skills**: Primary weapon damage upgrades and Ki recovery on successful parries.
+  </Card>
+  <Card title="Charm Parry Build">
+    - **Primary Weapons**: Katana, Polearm, Oxtail Blade
+    - **Core Focus**: Rapid Ki recovery, increased luck for loot drops, and strong social skills.
+    - **Key Skills**: Critical Hit damage boosts and increased bond progression rates.
+  </Card>
+  <Card title="Dexterity Stealth Build">
+    - **Primary Weapons**: Paired Swords, Saber, Bayonet
+    - **Core Focus**: Silent assassinations, high mobility, and ranged weapon efficiency.
+    - **Key Skills**: Grappling hook takedowns, quiet movement, and shuriken damage.
+  </Card>
+</CardGrid>
+
+Intellect builds are also highly effective, focusing on elemental status applications, improved medicine potency, and firearm damage. Regardless of your build, prioritizing skills that improve your healing item capacity and overall Ki recovery speed is highly recommended during your first few hours of play.
+
+<Callout type="success" title="Build Flexibility">
+You are never locked into a single playstyle. Because you can equip two primary weapons and switch combat styles on the fly, you can easily run a hybrid build, such as combining Strength and Dexterity to balance heavy punish attacks with stealthy approaches.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Beginner Progression Route">
+
+Navigating the transition from the linear prologue to the open world of Yokohama can be challenging. Following a structured progression route ensures you collect essential gear, unlock powerful combat styles, and level up efficiently without hitting artificial difficulty walls.
+
+<Steps>
+  <Step num="1" title="Select Your Starting Difficulty">
+    Choose between Dawn (Easy), Dusk (Normal), or Twilight (Hard). Dawn is excellent for players who want to focus on exploration and story, as it increases healing item effectiveness and reduces Ki consumption. You can freely change this setting at any time from the game menu.
+  </Step>
+  <Step num="2" title="Complete the Prologue and Learn Basics">
+    Use the linear opening section on the Black Ships to practice defensive mechanics. Focus on learning the timing of the Counterspark against basic soldiers and understand how your primary weapon's attack animations recovery feels.
+  </Step>
+  <Step num="3" title="Clear Hostile Bases in Yokohama">
+    Upon reaching the open world, do not rush directly to main story markers. Instead, locate nearby red areas on your map to restore Public Order. Clearing these bandit camps unlocks local merchants, reveals hidden collectibles, and rewards you with high-quality gear.
+  </Step>
+  <Step num="4" title="Establish and Upgrade Your Longhouse">
+    Once you unlock your city lodging (the Longhouse), use it to manage your companions. Talk with visiting allies, give them preferred gifts to raise your bond levels, and customize your character's appearance. This is also where you can reset your skill points if needed.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Progression Note">
+Raising regional bonds is just as important as leveling up your character. High regional bonds grant permanent discounts at local shops and reveal the locations of rare fugitives, who drop some of the best early-game combat styles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Multiplayer Co-op and World Exploration">
+
+The open world of late-Edo Japan is filled with activities that can be tackled solo or with up to two other players. Cooperative multiplayer is mission-based rather than a seamless shared open world. Players can recruit friends or random allies from the cooperative setup screen before launching major story operations.
+
+| Feature | Solo Gameplay | Online Co-op Gameplay |
+| :--- | :--- | :--- |
+| **World Exploration** | Full open-world access across all regions | Restricted to specific mission instances |
+| **Ally Selection** | Up to two AI companions or solo play | Up to two online human players |
+| **Mission Progress** | Saves directly to host campaign | Progress applies to host; guests earn rewards |
+| **Asynchronous Features** | Pilgrim Dogs and wandering ronin active | Disabled during active multiplayer sessions |
+
+While free exploration of the countryside remains a solo experience, the game features asynchronous online elements to keep the world feeling alive. Other players' custom ronin will occasionally appear in your game as wandering NPCs. You can fight them for rare equipment or rescue them from bandits for faction rewards. Additionally, sending out your Pilgrim Dog with a coin deposit allows it to travel to other players' worlds, returning later with rare items and crafting materials.
+
+<Checklist
+  id="exploration-goals"
+  title="Regional Completion Goals:"
+  items={[
+    "Restore Public Order in all hostile districts",
+    "Defeat named Fugitives to unlock advanced combat styles",
+    "Pray at hidden Shrines to earn bonus skill points",
+    "Find and pet local Cats to unlock special merchant items"
+  ]}
+/>
+
+<Callout type="tip" title="Co-op Strategy">
+When playing co-op, coordinate your weapon choices with your teammates. Having one player draw enemy attention with heavy attacks while another inflicts status effects from range makes boss fights significantly easier.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does co-op affect rise of the ronin gameplay progression?",
+    answer: "Cooperative play is strictly mission-based. While you can complete major story battles with friends, open-world exploration, regional bond clearing, and side activities must be done in your solo game world."
+  },
+  {
+    question: "Can I unlock every combat style in a single playthrough?",
+    answer: "Yes. By raising your bonds with key historical characters, defeating specific fugitives, and completing faction-specific missions, you can eventually unlock and fully upgrade all combat styles for every weapon."
+  },
+  {
+    question: "What should I do if I regret a major story choice?",
+    answer: "Do not restart your game. Once you reach the city of Edo, you unlock the Testament of the Soul at your Longhouse. This feature allows you to replay completed missions, choose different paths, and view alternative outcomes while keeping your current character progress."
+  },
+  {
+    question: "What is the benefit of using the Blade Flash mechanic?",
+    answer: "Blade Flash instantly recovers a portion of your consumed stamina (Ki) after an attack. Performing this action regularly is essential for maintaining aggressive combos and ensuring you always have enough Ki left over to block or parry incoming strikes."
+  }
+]} />
+
+<Callout type="success" title="Final Preparation">
+Now that you understand the core mechanics of weapons, stances, and parrying, you are ready to explore the beautiful, dangerous landscape of Bakumatsu-era Japan. Take your time, master the Counterspark, and forge your own path through history.
+</Callout>
+
+</Section>

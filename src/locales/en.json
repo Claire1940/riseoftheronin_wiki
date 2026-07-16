@@ -10,7 +10,16 @@
       "twitterDescription": "Explore Rise of the Ronin builds, best weapons, combat styles, bond missions, romance, choices, endings, and PC performance."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "weapons": "Weapons",
+    "story": "Story",
+    "map": "Map",
+    "technical": "Technical",
+    "platforms": "Platforms",
+    "reviews": "Reviews",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -880,22 +889,22 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Rise of the Ronin Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced combat, builds, and mission walkthroughs across Bakumatsu-era Japan.",
-      "metaTitle": "Rise of the Ronin Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Rise of the Ronin guides covering beginner tips, combat styles, weapons, builds, missions, bonds, choices, and PC performance for mastering the open-world samurai RPG.",
+      "description": "Complete gameplay guides from beginner basics and combat mechanics to exploration, fugitive hunts, and trophy roadmaps across Bakumatsu-era Japan.",
+      "metaTitle": "Rise of the Ronin Guides - Beginner Tips & Walkthroughs",
+      "metaDescription": "Complete Rise of the Ronin guides covering beginner tips, Counterspark combat, exploration, fugitives, trophies, and progression for mastering the open-world samurai RPG.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, combat strategies, the Ten-Chi-Jin style system, and story progression. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, combat strategies, exploration, and story progression. Learn everything from first steps and difficulty choices to advanced techniques and trophy hunting.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand Counterspark timing, Ki management, and combat styles to avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven routes through Yokohama, Edo, and Kyoto to survive and thrive",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for bosses, builds, bonds, and story choices"
+        "step1Description": "Understand Counterspark timing, Ki management, and combat stances to avoid common beginner mistakes",
+        "step2Title": "Explore Efficiently",
+        "step2Description": "Track down fugitives, catch cats, and clear story objectives without missing hidden content",
+        "step3Title": "Earn Every Trophy",
+        "step3Description": "Follow a clear roadmap to unlock all trophies and complete every region objective"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
@@ -920,125 +929,125 @@
       "featured": "Featured & Essential",
       "all": "All Weapons"
     },
-    "builds": {
-      "title": "Rise of the Ronin Builds",
-      "description": "Master skill trees, attribute priorities, gear sets, and complete builds for Strength, Dexterity, Charm, and Intellect playstyles.",
-      "metaTitle": "Rise of the Ronin Builds - Skill Trees, Gear & Set Bonuses",
-      "metaDescription": "Master Rise of the Ronin builds with skill tree priorities, attribute allocation, equipment effects, set bonuses, and complete loadouts for every playstyle.",
-      "categoryLabel": "BUILDS & SKILLS",
-      "whatIs": "What are Builds?",
-      "whatIsDescription": "Guides to skill trees, attributes, equipment effects, and set bonuses. Learn to build around Strength, Dexterity, Charm, or Intellect and reset skills at the Longhouse.",
-      "why": "Why plan a build?",
+    "story": {
+      "title": "Rise of the Ronin Story",
+      "description": "Story choices, faction decisions, character fates, and the consequences of key decisions across the Bakumatsu campaign.",
+      "metaTitle": "Rise of the Ronin Story - Choices, Factions & Consequences",
+      "metaDescription": "Explore Rise of the Ronin story choices, faction decisions, character fates like your Blade Twin, and how each decision reshapes missions and outcomes.",
+      "categoryLabel": "STORY & CHOICES",
+      "whatIs": "What is the Story Guide?",
+      "whatIsDescription": "Guides to faction choices, major story decisions, and character fates. Learn how decisions about Katsu, Naosuke II, and your Blade Twin change missions, allies, and outcomes.",
+      "why": "Why study the story?",
       "whySteps": {
-        "step1Title": "Choose Your Path",
-        "step1Description": "Specialize in aggressive melee, parry-focused Ki-break, stealth, or ranged playstyles",
-        "step2Title": "Optimize Gear",
-        "step2Description": "Activate set bonuses and match weapon effects to your combat actions",
-        "step3Title": "Reset and Adapt",
-        "step3Description": "Reallocate skill points at the Longhouse when new weapons and styles unlock"
+        "step1Title": "Make Key Decisions",
+        "step1Description": "Choose whether to work with Katsu, spare or kill Naosuke II, and how to handle your Blade Twin",
+        "step2Title": "Understand Your Blade Twin",
+        "step2Description": "Learn why your Blade Twin betrays you and whether they return later in the story",
+        "step3Title": "See the Consequences",
+        "step3Description": "Discover how each choice reshapes missions, allies, and available content"
       },
       "featured": "Featured & Essential",
-      "all": "All Builds"
-    },
-    "missions": {
-      "title": "Rise of the Ronin Missions",
-      "description": "Walkthroughs for main missions, bond missions, ally missions, and major boss encounters across every region.",
-      "metaTitle": "Rise of the Ronin Missions - Walkthroughs & Boss Guides",
-      "metaDescription": "Complete Rise of the Ronin mission walkthroughs covering the main story route, bond missions, ally missions, fugitive fights, and major boss encounters.",
-      "categoryLabel": "MISSIONS & BOSSES",
-      "whatIs": "What are Missions?",
-      "whatIsDescription": "Guides to the main story route, Bond Missions, Ally Missions, and optional encounters. Learn preparation, boss strategies, and Midnight difficulty progression.",
-      "why": "Why follow mission guides?",
-      "whySteps": {
-        "step1Title": "Prepare Effectively",
-        "step1Description": "Gather the right weapons, styles, healing, and bonded allies before major missions",
-        "step2Title": "Beat Every Boss",
-        "step2Description": "Learn boss attack patterns, red attacks, and Counterspark windows",
-        "step3Title": "Explore Alternate Paths",
-        "step3Description": "Replay missions through Testament of the Soul to see different choices and outcomes"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Missions"
-    },
-    "bonds": {
-      "title": "Rise of the Ronin Bonds",
-      "description": "Build character and region bonds, unlock romance Veiled Vows, give gifts, and complete companion storylines.",
-      "metaTitle": "Rise of the Ronin Bonds - Romance, Veiled Vows & Gifts",
-      "metaDescription": "Master Rise of the Ronin bonds and romance with character relationships, region bonds, gifts, Bond Missions, and Veiled Vow romance options.",
-      "categoryLabel": "BONDS & ROMANCE",
-      "whatIs": "What are Bonds?",
-      "whatIsDescription": "Guides to character bonds, region bonds, gifts, Bond Missions, and Veiled Vow romance. Learn how relationships unlock combat styles, skills, weapons, and items.",
-      "why": "Why raise bonds?",
-      "whySteps": {
-        "step1Title": "Unlock Rewards",
-        "step1Description": "Character and region bonds provide combat styles, skills, weapons, and merchant discounts",
-        "step2Title": "Build Romance",
-        "step2Description": "Complete relationship content to form Veiled Vows with eligible companions",
-        "step3Title": "Deepen the Story",
-        "step3Description": "Companion bonds affect missions, allies, and available dialogue options"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Bonds"
-    },
-    "choices": {
-      "title": "Rise of the Ronin Choices",
-      "description": "Faction decisions, story consequences, multiple endings, and how to replay choices without restarting.",
-      "metaTitle": "Rise of the Ronin Choices - Factions, Consequences & Endings",
-      "metaDescription": "Explore Rise of the Ronin story choices, faction decisions, mission consequences, alternate endings, and Testament of the Soul replays.",
-      "categoryLabel": "CHOICES & ENDINGS",
-      "whatIs": "What are Choices?",
-      "whatIsDescription": "Guides to faction choices, major story decisions, and their consequences. Learn how decisions change missions, allies, outcomes, and endings.",
-      "why": "Why study choices?",
-      "whySteps": {
-        "step1Title": "Pick Your Faction",
-        "step1Description": "Choose between pro-Shogunate and anti-Shogunate paths that reshape key missions",
-        "step2Title": "See the Consequences",
-        "step2Description": "Understand how protect, kill, and spare decisions change mission content and allies",
-        "step3Title": "Reach Every Ending",
-        "step3Description": "Use Testament of the Soul to explore alternate outcomes and missed rewards"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Choices"
+      "all": "All Story Guides"
     },
     "map": {
       "title": "Rise of the Ronin Map",
-      "description": "Region maps, collectibles, fugitive locations, Public Order targets, and points of interest across Yokohama, Edo, and Kyoto.",
-      "metaTitle": "Rise of the Ronin Map - Collectibles, Fugitives & Locations",
-      "metaDescription": "Explore Rise of the Ronin region maps with collectibles, fugitive locations, Public Order targets, shrines, cats, chests, and Veiled Edge Banners.",
+      "description": "Region maps, collectibles, treasure chests, fugitive locations, and points of interest across Yokohama, Edo, and Kyoto.",
+      "metaTitle": "Rise of the Ronin Map - Collectibles, Treasures & Locations",
+      "metaDescription": "Explore Rise of the Ronin region maps with collectibles, treasure chests, fugitive locations, cats, shrines, and points of interest across every region.",
       "categoryLabel": "MAP & COLLECTIBLES",
       "whatIs": "What is the Map?",
-      "whatIsDescription": "Guides to region maps, collectibles, and locations. Find cats, shrines, chests, photos, fugitives, and Public Order targets across every region.",
+      "whatIsDescription": "Guides to region maps, collectibles, and locations. Find cats, shrines, treasure chests, photos, fugitives, and rare items like the tuxedo cat across every region.",
       "why": "Why explore the map?",
       "whySteps": {
         "step1Title": "Find Collectibles",
-        "step1Description": "Locate cats, shrines, chests, photos, and Veiled Edge Banners in each region",
-        "step2Title": "Restore Public Order",
-        "step2Description": "Clear bandit bases and defeat fugitives to raise region bonds",
+        "step1Description": "Locate cats, shrines, treasure chests, photos, and rare items in each region",
+        "step2Title": "Hunt Treasures",
+        "step2Description": "Track down Motomachi, Hiranuma, and Shibuya treasure chests for valuable rewards",
         "step3Title": "Track Progress",
         "step3Description": "Complete every region objective for rewards and exploration benefits"
       },
       "featured": "Featured & Essential",
       "all": "All Map Guides"
     },
-    "pc": {
-      "title": "Rise of the Ronin PC",
-      "description": "PC system requirements, best graphics settings, performance optimization, ultrawide support, and Steam update notes.",
-      "metaTitle": "Rise of the Ronin PC - Requirements, Best Settings & Performance",
-      "metaDescription": "Get the best Rise of the Ronin PC experience with system requirements, best graphics settings, DLSS, FSR, XeSS, frame generation, 120 FPS, and Steam update notes.",
-      "categoryLabel": "PC & PERFORMANCE",
-      "whatIs": "What is the PC Guide?",
-      "whatIsDescription": "Technical guides covering PC requirements, graphics settings, performance optimization, and Steam updates. Learn about 8K, 120 FPS, ray tracing, DLSS, FSR, and XeSS.",
-      "why": "Why optimize the PC version?",
+    "technical": {
+      "title": "Rise of the Ronin Technical",
+      "description": "PC system requirements, performance fixes, FPS unlocking, crash solutions, and save file locations for a smooth experience.",
+      "metaTitle": "Rise of the Ronin Technical - Requirements, FPS, Crash & Save Fixes",
+      "metaDescription": "Fix Rise of the Ronin performance with system requirements, FPS unlock, crash fixes, save file location, and optimization tips for PC and PS5.",
+      "categoryLabel": "TECHNICAL & PERFORMANCE",
+      "whatIs": "What is the Technical Guide?",
+      "whatIsDescription": "Technical guides covering PC system requirements, performance optimization, FPS unlocking, crash fixes, and save file locations for Windows and PS5.",
+      "why": "Why optimize performance?",
       "whySteps": {
         "step1Title": "Meet the Requirements",
-        "step1Description": "Confirm your hardware meets the 16 GB RAM, DirectX 12, and 155 GB SSD requirements",
-        "step2Title": "Tune Graphics",
-        "step2Description": "Apply the best settings for 60 FPS, 120 FPS, DLSS, FSR, and frame generation",
-        "step3Title": "Stay Updated",
-        "step3Description": "Track Steam patches, fixes, and performance improvements"
+        "step1Description": "Confirm your hardware meets the RAM, GPU, and 155 GB SSD requirements before playing",
+        "step2Title": "Boost Your FPS",
+        "step2Description": "Unlock higher frame rates and apply the best graphics settings for smooth combat",
+        "step3Title": "Fix Crashes & Saves",
+        "step3Description": "Resolve crashes, stuttering, and locate your save files for backup"
       },
       "featured": "Featured & Essential",
-      "all": "All PC Guides"
+      "all": "All Technical Guides"
+    },
+    "platforms": {
+      "title": "Rise of the Ronin Platforms",
+      "description": "Platform availability, release dates, PS5 and PC versions, Steam launch details, and PS Plus availability.",
+      "metaTitle": "Rise of the Ronin Platforms - PS5, PC, Steam & Release Date",
+      "metaDescription": "Find Rise of the Ronin on PS5 and PC, check the Steam release date, PC port details, and PS Plus availability across platforms.",
+      "categoryLabel": "PLATFORMS & RELEASE",
+      "whatIs": "What are Platforms?",
+      "whatIsDescription": "Guides to platform availability, release dates, and versions. Learn about the PS5 original release, the PC and Steam port, system support, and PS Plus availability.",
+      "why": "Why check platforms?",
+      "whySteps": {
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare the PS5 and PC versions to choose where to play Rise of the Ronin",
+        "step2Title": "Know the Release Date",
+        "step2Description": "Track the original PS5 launch and the Steam PC port release schedule",
+        "step3Title": "Access via PS Plus",
+        "step3Description": "Check PS Plus catalog availability and subscription access options"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
+    },
+    "reviews": {
+      "title": "Rise of the Ronin Reviews",
+      "description": "Reviews, Metacritic scores, gameplay impressions, value analysis, and comparisons to similar samurai action RPGs.",
+      "metaTitle": "Rise of the Ronin Reviews - Metacritic, Gameplay & Is It Worth It",
+      "metaDescription": "Read Rise of the Ronin reviews, Metacritic and critic scores, gameplay impressions, value analysis, and how it compares to Ghost of Tsushima.",
+      "categoryLabel": "REVIEWS & SCORES",
+      "whatIs": "What are Reviews?",
+      "whatIsDescription": "Guides to reviews, critic scores, and gameplay impressions. Learn about Metacritic ratings, player reception, value for money, and how Rise of the Ronin compares to similar games.",
+      "why": "Why read reviews?",
+      "whySteps": {
+        "step1Title": "Check the Scores",
+        "step1Description": "Review Metacritic and critic ratings to gauge overall reception and quality",
+        "step2Title": "Decide If It's Worth It",
+        "step2Description": "Weigh gameplay depth, content, and price to decide if Rise of the Ronin is worth buying",
+        "step3Title": "Compare Alternatives",
+        "step3Description": "See how it stacks up against Ghost of Tsushima and other samurai action RPGs"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Reviews"
+    },
+    "updates": {
+      "title": "Rise of the Ronin Updates",
+      "description": "Latest updates, DLC content, patch notes, New Game Plus mode, mods, and demo availability.",
+      "metaTitle": "Rise of the Ronin Updates - DLC, Patch Notes, NG+ & Mods",
+      "metaDescription": "Stay current with Rise of the Ronin updates, DLC releases, patch notes, New Game Plus, PC mods, and the playable demo across platforms.",
+      "categoryLabel": "UPDATES & DLC",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Guides to game updates, downloadable content, and post-launch support. Learn about DLC expansions, patch notes, New Game Plus, PC mods, and the demo.",
+      "why": "Why follow updates?",
+      "whySteps": {
+        "step1Title": "Track Patch Notes",
+        "step1Description": "Stay informed on bug fixes, balance changes, and new content in each update",
+        "step2Title": "Explore DLC & NG+",
+        "step2Description": "Discover downloadable content expansions and New Game Plus replay options",
+        "step3Title": "Try Mods & Demo",
+        "step3Description": "Install PC mods for customization and try the demo before buying"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Updates"
     }
   }
 }
