@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Rise of the Ronin Wiki - Builds, Weapons & Choices",
+      "description": "Explore Rise of the Ronin builds, best weapons, combat styles, bond missions, romance choices, endings, collectibles, bosses, maps and PC performance tips.",
+      "keywords": "Rise of the Ronin, PS5, PC, builds, weapons, combat styles, bonds, choices, endings",
+      "ogTitle": "Rise of the Ronin Wiki - Builds, Weapons & Choices",
+      "ogDescription": "Explore Rise of the Ronin builds, best weapons, combat styles, bond missions, romance choices, endings, collectibles, bosses, maps and PC performance tips.",
+      "twitterTitle": "Rise of the Ronin Wiki - Builds, Weapons & Choices",
+      "twitterDescription": "Explore Rise of the Ronin builds, best weapons, combat styles, bond missions, romance, choices, endings, and PC performance."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Bakumatsu Open-World Samurai RPG",
+    "title": "Rise of the Ronin Wiki",
+    "description": "Explore Bakumatsu-era Japan as a custom ronin, master nine melee weapons and varied combat styles, build bonds, make story-changing choices, and complete missions solo or in online co-op.",
+    "getFreeCodesCTA": "Explore Guides",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "March 22, 2024",
+        "label": "Original Release"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "PS5 & PC",
+        "label": "Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "9",
+        "label": "Melee Weapons"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Up to 3",
+        "label": "Online Co-op"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Master Rise of the Ronin?",
+    "description": "Join the Rise of the Ronin community on Discord and Reddit for builds, weapons, combat styles, and PC performance tips!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Rise of the Ronin Wiki",
+    "description": "Your complete resource hub for Rise of the Ronin builds, weapons, combat styles, bonds, missions, choices, endings, and PC performance guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "reddit": "Reddit",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2024-2026 Rise of the Ronin Wiki. Not affiliated with Team NINJA, Koei Tecmo, or Sony Interactive Entertainment.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

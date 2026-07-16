@@ -161,7 +161,7 @@ export default function HomePageClient({
         name: "Rise of the Ronin - Pre-Order Trailer",
         description:
           "Official Rise of the Ronin pre-order trailer showcasing Bakumatsu-era open-world samurai action and combat.",
-        uploadDate: "2026-03-12",
+        uploadDate: "2024-02-13",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
         embedUrl: "https://www.youtube.com/embed/zS8EvlTGCiE",
         url: "https://www.youtube.com/watch?v=zS8EvlTGCiE",
@@ -1325,7 +1325,7 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://steamcommunity.com/app/1340990"
+                    href="https://discord.com/invite/ktfamily"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1334,7 +1334,7 @@ export default function HomePageClient({
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/1340990/Rise_of_the_Ronin/"
+                    href="https://steamcommunity.com/app/1340990"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1400,7 +1400,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/1340990"
+                    href="https://discord.com/invite/ktfamily"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1410,12 +1410,12 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/PlayStation"
+                    href="https://www.reddit.com/r/riseoftheronin/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.twitter}
+                    {t.footer.reddit}
                   </a>
                 </li>
                 <li>

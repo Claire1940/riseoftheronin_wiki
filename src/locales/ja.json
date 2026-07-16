@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Rise of the Ronin Wiki - クラフト、バイオーム、実績",
+      "description": "Rise of the Ronin Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
+      "keywords": "Rise of the Ronin, Rise of the Ronin wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
+      "ogTitle": "Rise of the Ronin Wiki - クラフト、バイオーム、実績",
+      "ogDescription": "Rise of the Ronin Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
+      "twitterTitle": "Rise of the Ronin Wiki - クラフト、バイオーム、実績",
+      "twitterDescription": "Rise of the Ronin Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
     }
   },
   "nav": {
@@ -35,7 +35,7 @@
   },
   "hero": {
     "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
+    "title": "Rise of the Ronin Wiki",
     "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
     "getFreeCodesCTA": "クラフトガイドを見る",
     "playOnSteamCTA": "Steamでプレイ",
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
+    "title": "Rise of the Roninを探索する準備はできましたか？",
+    "description": "DiscordのRise of the Roninコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
     "joinCommunity": "Discordに参加",
     "joinGame": "Steamでプレイ"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Rise of the Ronin Wiki",
+    "description": "Rise of the Roninのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
@@ -804,7 +804,7 @@
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
+    "copyright": "© 2026 Rise of the Ronin Wiki. Rise of the Roninの開発元とは提携していません。",
     "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {

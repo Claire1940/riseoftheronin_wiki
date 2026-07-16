@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Wiki de Rise of the Ronin - Fabricação, Biomas e Conquistas",
+      "description": "A Wiki de Rise of the Ronin abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
+      "keywords": "Rise of the Ronin, Rise of the Ronin wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
+      "ogTitle": "Wiki de Rise of the Ronin - Fabricação, Biomas e Conquistas",
+      "ogDescription": "A Wiki de Rise of the Ronin abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
+      "twitterTitle": "Wiki de Rise of the Ronin - Fabricação, Biomas e Conquistas",
+      "twitterDescription": "A Wiki de Rise of the Ronin abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
     }
   },
   "nav": {
@@ -35,7 +35,7 @@
   },
   "hero": {
     "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
+    "title": "Rise of the Ronin Wiki",
     "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
     "getFreeCodesCTA": "Explore o Guia de Criação",
     "playOnSteamCTA": "Jogue no Steam",
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
+    "title": "Pronto para explorar Rise of the Ronin?",
+    "description": "Junte-se à comunidade de Rise of the Ronin no Discord para guias, atualizações e discussões!",
     "joinCommunity": "Entrar no Discord",
     "joinGame": "Jogue no Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
+    "title": "Wiki de Rise of the Ronin",
+    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Rise of the Ronin.",
     "resources": "Recursos",
     "community": "Comunidade",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
+    "copyright": "© 2026 Wiki de Rise of the Ronin. Não afiliada aos desenvolvedores de Rise of the Ronin.",
     "disclaimer": "Site de recursos não oficial feito por fãs."
   },
   "pages": {
