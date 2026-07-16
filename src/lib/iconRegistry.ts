@@ -28,6 +28,25 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Rise of the Ronin 主题图标（首页 Tools Grid 8 卡）
+  Compass: LucideIcons.Compass,
+  Swords: LucideIcons.Swords,
+  Zap: LucideIcons.Zap,
+  Cpu: LucideIcons.Cpu,
+  Map: LucideIcons.Map,
+  Heart: LucideIcons.Heart,
+  Target: LucideIcons.Target,
+  Crosshair: LucideIcons.Crosshair,
+  Trophy: LucideIcons.Trophy,
+  Scroll: LucideIcons.Scroll,
+  Gauge: LucideIcons.Gauge,
+  MapPin: LucideIcons.MapPin,
+  Route: LucideIcons.Route,
+  Medal: LucideIcons.Medal,
+  Layers: LucideIcons.Layers,
+  Flame: LucideIcons.Flame,
+  Flag: LucideIcons.Flag,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
