@@ -10,14 +10,7 @@
       "twitterDescription": "Explore Rise of the Ronin builds, best weapons, combat styles, bond missions, romance, choices, endings, and PC performance."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
