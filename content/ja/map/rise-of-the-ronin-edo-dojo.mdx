@@ -1,0 +1,72 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "ライズ オブ ザ ローニン - オダニ道場ガイド",
+  description: "詳細なガイドでライズ オブ ザ ローニンにおけるオダニ道場の秘密を発見してください。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=Odani+Dojo+Guide",
+  date: "2026-07-24",
+  author: "ライズ オブ ザ ローニン Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **場所**: 江戸の渋谷エリア
+- **師匠**: 享有名望の一流の剣術師、小丹波小左衛門
+- **訓練**: 剣術の基本形である形（カタ）と竹刀を使った実戦シチュエーションを模擬する練習試合
+- **有名な生徒**: 畑中虎之助
+- **専門分野**: 時機を捉えるジキシンカゲ流
+</Callout>
+
+<Section icon={Map} title="オダニ道場の紹介">
+オダニ道場は、江戸の渋谷エリアに位置する名誉あるランドマークです。尊敬される一流の剣術師、小丹波小左衛門の指導の下、生徒たちはジキシンカゲ流のスタイルで訓練を受けます。道場は厳格な訓練で知られており、これまでに多くの熟練した剣士を輩出してきました。
+</Section>
+
+<Section icon={Swords} title="訓練方法">
+<Steps>
+  <Step num="1" title="形（カタ）">
+    生徒たちは剣術の基本形である形（カタ）から訓練を始めます。これらは技術と纪律を向上させるために設計された詳細な剣術の形式です。
+  </Step>
+  <Step num="2" title="練習試合">
+    形（カタ）をマスターした後、生徒たちは竹刀を使った実戦シチュエーションを模擬する練習試合に参加します。
+  </Step>
+  <Step num="3" title="高度な技術">
+    生徒たちが進むにつれて、道場での成功に不可欠な高度な技術と戦略を学びます。
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="著名な生徒">
+オダニ道場は多くの優れた生徒を輩出しており、その中でも最も有名なのは畑中虎之助です。彼の技術と剣術の芸術に対する献身が、彼自身を伝説的人物にしました。
+</Section>
+
+<Section icon={Target} title="専門分野 - 時機を捉えるジキシンカゲ流">
+時機を捉えるジキシンカゲ流のスタイルは、流麗で機敏な動き、速い攻撃と欺瞞に注目しています。このスタイルの生徒は、正確な動きとタイミングを学び、戦場での強力な対戦相手となります。
+</Section>
+
+<Section icon={Shield} title="結論">
+オダニ道場は、ライズ オブ ザ ローニンで一流の剣術師になるために必要な献身と纪律の証です。初心者から経験豊富なプレイヤーまで、スキルを向上させたいすべての人に挑戦的で報酬の多い体験を提供します。
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+<FAQ items={[
+  {
+    question: "オダニ道場に加入する方法は何ですか？",
+    answer: "オダニ道場に加入するには、まず小左衛門師匠が設定した要件を満たす必要があります。これは、剣術の強固な基礎と厳格な訓練にコミットする意志を示すことです。"
+  },
+  {
+    question: "時機を捉えるジキシンカゲ流のスタイルは何が特徴ですか？",
+    answer: "時機を捉えるジキシンカゲ流のスタイルは、流麗で機敏な動き、速い攻撃と欺瞞に注目しています。それは正確な動きとタイミングを重視し、戦場での強力なスタイルです。"
+  },
+  {
+    question: "剣術の母国語でない場合、オダニ道場で訓練できますか？",
+    answer: "剣術の基礎が強固で学ぶ意志がある場合、オダニ道場で訓練できます。道場はスキルを向上させたいすべての背景を持つ生徒を歓迎しています。"
+  }
+]} />
+</Section>

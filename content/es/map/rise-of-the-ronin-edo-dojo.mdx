@@ -1,0 +1,72 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin - Guía del Dojo Odani",
+  description: "Descubre los secretos del Dojo Odani en Rise of the Ronin con nuestra guía completa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Gu%C3%ADa+del+Dojo+Odani",
+  date: "2026-07-24",
+  author: "Equipo de Wiki de Rise of the Ronin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ubicación**: Área de Shibuya, Edo
+- **Maestro**: Nobutomo Odani, un maestro espadachín renombrado
+- **Entrenamiento**: Katas y duelos de práctica con espadas de bambú
+- **Estudiante Distinguido**: Toranosuke Shimada
+- **Especialización**: Jikishinkage-ryu
+</Callout>
+
+<Section icon={Map} title="Introducción al Dojo Odani">
+El Dojo Odani es un hito prestigioso ubicado en el área de Shibuya de Edo. Bajo la guía del estimado maestro espadachín, Nobutomo Odani, los estudiantes se entrenan en el estilo Jikishinkage-ryu. El dojo es conocido por su entrenamiento riguroso y ha producido muchos espadachines hábiles a lo largo de los años.
+</Section>
+
+<Section icon={Swords} title="Métodos de Entrenamiento">
+<Steps>
+  <Step num="1" title="Katas">
+    Los estudiantes comienzan su entrenamiento con katas, que son formas detalladas de espadachines diseñadas para mejorar la técnica y la disciplina.
+  </Step>
+  <Step num="2" title="Duelos de Práctica">
+    Después de dominar las katas, los estudiantes participan en duelos de práctica con espadas de bambú para simular escenarios de combate reales.
+  </Step>
+  <Step num="3" title="Técnicas Avanzadas">
+    A medida que los estudiantes avanzan, aprenden técnicas y estrategias avanzadas que son cruciales para el éxito en el dojo.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Estudiantes Distinguidos">
+El Dojo Odani ha producido muchos estudiantes distinguidos, uno de los más famosos siendo Toranosuke Shimada. Sus habilidades y dedicación al arte del espadachín lo han convertido en un legendario en su propia derecho.
+</Section>
+
+<Section icon={Target} title="Especialización - Jikishinkage-ryu">
+El estilo Jikishinkage-ryu es conocido por sus movimientos fluidos y ágiles, así como por su enfoque en ataques rápidos y engaños. Los estudiantes de este estilo aprenden a moverse con precisión y tiempo, convirtiéndolos en oponentes formidables en el campo de batalla.
+</Section>
+
+<Section icon={Shield} title="Conclusión">
+El Dojo Odani es un testimonio de la dedicación y la disciplina requeridas para convertirse en un maestro espadachín en Rise of the Ronin. Ya sea que seas un principiante o un jugador experimentado, el dojo ofrece una experiencia desafiante y gratificante para todos los que buscan mejorar sus habilidades.
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Cómo puedo unirme al Dojo Odani?",
+    answer: "Para unirte al Dojo Odani, debes cumplir primero con los requisitos establecidos por el Maestro Odani. Esto generalmente implica demostrar una sólida base en el espadachín y una disposición a comprometerte con un entrenamiento riguroso."
+  },
+  {
+    question: "¿Qué es lo que se conoce del estilo Jikishinkage-ryu?",
+    answer: "El estilo Jikishinkage-ryu es conocido por sus movimientos fluidos y ágiles, ataques rápidos y engaños. Se enfatiza la precisión y el tiempo, convirtiéndolo en un estilo formidable en el campo de batalla."
+  },
+  {
+    question: "¿Puedo entrenar en el Dojo Odani si no soy un espadachín nativo?",
+    answer: "Sí, puedes entrenar en el Dojo Odani si tienes una sólida base en el espadachín y una disposición a aprender. El dojo da la bienvenida a estudiantes de todos los orígenes que están dedicados a mejorar sus habilidades."
+  }
+]} />
+</Section>

@@ -1,0 +1,117 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin: Essential Tips & Strategies",
+  description: "Discover the best tips and strategies for Rise of the Ronin, including combat styles, builds, and character bonds.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Rise+of+the+Ronin+Guide",
+  date: "2026-07-24",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Rise of the Ronin
+- **Key mechanic**: Mastering combat styles and Counterspark timing
+- **Best strategy**: Build a balanced character with versatile builds
+- **Critical tip**: Prioritize character and region bonds for rewards
+- **Top choice**: Choose the right weapon and style for your playstyle
+</Callout>
+
+<Section icon={Map} title="Introduction">
+Welcome to the ultimate guide for Rise of the Ronin. Whether you're a new player or looking to improve your skills, this guide will provide you with essential tips and strategies to help you excel in the game.
+
+</Section>
+
+<Section icon={Swords} title="Combat Styles and Counterspark">
+In Rise of the Ronin, mastering combat styles and using Counterspark timing effectively is crucial. Here are some tips to help you improve your combat skills:
+
+<Steps>
+  <Step num="1" title="Understand the Styles">
+    Familiarize yourself with the different combat styles: Ten, Chi, Jin, and Shinobi. Each style has its strengths and weaknesses against certain weapons.
+  </Step>
+  <Step num="2" title="Learn Counterspark Timing">
+    Counterspark is a powerful mechanic that allows you to deflect enemy attacks. Learn the timing and practice it to maximize its effectiveness.
+  </Step>
+  <Step num="3" title="Adapt Your Style">
+    Switch between combat styles based on the enemy's weapon and your current situation to maintain an advantage.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Character Builds">
+Building a strong character is essential for success in Rise of the Ronin. Here are some recommended builds:
+
+<CardGrid cols={3}>
+  <Card title="Strength Aggressive Melee">
+    Focus on high direct damage and strong close-range punishment with the Strength Aggressive Melee build.
+  </Card>
+  <Card title="Charm Parry and Ki-Break">
+    Build a character with stable Ki recovery, strong defense, and repeated Counterspark pressure with the Charm Parry and Ki-Break build.
+  </Card>
+  <Card title="Dexterity Stealth Assassin">
+    Use the Dexterity Stealth Assassin build for fast eliminations, mobility, and controlled entry into larger encounters.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Character Bonds">
+Character and region bonds play a significant role in Rise of the Ronin. Here's how to build them:
+
+<Checklist
+  id="bond-progression"
+  title="Bond Progression:"
+  items={[
+    "Talk with visiting companions",
+    "Give gifts to raise relationship progress",
+    "Complete Bond Missions",
+    "Choose dialogue and story actions to support the character"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+<FAQ items={[
+  {
+    question: "How do I unlock new combat styles?",
+    answer: "Unlock new combat styles by raising bonds with characters and factions connected to the weapons you use most."
+  },
+  {
+    question: "What is the best weapon for my playstyle?",
+    answer: "Choose a weapon based on your playstyle and the combat styles you want to use. Consider the weapon's damage, speed, range, and Ki pressure."
+  },
+  {
+    question: "How do I manage my character's skill points?",
+    answer: "You can reset skill points at the Longhouse to change your character's build when a new weapon or combat style becomes available."
+  }
+]} />
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusion">
+Rise of the Ronin is a game filled with depth and strategy. By following these tips and strategies, you'll be well on your way to becoming a master ronin. Happy gaming!
+</Section>
+
+<FAQ items={[
+  {
+    question: "What is the best way to progress quickly in the game?",
+    answer: "Focus on building your character, mastering combat styles, and completing missions and Bond Missions to progress quickly."
+  },
+  {
+    question: "How do I unlock the Midnight difficulty?",
+    answer: "Unlock the Midnight difficulty after completing the main story. It offers a more challenging experience with higher enemy difficulty and more powerful rewards."
+  },
+  {
+    question: "What is the Testament of the Soul?",
+    answer: "The Testament of the Soul allows you to replay completed missions and explore alternate paths, including different story choices and outcomes."
+  }
+]} />

@@ -1,0 +1,72 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin - Odani Dojo Guide",
+  description: "Discover the secrets of Odani Dojo in Rise of the Ronin with our comprehensive guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Odani+Dojo+Guide",
+  date: "2026-07-24",
+  author: "rise of the ronin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Location**: Shibuya area, Edo
+- **Master**: Nobutomo Odani, a renowned master swordsman
+- **Training**: Katas and practice duels with bamboo swords
+- **Famous Student**: Toranosuke Shimada
+- **Specialization**: Jikishinkage-ryu
+</Callout>
+
+<Section icon={Map} title="Introduction to Odani Dojo">
+The Odani Dojo is a prestigious landmark located in the Shibuya area of Edo. Under the guidance of the esteemed master swordsman, Nobutomo Odani, students train in the Jikishinkage-ryu style. The dojo is known for its rigorous training and has produced many skilled swordsmen over the years.
+</Section>
+
+<Section icon={Swords} title="Training Methods">
+<Steps>
+  <Step num="1" title="Katas">
+    Students begin their training with katas, which are detailed forms of swordsmanship designed to improve technique and discipline.
+  </Step>
+  <Step num="2" title="Practice Duels">
+    After mastering katas, students engage in practice duels with bamboo swords to simulate real combat scenarios.
+  </Step>
+  <Step num="3" title="Advanced Techniques">
+    As students progress, they learn advanced techniques and strategies that are crucial for success in the dojo.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Notable Students">
+The Odani Dojo has produced many distinguished students, one of the most famous being Toranosuke Shimada. His skills and dedication to the art of swordsmanship have made him a legend in his own right.
+</Section>
+
+<Section icon={Target} title="Specialization - Jikishinkage-ryu">
+The Jikishinkage-ryu style is known for its fluid and agile movements, as well as its focus on quick strikes and deception. Students of this style learn to move with precision and timing, making them formidable opponents on the battlefield.
+</Section>
+
+<Section icon={Shield} title="Conclusion">
+The Odani Dojo stands as a testament to the dedication and discipline required to become a master swordsman in Rise of the Ronin. Whether you're a beginner or an experienced player, the dojo offers a challenging and rewarding experience for all who seek to improve their skills.
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+<FAQ items={[
+  {
+    question: "How do I join the Odani Dojo?",
+    answer: "To join the Odani Dojo, you must first meet the requirements set by Master Odani. This typically involves demonstrating a strong foundation in swordsmanship and a willingness to commit to rigorous training."
+  },
+  {
+    question: "What is the Jikishinkage-ryu style known for?",
+    answer: "The Jikishinkage-ryu style is known for its fluid and agile movements, quick strikes, and deception. It emphasizes precision and timing, making it a formidable style on the battlefield."
+  },
+  {
+    question: "Can I train at the Odani Dojo if I'm not a native swordsman?",
+    answer: "Yes, you can train at the Odani Dojo if you have a strong foundation in swordsmanship and a willingness to learn. The dojo welcomes students from all backgrounds who are dedicated to improving their skills."
+  }
+]} />
+</Section>

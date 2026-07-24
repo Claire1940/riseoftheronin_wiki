@@ -6,8 +6,16 @@
         "file": "rise-of-the-ronin-beginner-guide"
       },
       {
+        "slug": "rise-of-the-ronin-difficulty",
+        "file": "rise-of-the-ronin-difficulty"
+      },
+      {
         "slug": "rise-of-the-ronin-fugitive-missing",
         "file": "rise-of-the-ronin-fugitive-missing"
+      },
+      {
+        "slug": "rise-of-the-ronin-hardest-boss",
+        "file": "rise-of-the-ronin-hardest-boss"
       },
       {
         "slug": "rise-of-the-ronin-how-to-catch-scared-cats",
@@ -18,14 +26,30 @@
         "file": "rise-of-the-ronin-how-to-get-into-military-academy"
       },
       {
+        "slug": "rise-of-the-ronin-tips",
+        "file": "rise-of-the-ronin-tips"
+      },
+      {
         "slug": "rise-of-the-ronin-trophy-guide",
         "file": "rise-of-the-ronin-trophy-guide"
       }
     ],
     "map": [
       {
+        "slug": "rise-of-the-ronin-akasaka-collectibles",
+        "file": "rise-of-the-ronin-akasaka-collectibles"
+      },
+      {
+        "slug": "rise-of-the-ronin-edo-dojo",
+        "file": "rise-of-the-ronin-edo-dojo"
+      },
+      {
         "slug": "rise-of-the-ronin-hiranuma-treasure",
         "file": "rise-of-the-ronin-hiranuma-treasure"
+      },
+      {
+        "slug": "rise-of-the-ronin-interactive-map",
+        "file": "rise-of-the-ronin-interactive-map"
       },
       {
         "slug": "rise-of-the-ronin-map",
@@ -98,6 +122,10 @@
         "file": "rise-of-the-ronin-does-your-blade-twin-come-back"
       },
       {
+        "slug": "rise-of-the-ronin-genzui-kusaka",
+        "file": "rise-of-the-ronin-genzui-kusaka"
+      },
+      {
         "slug": "rise-of-the-ronin-give-letter-to-taka-or-katsura",
         "file": "rise-of-the-ronin-give-letter-to-taka-or-katsura"
       },
@@ -156,8 +184,20 @@
     ],
     "weapons": [
       {
+        "slug": "best-weapon-type-rise-of-the-ronin",
+        "file": "best-weapon-type-rise-of-the-ronin"
+      },
+      {
+        "slug": "rise-of-the-ronin-best-blade-sharpening-origin",
+        "file": "rise-of-the-ronin-best-blade-sharpening-origin"
+      },
+      {
         "slug": "rise-of-the-ronin-best-weapon",
         "file": "rise-of-the-ronin-best-weapon"
+      },
+      {
+        "slug": "rise-of-the-ronin-blade-twin",
+        "file": "rise-of-the-ronin-blade-twin"
       },
       {
         "slug": "rise-of-the-ronin-oxtail-blade-styles",
@@ -180,6 +220,18 @@
   "es": {
     "guide": [
       {
+        "slug": "rise-of-the-ronin-aisu-kage-ryu",
+        "file": "rise-of-the-ronin-aisu-kage-ryu"
+      },
+      {
+        "slug": "rise-of-the-ronin-alexandria-moreau-romance",
+        "file": "rise-of-the-ronin-alexandria-moreau-romance"
+      },
+      {
+        "slug": "rise-of-the-ronin-alexandria-moreau",
+        "file": "rise-of-the-ronin-alexandria-moreau"
+      },
+      {
         "slug": "rise-of-the-ronin-beginner-guide",
         "file": "rise-of-the-ronin-beginner-guide"
       },
@@ -196,14 +248,30 @@
         "file": "rise-of-the-ronin-how-to-get-into-military-academy"
       },
       {
+        "slug": "rise-of-the-ronin-how-to-save-ryoma",
+        "file": "rise-of-the-ronin-how-to-save-ryoma"
+      },
+      {
         "slug": "rise-of-the-ronin-trophy-guide",
         "file": "rise-of-the-ronin-trophy-guide"
       }
     ],
     "map": [
       {
+        "slug": "rise-of-the-ronin-edo-dojo",
+        "file": "rise-of-the-ronin-edo-dojo"
+      },
+      {
         "slug": "rise-of-the-ronin-hiranuma-treasure",
         "file": "rise-of-the-ronin-hiranuma-treasure"
+      },
+      {
+        "slug": "rise-of-the-ronin-interactive-map",
+        "file": "rise-of-the-ronin-interactive-map"
+      },
+      {
+        "slug": "rise-of-the-ronin-level-cap",
+        "file": "rise-of-the-ronin-level-cap"
       },
       {
         "slug": "rise-of-the-ronin-map",
@@ -224,6 +292,10 @@
     ],
     "platforms": [
       {
+        "slug": "rise-of-the-ronin-in-ps4",
+        "file": "rise-of-the-ronin-in-ps4"
+      },
+      {
         "slug": "rise-of-the-ronin-pc",
         "file": "rise-of-the-ronin-pc"
       },
@@ -242,6 +314,10 @@
       {
         "slug": "rise-of-the-ronin-steam",
         "file": "rise-of-the-ronin-steam"
+      },
+      {
+        "slug": "rise-of-the-ronin-xbox",
+        "file": "rise-of-the-ronin-xbox"
       }
     ],
     "reviews": [
@@ -254,12 +330,20 @@
         "file": "rise-of-the-ronin-metacritic"
       },
       {
+        "slug": "rise-of-the-ronin-rating",
+        "file": "rise-of-the-ronin-rating"
+      },
+      {
         "slug": "rise-of-the-ronin-review",
         "file": "rise-of-the-ronin-review"
       },
       {
         "slug": "rise-of-the-ronin-vs-ghost-of-tsushima",
         "file": "rise-of-the-ronin-vs-ghost-of-tsushima"
+      },
+      {
+        "slug": "rise-of-the-ronin-worth-it-2025",
+        "file": "rise-of-the-ronin-worth-it-2025"
       },
       {
         "slug": "rise-of-the-ronin-worth-it",
@@ -274,6 +358,14 @@
       {
         "slug": "rise-of-the-ronin-does-your-blade-twin-come-back",
         "file": "rise-of-the-ronin-does-your-blade-twin-come-back"
+      },
+      {
+        "slug": "rise-of-the-ronin-ernest-satow",
+        "file": "rise-of-the-ronin-ernest-satow"
+      },
+      {
+        "slug": "rise-of-the-ronin-genzui-kusaka",
+        "file": "rise-of-the-ronin-genzui-kusaka"
       },
       {
         "slug": "rise-of-the-ronin-give-letter-to-taka-or-katsura",
@@ -330,12 +422,40 @@
       {
         "slug": "rise-of-the-ronin-patch-notes",
         "file": "rise-of-the-ronin-patch-notes"
+      },
+      {
+        "slug": "rise-of-the-ronin-z-version-difference",
+        "file": "rise-of-the-ronin-z-version-difference"
+      },
+      {
+        "slug": "rise-of-the-ronin-z-version",
+        "file": "rise-of-the-ronin-z-version"
       }
     ],
     "weapons": [
       {
+        "slug": "best-weapon-type-rise-of-the-ronin",
+        "file": "best-weapon-type-rise-of-the-ronin"
+      },
+      {
+        "slug": "rise-of-the-ronin-best-blade-sharpening-origin",
+        "file": "rise-of-the-ronin-best-blade-sharpening-origin"
+      },
+      {
         "slug": "rise-of-the-ronin-best-weapon",
         "file": "rise-of-the-ronin-best-weapon"
+      },
+      {
+        "slug": "rise-of-the-ronin-blade-twin",
+        "file": "rise-of-the-ronin-blade-twin"
+      },
+      {
+        "slug": "rise-of-the-ronin-fighting-styles",
+        "file": "rise-of-the-ronin-fighting-styles"
+      },
+      {
+        "slug": "rise-of-the-ronin-hayabusa",
+        "file": "rise-of-the-ronin-hayabusa"
       },
       {
         "slug": "rise-of-the-ronin-oxtail-blade-styles",
@@ -358,6 +478,18 @@
   "ja": {
     "guide": [
       {
+        "slug": "rise-of-the-ronin-aisu-kage-ryu",
+        "file": "rise-of-the-ronin-aisu-kage-ryu"
+      },
+      {
+        "slug": "rise-of-the-ronin-alexandria-moreau-romance",
+        "file": "rise-of-the-ronin-alexandria-moreau-romance"
+      },
+      {
+        "slug": "rise-of-the-ronin-alexandria-moreau",
+        "file": "rise-of-the-ronin-alexandria-moreau"
+      },
+      {
         "slug": "rise-of-the-ronin-beginner-guide",
         "file": "rise-of-the-ronin-beginner-guide"
       },
@@ -374,14 +506,30 @@
         "file": "rise-of-the-ronin-how-to-get-into-military-academy"
       },
       {
+        "slug": "rise-of-the-ronin-how-to-save-ryoma",
+        "file": "rise-of-the-ronin-how-to-save-ryoma"
+      },
+      {
         "slug": "rise-of-the-ronin-trophy-guide",
         "file": "rise-of-the-ronin-trophy-guide"
       }
     ],
     "map": [
       {
+        "slug": "rise-of-the-ronin-edo-dojo",
+        "file": "rise-of-the-ronin-edo-dojo"
+      },
+      {
         "slug": "rise-of-the-ronin-hiranuma-treasure",
         "file": "rise-of-the-ronin-hiranuma-treasure"
+      },
+      {
+        "slug": "rise-of-the-ronin-interactive-map",
+        "file": "rise-of-the-ronin-interactive-map"
+      },
+      {
+        "slug": "rise-of-the-ronin-level-cap",
+        "file": "rise-of-the-ronin-level-cap"
       },
       {
         "slug": "rise-of-the-ronin-map",
@@ -402,6 +550,10 @@
     ],
     "platforms": [
       {
+        "slug": "rise-of-the-ronin-in-ps4",
+        "file": "rise-of-the-ronin-in-ps4"
+      },
+      {
         "slug": "rise-of-the-ronin-pc",
         "file": "rise-of-the-ronin-pc"
       },
@@ -420,6 +572,10 @@
       {
         "slug": "rise-of-the-ronin-steam",
         "file": "rise-of-the-ronin-steam"
+      },
+      {
+        "slug": "rise-of-the-ronin-xbox",
+        "file": "rise-of-the-ronin-xbox"
       }
     ],
     "reviews": [
@@ -432,12 +588,20 @@
         "file": "rise-of-the-ronin-metacritic"
       },
       {
+        "slug": "rise-of-the-ronin-rating",
+        "file": "rise-of-the-ronin-rating"
+      },
+      {
         "slug": "rise-of-the-ronin-review",
         "file": "rise-of-the-ronin-review"
       },
       {
         "slug": "rise-of-the-ronin-vs-ghost-of-tsushima",
         "file": "rise-of-the-ronin-vs-ghost-of-tsushima"
+      },
+      {
+        "slug": "rise-of-the-ronin-worth-it-2025",
+        "file": "rise-of-the-ronin-worth-it-2025"
       },
       {
         "slug": "rise-of-the-ronin-worth-it",
@@ -452,6 +616,14 @@
       {
         "slug": "rise-of-the-ronin-does-your-blade-twin-come-back",
         "file": "rise-of-the-ronin-does-your-blade-twin-come-back"
+      },
+      {
+        "slug": "rise-of-the-ronin-ernest-satow",
+        "file": "rise-of-the-ronin-ernest-satow"
+      },
+      {
+        "slug": "rise-of-the-ronin-genzui-kusaka",
+        "file": "rise-of-the-ronin-genzui-kusaka"
       },
       {
         "slug": "rise-of-the-ronin-give-letter-to-taka-or-katsura",
@@ -508,12 +680,40 @@
       {
         "slug": "rise-of-the-ronin-patch-notes",
         "file": "rise-of-the-ronin-patch-notes"
+      },
+      {
+        "slug": "rise-of-the-ronin-z-version-difference",
+        "file": "rise-of-the-ronin-z-version-difference"
+      },
+      {
+        "slug": "rise-of-the-ronin-z-version",
+        "file": "rise-of-the-ronin-z-version"
       }
     ],
     "weapons": [
       {
+        "slug": "best-weapon-type-rise-of-the-ronin",
+        "file": "best-weapon-type-rise-of-the-ronin"
+      },
+      {
+        "slug": "rise-of-the-ronin-best-blade-sharpening-origin",
+        "file": "rise-of-the-ronin-best-blade-sharpening-origin"
+      },
+      {
         "slug": "rise-of-the-ronin-best-weapon",
         "file": "rise-of-the-ronin-best-weapon"
+      },
+      {
+        "slug": "rise-of-the-ronin-blade-twin",
+        "file": "rise-of-the-ronin-blade-twin"
+      },
+      {
+        "slug": "rise-of-the-ronin-fighting-styles",
+        "file": "rise-of-the-ronin-fighting-styles"
+      },
+      {
+        "slug": "rise-of-the-ronin-hayabusa",
+        "file": "rise-of-the-ronin-hayabusa"
       },
       {
         "slug": "rise-of-the-ronin-oxtail-blade-styles",
@@ -536,6 +736,18 @@
   "pt": {
     "guide": [
       {
+        "slug": "rise-of-the-ronin-aisu-kage-ryu",
+        "file": "rise-of-the-ronin-aisu-kage-ryu"
+      },
+      {
+        "slug": "rise-of-the-ronin-alexandria-moreau-romance",
+        "file": "rise-of-the-ronin-alexandria-moreau-romance"
+      },
+      {
+        "slug": "rise-of-the-ronin-alexandria-moreau",
+        "file": "rise-of-the-ronin-alexandria-moreau"
+      },
+      {
         "slug": "rise-of-the-ronin-beginner-guide",
         "file": "rise-of-the-ronin-beginner-guide"
       },
@@ -552,14 +764,30 @@
         "file": "rise-of-the-ronin-how-to-get-into-military-academy"
       },
       {
+        "slug": "rise-of-the-ronin-how-to-save-ryoma",
+        "file": "rise-of-the-ronin-how-to-save-ryoma"
+      },
+      {
         "slug": "rise-of-the-ronin-trophy-guide",
         "file": "rise-of-the-ronin-trophy-guide"
       }
     ],
     "map": [
       {
+        "slug": "rise-of-the-ronin-edo-dojo",
+        "file": "rise-of-the-ronin-edo-dojo"
+      },
+      {
         "slug": "rise-of-the-ronin-hiranuma-treasure",
         "file": "rise-of-the-ronin-hiranuma-treasure"
+      },
+      {
+        "slug": "rise-of-the-ronin-interactive-map",
+        "file": "rise-of-the-ronin-interactive-map"
+      },
+      {
+        "slug": "rise-of-the-ronin-level-cap",
+        "file": "rise-of-the-ronin-level-cap"
       },
       {
         "slug": "rise-of-the-ronin-map",
@@ -580,6 +808,10 @@
     ],
     "platforms": [
       {
+        "slug": "rise-of-the-ronin-in-ps4",
+        "file": "rise-of-the-ronin-in-ps4"
+      },
+      {
         "slug": "rise-of-the-ronin-pc",
         "file": "rise-of-the-ronin-pc"
       },
@@ -598,6 +830,10 @@
       {
         "slug": "rise-of-the-ronin-steam",
         "file": "rise-of-the-ronin-steam"
+      },
+      {
+        "slug": "rise-of-the-ronin-xbox",
+        "file": "rise-of-the-ronin-xbox"
       }
     ],
     "reviews": [
@@ -610,12 +846,20 @@
         "file": "rise-of-the-ronin-metacritic"
       },
       {
+        "slug": "rise-of-the-ronin-rating",
+        "file": "rise-of-the-ronin-rating"
+      },
+      {
         "slug": "rise-of-the-ronin-review",
         "file": "rise-of-the-ronin-review"
       },
       {
         "slug": "rise-of-the-ronin-vs-ghost-of-tsushima",
         "file": "rise-of-the-ronin-vs-ghost-of-tsushima"
+      },
+      {
+        "slug": "rise-of-the-ronin-worth-it-2025",
+        "file": "rise-of-the-ronin-worth-it-2025"
       },
       {
         "slug": "rise-of-the-ronin-worth-it",
@@ -630,6 +874,14 @@
       {
         "slug": "rise-of-the-ronin-does-your-blade-twin-come-back",
         "file": "rise-of-the-ronin-does-your-blade-twin-come-back"
+      },
+      {
+        "slug": "rise-of-the-ronin-ernest-satow",
+        "file": "rise-of-the-ronin-ernest-satow"
+      },
+      {
+        "slug": "rise-of-the-ronin-genzui-kusaka",
+        "file": "rise-of-the-ronin-genzui-kusaka"
       },
       {
         "slug": "rise-of-the-ronin-give-letter-to-taka-or-katsura",
@@ -686,12 +938,40 @@
       {
         "slug": "rise-of-the-ronin-patch-notes",
         "file": "rise-of-the-ronin-patch-notes"
+      },
+      {
+        "slug": "rise-of-the-ronin-z-version-difference",
+        "file": "rise-of-the-ronin-z-version-difference"
+      },
+      {
+        "slug": "rise-of-the-ronin-z-version",
+        "file": "rise-of-the-ronin-z-version"
       }
     ],
     "weapons": [
       {
+        "slug": "best-weapon-type-rise-of-the-ronin",
+        "file": "best-weapon-type-rise-of-the-ronin"
+      },
+      {
+        "slug": "rise-of-the-ronin-best-blade-sharpening-origin",
+        "file": "rise-of-the-ronin-best-blade-sharpening-origin"
+      },
+      {
         "slug": "rise-of-the-ronin-best-weapon",
         "file": "rise-of-the-ronin-best-weapon"
+      },
+      {
+        "slug": "rise-of-the-ronin-blade-twin",
+        "file": "rise-of-the-ronin-blade-twin"
+      },
+      {
+        "slug": "rise-of-the-ronin-fighting-styles",
+        "file": "rise-of-the-ronin-fighting-styles"
+      },
+      {
+        "slug": "rise-of-the-ronin-hayabusa",
+        "file": "rise-of-the-ronin-hayabusa"
       },
       {
         "slug": "rise-of-the-ronin-oxtail-blade-styles",

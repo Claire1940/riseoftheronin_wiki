@@ -1,0 +1,72 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rise of the Ronin - Guia do Dojo Odani",
+  description: "Descubra os segredos do Dojo Odani em Rise of the Ronin com nossa guia completa.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/059669/fff?text=Guia+Do+Dojo+Odani",
+  date: "2026-07-24",
+  author: "Equipe de Wiki do Rise of the Ronin"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Localização**: Área de Shibuya, Edo
+- **Mestre**: Nobutomo Odani, um mestre espadachim renomado
+- **Treinamento**: Katas e duelos de prática com espadas de bambu
+- **Aluno Distinguido**: Toranosuke Shimada
+- **Especialização**: Jikishinkage-ryu
+</Callout>
+
+<Section icon={Map} title="Introdução ao Dojo Odani">
+O Dojo Odani é um ponto de referência prestigiado localizado na área de Shibuya, em Edo. Sob a orientação do mestre espadachim respeitado, Nobutomo Odani, os alunos treinam no estilo Jikishinkage-ryu. O dojo é conhecido por seu treinamento rigoroso e produziu muitos espadachins habilidosos ao longo dos anos.
+</Section>
+
+<Section icon={Swords} title="Métodos de Treinamento">
+<Steps>
+  <Step num="1" title="Katas">
+    Os alunos começam seu treinamento com katas, que são formas detalhadas de esgrima projetadas para melhorar a técnica e a disciplina.
+  </Step>
+  <Step num="2" title="Duelos de Prática">
+    Após dominar as katas, os alunos participam de duelos de prática com espadas de bambu para simular cenários de combate reais.
+  </Step>
+  <Step num="3" title="Técnicas Avançadas">
+  À medida que os alunos avançam, eles aprendem técnicas e estratégias avançadas que são cruciais para o sucesso no dojo.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Alunos Notáveis">
+O Dojo Odani produziu muitos alunos distinguidos, um dos mais famosos sendo Toranosuke Shimada. Sua habilidade e dedicação à arte da esgrima fizeram dele uma lenda em sua própriaright.
+</Section>
+
+<Section icon={Target} title="Especialização - Jikishinkage-ryu">
+O estilo Jikishinkage-ryu é conhecido por seus movimentos fluidos e ágeis, bem como seu foco em ataques rápidos e enganos. Os alunos deste estilo aprendem a se mover com precisão e timing, tornando-se oponentes formidáveis no campo de batalha.
+</Section>
+
+<Section icon={Shield} title="Conclusão">
+O Dojo Odani é um testemunho da dedicação e disciplina necessárias para se tornar um mestre espadachim em Rise of the Ronin. Seja você um iniciante ou um jogador experiente, o dojo oferece uma experiência desafiadora e recompensadora para todos aqueles que buscam melhorar suas habilidades.
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+<FAQ items={[
+  {
+    question: "Como eu posso me juntar ao Dojo Odani?",
+    answer: "Para se juntar ao Dojo Odani, você deve primeiro atender aos requisitos estabelecidos pelo Mestre Odani. Isso geralmente envolve demonstrar uma forte base em esgrima e uma disposição para se comprometer com um treinamento rigoroso."
+  },
+  {
+    question: "O que o estilo Jikishinkage-ryu é conhecido por?",
+    answer: "O estilo Jikishinkage-ryu é conhecido por seus movimentos fluidos e ágeis, ataques rápidos e enganos. Ele enfatiza precisão e timing, tornando-se um estilo formidável no campo de batalha."
+  },
+  {
+    question: "Posso treinar no Dojo Odani se não for um espadachim nativo?",
+    answer: "Sim, você pode treinar no Dojo Odani se tiver uma forte base em esgrima e uma disposição para aprender. O dojo recebe alunos de todas as origens que estão dedicados a melhorar suas habilidades."
+  }
+]} />
+</Section>
